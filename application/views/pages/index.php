@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link media="screen and (min-width:250px)" rel="stylesheet" href="<?= base_url() ?>assets/css/style.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<title>Document</title>
+	<link rel="icon" href="<?= base_url("assets/media/favicons/")?>favicon.ico">
+	<title>Network18</title>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
 				<div class="row m-0 align-items-center">
 					<div class="col-lg-5 col-md-6 col-12 mb-3">
 						<div class="media-content">
-							<img src="<?= base_url("assets/media/") ?>images/background.png" alt="" class="w-100">
+							<img src="<?= base_url("assets/media/") ?>images/thumbnail.png" alt="" class="w-100">
 						</div>
 					</div>
 					<div class="col-lg-7 col-md-6">
@@ -126,7 +127,7 @@
 				<div class="row m-0 align-items-center flex-row-reverse">
 					<div class="col-lg-5 col-md-6 mb-3">
 						<div class="media-content">
-							<img src="<?= base_url("assets/media/") ?>images/background.png" alt="" class="w-100">
+							<img src="<?= base_url("assets/media/") ?>images/thumbnail.png" alt="" class="w-100">
 						</div>
 					</div>
 					<div class="col-lg-7 col-md-6">
