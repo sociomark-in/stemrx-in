@@ -7,6 +7,8 @@
 	<link media="screen and (min-width:250px)" rel="stylesheet" href="<?= base_url() ?>assets/css/style.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<link rel="icon" href="<?= base_url("assets/media/favicons/")?>favicon.ico">
+	<meta name="title" content="Network18">
+	<meta name="description" content="Network18">
 	<title>Network18</title>
 </head>
 
@@ -15,12 +17,13 @@
 		<?php $this->load->view("components/_common_nav"); ?>
 	</header>
 	<main>
-		<section class="main_banner" id="fullBanner">>
+		<section class="main_banner" id="fullBanner">
+			<img src="<?= base_url("assets/media/images/") ?>banner.jpeg" alt="" class="w-100">
 		</section>
 		<section id="trending18">
 			<div class="container">
 				<div class="section-heading brand-touch">
-					<h2>Trending&nbsp;<span class="text-18">18</span></h2>
+					<h2>Trending</h2>
 				</div>
 				<div class="row m-0 align-items-center">
 					<div class="col-lg-5 col-md-6 col-12 mb-3">
@@ -49,21 +52,21 @@
 		<section id="Video18">
 			<div class="container">
 				<div class="section-heading brand-touch">
-					<h2>Videos&nbsp;<span class="text-18">18</span></h2>
+					<h2>Videos</h2>
 				</div>
 				<div class="gallery">
 					<div class="swiper videoSwiper">
 						<div class="swiper-wrapper">
 							<?php for ($i = 0; $i < 15; $i++) : ?>
 								<div class="swiper-slide">
-									<div class="card">
+									<a href="" class="card">
 										<div class="video">
-											<iframe src="https://www.youtube.com/embed/PY1RTpFEMmo?si=1Kfi6onVQDzS37l8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+											<video src="" poster="<?= base_url("assets/media/") ?>podcast.gif"></video>
 										</div>
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, est.
 										</div>
-									</div>
+									</a>
 								</div>
 							<?php endfor ?>
 						</div>
@@ -76,7 +79,7 @@
 		<section id="Podcasts18">
 			<div class="container">
 				<div class="section-heading brand-touch">
-					<h2>Podcasts&nbsp;<span class="text-18">18</span></h2>
+					<h2>Podcasts</h2>
 				</div>
 				<div class="gallery">
 					<div class="swiper podcastsSwiper">
@@ -85,7 +88,7 @@
 								<div class="swiper-slide">
 									<div class="card podcast-card">
 										<div class="video">
-											<iframe src="https://www.youtube.com/embed/PY1RTpFEMmo?si=1Kfi6onVQDzS37l8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+											<video src="" poster="<?= base_url("assets/media/") ?>podcast.gif"></video>
 										</div>
 										<div class="card-body">
 											<div class="redirect play-btn">
@@ -122,7 +125,7 @@
 		<section id="aboutNW18">
 			<div class="container">
 				<div class="section-heading brand-touch">
-					<h2>About&nbsp;&nbsp;<img src="<?= base_url("assets/media/") ?>images/Network_18_logo.svg" alt="" height="75" style="margin-top: -1.5rem;">
+					<h2>About&nbsp;Us
 				</div>
 				<div class="row m-0 align-items-center flex-row-reverse">
 					<div class="col-lg-5 col-md-6 mb-3">

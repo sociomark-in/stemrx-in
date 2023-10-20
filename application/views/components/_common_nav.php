@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md">
 	<div class="container">
 		<a class="navbar-brand" href="#">
-			<img src="<?= base_url("assets/media/") ?>images/Network_18_logo.svg" alt="" height="45">
+			<img src="<?= base_url("assets/media/") ?>images/logo.svg" alt="" height="45">
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>

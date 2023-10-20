@@ -8,9 +8,17 @@ $color-hover-red: #a0473a;
 $color-dark-slate-grey: #1a393f;
 $color-black: #1f1e1d;
 
+$color-linen-2: #f0e6da;
+$color-dark-green: #0f2124;
+$color-indian-red: #b25447;
+$color-hover-red: #a0473a;
+$color-dark-slate-grey: #1a393f;
+$color-medium-violet-red: #895967;
+$color-linen: #f5efe6;
+
 $color-news18-red: #cd1e25;
 $colors: (
-	"primary": $color-news18-red,
+	"primary": $color-dark-slate-grey,
 );
 @media screen and (min-width: 512px) {
 	html {
@@ -21,8 +29,8 @@ html {
 	font-size: 16;
 }
 body {
-	background-color: $color-news18-white;
-	color: $color-black;
+	background-color: $color-linen;
+	color: $color-dark-green;
 }
 * {
 	font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -30,15 +38,11 @@ body {
 
 h1,
 h2,
-h3 {
-	font-weight: 800;
-}
-h1,
-h2,
 h3,
 h4,
 h5 {
-	font-family: "Poppins", Arial, Helvetica, sans-serif;
+	// font-family: "Poppins", Arial, Helvetica, sans-serif;
+	font-family: "DM Serif Text", 'Times New Roman', Times, serif;
 }
 
 a {
@@ -68,34 +72,41 @@ section {
 
 .swiper-button-prev,
 .swiper-button-next {
-	filter: hue-rotate(145deg);
+	filter: hue-rotate(213deg) contrast(0.7) saturate(0.7);
 }
 
 section {
 	&.main_banner {
+		padding: 0;
 		height: calc(100vh - 4rem);
 		width: 100%;
-		background: url("../media/images/background.png") no-repeat;
+		overflow: hidden;
+		background: url("../media/images/background.webp") no-repeat;
 		background-size: cover;
 		background-position: 40%;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
 	}
-	.text-content{
+	.text-content {
 		.title {
 			&:has(.text-18) {
 				margin-bottom: 1rem;
 				.text-18 {
-					color: $color-news18-red;
+					font-family: inherit;
+					color: $color-brown;
 				}
 			}
 		}
 	}
-	.media-content{
-		.wrapper{
+	.media-content {
+		.wrapper {
 			width: 100%;
 		}
 	}
 }
-
 
 .section-heading {
 	margin-bottom: 2rem;
@@ -104,7 +115,7 @@ section {
 		&::before {
 			position: absolute;
 			content: "";
-			background-color: $color-news18-red;
+			background-color: $color-brown;
 			height: 2px;
 			width: 100%;
 			left: 0;
@@ -113,19 +124,14 @@ section {
 			z-index: -1;
 		}
 		h2 {
-			background-color: $color-news18-white;
+			background-color: $color-linen;
 			padding: 0 1rem;
 			margin: 0;
 			width: fit-content;
 			margin: 0 auto;
-			font-size: calc(max(4vw, 3rem));
-
-			span.text-18 {
-				font-family: "Montserrat", Arial, Helvetica, sans-serif;
-				padding: 0.25rem 1rem;
-				border-top-right-radius: 2.5rem;
-				background: $color-news18-red;
-				color: $color-news18-white;
+			font-size: calc(max(5vw, 3rem));
+			&::before,&::after{
+				content: '/';
 			}
 		}
 	}
@@ -133,7 +139,13 @@ section {
 
 .podcastsSwiper {
 	.swiper-slide {
-		.play-btn{
+		.card{
+			background-color: $color-blue-dark;
+			.card-body {
+				color: $color-linen-2;
+			}
+		}
+		.play-btn {
 			position: absolute;
 			width: 3rem;
 			aspect-ratio: 1;
@@ -142,13 +154,13 @@ section {
 			display: grid;
 			place-items: center;
 			font-size: 1.5rem;
-			color: $color-news18-white;
+			color: $color-linen-2;
 		}
 		&:nth-child(2n) {
 			.card {
 				background-color: $color-brown;
 				.card-body {
-					color: $color-news18-white;
+					color: $color-linen-2;
 				}
 			}
 		}
@@ -161,6 +173,7 @@ section {
 	.video {
 		width: 100%;
 		aspect-ratio: 1.8;
+		overflow: hidden;
 		iframe,
 		video {
 			width: 100%;
@@ -173,6 +186,7 @@ section {
 		.video {
 			width: 100%;
 			aspect-ratio: 0.7;
+			overflow: hidden;
 			iframe,
 			video {
 				width: 100%;
@@ -185,11 +199,11 @@ section {
 		}
 		.speaker {
 			font-size: 0.95rem;
-			border-left: 1px solid $color-news18-white;
+			border-left: 1px solid $color-linen-2;
 			padding-left: 1rem;
-			color: $color-news18-white;
+			color: $color-linen-2;
 			* {
-				color: $color-news18-white;
+				color: $color-linen-2;
 			}
 		}
 		.desc {
