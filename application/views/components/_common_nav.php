@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md bg-body-tertiary p-md-0">
+<nav class="navbar navbar-expand-md bordered bordered-bottom p-md-0">
 	<div class="container ">
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSubNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -6,24 +6,31 @@
 		<div class="collapse navbar-collapse justify-content-between" id="navbarSubNav">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass me-2"></i>Find a Doctor</a>
+					<a class="nav-link px-3 text-white bg-danger" href="#"><i class="ti ti-search me-2"></i>Find a Doctor</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">About Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link disabled" aria-disabled="true">Disabled</a>
-				</li>
-			</ul>
-			<ul class="navbar-nav">
-				<li class="nav-item">
 					<a class="nav-link" href="#">Contact Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+					<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav align-items-center">
+				
+				<!-- <li class="nav-item">
+					<a class="nav-link" href="#"><i class="ti ti-search"></i></a>
+				</li> -->
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="ti ti-world icon icon-left"></i>Language</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fa-solid fa-shop me-2"></i>Shop</a>
+					<a class="nav-link" href="#"><i class="ti ti-map-pin icon icon-left"></i>Location</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-3 text-white bg-blue" href="#"><i class="ti ti-shopping-bag me-2"></i>Shop</a>
 				</li>
 			</ul>
 		</div>
@@ -32,8 +39,8 @@
 <div class="main-nav">
 	<nav class="navbar navbar-expand-md">
 		<div class="container">
-			<a class="navbar-brand" href="#">
-				<img src="<?= base_url("assets/media/") ?>images/stemrx-website-logo.png" alt="" height="45">
+			<a class="navbar-brand" href="<?= base_url() ?>">
+				<img src="<?= base_url("assets/media/") ?>images/stemrx-og-website-logo.png" alt="" height="45">
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -56,38 +63,39 @@
 								<div class="row my-4">
 									<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
 										<div class="list-group list-group-flush">
-											<a href="" class="list-group-item list-group-item-action">Lorem ipsum</a>
-											<a href="" class="list-group-item list-group-item-action">Dolor sit</a>
-											<a href="" class="list-group-item list-group-item-action">Amet consectetur</a>
-											<a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
-											<a href="" class="list-group-item list-group-item-action">Adipisicing elit</a>
+											<strong class="list-group-item list-group-item-heading">Category</strong>
+											<a href="<?= base_url("specialities/hair-fall") ?>" class="list-group-item list-group-item-action">Hair Fall</a>
+											<a href="<?= base_url("specialities/hair-fall") ?>" class="list-group-item list-group-item-action">Hair Fall</a>
+											<a href="<?= base_url("specialities/hair-fall") ?>" class="list-group-item list-group-item-action">Hair Fall</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
 										</div>
 									</div>
 									<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
 										<div class="list-group list-group-flush">
-											<a href="" class="list-group-item list-group-item-action">Explicabo voluptas</a>
-											<a href="" class="list-group-item list-group-item-action">Perspiciatis quo</a>
-											<a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
-											<a href="" class="list-group-item list-group-item-action">Laudantium maiores</a>
-											<a href="" class="list-group-item list-group-item-action">Provident dolor</a>
+											<strong class="list-group-item list-group-item-heading">Category</strong>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
 										</div>
 									</div>
 									<div class="col-md-6 col-lg-3 mb-3 mb-md-0">
 										<div class="list-group list-group-flush">
-											<a href="" class="list-group-item list-group-item-action">Iste quaerato</a>
-											<a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
-											<a href="" class="list-group-item list-group-item-action">Est iure</a>
-											<a href="" class="list-group-item list-group-item-action">Praesentium</a>
-											<a href="" class="list-group-item list-group-item-action">Laboriosam</a>
+											<strong class="list-group-item list-group-item-heading">Category</strong>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
 										</div>
 									</div>
 									<div class="col-md-6 col-lg-3">
 										<div class="list-group list-group-flush">
-											<a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
-											<a href="" class="list-group-item list-group-item-action">Saepe</a>
-											<a href="" class="list-group-item list-group-item-action">Vel alias</a>
-											<a href="" class="list-group-item list-group-item-action">Sunt doloribus</a>
-											<a href="" class="list-group-item list-group-item-action">Cum dolores</a>
+											<strong class="list-group-item list-group-item-heading">Category</strong>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
 										</div>
 									</div>
 								</div>
@@ -111,18 +119,37 @@
 		</div>
 	</nav>
 </div>
-<nav class="navbar navbar-expand-md bg-body-tertiary navbar-bottom-fixed">
+<nav class="navbar navbar-expand-md bg-light navbar-bottom-fixed">
 	<div class="container justify-content-center" id="navbarSubNav">
 		<ul class="navbar-nav gap-3">
 			<li class="nav-item">
-				<a class="nav-link" href="#">Request a Callback</a>
+				<button class="nav-link" data-bs-toggle="modal" data-bs-target="#callbackModal"><i class="ti ti-phone me-2"></i><span class="d-none d-md-inline">Request a Callback</span></button>
 			</li>
 			<li class="nav-item">
-				<a class="btn btn-primary" href="#">Book Appointment</a>
+				<a class="btn btn-primary" href="#"><i class="ti ti-calendar-event me-2"></i><span class="d-none d-md-inline">Book Appointment</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Get health Checkup</a>
+				<a class="nav-link" href="#"><i class="ti ti-stethoscope me-2"></i><span class="d-none d-md-inline">Get health Checkup</span></a>
 			</li>
 		</ul>
 	</div>
 </nav>
+
+<!-- Modal -->
+<div class="modal fade" id="callbackModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="callbackModalLabel">Modal title</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				...
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Understood</button>
+			</div>
+		</div>
+	</div>
+</div>

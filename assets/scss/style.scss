@@ -1,17 +1,21 @@
 @import "_libs";
 
-$color-green: #46c446;
+$color-green: #35ad35;
+$color-dark: #0f130f;
 $color-red: #e45b57;
 $color-violet: #e76db8;
 $color-yellow: #e4c755;
 $color-blue: #6bcbdb;
+$color-white: #f8f8f8;
+$color-light: mix($color-dark, $color-white, 5%);
 $colors: (
 	"primary": $color-green,
-	"danger" : $color-red,
-	"success" : $color-green,
-	"warning" : $color-yellow,
-	"violet" : $color-violet,
-	"blue" : $color-blue
+	"light": $color-light,
+	"danger": $color-red,
+	"success": $color-green,
+	"warning": $color-yellow,
+	"violet": $color-violet,
+	"blue": $color-blue,
 );
 html {
 	font-size: 15px;
@@ -19,16 +23,45 @@ html {
 * {
 	font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
+body {
+	background-color: $color-white;
+}
 
+h1,
+h2 {
+	font-weight: 700;
+}
 a {
 	text-decoration: none;
 	color: inherit;
+	&.simple-link {
+		text-decoration: underline;
+	}
+
+	&:has(.icon) {
+		.icon {
+			&.icon-right {
+				margin-left: 0.25rem;
+			}
+			&.icon-left {
+				margin-right: 0.25rem;
+			}
+		}
+	}
 }
 
-.card{
+.card {
 	border: none;
+	background-color: white;
+	.card-footer {
+		background-color: transparent;
+	}
 }
-
+.swiper {
+	.swiper-wrapper {
+		gap: 0.5rem;
+	}
+}
 @each $class, $color in $colors {
 	.bg-#{$class} {
 		background-color: $color !important;
@@ -39,13 +72,13 @@ a {
 		background-color: rgba($color, $alpha: 0.1);
 	}
 
-	@for $i from 10 to 100{
-		@if $i%10 == 0{
-			.bg-#{$class}-subtle-#{$i}{
+	@for $i from 10 to 100 {
+		@if $i%10 == 0 {
+			.bg-#{$class}-subtle-#{$i} {
 				background-color: rgba($color, $alpha: $i/100);
 			}
 		}
-	}  
+	}
 }
 .btn {
 	@each $class, $color in $colors {
@@ -56,14 +89,70 @@ a {
 	}
 }
 
+.bordered {
+	border-color: $color-light;
+	&.bordered-bottom {
+		border: none;
+		border-bottom: 1px solid $color-light;
+	}
+}
+
 header {
 	z-index: 9999;
 	nav.main-nav {
 		position: sticky;
 	}
 }
-section {
-	padding: calc(max(5%, 2rem)) 0;
+main {
+	img {
+		height: 100%;
+		object-fit: cover;
+	}
+	.hero__banner {
+		position: relative;
+		section {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			.hero__title h1 {
+				font-size: calc(max(5vw, 2.5rem));
+			}
+		}
+	}
+	section {
+		padding: calc(max(5%, 2rem)) 0;
+		&#searchWidget {
+			background: url("../media/images/conditions-bg-img.png") no-repeat,
+				lighten($color: $color-blue, $amount: 20);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		&#exploreShop {
+			background: url("../media/images/banner-stemrx-ecomm.jpg") no-repeat,
+				rgba(mix($color-blue, black, 20%), $alpha: 0.8);
+			background-size: cover;
+			background-blend-mode: overlay;
+			background-attachment: fixed;
+			color: $color-white !important;
+		}
+		&#exploreBlogs {
+			background: linear-gradient(
+				140deg,
+				rgba($color-green, 0.2) 33%,
+				rgba($color-green, 0.5) 33%,
+				rgba($color-green, 0.5) 43%,
+				rgba($color-green, 0.2) 43%,
+				rgba($color-green, 0.2) 100%
+			);
+			background-size: cover;
+		}
+	}
+}
+footer {
+	section {
+		padding: calc(max(3%, 2rem)) 0;
+	}
 }
 @media screen and (max-width: 991px) {
 	.navbar-bottom-fixed {
@@ -74,8 +163,11 @@ section {
 		.navbar-nav {
 			width: 100%;
 			flex-direction: row;
-			justify-content: space-between;
+			justify-content: space-around;
 			.nav-item {
+				* {
+					font-size: 2rem !important;
+				}
 			}
 		}
 	}
