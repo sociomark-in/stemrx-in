@@ -23,9 +23,9 @@
 				<!-- <li class="nav-item">
 					<a class="nav-link" href="#"><i class="ti ti-search"></i></a>
 				</li> -->
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link" href="#"><i class="ti ti-world icon icon-left"></i>Language</a>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a class="nav-link" href="#"><i class="ti ti-map-pin icon icon-left"></i>Location</a>
 				</li>
@@ -63,16 +63,16 @@
 								<div class="row my-4">
 									<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
 										<div class="list-group list-group-flush">
-											<strong class="list-group-item list-group-item-heading">Category</strong>
+											<strong class="list-group-item list-group-item-heading">Specialities</strong>
 											<a href="<?= base_url("specialities/hair-fall") ?>" class="list-group-item list-group-item-action">Hair Fall</a>
-											<a href="<?= base_url("specialities/hair-fall") ?>" class="list-group-item list-group-item-action">Hair Fall</a>
-											<a href="<?= base_url("specialities/hair-fall") ?>" class="list-group-item list-group-item-action">Hair Fall</a>
-											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<a href="<?= base_url("specialities/hair-fall") ?>" class="list-group-item list-group-item-action">Infertility</a>
+											<a href="<?= base_url("specialities/hair-fall") ?>" class="list-group-item list-group-item-action">Cosmetic Gynacology</a>
+											<!-- <a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a> -->
 										</div>
 									</div>
 									<div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
 										<div class="list-group list-group-flush">
-											<strong class="list-group-item list-group-item-heading">Category</strong>
+											<strong class="list-group-item list-group-item-heading">Treatments</strong>
 											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
 											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
 											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
@@ -82,11 +82,11 @@
 									</div>
 									<div class="col-md-6 col-lg-3 mb-3 mb-md-0">
 										<div class="list-group list-group-flush">
-											<strong class="list-group-item list-group-item-heading">Category</strong>
-											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
-											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
-											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
-											<a href="" class="disabled list-group-item list-group-item-action">Other Specialities</a>
+											<strong class="list-group-item list-group-item-heading">Other Category</strong>
+											<a href="" class="disabled list-group-item list-group-item-action">Category Item</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Category Item</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Category Item</a>
+											<a href="" class="disabled list-group-item list-group-item-action">Category Item</a>
 										</div>
 									</div>
 									<div class="col-md-6 col-lg-3">
@@ -105,12 +105,12 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">Media Center</a>
 					</li>
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<a class="nav-link disabled" aria-disabled="true">Disabled</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link disabled" aria-disabled="true">Disabled</a>
-					</li>
+					</li> -->
 					<li class="nav-item">
 						<a class="btn btn-primary" href="#">Call Us Now</a>
 					</li>
@@ -129,7 +129,7 @@
 				<a class="btn btn-primary" href="#"><i class="ti ti-calendar-event me-2"></i><span class="d-none d-md-inline">Book Appointment</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#"><i class="ti ti-stethoscope me-2"></i><span class="d-none d-md-inline">Get health Checkup</span></a>
+			<button class="nav-link" data-bs-toggle="modal" data-bs-target="#callbackModal"><i class="ti ti-stethoscope me-2"></i><span class="d-none d-md-inline">Get health Checkup</span></button>
 			</li>
 		</ul>
 	</div>
@@ -140,7 +140,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="callbackModalLabel">Modal title</h5>
+				<h5 class="modal-title" id="callbackModalLabel">C</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">

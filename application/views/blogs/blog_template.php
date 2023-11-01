@@ -18,86 +18,43 @@
 			<img src="<?= base_url("assets/media/images/") ?>banner-tricology.jpg" alt="Banner" class="w-100">
 			<section id="pageHeading">
 				<div class="container">
-					<div class="hero__title">
-						<h1 class="text-white">Trichology</h1>
+					<div class="hero__title text-white">
+						<h1 class="">Quality – Be assured</h1>
+						<p><strong>Author Name</strong> - Posted on <?= date("F j , Y") ?></p>
 					</div>
-					<a href="" class="btn btn-primary"><i class="ti ti-stethoscope me-2"></i>Find a Doctor for Trichology</a>
 				</div>
 			</section>
 		</article>
 		<section id="descBrief">
 			<div class="container">
 				<div class="blog__content">
-					<h3>Lorem ipsum dolor sit amet.</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut atque dolores qui dolore molestias unde ipsum sequi officia inventore est.</p>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nobis hic architecto repudiandae commodi, fugiat, officiis excepturi repellat ipsum amet est tempora? Laboriosam aliquid veniam provident doloremque recusandae nesciunt, blanditiis veritatis. Voluptatibus voluptate incidunt ratione ipsam optio id labore, temporibus eveniet, laborum, ut quas deserunt non aliquam! Assumenda, alias voluptates?</p>
-					<p><br></p>
-					<h3>Lorem ipsum dolor sit amet.</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut atque dolores qui dolore molestias unde ipsum sequi officia inventore est.</p>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nobis hic architecto repudiandae commodi, fugiat, officiis excepturi repellat ipsum amet est tempora? Laboriosam aliquid veniam provident doloremque recusandae nesciunt, blanditiis veritatis. Voluptatibus voluptate incidunt ratione ipsam optio id labore, temporibus eveniet, laborum, ut quas deserunt non aliquam! Assumenda, alias voluptates?</p>
-				</div>
-			</div>
-		</section>
-		<section id="doctorSpecialists" class="">
-			<div class="container">
-				<div class="section-title mb-3">
-					<div class="row g-0 m-0 justify-content-between align-items-end">
-						<div class="col-auto">
-							<h2>Our Trichology Specialists</h2>
-						</div>
-						<div class="col-auto">
-							<a class="simple-link" href="">View List of Doctors</a>
-						</div>
-					</div>
-				</div>
-				<div class="swiper recommendDoctors">
-					<div class="swiper-wrapper">
-						<?php for ($i = 0; $i < 4; $i++) : ?>
-							<div class="swiper-slide">
-								<div class="card">
-									<div class="text-center">
-										<img src="<?= base_url("assets/media/images/") ?>doctor-thumb-01.jpg" alt="Blog Image" width="150">
-									</div>
-									<div class="card-body">
-										<p>
-											<strong>Doctor Name</strong> <br>
-											<small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolor.</small>
-										</p>
-									</div>
-									<div class="card-footer">
-										<div class="row m-0 g-0 justify-content-between">
-											<div class="col-md-auto col-12">
-												<a href="" class="btn btn-primary"><i class="ti ti-eye"></i></a>
-											</div>
-											<div class="col-md-auto col-12">
-												<a href="" class="btn btn-blue">Book Appointment</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						<?php endfor ?>
-					</div>
+					<h3>Quality – Be assured</h3>
+					<p>
+						Quality provides the highest level objective for our system’s function. Quality products make an important contribution to long-term sustainability. At StemRx, we have formulated these supplements considering the functional science of the ingredients which have been tested clinically and proven for its efficiency. At StemRx, quality is the degree of excellence. We make sure that the quality of the product is neither adulterated nor manipulated and thereby we gain the highest trust value from our customers.
+					</p>
+					<p>
+						Our selected ingredients have pure value in terms of nutrition they provide and the selection criterion is backed by a certificate of analysis of each ingredient. Our products are reliable for the efficacy of the result. They are safe and manufactured with the right process going through strict and stringent quality checks. Our products have authentic GS1 barcode systems which add to the authenticity of the product.
+					</p>
 				</div>
 			</div>
 		</section>
 		<section id="relatedContent">
 			<div class="container">
 				<div class="section-title">
-					<h2>Related Treatments</h2>
+					<h2>Related Blogs</h2>
 				</div>
 				<div class="swiper relatedTreatments">
 					<div class="swiper-wrapper">
 						<?php for ($i = 0; $i < 4; $i++) : ?>
 							<div class="swiper-slide">
-								<a href="" class="">
+								<a href="<?= base_url('blog-single') ?>" class="">
 									<div class="bg-white row m-0 g-0">
 										<div class="col-auto">
 											<img src="<?= base_url("assets/media/images/") ?>blog-thumb-01.png" alt="Blog Image" width="100">
 										</div>
 										<div class="col p-3">
 											<p>
-												<strong>Treatments</strong> <br>
+												<strong>Blog Title</strong> <br>
 												<small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolor.</small>
 											</p>
 										</div>

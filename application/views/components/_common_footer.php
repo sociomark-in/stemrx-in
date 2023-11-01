@@ -17,6 +17,51 @@
 			</div>
 			<div class="col-xxl-8 col-xl-7 col-lg-6 col-12">
 				<div class="">
+					<div class="row m-0">
+						<div class="col-lg-4 col-md-6 col-12">
+							<div class="list-group list-group-flush">
+								<strong class="list-group-item list-group-item-heading">Treatments</strong>
+								<a href="" class="list-group-item list-group-item-action">Hair Fall (Trichology) Treatments</a>
+								<a href="" class="list-group-item list-group-item-action">Other Treatments</a>
+								<a href="" class="list-group-item list-group-item-action">Other Treatments</a>
+								<a href="" class="list-group-item list-group-item-action">Other Treatments</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<div class="list-group list-group-flush">
+								<strong class="list-group-item list-group-item-heading">Specialities</strong>
+								<a href="" class="list-group-item list-group-item-action">Other Specialities</a>
+								<a href="" class="list-group-item list-group-item-action">Other Specialities</a>
+								<a href="" class="list-group-item list-group-item-action">Other Specialities</a>
+								<a href="" class="list-group-item list-group-item-action">Other Specialities</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<div class="list-group list-group-flush">
+								<strong class="list-group-item list-group-item-heading">Address</strong>
+								<a href="" class="list-group-item list-group-item-action">
+									Dr. Mahajan’s Hospital & ITC R-831, <br>
+									Thane – Belapur Rd, <br>
+									Next to Shell Petrol Pump, <br>
+									TTC Industrial Area, Rabale, <br>
+									Navi Mumbai, Maharashtra 400708.
+								</a>
+								<strong class="list-group-item list-group-item-heading">Contact</strong>
+								<div class="list-group-item list-group-item-action p-0">
+									<ul class="nav flex-row">
+										<li class="nav-item"><a href="" class="nav-link text-black"><i class="fa-brands fa-facebook-f"></i></a></li>
+										<li class="nav-item"><a href="" class="nav-link text-black"><i class="fa-brands fa-linkedin-in"></i></a></li>
+										<li class="nav-item"><a href="" class="nav-link text-black"><i class="fa-brands fa-youtube"></i></a></li>
+										<li class="nav-item"><a href="" class="nav-link text-black"><i class="fa-brands fa-x-twitter"></i></a></li>
+									</ul>
+								</div>
+								<a href="" class="list-group-item list-group-item-action">Other Specialities</a>
+								<a href="" class="list-group-item list-group-item-action">Other Specialities</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d-none">
 					<div class="accordion" id="accordionExample">
 						<div class="accordion-item">
 							<h2 class="accordion-header" id="headingOne">

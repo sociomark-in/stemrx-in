@@ -16,6 +16,7 @@ $colors: (
 	"warning": $color-yellow,
 	"violet": $color-violet,
 	"blue": $color-blue,
+	"white" : $color-white,
 );
 html {
 	font-size: 15px;
@@ -50,6 +51,11 @@ a {
 	}
 }
 
+.list-group{
+	.list-group-item{
+		background-color: transparent;
+	}
+}
 .card {
 	border: none;
 	background-color: white;
@@ -65,6 +71,10 @@ a {
 @each $class, $color in $colors {
 	.bg-#{$class} {
 		background-color: $color !important;
+	}
+
+	.text-#{$class}{
+		color: $color !important;
 	}
 
 	.card-#{$class}-bordered-subtle-bg {
@@ -104,12 +114,9 @@ header {
 	}
 }
 main {
-	img {
-		height: 100%;
-		object-fit: cover;
-	}
 	.hero__banner {
 		position: relative;
+		height: calc(max(50vh, 400px));
 		section {
 			position: absolute;
 			bottom: 0;
@@ -119,6 +126,21 @@ main {
 				font-size: calc(max(5vw, 2.5rem));
 			}
 		}
+	}
+	&#home{
+		.hero__banner{
+			height: 60vh;
+			.banner_image{
+				height: 60vh;
+				background: url("../media/images/2.jpg");
+				background-size: cover;
+				background-position: top right;
+			}
+		}
+	}
+	img {
+		height: 100%;
+		object-fit: cover;
 	}
 	section {
 		padding: calc(max(5%, 2rem)) 0;
@@ -150,6 +172,7 @@ main {
 	}
 }
 footer {
+	background-color: rgba($color: #000000, $alpha: 0.1);
 	section {
 		padding: calc(max(3%, 2rem)) 0;
 	}
