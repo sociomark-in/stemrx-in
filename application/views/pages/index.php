@@ -12,37 +12,47 @@
 </head>
 
 <body>
-	<header>
-		<?php $this->load->view("components/_common_nav"); ?>
-	</header>
+	<?php $this->load->view("components/_common_nav"); ?>
 	<main id="home">
 		<article class="hero__banner">
-			<div class="swiper advt_banner">
-				<div class="swiper-wrapper">
-					<?php for ($i = 0; $i < 5; $i++) : ?>
-						<div class="swiper-slide">
-							<div class="banner_image">
-								<div class="container h-100">
-									<div class="row m-0 h-100 align-items-center">
-										<div class="col-xl-6 col-lg-7 col-12">
-											<div class="banner__title">
-												<h2>Lorem ipsum dolor sit amet.</h2>
-											</div>
-											<div class="banner__content">
-												<p>
-													Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos temporibus ex nemo incidunt, sequi placeat iure. Porro explicabo tempora asperiores?
-												</p>
-												<p>
-													Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos temporibus ex nemo incidunt, sequi placeat iure. Porro explicabo tempora asperiores?
-												</p>
-												<a href="" class="btn btn-primary">Book an Appointment</a>
+			<div class="row m-0 flex-row-reverse">
+				<div class="col-xl-4  offset-xl-1 col-lg-5 col-md-6 col-12">
+					<div class="swiper advt_banner">
+						<div class="swiper-wrapper">
+							<?php for ($i = 1; $i <= 2; $i++) : ?>
+								<div class="swiper-slide">
+									<div class="banner_image">
+										<div class="media-content">
+											<div class="wrap">
+												<img src="<?= base_url('assets/media/images/doctor-0' . $i . '-thumb.jpg') ?>" alt="">
 											</div>
 										</div>
 									</div>
 								</div>
+							<?php endfor ?>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-7 col-lg-7 col-md-6 col-12">
+					<div class="text-content h-100">
+						<div class="row justify-content-end g-0 m-0 align-items-center h-100">
+							<div class="col-xl-9 col-lg-10 col-12">
+								<div class="banner__title mb-4">
+									<p class="m-0">Welcome to StemRx</p>
+									<h2>We are Here to Hear and Heal your Problems</h2>
+								</div>
+								<div class="banner__content">
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos temporibus ex nemo incidunt, sequi placeat iure. Porro explicabo tempora asperiores?
+									</p>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos temporibus ex nemo incidunt, sequi placeat iure. Porro explicabo tempora asperiores?
+									</p>
+									<a href="" class="btn btn-primary">Book an Appointment</a>
+								</div>
 							</div>
 						</div>
-					<?php endfor ?>
+					</div>
 				</div>
 			</div>
 		</article>
@@ -72,61 +82,58 @@
 		<section id="cta">
 			<div class="container">
 				<div class="row m-0">
-					<div class="col-lg-7 col-md-6 col-12">
-						<div class="row m-0">
-							<div class="col-md-6 col-12 mb-3">
-								<a href="#" class="card h-100 card-success-bordered-subtle-bg">
-									<div class="card-body">
-										<h4>Book an Appointment</h4>
-										<p class="m-0">
-											With country's leading experts
-										</p>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-6 col-12 mb-3">
-								<a href="#" class="card h-100 card-warning-bordered-subtle-bg">
-									<div class="card-body">
-										<h4>Specialities</h4>
-										<p class="m-0">
-											Our expertise in Healthcare
-										</p>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-6 col-12 mb-3">
-								<a href="#" class="card h-100 card-violet-bordered-subtle-bg">
-									<div class="card-body">
-										<h4>Doctors</h4>
-										<p class="m-0">Top experts for your health</p>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-6 col-12 mb-3">
-								<a href="#" class="card h-100 card-blue-bordered-subtle-bg">
-									<div class="card-body">
-										<h4>Doctors</h4>
-										<p class="m-0">Top experts for your health</p>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-5 col-md-6 col-12">
-						<h3 class="mb-3">We can help you...</h3>
-						<a href="#" class="card card-blue-bordered-subtle-bg">
+					<div class="col-lg-3 col-md-6 col-12 mb-3">
+						<a href="#" class="card h-100 card-success-bordered-subtle-bg">
 							<div class="card-body">
 								<h4>Book an Appointment</h4>
-								<p>
+								<p class="m-0">
 									With country's leading experts
-								</p>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsa iste magnam fuga quidem reprehenderit! Consectetur minus esse incidunt sunt.
 								</p>
 							</div>
 						</a>
 					</div>
+					<div class="col-lg-3 col-md-6 col-12 mb-3">
+						<a href="#" class="card h-100 card-warning-bordered-subtle-bg">
+							<div class="card-body">
+								<h4>Specialities</h4>
+								<p class="m-0">
+									Our expertise in Healthcare
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6 col-12 mb-3">
+						<a href="#" class="card h-100 card-violet-bordered-subtle-bg">
+							<div class="card-body">
+								<h4>Treatments</h4>
+								<p class="m-0">Top class in-house treatments</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6 col-12 mb-3">
+						<a href="#" class="card h-100 card-blue-bordered-subtle-bg">
+							<div class="card-body">
+								<h4>Doctors</h4>
+								<p class="m-0">Top experts for your health</p>
+							</div>
+						</a>
+					</div>
 				</div>
+				<div class="col-lg-5 col-md-6 col-12 d-none">
+					<h3 class="mb-3">We can help you...</h3>
+					<a href="#" class="card card-blue-bordered-subtle-bg">
+						<div class="card-body">
+							<h4>Book an Appointment</h4>
+							<p>
+								With country's leading experts
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsa iste magnam fuga quidem reprehenderit! Consectetur minus esse incidunt sunt.
+							</p>
+						</div>
+					</a>
+				</div>
+			</div>
 			</div>
 		</section>
 		<section id="aboutStemRxnPVM">
@@ -135,11 +142,11 @@
 					<h2>You Carry Your Own Repairing Kits... <br> in Your Body!</h2>
 				</div>
 				<div class="row m-0">
-					<div class="col-md-6 col-12">
+					<div class="col-md-6 col-12 mb-3">
 						<div class="card">
 							<div class="card-body">
 								<div class="row m-0 mb-3">
-									<div class="col-lg-4 col-md-6 col-12">
+									<div class="col-lg-4 col-md-6 col-12 mb-3">
 										<div class="media-content">
 											<img src="<?= base_url() ?>assets/media/images/drpvmahajan1.jpg" class="w-100" alt="">
 										</div>
@@ -194,35 +201,8 @@
 				</div>
 			</div>
 		</section>
-		<section id="exploreShop">
-			<div class="container">
-				<div class="row m-0 justify-content-center">
-					<div class="col-xl-7 col-md-9 col-12">
-						<div class="text-center">
-							<h2 class="mb-3">Nutraceuticals</h2>
-							<div class="row m-0 justify-content-center mb-3">
-								<div class="col-auto">
-									<h4>Repair</h4>
-								</div>
-								<div class="col-auto">
-									<h4>Regenerate</h4>
-								</div>
-								<div class="col-auto">
-									<h4>Rejuvenate</h4>
-								</div>
-							</div>
-							<div class="card mb-3">
-								<div class="card-body">
-									<p>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repudiandae doloremque, sequi aut vel dolores et iste sapiente odit dignissimos.
-									</p>
-								</div>
-							</div>
-							<a href="" class="btn btn-primary">View All Products<i class="ti ti-external-link icon icon-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
+		<section id="patientsTestimonials">
+			
 		</section>
 		<section id="exploreBlogs" class="">
 			<div class="container">
@@ -255,6 +235,36 @@
 				</div>
 			</div>
 		</section>
+		<section id="exploreShop">
+			<div class="container">
+				<div class="row m-0 justify-content-center">
+					<div class="col-xl-7 col-md-9 col-12">
+						<div class="text-center">
+							<h2 class="mb-3">Nutraceuticals</h2>
+							<div class="row m-0 justify-content-center mb-3">
+								<div class="col-auto">
+									<h4>Repair</h4>
+								</div>
+								<div class="col-auto">
+									<h4>Regenerate</h4>
+								</div>
+								<div class="col-auto">
+									<h4>Rejuvenate</h4>
+								</div>
+							</div>
+							<div class="card mb-3">
+								<div class="card-body">
+									<p>
+										A unique range of nutraceuticals by StemRx's Research Wing. Formulating and developing nutritionally beneficial herbal extracts, therapeutic molecules, and dietarysupple-ments with proven health benefits, the highest levels of safety, efficacy, and quality.
+									</p>
+								</div>
+							</div>
+							<a href="" class="btn btn-primary">View All Products<i class="ti ti-external-link icon icon-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer>
 		<?php $this->load->view('components/_common_footer') ?>
@@ -267,7 +277,18 @@
 	<!-- Initialize Swiper -->
 	<script>
 		var swiper = [
-			new Swiper(".advt_banner", {}),
+			new Swiper(".advt_banner", {
+				loop: true,
+				centeredSlides: true,
+				spaceBetweenSlides: 0,
+				effect: 'fade',
+				fadeEffect: {
+					crossFade: true
+				},
+				autoplay: {
+					duration: 3000
+				}
+			}),
 			new Swiper(".recommendBlogs", {
 				slidesPerView: 1,
 				spaceBetweenSlides: 10,
