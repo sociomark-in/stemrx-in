@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -50,7 +50,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'PagesController';
-$route['specialities/(:any)'] = 'PagesController/specialities/$1';
-$route['blog-single'] = 'BlogsController/blog_single';
+$route['about'] = 'PagesController/about';
+$route['contact'] = 'PagesController/contact';
+$route['blogs'] = 'PagesController/blogs';
+$route['service'] = 'PagesController/services';
+
+$route['team-of-experts'] = 'TeamController/home';
+$route['doctor/(:any)'] = 'TeamController/doctor/$1';
+
+$route['shop'] = 'ShopController/home';
+$route['product/(:any)'] = 'ShopController/product/$1';
+
+$route['project'] = 'PagesController/services';
+$route['team-detail'] = 'PagesController/team_detail';
+$route['shop-detail'] = 'PagesController/shop_detail';
+$route['blog-detail'] = 'PagesController/blog_detail';
+$route['service-details'] = 'PagesController/service_detail';
+$route['service/(:any)'] = 'PagesController/service_single/$1';
+
+$route['condition/(:any)'] = 'DiseasesController/condition/$1';
+$route['condition/(:any)/(:any)'] = 'DiseasesController/condition_detail/$1/$2';
+
+$route['therapeutics'] = 'ProcedureController/home';
+$route['therapeutics/(:any)'] = 'ProcedureController/procedure/$1';
+
+$route['thank-you/(:any)'] = 'PagesController/thankyou/$1';
+
+// $route['(:any)'] = 'PagesController/page/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

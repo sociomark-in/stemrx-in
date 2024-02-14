@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8000/stemrx-demo/';
-$config['base_url'] = 'https://test.apogeedigitech.in/repositories/stemrx-in/';
+$config['base_url'] = 'https://test.apogeedigitech.in/stemrx-hospitals/';
+$config['base_url'] = 'http://localhost:8000/stemrx-hospitals/';
 
 /*
 |--------------------------------------------------------------------------
@@ -117,7 +117,7 @@ $config['enable_hooks'] = FALSE;
 | https://codeigniter.com/userguide3/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'MY_';
+$config['subclass_prefix'] = 'My_';
 
 /*
 |--------------------------------------------------------------------------
