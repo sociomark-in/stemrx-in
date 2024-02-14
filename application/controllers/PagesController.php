@@ -44,6 +44,11 @@ class PagesController extends CI_Controller
 		$this->data['page']['title'] = "";
 		$this->load->load_view('pages/contact', $this->data);
 	}
+	public function gallery()
+	{
+		$this->data['page']['title'] = "";
+		$this->load->load_view('pages/gallery', $this->data);
+	}
 	public function appointment()
 	{
 		$this->data['page']['title'] = "";

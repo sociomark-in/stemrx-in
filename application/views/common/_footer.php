@@ -39,7 +39,7 @@
 	</div>
 	<div class="widget-area">
 		<div class="container">
-			<div class="row justify-content-between">
+			<div class="row justify-content-between d-none">
 				<div class="col-md-6 col-lg-auto col-xl-3">
 					<div class="widget footer-widget widget_nav_menu">
 						<h3 class="widget_title">Quick Links</h3>
@@ -119,7 +119,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-3 col-xl-auto">
+				<div class="col-md-6 col-lg-auto col-xl-auto">
+					<div class="widget footer-widget widget_nav_menu">
+						<h3 class="widget_title">Quick Links</h3>
+						<div class="menu-all-pages-container">
+							<ul class="menu">
+								<li><a href="<?= base_url() ?>therapeutics">All Therapeutics</a></li>
+								<li><a href="<?= base_url() ?>therapeutics">All Conditions</a></li>
+								<li><a href="<?= base_url() ?>gallery">Gallery</a></li>
+								<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 col-xl-auto d-none">
 					<div class="widget footer-widget">
 						<h4 class="widget_title">Gallery Posts</h4>
 						<div class="footer-gallery">
