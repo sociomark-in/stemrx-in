@@ -178,10 +178,10 @@
 				</div>
 				<div class="col-auto d-md-block">
 					<ul class="footer-bottom-menu">
-						<li><a href="<?= base_url() ?>#">Privacy policy</a></li>
-						<li><a href="<?= base_url() ?>#">Terms & Condition</a></li>
+						<li><a href="<?= base_url() ?>privacy-policy">Privacy policy</a></li>
+						<li><a href="<?= base_url() ?>terms-condition">Terms & Condition</a></li>
 						<!--<li><a href="<?= base_url() ?>#">Contact</a></li>-->
-						<li><a href="<?= base_url() ?>#">Return Policy</a></li>
+						<li><a href="<?= base_url() ?>return-policy">Return Policy</a></li>
 					</ul>
 				</div>
 			</div>

@@ -90,6 +90,24 @@ class PagesController extends CI_Controller
 				break;
 		}
 	}
+	public function media($media)
+	{
+		switch ($media) {
+			case 'instagram-media':
+				$this->data['page']['title'] = "";
+				$this->load->load_view('media/instagram-media', $this->data);
+				break;
+			case 'youtube-media':
+				$this->data['page']['title'] = "";
+				$this->load->load_view('media/youtube-media', $this->data);
+				break;
+
+			default:
+				$this->data['page']['title'] = "";
+				$this->load->load_view('pages/service-details', $this->data);
+				break;
+		}
+	}
 	public function condition($condition)
 	{
 		switch ($condition) {
@@ -172,6 +190,21 @@ class PagesController extends CI_Controller
 	{
 		$this->data['page']['title'] = "";
 		$this->load->load_view('pages/shop');
+	}
+	public function privacy_policy()
+	{
+		$this->data['page']['title'] = "";
+		$this->load->load_view('footer/privacy_policy');
+	}
+	public function terms_condition()
+	{
+		$this->data['page']['title'] = "";
+		$this->load->load_view('footer/terms_condition');
+	}
+	public function return_policy()
+	{
+		$this->data['page']['title'] = "";
+		$this->load->load_view('footer/return_policy');
 	}
 	public function shop_details()
 	{
