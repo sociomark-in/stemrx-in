@@ -114,7 +114,7 @@
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-					<div class="section-title"><span class="h3 text-theme sec-subtitle">Advanced Treatments</span>
+					<!-- <div class="section-title"><span class="h3 text-theme sec-subtitle">Advanced Treatments</span> -->
 						<h2 class="h1">Our Specialities</h2>
 						<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
 					</div>
@@ -304,7 +304,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-6 mb-30">
-					<div class="about-content"><span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span>
+					<div class="about-content">
+						<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
 						<h2 class="h1 mb-3">We're Here For You</h2>
 						<div class="row">
 							<div class="col-xl-10 mb-md-2 pb-md-1">

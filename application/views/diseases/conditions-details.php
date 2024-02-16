@@ -68,7 +68,7 @@
 				</div>
 			</div>
 
-			<div class="row justify-content-center">
+			<div class="row justify-content-center d-none">
 				<div class="col-xl-10 col-12">
 					<div class="w-100">
 						<iframe class="ratio ratio-16x9" src="https://www.youtube.com/embed/_m5XOHuJAxI?si=kGpwhMWmF9nP_zZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -82,7 +82,7 @@
 		<div class="container">
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-md-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
-					<h2 class="h1">Our Treatments for Condition</h2>
+					<h2 class="h1">Our Treatments at Stemrx</h2>
 					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
 				</div>
 			</div>
@@ -111,8 +111,8 @@
 	<section class="vs-team-wrapper space-md-bottom">
 		<div class="container">
 			<div class="team-content text-center mb-30">
-				<span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span>
-				<h2 class="h1 mb-3">We're Here For You</h2>
+				<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
+				<h2 class="h1 mb-3">Our Consultant for Diseses</h2>
 			</div>
 			<div class="row">
 				<?php for ($i = 0; $i < 4; $i++) : ?>
@@ -139,7 +139,7 @@
 		</div>
 	</section>
 
-	<section class="vs-skill-wrapper space-md-bottom">
+	<section class="vs-skill-wrapper space-md-bottom d-none">
 		<div class="container">
 			<div class="skill-wrap1 bg-white">
 				<div class="row justify-content-center justify-content-lg-between">
@@ -174,12 +174,53 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="testimonial-wrapper space-bottom">
+			<div class="container">
+				<div class="row text-center justify-content-center">
+					<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+						<div class="section-title">
+							<!-- <span class="h3 text-theme sec-subtitle">Testimonial</span> -->
+							<h2 class="h1">Our Patients Responses</h2>
+							<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-10">
+						<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="2">
+							<div class="col-xl-6">
+								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
+									<div class="youtube-testimonial">
+										<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg"  alt="">
+									</div>
+								</a>
+							</div>
+							<div class="col-xl-6">
+								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
+									<div class="youtube-testimonial">
+										<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg"  alt="">
+									</div>
+								</a>
+							</div>
+							<div class="col-xl-6">
+								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
+									<div class="youtube-testimonial">
+										<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg"  alt="">
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	<section class="appointment-wrapper space-md-bottom" id="appointment">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-6 mb-30">
 					<div class="about-content">
-						<span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span>
+						<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
 						<h2 class="h1 mb-3">We're Here For You</h2>
 						<div class="row">
 							<div class="col-xl-10 mb-md-2 pb-md-1">
@@ -243,44 +284,6 @@
 							]
 						];
 						$this->load->view('common/forms/appointment_form', $data); ?>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="testimonial-wrapper space-bottom">
-		<div class="container">
-			<div class="row justify-content-center align-items-md-end">
-				<div class="col-xl-3 col-lg-4 col-12 wow fadeInUp" data-wow-delay="0.3s">
-					<div class="section-title"><span class="h3 text-theme sec-subtitle">Testimonials</span>
-						<h2 class="h1">Patient Says..</h2>
-						<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
-					</div>
-				</div>
-				<div class="col-xl-9 col-lg-8 col-12">
-					<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="2">
-						<div class="col-xl-6">
-							<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
-								<div class="youtube-testimonial">
-									<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg" alt="">
-								</div>
-							</a>
-						</div>
-						<div class="col-xl-6">
-							<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
-								<div class="youtube-testimonial">
-									<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg" alt="">
-								</div>
-							</a>
-						</div>
-						<div class="col-xl-6">
-							<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
-								<div class="youtube-testimonial">
-									<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg" alt="">
-								</div>
-							</a>
-						</div>
 					</div>
 				</div>
 			</div>

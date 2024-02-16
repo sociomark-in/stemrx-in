@@ -91,10 +91,10 @@
 					<a href="#">In Media</a>
 					<ul class="sub-menu">
 						<li><a href="">News </a></li>
-						<li><a href="">YouTube</a></li>
+						<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 						<li><a href="">Our Webinar </a></li>
 						<li><a href="">Blog</a></li>
-						<li><a href="">Instagram</a></li>
+						<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 					</ul>
 				</li>
 				<li><a href="<?= base_url("shop") ?>">Our Store</a></li>
@@ -305,10 +305,10 @@
 										<a href="#">In Media</a>
 										<ul class="sub-menu">
 											<li><a href="">News </a></li>
-											<li><a href="">YouTube</a></li>
+											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 											<li><a href="">Our Webinar </a></li>
 											<li><a href="">Blog</a></li>
-											<li><a href="">Instagram</a></li>
+											<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 										</ul>
 									</li>
 									<li><a href="<?= base_url("shop") ?>">Our Store</a></li>
