@@ -51,9 +51,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
 */
 $route['default_controller'] = 'PagesController';
 $route['about'] = 'PagesController/about';
-$route['contact'] = 'PagesController/contact';
+$route['contact-us'] = 'PagesController/contact';
 $route['blogs'] = 'PagesController/blogs';
 $route['service'] = 'PagesController/services';
+$route['gallery'] = 'PagesController/gallery';
+
+$route['privacy-policy'] = 'PagesController/privacy_policy';
+$route['terms-condition'] = 'PagesController/terms_condition';
+$route['return-policy'] = 'PagesController/return_policy';
+
+
+$route['media/(:any)'] = 'PagesController/media/$1';
+
+
+$route['about/(:any)'] = 'AboutController/about/$1';
 
 $route['team-of-experts'] = 'TeamController/home';
 $route['doctor/(:any)'] = 'TeamController/doctor/$1';

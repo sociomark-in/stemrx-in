@@ -52,7 +52,7 @@
 					<li class="menu-item-has-children"><a href="<?= base_url() ?>service">Media</a>
 						<ul class="sub-menu">
 							<li><a href="<?= base_url() ?>service">Awards & Accolades</a></li>
-							<li><a href="<?= base_url() ?>service-details">Gallery</a></li>
+							<li><a href="<?= base_url() ?>gallery">Gallery</a></li>
 							<li><a href="#">PR ARTICLES</a></li>
 						</ul>
 				</li>
