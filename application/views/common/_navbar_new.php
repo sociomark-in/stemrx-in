@@ -38,7 +38,7 @@
 						<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
 						<li><a href="<?= base_url() ?>condition/condition-group">Neural</a></li>
 						<li><a href="<?= base_url() ?>condition/condition-group">Developmental Clinic</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">New Hope Clinic</a></li>
+						<li><a href="<?= base_url() ?>condition/new-hope-clinic-group">New Hope Clinic</a></li>
 						<li><a href="<?= base_url() ?>condition/condition-group">Couple Clinic (New Hope)</a></li>
 						<li><a href="<?= base_url() ?>condition/condition-group">Pain Clinic</a></li>
 						<li><a href="<?= base_url() ?>condition/condition-group">Eye Clinic</a></li>
@@ -235,7 +235,7 @@
 											<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
 											<li><a href="<?= base_url() ?>condition/condition-group">Neural</a></li>
 											<li><a href="<?= base_url() ?>condition/condition-group">Developmental Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">New Hope Clinic</a></li>
+											<li><a href="<?= base_url() ?>condition/new-hope-clinic-group">New Hope Clinic</a></li>
 											<li><a href="<?= base_url() ?>condition/condition-group">Couple Clinic (New Hope)</a></li>
 											<li><a href="<?= base_url() ?>condition/condition-group">Pain Clinic</a></li>
 											<li><a href="<?= base_url() ?>condition/condition-group">Eye Clinic</a></li>
