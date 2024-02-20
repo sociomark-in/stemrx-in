@@ -25,7 +25,6 @@
 		<div class="row justify-content-center">
 			<div class="col-xl-9 col-12">
 				<div class="row justify-content-center">
-					<?php for ($i=0; $i < 10; $i++) : ?>
 						<div class="col-2">
 							<a href="<?= base_url("condition/neural/condition-single") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
@@ -33,10 +32,59 @@
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
 									</div>
 								</div>
-								<h6 class="text-theme">Condition Single</h6>
+								<h6 class="text-theme">Neural</h6>
 							</a>
 						</div>
-					<?php endfor ?>
+						<div class="col-2">
+							<a href="<?= base_url("condition/cerebral-palsy/cerebral-palsy-detail") ?>" class="text-center">
+								<div class="card bg-white sp-item mb-2">
+									<div class="card-body">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									</div>
+								</div>
+								<h6 class="text-theme">Cerebral Palsy</h6>
+							</a>
+						</div>
+						<div class="col-2">
+							<a href="#" class="text-center">
+								<div class="card bg-white sp-item mb-2">
+									<div class="card-body">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									</div>
+								</div>
+								<h6 class="text-theme">Developmental Delay</h6>
+							</a>
+						</div>
+						<div class="col-2">
+							<a href="#" class="text-center">
+								<div class="card bg-white sp-item mb-2">
+									<div class="card-body">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									</div>
+								</div>
+								<h6 class="text-theme">Alzheimer's disease </h6>
+							</a>
+						</div>
+						<div class="col-2">
+							<a href="#" class="text-center">
+								<div class="card bg-white sp-item mb-2">
+									<div class="card-body">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									</div>
+								</div>
+								<h6 class="text-theme">Parkinson's disease </h6>
+							</a>
+						</div>
+						<div class="col-2">
+							<a href="#" class="text-center">
+								<div class="card bg-white sp-item mb-2">
+									<div class="card-body">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									</div>
+								</div>
+								<h6 class="text-theme">Multiple sclerosis </h6>
+							</a>
+						</div>
 				</div>
 			</div>
 		</div>

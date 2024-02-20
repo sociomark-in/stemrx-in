@@ -19,10 +19,10 @@ class DiseasesController extends CI_Controller
 				$this->load->load_view('diseases/conditions-group', $this->data);
 				break;
 			case "new-hope-clinic-group":
-					$this->load->load_view('diseases/new-hope-clinic-group', $this->data);
+				$this->load->load_view('diseases/new-hope-clinic-group', $this->data);
 				break;
-				
-				default:
+
+			default:
 				$this->load->load_view('diseases/conditions-group');
 				break;
 		}
@@ -42,18 +42,31 @@ class DiseasesController extends CI_Controller
 						break;
 				}
 				break;
+			case 'cerebral-palsy':
+				switch ($condition) {
+					case 'cerebral-palsy-detail':
+						# code...
+						$this->load->load_view('diseases/condition/cerebral-palsy-detail');
+						break;
+
+					default:
+						$this->load->load_view('diseases/conditions-details');
+						break;
+				}
+				break;
+
 			case 'new-hope-clinic':
-					switch ($condition) {
-						case 'new-hope-clinic-detail':
-							# code...
-							$this->load->load_view('diseases/condition/new-hope-clinic-detail');
-							break;
-	
-						default:
-							$this->load->load_view('diseases/conditions-details');
-							break;
-					}
-					break;
+				switch ($condition) {
+					case 'new-hope-clinic-detail':
+						# code...
+						$this->load->load_view('diseases/condition/new-hope-clinic-detail');
+						break;
+
+					default:
+						$this->load->load_view('diseases/conditions-details');
+						break;
+				}
+				break;
 
 			default:
 				switch ($condition) {
