@@ -32,7 +32,7 @@ class PagesController extends CI_Controller
 	public function blogs()
 	{
 		$this->data['page']['title'] = "";
-		$this->load->load_view('pages/blog', $this->data);
+		$this->load->load_view('blogs/blogs', $this->data);
 	}
 	public function about()
 	{
@@ -49,6 +49,11 @@ class PagesController extends CI_Controller
 		$this->data['page']['title'] = "";
 		$this->load->load_view('pages/gallery', $this->data);
 	}
+	public function parent_testmonial()
+	{
+		$this->data['page']['title'] = "";
+		$this->load->load_view('pages/parent-testmonial', $this->data);
+	}
 	public function appointment()
 	{
 		$this->data['page']['title'] = "";
@@ -56,6 +61,11 @@ class PagesController extends CI_Controller
 	public function projects()
 	{
 		$this->data['page']['title'] = "";
+	}
+	public function news()
+	{
+		$this->data['page']['title'] = "";
+		$this->load->load_view('pages/news', $this->data);
 	}
 	public function services()
 	{

@@ -21,6 +21,30 @@ class DiseasesController extends CI_Controller
 			case "new-hope-clinic-group":
 				$this->load->load_view('diseases/new-hope-clinic-group', $this->data);
 				break;
+			case "developmental-problem":
+				$this->load->load_view('diseases/developmental-problem', $this->data);
+				break;
+			case "couple-clinic":
+				$this->load->load_view('diseases/couple-clinic', $this->data);
+				break;
+			case "pain-care":
+				$this->load->load_view('diseases/pain-care', $this->data);
+				break;
+			case "eye-care":
+				$this->load->load_view('diseases/eye-care', $this->data);
+				break;
+			case "metabolic-diseases":
+				$this->load->load_view('diseases/metabolic-diseases', $this->data);
+				break;
+			case "cosmatic-diseases":
+				$this->load->load_view('diseases/cosmatic-diseases', $this->data);
+				break;
+			case "regenerative-clinic":
+				$this->load->load_view('diseases/regenerative-clinic', $this->data);
+				break;
+			case "dermatology-care":
+				$this->load->load_view('diseases/dermatology-care', $this->data);
+				break;
 
 			default:
 				$this->load->load_view('diseases/conditions-group');
