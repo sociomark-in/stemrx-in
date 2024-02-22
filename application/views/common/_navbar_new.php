@@ -37,16 +37,16 @@
 						<!--<li><a href="<?= base_url() ?>service">Conditions</a></li>-->
 						<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
 						<li><a href="<?= base_url() ?>condition/condition-group">Neural</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Developmental Clinic</a></li>
+						<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Clinic</a></li>
 						<li><a href="<?= base_url() ?>condition/new-hope-clinic-group">New Hope Clinic</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Couple Clinic (New Hope)</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Pain Clinic</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Eye Clinic</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Metabolic Diseases</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Cosmetic</a></li>
+						<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic (New Hope)</a></li>
+						<li><a href="<?= base_url() ?>condition/pain-care">Pain Clinic</a></li>
+						<li><a href="<?= base_url() ?>condition/eye-care">Eye Clinic</a></li>
+						<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a></li>
+						<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic</a></li>
 						<li><a href="<?= base_url() ?>condition/condition-group">Dental Treatment</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Regenerative Clinic</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Dermatology</a></li>
+						<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
+						<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology</a></li>
 						<li><a href="<?= base_url() ?>condition/condition-group">Chromosomal Disorders</a></li>
 						<li><a href="<?= base_url() ?>condition/condition-group">Surgical Procedure</a></li>
 					</ul>
@@ -84,16 +84,16 @@
 						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Treadmill with Harness</a></li>
 					</ul>
 				</li>
-				
+
 				<li><a href="<?= base_url('team-of-experts') ?>">Team of Experts</a></li>
-				<li><a href="#">Patient Testimonial</a></li>
+				<li><a href="<?= base_url('parent-testomonial') ?>">Patient Testimonial</a></li>
 				<li class="menu-item-has-children">
 					<a href="#">In Media</a>
 					<ul class="sub-menu">
-						<li><a href="">News </a></li>
+						<li><a href="<?= base_url("news") ?>">News </a></li>
 						<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 						<li><a href="">Our Webinar </a></li>
-						<li><a href="">Blog</a></li>
+						<li><a href="<?= base_url("blogs") ?>">Blog</a></li>
 						<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 					</ul>
 				</li>
@@ -216,7 +216,7 @@
 													<li><a href="#">Navi Mumbai</a></li>
 													<li><a href="#">Hyderabad </a></li>
 													<li><a href="#">Nepal </a></li>
-													<li><a href="#">Maldives  </a></li>
+													<li><a href="#">Maldives </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
@@ -234,16 +234,16 @@
 											<!--<li><a href="<?= base_url() ?>service">Conditions</a></li>-->
 											<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
 											<li><a href="<?= base_url() ?>condition/condition-group">Neural</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Developmental Clinic</a></li>
+											<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Clinic</a></li>
 											<li><a href="<?= base_url() ?>condition/new-hope-clinic-group">New Hope Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Couple Clinic (New Hope)</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Pain Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Eye Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Metabolic Diseases</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Cosmetic</a></li>
+											<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic (New Hope)</a></li>
+											<li><a href="<?= base_url() ?>condition/pain-care">Pain Clinic</a></li>
+											<li><a href="<?= base_url() ?>condition/eye-care">Eye Clinic</a></li>
+											<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a></li>
+											<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic</a></li>
 											<li><a href="<?= base_url() ?>condition/condition-group">Dental Treatment</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Regenerative Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Dermatology</a></li>
+											<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
+											<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology</a></li>
 											<li><a href="<?= base_url() ?>condition/condition-group">Chromosomal Disorders</a></li>
 											<li><a href="<?= base_url() ?>condition/condition-group">Surgical Procedure</a></li>
 										</ul>
@@ -298,21 +298,21 @@
 											</li>
 										</ul>
 									</li>
-									
+
 									<li><a href="<?= base_url('team-of-experts') ?>">Team of Experts</a></li>
-									<li><a href="#">Patient Testimonial</a></li>
+									<li><a href="<?= base_url('parent-testomonial') ?>">Patient Testimonial</a></li>
 									<li class="menu-item-has-children">
 										<a href="#">In Media</a>
 										<ul class="sub-menu">
-											<li><a href="">News </a></li>
+											<li><a href="<?= base_url("news") ?>">News </a></li>
 											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 											<li><a href="">Our Webinar </a></li>
-											<li><a href="">Blog</a></li>
+											<li><a href="<?= base_url("blogs") ?>">Blog</a></li>
 											<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 										</ul>
 									</li>
 									<li><a href="<?= base_url("shop") ?>">Our Store</a></li>
-									
+
 								</ul>
 							</nav>
 							<button class="vs-menu-toggle d-inline-block d-xxl-none"><i class="fas fa-bars"></i></button>

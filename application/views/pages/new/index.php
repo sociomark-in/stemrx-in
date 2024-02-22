@@ -124,7 +124,7 @@
 				<div class="col-lg-9 col-md-11 col-12">
 					<div class="row g-4">
 						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
+							<a href="<?= base_url() ?>condition/condition-group" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
@@ -134,7 +134,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
+							<a href="<?= base_url() ?>condition/developmental-problem" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
@@ -144,7 +144,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
+							<a href="<?= base_url() ?>condition/new-hope-clinic-group" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
@@ -154,7 +154,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
+							<a href="<?= base_url() ?>condition/couple-clinic" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
@@ -164,7 +164,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
+							<a href="<?= base_url() ?>condition/pain-care" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
@@ -174,7 +174,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
+							<a href="<?= base_url() ?>condition/eye-care" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
@@ -184,7 +184,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
+							<a href="<?= base_url() ?>condition/metabolic-diseases" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
@@ -214,7 +214,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
+							<a href="<?= base_url() ?>condition/regenerative-clinic" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
@@ -224,7 +224,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
+							<a href="<?= base_url() ?>condition/dermatology-care" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">

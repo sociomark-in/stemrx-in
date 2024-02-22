@@ -19,10 +19,34 @@ class DiseasesController extends CI_Controller
 				$this->load->load_view('diseases/conditions-group', $this->data);
 				break;
 			case "new-hope-clinic-group":
-					$this->load->load_view('diseases/new-hope-clinic-group', $this->data);
+				$this->load->load_view('diseases/new-hope-clinic-group', $this->data);
 				break;
-				
-				default:
+			case "developmental-problem":
+				$this->load->load_view('diseases/developmental-problem', $this->data);
+				break;
+			case "couple-clinic":
+				$this->load->load_view('diseases/couple-clinic', $this->data);
+				break;
+			case "pain-care":
+				$this->load->load_view('diseases/pain-care', $this->data);
+				break;
+			case "eye-care":
+				$this->load->load_view('diseases/eye-care', $this->data);
+				break;
+			case "metabolic-diseases":
+				$this->load->load_view('diseases/metabolic-diseases', $this->data);
+				break;
+			case "cosmatic-diseases":
+				$this->load->load_view('diseases/cosmatic-diseases', $this->data);
+				break;
+			case "regenerative-clinic":
+				$this->load->load_view('diseases/regenerative-clinic', $this->data);
+				break;
+			case "dermatology-care":
+				$this->load->load_view('diseases/dermatology-care', $this->data);
+				break;
+
+			default:
 				$this->load->load_view('diseases/conditions-group');
 				break;
 		}
@@ -42,18 +66,31 @@ class DiseasesController extends CI_Controller
 						break;
 				}
 				break;
+			case 'cerebral-palsy':
+				switch ($condition) {
+					case 'cerebral-palsy-detail':
+						# code...
+						$this->load->load_view('diseases/condition/cerebral-palsy-detail');
+						break;
+
+					default:
+						$this->load->load_view('diseases/conditions-details');
+						break;
+				}
+				break;
+
 			case 'new-hope-clinic':
-					switch ($condition) {
-						case 'new-hope-clinic-detail':
-							# code...
-							$this->load->load_view('diseases/condition/new-hope-clinic-detail');
-							break;
-	
-						default:
-							$this->load->load_view('diseases/conditions-details');
-							break;
-					}
-					break;
+				switch ($condition) {
+					case 'new-hope-clinic-detail':
+						# code...
+						$this->load->load_view('diseases/condition/new-hope-clinic-detail');
+						break;
+
+					default:
+						$this->load->load_view('diseases/conditions-details');
+						break;
+				}
+				break;
 
 			default:
 				switch ($condition) {
