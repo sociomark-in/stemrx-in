@@ -211,6 +211,11 @@ class PagesController extends CI_Controller
 		$this->data['page']['title'] = "";
 		$this->load->load_view('footer/terms_condition');
 	}
+	public function disclaimer()
+	{
+		$this->data['page']['title'] = "";
+		$this->load->load_view('footer/disclaimer');
+	}
 	public function return_policy()
 	{
 		$this->data['page']['title'] = "";

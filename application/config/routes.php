@@ -59,6 +59,7 @@ $route['gallery'] = 'PagesController/gallery';
 $route['privacy-policy'] = 'PagesController/privacy_policy';
 $route['terms-condition'] = 'PagesController/terms_condition';
 $route['return-policy'] = 'PagesController/return_policy';
+$route['disclaimer'] = 'PagesController/disclaimer';
 
 $route['parent-testomonial'] = 'PagesController/parent_testmonial';
 
