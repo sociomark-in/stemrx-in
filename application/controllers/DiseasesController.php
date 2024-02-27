@@ -85,6 +85,14 @@ class DiseasesController extends CI_Controller
 						# code...
 						$this->load->load_view('diseases/condition/new-hope-clinic-detail');
 						break;
+					case 'azoospermia-detail':
+						# code...
+						$this->load->load_view('diseases/condition/azoospermia-detail');
+						break;
+					case 'pcod-detail':
+						# code...
+						$this->load->load_view('diseases/condition/pcod-detail');
+						break;
 
 					default:
 						$this->load->load_view('diseases/conditions-details');
