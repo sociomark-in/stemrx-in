@@ -118,6 +118,31 @@ class PagesController extends CI_Controller
 				break;
 		}
 	}
+	public function center($center)
+	{
+		switch ($center) {
+			case 'navi-mumbai':
+				$this->data['page']['title'] = "";
+				$this->load->load_view('centers/navi-mumbai', $this->data);
+				break;
+			case 'hyderabad':
+				$this->data['page']['title'] = "";
+				$this->load->load_view('centers/hyderabad', $this->data);
+				break;
+			case 'nepal':
+				$this->data['page']['title'] = "";
+				$this->load->load_view('centers/nepal', $this->data);
+				break;
+			case 'maldives':
+				$this->data['page']['title'] = "";
+				$this->load->load_view('centers/maldives', $this->data);
+				break;
+			default:
+				$this->data['page']['title'] = "";
+				$this->load->load_view('pages/service-details', $this->data);
+				break;
+		}
+	}
 	public function condition($condition)
 	{
 		switch ($condition) {

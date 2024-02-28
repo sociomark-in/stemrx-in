@@ -68,6 +68,8 @@ $route['news'] = 'PagesController/news';
 
 $route['media/(:any)'] = 'PagesController/media/$1';
 
+$route['our-center/(:any)'] = 'PagesController/center/$1';
+
 
 $route['about/(:any)'] = 'AboutController/about/$1';
 

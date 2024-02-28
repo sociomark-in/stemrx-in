@@ -16,10 +16,10 @@
 						<li class="menu-item-has-children">
 							<a href="#">Our Centers </a>
 							<ul class="sub-menu">
-								<li><a href="#">Navi Mumbai</a></li>
-								<li><a href="#">Hyderabad </a></li>
-								<li><a href="#">Nepal </a></li>
-								<li><a href="#">Maldives </a></li>
+								<li><a href="<?= base_url() ?>our-center/navi-mumbai">Navi Mumbai</a></li>
+								<li><a href="<?= base_url() ?>our-center/hyderabad">Hyderabad </a></li>
+								<li><a href="<?= base_url() ?>our-center/nepal">Nepal </a></li>
+								<li><a href="<?= base_url() ?>our-center/maldives">Maldives </a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
@@ -97,7 +97,7 @@
 						<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 					</ul>
 				</li>
-				<li><a href="<?= base_url("shop") ?>">Our Store</a></li>
+				<li><a href="https://stemrxbiosciences.in/" target="_blank">Our Store</a></li>
 			</ul>
 		</div>
 	</div>
@@ -213,10 +213,10 @@
 											<li class="menu-item-has-children">
 												<a href="#">Our Centers </a>
 												<ul class="sub-menu">
-													<li><a href="#">Navi Mumbai</a></li>
-													<li><a href="#">Hyderabad </a></li>
-													<li><a href="#">Nepal </a></li>
-													<li><a href="#">Maldives </a></li>
+													<li><a href="<?= base_url() ?>our-center/navi-mumbai">Navi Mumbai</a></li>
+													<li><a href="<?= base_url() ?>our-center/hyderabad">Hyderabad </a></li>
+													<li><a href="<?= base_url() ?>our-center/nepal">Nepal </a></li>
+													<li><a href="<?= base_url() ?>our-center/maldives">Maldives </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
@@ -311,7 +311,7 @@
 											<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 										</ul>
 									</li>
-									<li><a href="<?= base_url("shop") ?>">Our Store</a></li>
+									<li><a href="https://stemrxbiosciences.in/" target="_blank">Our Store</a></li>
 
 								</ul>
 							</nav>
