@@ -76,23 +76,13 @@
 						</a>
 					</div>
 					<div class="col-2">
-						<a href="<?= base_url("condition/new-hope-clinic/pcod-detail") ?>" class="text-center">
+						<a href="<?= base_url("condition/new-hope-clinic/pcod-pcos") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
 									<img src="<?= base_url("assets/img/logo.png") ?>" alt="PCOD" class="w-100">
 								</div>
 							</div>
-							<h6 class="text-theme">PCOD</h6>
-						</a>
-					</div>
-					<div class="col-2">
-						<a href="<?= base_url("condition/new-hope-clinic/pcos-detail") ?>" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="PCOS" class="w-100">
-								</div>
-							</div>
-							<h6 class="text-theme">PCOS</h6>
+							<h6 class="text-theme">PCOD / PCOS</h6>
 						</a>
 					</div>
 				</div>

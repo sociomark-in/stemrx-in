@@ -32,7 +32,7 @@
 									<div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
 										<div class="col-sm-6 col-lg-auto">
 											<span class="fs-xs">Condition Name</span>
-											<h2 class="h5 mb-0">PCOD</h2>
+											<h2 class="h5 mb-0">PCOD / PCOS</h2>
 										</div>
 										<div class="col-sm-6 col-lg-auto">
 											<span class="fs-xs">Time Duration</span>
@@ -50,28 +50,9 @@
 							</div>
 						</div>
 
-
 						<section class="appointment-wrapper">
 							<div class="container">
-								<h3>Symptoms:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li>Catchy Headline</li>
-											<li>About the disease</li>	
-											<li>Symptoms</li>
-											<li>Common fears and concerns</li>
-											<li>StemRx innovative treatment approach</li>
-											<li>Key advantages and unique selling points of StemRx Hospital</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>About the disease:</h3>
+								<!-- <h3>About the disease:</h3> -->
 								<p>Polycystic Ovary Syndrome (PCOS), sometimes known as Polycystic Ovary Disorder (PCOD), is a common hormonal imbalance affecting women in their reproductive years. It's a complex condition with various symptoms impacting reproductive, hormonal, and metabolic functions. While its exact origins are still being explored, genetics and environment are believed to play significant roles. PCOS often manifests with ovarian cysts, though not always, making diagnosis a blend of symptoms and medical assessments.</p>
 							</div>
 						</section>
@@ -86,9 +67,9 @@
 											<li><b class="text-title">Excess androgen levels:</b>Higher-than-usual androgen levels can trigger acne, excess body hair, and hair thinning.</li>
 											<li><b class="text-title">Ovulation issues:</b>PCOS can hinder regular ovulation, impacting fertility.</li>
 											<li><b class="text-title">Polycystic ovaries:</b> Multiple small cysts on the ovaries are common, detectable through ultrasound.</li>
-											<li><b class="text-title">Weight management challenges:</b>  Many with PCOS face difficulties managing weight, which can worsen other symptoms and increase health risks.</li>
-											<li><b class="text-title">Insulin resistance:</b>  Higher insulin resistance raises diabetes risk.</li>
-											<li><b class="text-title">Emotional fluctuations:</b>   Hormonal shifts can contribute to mood swings and depression.</li>
+											<li><b class="text-title">Weight management challenges:</b> Many with PCOS face difficulties managing weight, which can worsen other symptoms and increase health risks.</li>
+											<li><b class="text-title">Insulin resistance:</b> Higher insulin resistance raises diabetes risk.</li>
+											<li><b class="text-title">Emotional fluctuations:</b> Hormonal shifts can contribute to mood swings and depression.</li>
 										</ul>
 									</div>
 								</div>
@@ -100,7 +81,7 @@
 								<h3>Common fears and concerns:</h3>
 								<div class="row gx-40">
 									<div class="col-xl-12">
-										<ul>									
+										<ul>
 											<li><b class="text-title">Fertility worries.</b></li>
 											<li><b class="text-title">Managing unpredictable cycles.</b></li>
 											<li><b class="text-title">Weight fluctuations.</b></li>
@@ -128,7 +109,7 @@
 											<li><b class="text-title">Multidisciplinary care:</b> Gynecologists, endocrinologists, nutritionists, and mental health professionals collaborate for holistic management.</li>
 											<li><b class="text-title">Fertility-focused treatments:</b>Tailored fertility solutions cater to PCOS-related challenges.</li>
 											<li><b class="text-title">Research-driven care:</b> Patients benefit from the latest advancements and clinical trials.</li>
-											<li><b class="text-title">Patient-centric ethos: </b>  Education and support are integral to the treatment journey.</li>
+											<li><b class="text-title">Patient-centric ethos: </b> Education and support are integral to the treatment journey.</li>
 											<li><b class="text-title">Long-term health focus:</b> Beyond symptom alleviation, the hospital targets underlying imbalances for improved overall health.</li>
 
 										</ul>
@@ -136,21 +117,7 @@
 								</div>
 							</div>
 						</section>
-						<!-- <p class="fs-md text-title mb-4 pb-2">Professionally iterate out-of-the-box relationships without scalable "outside the box" thinking. Intrinsicly revolutionize team building customer service before cross-platform portals. Quickly plagiarize resource maximizing mindshare and state of the art deliverables. Phosfluorescently reintermediate sustainable architectures for enterprise relationships. Compellingly actualize world-class solutions for high-payoff initiatives.</p>
-						<p>Monotonectally foster alternative technology vis-a-vis multifunctional leadership. Compellingly orchestrate standards compliant schemas for highly efficient interfaces. Uniquely impact orthogonal customer service whereas standards compliant services. Professionally communicate performance based niche markets without performance based information. Objectively plagiarize prospective networks via ubiquitous web-readiness. Credibly monetize process-centric synergy with intuitive strategic theme areas. Professionally provide access to optimal portals without dynamic supply chains. Enthusiastically re-engineer equity invested imperatives without leveraged alignments. Monotonectally scale parallel methods of empowerment rather than wireless sources. Competently scale robust relationships without maintainable synergy. Completely enhance best-of-breed models for ubiquitous applications. Quickly underwhelm bricks-and-clicks bandwidth with resource maximizing e-services. Appropriately incentivize out-of-the-box relationships after customized users. Continually productivate real-time testing procedures and backward-compatible scenarios. Holisticly predominate enabled ideas whereas future-proof content.</p>
-						<div class="row mt-40 mb-20">
-							<div class="col-lg-4 mb-30">
-								<img src="<?= base_url("assets/") ?>img/service/sr-d-2.jpg" alt="Service Image" class="w-100">
-							</div>
-							<div class="col-lg-4 mb-30">
-								<img src="<?= base_url("assets/") ?>img/service/sr-d-3.jpg" alt="Service Image" class="w-100">
-							</div>
-							<div class="col-lg-4 mb-30">
-								<img src="<?= base_url("assets/") ?>img/service/sr-d-4.jpg" alt="Service Image" class="w-100">
-							</div>
-						</div>
-						<h3>Granular potentialities oriented</h3>
-						<p>Authoritatively disseminate multimedia based total linkage through market-driven methodologies. Continually transform integrated results vis-a-vis multidisciplinary manufactured products. Appropriately foster fully researched innovation rather than backend supply chains results vis-a-vis multidisciplin ary manufactured. Synergistically underwhelm distinctive strategic theme areas for low-risk high-yield vortals. Seamlessly fabricate high-quality portals and next-generation human capital. Progressively network extensive leadership for client-focused e-markets. Interactively whiteb ilers for cost effective synergy.</p>-->
+
 					</div>
 				</div>
 			</div>
@@ -202,26 +169,24 @@
 				<h2 class="h1 mb-3">Our Consultant for Diseses</h2>
 			</div>
 			<div class="row">
-				<?php for ($i = 0; $i < 4; $i++) : ?>
-					<div class="col-md-6 col-lg-4 col-xl-3 mb-30 wow fadeInUp" data-wow-delay="0.3s">
-						<div class="team-card">
-							<div class="team-head"><img src="<?= base_url() ?>assets/img/team/t-1-1.png" alt="Team Area" class="w-100">
-								<!-- <div class="team-card-links"><a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
-									<div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div>
-								</div> -->
+				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+					<div class="team-card">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/Dr. Pallavi Lale.jpg" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url() ?>doctor/dr-pallavi-lele"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
-							<div class="team-body">
-								<h3 class="h4 mb-0"><a href="<?= base_url() ?>doctor/doctor-<?= $i ?>-name" class="text-reset">David Smith</a></h3>
-								<p class="fs-xs degi text-theme mb-2">Specialist</p>
-								<p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation</p>
-								<div class="">
-									<p class="fs-xs team-info"><i class="fas fa-phone-alt text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
-									<p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
-								</div>
+						</div>
+						<div class="team-body">
+							<h3 class="h4 mb-0"><a href="<?= base_url() ?>doctor/dr-pallavi-lele" class="text-reset">Dr. Pallavi Lale</a></h3>
+							<p class="fs-xs degi text-theme mb-2">Specialist</p>
+							<p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation</p>
+							<div class="">
+								<p class="fs-xs team-info"><i class="fas fa-phone-alt text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
+								<p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
 							</div>
 						</div>
 					</div>
-				<?php endfor ?>
+				</div>
 			</div>
 		</div>
 	</section>

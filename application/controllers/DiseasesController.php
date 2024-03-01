@@ -89,7 +89,7 @@ class DiseasesController extends CI_Controller
 						# code...
 						$this->load->load_view('diseases/condition/azoospermia-detail');
 						break;
-					case 'pcod-detail':
+					case 'pcod-pcos':
 						# code...
 						$this->load->load_view('diseases/condition/pcod-detail');
 						break;
