@@ -6,7 +6,7 @@
 				<h1 class="breadcumb-title">David Smith</h1>
 				<div class="breadcumb-menu-wrap"><i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
-						<li><a href="index-2.html">Home</a></li>
+						<li><a href="<?= base_url() ?>">Home</a></li>
 						<li class="active">Doctors Details</li>
 					</ul>
 				</div>
@@ -148,7 +148,7 @@
 					<?php for ($i = 0; $i < 10; $i++) : ?>
 						<div class="col-md-6 col-lg-4 col-xl-3 filter-item cat-2">
 							<div class="vs-project-box mb-30">
-								<div class="project-img"><a href="<?= base_url("assets/img/certifications/") ?>certificate-ph-01.png" class=" popup-image"><img src="<?= base_url("assets/img/certifications/") ?>certificate-ph-01.png" alt="Project Image" class="w-100"></a></div>
+								<div class="project-img"><a href="https://placehold.co/334x480" class=" popup-image"><img src="https://placehold.co/334x480" alt="Project Image" class="w-100"></a></div>
 							</div>
 						</div>
 					<?php endfor ?>

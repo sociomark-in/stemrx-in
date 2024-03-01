@@ -6,7 +6,7 @@
 				<h1 class="breadcumb-title">Checkout</h1>
 				<div class="breadcumb-menu-wrap"><i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
-						<li><a href="index-2.html">Home</a></li>
+						<li><a href="<?= base_url() ?>">Home</a></li>
 						<li class="active">Checkout</li>
 					</ul>
 				</div>

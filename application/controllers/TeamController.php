@@ -9,10 +9,20 @@ class TeamController extends CI_Controller
 	}
 
 	public function home() {
-		$this->load->load_view('pages/team');
+		$this->load->load_view('pages/team/home');
 	}
 	
 	public function doctor($name) {
-		$this->load->load_view('pages/team-details', $this->data);
+		switch ($name) {
+			case 'dr-anil-daxini':
+				# code...
+				$this->load->load_view('pages/team/dr-anil-daxini', $this->data);
+				break;
+			
+			default:
+				# code...
+				$this->load->load_view('pages/team/team-details', $this->data);
+				break;
+		}
 	}
 }

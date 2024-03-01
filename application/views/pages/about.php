@@ -6,7 +6,7 @@
 				<h1 class="breadcumb-title">About Us</h1>
 				<div class="breadcumb-menu-wrap"><i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
-						<li><a href="index-2.html">Home</a></li>
+						<li><a href="<?= base_url() ?>">Home</a></li>
 						<li class="active">About Us</li>
 					</ul>
 				</div>
@@ -235,66 +235,45 @@
 			</div>
 		</div>
 	</section>
-	<section class="testimonial-wrapper space-top space-md-bottom">
-		<div class="parallax" data-parallax-image="<?= base_url() ?>assets/img/bg/bg-shape-6.jpg"></div>
-		<div class="container">
-			<div class="row text-center justify-content-center">
-				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-					<div class="section-title">
-						<div class="sec-icon"><i class="flaticon-ecg"></i></div>
-						<h2 class="h1">Our Patient Says</h2>
-						<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources istinctively impact proactive human</p>
-					</div>
-				</div>
-			</div>
-			<div class="position-relative">
-				<div class="d-none d-md-block bg-top-right position-absolute start-0 top-0 w-100 h-100" data-bg-src="<?= base_url() ?>assets/img/bg/testimonial-shape-1.png"></div>
-				<div class="row gx-30 mb-30 mb-lg-0">
-					<div class="col-md-5 col-lg-4 col-xl-3 z-index-common">
-						<div class="avater-slider-box vs-carousel" data-slide-show="1" data-md-slide-show="1" data-fade="true" data-asnavfor=".testimonail-desc-slide">
-							<div class="avater-slider">
-								<div class="avater"><img src="<?= base_url() ?>assets/img/author/author-3-1.jpg" alt="Author Image"></div>
-								<h3 class="mb-0 h4 font-body">Mr. David Smith</h3><span class="fs-xs">Customer</span>
-							</div>
-							<div class="avater-slider">
-								<div class="avater"><img src="<?= base_url() ?>assets/img/author/author-3-2.jpg" alt="Author Image"></div>
-								<h3 class="mb-0 h4 font-body">Mr. Jons Smith</h3><span class="fs-xs">Member</span>
-							</div>
-							<div class="avater-slider">
-								<div class="avater"><img src="<?= base_url() ?>assets/img/author/author-3-3.jpg" alt="Author Image"></div>
-								<h3 class="mb-0 h4 font-body">Jerzzy Lamot</h3><span class="fs-xs">Manager</span>
-							</div>
+	<section class="testimonial-wrapper space-bottom">
+			<div class="container">
+				<div class="row text-center justify-content-center">
+					<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+						<div class="section-title"><span class="h3 text-theme sec-subtitle">Testimonial</span>
+							<h2 class="h1">Our Patients Responses</h2>
+							<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
 						</div>
 					</div>
-					<div class="col-md-7 col-lg-8 col-xl-8 align-self-center">
-						<div class="pl-30 no-pl-md mt-2 mt-md-0 position-relative">
-							<div class="testimonail-quote"><img src="<?= base_url() ?>assets/img/bg/quote-icon.png" alt="quote"></div>
-							<div class="vs-carousel testimonail-desc-slide text-center text-md-start" data-dots="true" data-slide-show="1" data-md-slide-show="1" data-asnavfor=".avater-slider-box">
-								<div class="testimonail-desc">
-									<div class="testi-rating">
-										<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-10">
+						<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="2">
+							<div class="col-xl-6">
+								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
+									<div class="youtube-testimonial">
+										<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg"  alt="">
 									</div>
-									<p class="mb-0 testi-text">Objectively unleash resource maximizing networks vis-a-vis parallel services. Continually parallel task real-time users without global sources. Credibly provide access to parallel resources whereas worldwide.</p>
-								</div>
-								<div class="testimonail-desc">
-									<div class="testi-rating">
-										<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+								</a>
+							</div>
+							<div class="col-xl-6">
+								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
+									<div class="youtube-testimonial">
+										<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg"  alt="">
 									</div>
-									<p class="mb-0 testi-text">OLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet.</p>
-								</div>
-								<div class="testimonail-desc">
-									<div class="testi-rating">
-										<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+								</a>
+							</div>
+							<div class="col-xl-6">
+								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
+									<div class="youtube-testimonial">
+										<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg"  alt="">
 									</div>
-									<p class="mb-0 testi-text">Nick Richardson described the translation “like extreme Mallarmé, or a Burroughsian cut-up, or a paragraph of Finnegans Wake. Bits of it have surprising power: the desperate insistence on loving hitch and, an</p>
-								</div>
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	<section class="vs-blog-wrapper space-md-bottom space-top">
 		<div class="container">
 			<div class="row text-center justify-content-center">

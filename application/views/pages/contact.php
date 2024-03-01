@@ -6,7 +6,7 @@
 				<h1 class="breadcumb-title">Contact Us</h1>
 				<div class="breadcumb-menu-wrap"><i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
-						<li><a href="#">Home</a></li>
+						<li><a href="<?= base_url() ?>">Home</a></li>
 						<li class="active">Contact Us</li>
 					</ul>
 				</div>

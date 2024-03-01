@@ -9,7 +9,7 @@
             <div class="breadcumb-menu-wrap">
                 <i class="far fa-home-lg"></i>
                 <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="<?= base_url() ?>">Home</a></li>
                     <li class="active">Testomonial</li>
                 </ul>
             </div>
@@ -31,7 +31,7 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-xl-10">
-						<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="2">
+						<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="4">
 							<div class="col-xl-4">
 								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
 									<div class="youtube-testimonial">
