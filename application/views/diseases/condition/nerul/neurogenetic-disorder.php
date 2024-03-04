@@ -4,12 +4,12 @@
         <div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
         <div class="container z-index-common">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Cerebral Palsy Details</h1>
+                <h1 class="breadcumb-title">Neurogenetic Disorder Details</h1>
                 <div class="breadcumb-menu-wrap">
                     <i class="far fa-home-lg"></i>
                     <ul class="breadcumb-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active">Cerebral Palsy Details</li>
+                        <li><a href="<?= base_url(); ?>">Home</a></li>
+                        <li class="active">Neurogenetic Disorder Details</li>
                     </ul>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                                     <div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
                                         <div class="col-sm-6 col-lg-auto">
                                             <span class="fs-xs">Condition Name</span>
-                                            <h2 class="h5 mb-0">Cerebral Palsy</h2>
+                                            <h2 class="h5 mb-0">Neurogenetic Disorder</h2>
                                         </div>
                                         <div class="col-sm-6 col-lg-auto">
                                             <span class="fs-xs">Time Duration</span>
@@ -52,24 +52,34 @@
 
                         <section class="appointment-wrapper">
                             <div class="container">
-                                <h4><b class="text-title">"Unlocking Hope, Restoring Lives: Discover the Future of Cerebral Palsy Care at StemRx Hospital and Research Centre."</b></h4>
-                                <p>Cerebral palsy is a neurological disorder that affects movement, muscle tone, and coordination. It is caused by damage to the developing brain, usually before or during birth, although it can also occur in infancy or early childhood. </p>
+                                <h4><b class="text-title">"Unlocking Hope: StemRX Hospital Breakthroughs in Neurogenetic Disorder Treatment"</b></h4>
                             </div>
                         </section>
                         <section class="appointment-wrapper">
                             <div class="container">
-                                <h3>Here are some key symptoms of cerebral palsy:</h3>
+                                <h3>About the disease:</h3>
+                                <p> Neurogenetic disorders represent a complex spectrum of conditions characterized by aberrant functioning or development of the nervous system due to genetic mutations. These mutations may affect various aspects of neurological function, including cognition, motor skills, and sensory processing. Disorders such as Huntington's disease, fragile X syndrome, and Rett syndrome are prominent examples within this category.</p>
+                                <p> The etiology of neurogenetic disorders often involves mutations in specific genes critical for nervous system development, neurotransmitter regulation, or neuronal function. These genetic aberrations can lead to structural abnormalities in the brain, altered synaptic transmission, or impaired cellular signaling pathways, ultimately manifesting as neurological symptoms.</p>
+                            </div>
+                        </section>
+                        <section class="appointment-wrapper">
+                            <div class="container">
+                                <h3>Here are some key symptoms of Neurogenetic Disorder:</h3>
                                 <div class="row gx-40">
                                     <div class="col-xl-12">
                                         <ul>
-                                            <li><b class="text-title">Muscle stiffness or weakness:</b> Individuals with cerebral palsy may experience muscle stiffness, making movements difficult and rigid.</li>
-                                            <li><b class="text-title">Poor coordination:</b> Coordination difficulties are common, affecting tasks such as walking, reaching, or grasping objects.</li>
-                                            <li><b class="text-title">Abnormal reflexes:</b> Reflexes may be exaggerated or diminished, leading to involuntary movements or abnormal posture.</li>
-                                            <li><b class="text-title">Delayed milestones:</b> Children with cerebral palsy may reach developmental milestones, such as sitting up or walking, later than their peers.</li>
-                                            <li><b class="text-title">Spasticity:</b> Some individuals may have spastic cerebral palsy, characterized by stiff, tight muscles that can interfere with movement.</li>
-                                            <li><b class="text-title">Ataxia: </b>Others may have ataxic cerebral palsy, which causes problems with balance and coordination.</li>
-                                            <li><b class="text-title">Speech and communication difficulties:</b> Many individuals with cerebral palsy may experience challenges with speech and language development.</li>
-                                        </ul>
+                                            <li><b class="text-title">Developmental Delays: </b> Delayed milestones in infancy and childhood, such as sitting up, crawling, or walking.</li>
+                                            <li><b class="text-title">Intellectual Disability: </b> Below-average intellectual functioning and adaptive behaviors affecting everyday social and practical skills.</li>
+                                            <li><b class="text-title">Motor Impairments: </b> Difficulties with movement control, coordination, or muscle tone, which may manifest as tremors, stiffness, or weakness.</li>
+                                            <li><b class="text-title">Seizures:</b> Recurrent, unprovoked seizures of varying types and severity.</li>
+                                            <li><b class="text-title">Sensory Deficits:</b> Altered sensory processing, including vision, hearing, touch, taste, or smell abnormalities.</li>
+                                            <li><b class="text-title">Behavioral and Psychiatric Symptoms:</b>Behavioral problems such as impulsivity, aggression, anxiety, or depression, often starting in childhood or adolescence.</li>
+                                            <li><b class="text-title">Speech and Language Disorders: </b> Difficulty with speech articulation, language comprehension, or expression.</li>
+                                            <li><b class="text-title">Neurological Regression:</b> Loss of previously acquired developmental milestones or skills, sometimes occurring in childhood or adolescence.</li>
+                                            <li><b class="text-title">Neuromuscular Symptoms:</b> Weakness, muscle wasting, or abnormal reflexes due to nerve or muscle dysfunction.</li>
+                                            <li><b class="text-title">Autonomic Dysfunction: </b> Problems with involuntary bodily functions like blood pressure regulation, sweating, or bowel/bladder control.</li>
+                                            <li><b class="text-title">Neurodegeneration:</b>Progressive loss of nerve cells and decline in neurological function over time.</li>
+                                         </ul>
                                     </div>
                                 </div>
                             </div>
@@ -78,102 +88,49 @@
                         <section class="appointment-wrapper">
                             <div class="container">
                                 <h3>Common fears and Concerns:</h3>
-                                <p>Living with cerebral palsy can evoke a range of fears and concerns that are deeply rooted in human emotions. These can include:</p>
                                 <div class="row gx-40">
                                     <div class="col-xl-12">
                                         <ul>
-                                            <li><b class="text-title">Fear of exclusion and isolation:</b> Individuals with cerebral palsy may fear being left out or marginalized by society due to their physical limitations or differences. The desire for acceptance and inclusion is a fundamental human need, and the fear of rejection can be deeply distressing.</li>
-                                            <li><b class="text-title">Concerns about independence: </b> Many individuals with cerebral palsy worry about their ability to live independently and perform everyday tasks without assistance. The fear of dependence on others can evoke feelings of helplessness and inadequacy, challenging their sense of autonomy and self-worth.</li>
-                                            <li><b class="text-title">Anxiety about future health complications:</b> The unpredictable nature of cerebral palsy and its potential for secondary health issues, such as muscle contractures or joint deformities, can generate significant anxiety. Fear of deterioration in health or increased pain and discomfort can weigh heavily on individuals with cerebral palsy and their loved ones.</li>
-                                            <li><b class="text-title">Worries about social stigma and discrimination:</b> The pervasive stigma surrounding disabilities can lead to fears of discrimination, prejudice, or ridicule. Concerns about being judged or misunderstood by others can erode self-confidence and contribute to social anxiety.</li>
-                                            <li><b class="text-title">Financial insecurity:</b> Managing the costs associated with medical care, assistive devices, and therapies can be a source of significant stress for individuals with cerebral palsy and their families. Fear of financial instability or inability to afford necessary treatments can exacerbate feelings of uncertainty and vulnerability.</li>
-                                            <li><b class="text-title">Emotional struggles:</b> Coping with the physical and emotional challenges of cerebral palsy can take a toll on mental well-being. Feelings of frustration, anger, or sadness about limitations imposed by the condition may arise, along with concerns about not being understood or supported by others.</li>
-                                            <li><b class="text-title">Uncertainty about the future:</b> The long-term outlook for individuals with cerebral palsy can be uncertain, leading to fears about what the future holds. Questions about employment opportunities, relationships, and overall quality of life may loom large, creating a sense of unease about what lies ahead.</li>
+                                            <li><b class="text-title">Genetic Inheritance: </b> Individuals may fear passing on the neurogenetic disease to their children due to its hereditary nature.</li>
+                                            <li><b class="text-title">Limited Treatment Options:  </b> Fear of limited or ineffective treatment options for managing the symptoms or progression of the disease.</li>
+                                            <li><b class="text-title">Financial Burden:</b> Concerns about the financial costs associated with managing the disease, including medical expenses, caregiving, and potential loss of income.</li>
+                                            <li><b class="text-title">Emotional Impact: </b> Fear of the emotional toll of living with a neurogenetic disease, including anxiety, depression, and feelings of isolation.</li>
+                                            <li><b class="text-title">Stigma and Discrimination:  </b> Worries about facing stigma or discrimination due to misconceptions or lack of understanding about the disease from others.</li>
+                                            <li><b class="text-title">Uncertainty of Prognosis:</b> Concerns about the unpredictable nature of the disease progression and uncertainty about long-term prognosis.</li>
+                                            <li><b class="text-title">Genetic Testing Concerns: </b> Worries about the implications of genetic testing, including privacy concerns, insurance discrimination, and emotional readiness for potential results.</li>
+                                            <li><b class="text-title">Impact on Family Dynamics: </b> Concerns about how the disease will affect family dynamics, roles, and responsibilities.</li>
+                                            <li><b class="text-title">Loss of Independence: </b> Fear of losing independence and autonomy due to the progressive nature of the disease.</li>
                                         </ul>
                                     </div>
                                 </div>
-                                <p>Addressing these fears and concerns requires a supportive environment that acknowledges the emotional impact of cerebral palsy and provides access to resources, therapies, and community support networks, which you can get under one roof at StemRx Hospital and Research Centre. Empathy, understanding, and advocacy are essential in helping individuals with cerebral palsy navigate these challenges and live fulfilling lives.</p>
                             </div>
                         </section>
                         <section class="appointment-wrapper">
                             <div class="container">
-                                <h3>Benefits:</h3>
-                                <p>Stem cell treatment at StemRx Hospital for cerebral palsy offers numerous benefits that can significantly improve the quality of life for individuals with this condition:</p>
-                                <div class="row gx-40">
-                                    <div class="col-xl-12">
-                                        <ul>
-                                            <li><b class="text-title">Regeneration of damaged tissue:</b> Stem cell therapy has the potential to regenerate damaged brain tissue, promoting neural repair and restoring function in areas affected by cerebral palsy. This regeneration can lead to improvements in motor skills, coordination, and overall mobility.</li>
-                                            <li><b class="text-title">Reduction of inflammation: </b> Stem cells have anti-inflammatory properties that can help reduce inflammation in the brain, which is often associated with cerebral palsy. By decreasing inflammation, stem cell therapy may alleviate symptoms such as muscle stiffness and spasticity, allowing for smoother movement and improved range of motion.</li>
-                                            <li><b class="text-title">Enhancement of neuroplasticity:</b> Stem cells can stimulate neuroplasticity, the brain's ability to reorganize and form new connections. This can facilitate learning and adaptation, enabling individuals with cerebral palsy to develop new motor skills and improve existing ones.</li>
-                                            <li><b class="text-title">Potential for long-term improvement:</b> Stem cell therapy has the potential to provide long-term benefits for individuals with cerebral palsy. By promoting ongoing neural repair and regeneration, it may lead to sustained improvements in motor function and overall quality of life.</li>
-                                            <li><b class="text-title">Minimally invasive procedure:</b> Stem cell therapy at StemRx Hospital is typically performed using minimally invasive techniques, such as intravenous infusion or injection. This reduces the risk of complications and shortens recovery time, allowing patients to return to their daily activities more quickly.</li>
-                                            <li><b class="text-title">Personalized treatment approach:</b> At StemRx Hospital, stem cell therapy for cerebral palsy is tailored to each patient's specific needs and medical history. This personalized approach ensures that individuals receive the most effective and appropriate treatment for their condition, maximizing the chances of successful outcomes.</li>
-                                            <li><b class="text-title">Comprehensive care:</b> In addition to stem cell therapy, StemRx Hospital provides comprehensive care and support services for individuals with cerebral palsy, including physical therapy, occupational therapy, and assistive device recommendations. This holistic approach addresses the multifaceted needs of patients and promotes their overall well-being.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <p>Overall, stem cell treatment at StemRx Hospital offers promising benefits for individuals with cerebral palsy, potentially leading to significant improvements in motor function, mobility, and quality of life.</p>
+                                <h3>StemRx innovative treatment approach:</h3>
+                                <p> At StemRx Hospital, our treatment protocol for neurogenetic disorders integrates cellular therapy, which entails the introduction of healthy cells into the patient's nervous system to repair damage. This method seeks to restore proper functioning, alleviate symptoms, and potentially arrest disease progression by addressing genetic abnormalities.</p>
+                                <p> Additionally, we employ stimulations in the form of Quantum energy medicine and incorporate growth factors and peptides to enhance treatment outcomes.</p>
                             </div>
                         </section>
-
                         <section class="appointment-wrapper">
                             <div class="container">
-                                <h3>Why StemRx:</h3>
-                                <p>StemRx is the only healthcare services organization that offers a complete end to end healthcare package under one single roof right from the point where the patient walks in for a consultation, the evaluation, the medical assessments, the therapies, the medication, long term post discharge strategies and much more.</p>
-                                <p>One look at the patient feedback library will indicate that at StemRx we are committed to improvement of medical condition of the patient by meeting the defined timeline-based milestones, as well as ensuring that there is patient delight when the patient departs from our facility. </p>
-                            </div>
-                            <div class="container">
-                                <h4><b class="text-title">EXPERTISE :</b></h4>
+                                <h3>Key advantages and unique points of StemRx Hospital:</h3>
                                 <div class="row gx-40">
                                     <div class="col-xl-12">
                                         <ul>
-                                            <li>More than 250 plus years of cumulative experience of the team coming from various specialties</li>
-                                            <li>Handling 3 locations and global citizens</li>
-                                            <li>Quick identification of required personalized attention to be given to each patient</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container">
-                                <h4><b class="text-title">EXCELLENCE :</b></h4>
-                                <div class="row gx-40">
-                                    <div class="col-xl-12">
-                                        <ul>
-                                            <li>Our continued benchmarks of improving upon prior set quality and delivery objectives</li>
-                                            <li>Well documented and tested treatment protocols with an eye to adhere to global standards</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container">
-                                <h4><b class="text-title">EQUITY :</b></h4>
-                                <div class="row gx-40">
-                                    <div class="col-xl-12">
-                                        <ul>
-                                            <li>A complete holistic, ethical, and natural solution using regenerative medicine.</li>
-                                            <li>Complete E2E customized & personalized treatment protocols</li>
-                                            <li>Only organization to take care of patient from first contact to last mile post discharge documentation</li>
-                                            <li>Strict quality control measures and GMP certified labs in place</li>
+                                            <li><b class="text-title">Cutting-Edge Stem Cell Therapy:</b> StemRx Hospital specializes in advanced stem cell therapies tailored specifically for neurogenetic disorders, offering innovative treatment options not widely available elsewhere.</li>
+                                            <li><b class="text-title">Personalized Treatment Plans:</b> Each patient receives a personalized treatment plan developed by a multidisciplinary team of experts, integrating the latest research and technologies to address their unique neurogenetic condition.</li>
+                                            <li><b class="text-title">Expertise in Neurogenetics: </b>  StemRx Hospital boasts a team of renowned neurogenetic specialists with extensive experience in diagnosing and treating a wide range of neurogenetic disorders, ensuring patients receive the highest standard of care.</li>
+                                            <li><b class="text-title">State-of-the-Art Facilities:</b> The hospital is equipped with state-of-the-art facilities and infrastructure, including advanced diagnostic tools and specialized treatment units, creating an optimal environment for patient care and recovery.</li>
+                                            <li><b class="text-title">Comprehensive Care Approach: </b>StemRx Hospital adopts a holistic approach to patient care, encompassing not only medical treatment but also psychological support, rehabilitation services, and ongoing monitoring to optimize patient outcomes and quality of life.</li>
+                                            <li><b class="text-title">Patient-Centric Focus: </b>The hospital prioritizes the needs and well-being of patients, providing compassionate care and support throughout their treatment journey, empowering them to make informed decisions and actively participate in their own care.</li>
+                                            <li><b class="text-title">Collaborative Care Network: </b>StemRx Hospital collaborates closely with referring physicians, specialists, and support organizations to ensure seamless continuity of care and comprehensive support for patients and their families.</li>
+                                            <li><b class="text-title">Commitment to Excellence: </b>StemRx Hospital is dedicated to achieving excellence in every aspect of its operations, from clinical care to patient experience, continually striving to set new standards of quality and innovation in the field of neurogenetics.</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <!-- <p class="fs-md text-title mb-4 pb-2">Professionally iterate out-of-the-box relationships without scalable "outside the box" thinking. Intrinsicly revolutionize team building customer service before cross-platform portals. Quickly plagiarize resource maximizing mindshare and state of the art deliverables. Phosfluorescently reintermediate sustainable architectures for enterprise relationships. Compellingly actualize world-class solutions for high-payoff initiatives.</p>
-						<p>Monotonectally foster alternative technology vis-a-vis multifunctional leadership. Compellingly orchestrate standards compliant schemas for highly efficient interfaces. Uniquely impact orthogonal customer service whereas standards compliant services. Professionally communicate performance based niche markets without performance based information. Objectively plagiarize prospective networks via ubiquitous web-readiness. Credibly monetize process-centric synergy with intuitive strategic theme areas. Professionally provide access to optimal portals without dynamic supply chains. Enthusiastically re-engineer equity invested imperatives without leveraged alignments. Monotonectally scale parallel methods of empowerment rather than wireless sources. Competently scale robust relationships without maintainable synergy. Completely enhance best-of-breed models for ubiquitous applications. Quickly underwhelm bricks-and-clicks bandwidth with resource maximizing e-services. Appropriately incentivize out-of-the-box relationships after customized users. Continually productivate real-time testing procedures and backward-compatible scenarios. Holisticly predominate enabled ideas whereas future-proof content.</p>
-						<div class="row mt-40 mb-20">
-							<div class="col-lg-4 mb-30">
-								<img src="<?= base_url("assets/") ?>img/service/sr-d-2.jpg" alt="Service Image" class="w-100">
-							</div>
-							<div class="col-lg-4 mb-30">
-								<img src="<?= base_url("assets/") ?>img/service/sr-d-3.jpg" alt="Service Image" class="w-100">
-							</div>
-							<div class="col-lg-4 mb-30">
-								<img src="<?= base_url("assets/") ?>img/service/sr-d-4.jpg" alt="Service Image" class="w-100">
-							</div>
-						</div>
-						<h3>Granular potentialities oriented</h3>
-						<p>Authoritatively disseminate multimedia based total linkage through market-driven methodologies. Continually transform integrated results vis-a-vis multidisciplinary manufactured products. Appropriately foster fully researched innovation rather than backend supply chains results vis-a-vis multidisciplin ary manufactured. Synergistically underwhelm distinctive strategic theme areas for low-risk high-yield vortals. Seamlessly fabricate high-quality portals and next-generation human capital. Progressively network extensive leadership for client-focused e-markets. Interactively whiteb ilers for cost effective synergy.</p>-->
                     </div>
                 </div>
             </div>

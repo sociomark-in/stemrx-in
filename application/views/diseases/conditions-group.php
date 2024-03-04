@@ -36,7 +36,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="<?= base_url("condition/cerebral-palsy/cerebral-palsy-detail") ?>" class="text-center">
+							<a href="<?= base_url("condition/neural/cerebral-palsy") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
@@ -46,7 +46,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/neural/developmental-delay") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
@@ -56,7 +56,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/neural/alzheimers-disease") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
@@ -66,7 +66,7 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/neural/parkinsons-disease") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
@@ -76,13 +76,23 @@
 							</a>
 						</div>
 						<div class="col-2">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/neural/multiple-sclerosis") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Multiple sclerosis </h6>
+							</a>
+						</div>
+						<div class="col-2">
+							<a href="<?= base_url("condition/neural/neurogenetic-disorder") ?>" class="text-center">
+								<div class="card bg-white sp-item mb-2">
+									<div class="card-body">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									</div>
+								</div>
+								<h6 class="text-theme">Neurogenetic Disorder </h6>
 							</a>
 						</div>
 				</div>
