@@ -60,17 +60,29 @@ class DiseasesController extends CI_Controller
 						# code...
 						$this->load->load_view('diseases/condition/neural_new');
 						break;
-
-					default:
-						$this->load->load_view('diseases/conditions-details');
-						break;
-				}
-				break;
-			case 'cerebral-palsy':
-				switch ($condition) {
-					case 'cerebral-palsy-detail':
+					case 'cerebral-palsy':
 						# code...
-						$this->load->load_view('diseases/condition/cerebral-palsy-detail');
+						$this->load->load_view('diseases/condition/nerul/cerebral-palsy-detail');
+						break;
+					case 'developmental-delay':
+						# code...
+						$this->load->load_view('diseases/condition/nerul/developmental-delay');
+						break;
+					case 'alzheimers-disease':
+						# code...
+						$this->load->load_view('diseases/condition/nerul/alzheimers-disease');
+						break;
+					case 'parkinsons-disease':
+						# code...
+						$this->load->load_view('diseases/condition/nerul/parkinsons-disease');
+						break;
+					case 'multiple-sclerosis':
+						# code...
+						$this->load->load_view('diseases/condition/nerul/multiple-sclerosis');
+						break;
+					case 'neurogenetic-disorder':
+						# code...
+						$this->load->load_view('diseases/condition/nerul/neurogenetic-disorder');
 						break;
 
 					default:
