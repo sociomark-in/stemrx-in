@@ -25,7 +25,7 @@
 			<div class="col-lg-8">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#"><img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image"></a>
+						<a href="#"><img src="https://placehold.co/880x634" alt="Blog Image"></a>
 					</div>
 					<div class="blog-content">
 						<h2 class="blog-title h3"><a href="#">Efficiently monetize models transparent sources redefine distributed innovation</a></h2>
@@ -35,8 +35,7 @@
 				</div>
 				<div class="vs-blog blog-single">
 					<div class="blog-img vs-carousel" data-fade="true" data-arrows="true" data-slide-show="1" data-next-arrow="far fa-arrow-right" data-prev-arrow="far fa-arrow-left">
-						<a href="#"><img src="assets/img/blog/blog-s-1-2.jpg" alt="Blog Image"></a>
-						<a href="#"><img src="assets/img/blog/blog-s-1-3.jpg" alt="Blog Image"></a>
+						<a href="#"><img src="https://placehold.co/880x634" alt="Blog Image"></a>
 					</div>
 					<div class="blog-content">
 						<h2 class="blog-title h3"><a href="#">Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum</a></h2>
@@ -89,7 +88,7 @@
 
 							<div class="thumb-post">
 								<div class="media-img">
-									<a href="#"><img src="assets/img/widget/thumb-1-1.jpg" alt="Blog Image"></a>
+									<a href="#"><img src="https://placehold.co/90x80" alt="Blog Image"></a>
 								</div>
 								<div class="media-body ">
 									<h4 class="post-title"><a href="#">Extend market the driven results</a></h4>
@@ -99,7 +98,7 @@
 
 							<div class="thumb-post">
 								<div class="media-img">
-									<a href="#"><img src="assets/img/widget/thumb-1-2.jpg" alt="Blog Image"></a>
+									<a href="#"><img src="https://placehold.co/90x80" alt="Blog Image"></a>
 								</div>
 								<div class="media-body ">
 									<h4 class="post-title"><a href="#">The purpose lorem ipsum distract </a></h4>
@@ -109,7 +108,7 @@
 
 							<div class="thumb-post">
 								<div class="media-img">
-									<a href="#"><img src="assets/img/widget/thumb-1-3.jpg" alt="Blog Image"></a>
+									<a href="#"><img src="https://placehold.co/90x80" alt="Blog Image"></a>
 								</div>
 								<div class="media-body ">
 									<h4 class="post-title"><a href="#">Until recently, the prevailing view</a></h4>

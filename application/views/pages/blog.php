@@ -18,7 +18,7 @@
 			<div class="row">
 				<div class="col-lg-8">
 					<div class="vs-blog blog-single">
-						<div class="blog-img"><a href="<?= base_url() ?>en/blog-details"><img src="<?= base_url() ?>assets/img/blog/blog-s-1-1.jpg" alt="Blog Image"></a></div>
+						<div class="blog-img"><a href="<?= base_url() ?>en/blog-details"><img src="<?= base_url() ?>https://placehold.co/480x334" alt="Blog Image"></a></div>
 						<div class="blog-content">
 							<div class="blog-meta"><a href="#"><i class="fal fa-eye"></i>17 Views</a> <a href="#"><i class="fal fa-comments"></i>09 Comments</a> <a href="#"><i class="fal fa-eye"></i>10 Augest, 2023</a></div>
 							<h2 class="blog-title h3"><a href="<?= base_url() ?>en/blog-details">Efficiently monetize models transparent sources redefine distributed innovation</a></h2>
@@ -26,7 +26,7 @@
 						</div>
 					</div>
 					<div class="vs-blog blog-single">
-						<div class="blog-img vs-carousel" data-fade="true" data-arrows="true" data-slide-show="1" data-next-arrow="far fa-arrow-right" data-prev-arrow="far fa-arrow-left"><a href="<?= base_url() ?>en/blog-details"><img src="<?= base_url() ?>assets/img/blog/blog-s-1-2.jpg" alt="Blog Image"></a><a href="<?= base_url() ?>en/blog-details"><img src="<?= base_url() ?>assets/img/blog/blog-s-1-3.jpg" alt="Blog Image"></a></div>
+						<div class="blog-img vs-carousel" data-fade="true" data-arrows="true" data-slide-show="1" data-next-arrow="far fa-arrow-right" data-prev-arrow="far fa-arrow-left"><a href="<?= base_url() ?>en/blog-details"><img src="<?= base_url() ?>https://placehold.co/480x334" alt="Blog Image"></a><a href="<?= base_url() ?>en/blog-details"><img src="<?= base_url() ?>https://placehold.co/480x334" alt="Blog Image"></a></div>
 						<div class="blog-content">
 							<div class="blog-meta"><a href="#"><i class="fal fa-eye"></i>456 Views</a> <a href="#"><i class="fal fa-comments"></i>11 Comments</a> <a href="#"><i class="fal fa-eye"></i>25 December, 2023</a></div>
 							<h2 class="blog-title h3"><a href="<?= base_url() ?>en/blog-details">Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum</a></h2>
@@ -41,7 +41,7 @@
 						</div>
 					</div>
 					<div class="vs-blog blog-single">
-						<div class="blog-img"><a href="<?= base_url() ?>en/blog-details"><img src="<?= base_url() ?>assets/img/blog/blog-s-1-4.jpg" alt="Blog Image"></a><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
+						<div class="blog-img"><a href="<?= base_url() ?>en/blog-details"><img src="<?= base_url() ?>https://placehold.co/480x334" alt="Blog Image"></a><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
 						<div class="blog-content">
 							<div class="blog-meta"><a href="#"><i class="fal fa-eye"></i>576 Views</a> <a href="#"><i class="fal fa-comments"></i>05 Comments</a> <a href="#"><i class="fal fa-eye"></i>17 Augest, 2023</a></div>
 							<h2 class="blog-title h3"><a href="<?= base_url() ?>en/blog-details">In particular, the garbled words of lorem ipsum bear an unmistakable resemblance</a></h2>

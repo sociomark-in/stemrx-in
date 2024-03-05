@@ -198,7 +198,7 @@
 						<div class="col-auto">
 							<div class="brand-logo py-2"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/logo.png" alt="Logo" height="100"></a></div>
 						</div>
-						<div class="col text-md-center text-end">
+						<div class="col text-xl-center text-end">
 							<nav class="main-menu menu-style1 d-none d-xxl-block">
 								<ul>
 									<li class="menu-item-has-children"><a href="<?= base_url() ?>about">About Us</a>
