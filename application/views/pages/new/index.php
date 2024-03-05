@@ -574,7 +574,7 @@
 					</div>
 					<div class="col-lg-6 col-xl-6">
 						<div class="vs-middle-box d-md-flex text-center text-md-start bg-title">
-							<div class="media-icon mb-20 mb-md-0 mr-20"><img src="<?= base_url() ?>assets/img/icon/icon-1-1-001.png" alt="Icon"></div>
+							<div class="media-icon mb-20 mb-md-0 mr-20"><img src="<?= base_url() ?>assets/img/icons/icon-1-1-001.png" alt="Icon"></div>
 							<div class="media-body align-self-center"><span class="text-theme fs-xs">Professinal Consult</span>
 								<h4 class="text-title mb-0 text-white">Medicine Suggestion for diseases</h4>
 							</div>
