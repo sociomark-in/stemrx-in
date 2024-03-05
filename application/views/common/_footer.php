@@ -126,7 +126,7 @@
 							<ul class="menu">
 								<li><a href="javascript:void()">All Therapeutics</a></li>
 								<li><a href="javascript:void()">All Conditions</a></li>
-								<li><a href="<?= base_url() ?>gallery">Gallery</a></li>
+								<li><a href="javascript:void()">Gallery</a></li>
 								<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
 							</ul>
 						</div>
