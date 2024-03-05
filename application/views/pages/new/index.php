@@ -780,7 +780,7 @@
 		</div>
 	</section>
 
-	<section class="vs-faq-wrapper space-md-bottom">
+	<section class="vs-faq-wrapper space-md-bottom d-none">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="0.3s">
@@ -802,7 +802,7 @@
 							</div>
 						</div>
 						<div class="accordion-item">
-							<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for</button></h2>
+							<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</button></h2>
 							<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 								<div class="accordion-body">
 									<p>Professionally impact distributed data via value-added experiences. Proacti incentivize 24/365 applications whereas turnkey total linkage. whiteboard multifunctional channels with interoperable value.</p>
