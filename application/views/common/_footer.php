@@ -45,8 +45,8 @@
 						<h3 class="widget_title">Quick Links</h3>
 						<div class="menu-all-pages-container">
 							<ul class="menu">
-								<li><a href="<?= base_url() ?>therapeutics">All Therapeutics</a></li>
-								<li><a href="<?= base_url() ?>therapeutics">All Conditions</a></li>
+								<li><a href="javascript:void()">All Therapeutics</a></li>
+								<li><a href="javascript:void()">All Conditions</a></li>
 								<li><a href="<?= base_url() ?>gallery">Gallery</a></li>
 								<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
 							</ul>
@@ -124,8 +124,8 @@
 						<h3 class="widget_title">Quick Links</h3>
 						<div class="menu-all-pages-container">
 							<ul class="menu">
-								<li><a href="<?= base_url() ?>therapeutics">All Therapeutics</a></li>
-								<li><a href="<?= base_url() ?>therapeutics">All Conditions</a></li>
+								<li><a href="javascript:void()">All Therapeutics</a></li>
+								<li><a href="javascript:void()">All Conditions</a></li>
 								<li><a href="<?= base_url() ?>gallery">Gallery</a></li>
 								<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
 							</ul>
