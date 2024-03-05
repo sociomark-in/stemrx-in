@@ -61,7 +61,7 @@ $route['terms-condition'] = 'PagesController/terms_condition';
 $route['return-policy'] = 'PagesController/return_policy';
 $route['disclaimer'] = 'PagesController/disclaimer';
 
-$route['parent-testomonial'] = 'PagesController/parent_testmonial';
+$route['patient-testimonial'] = 'PagesController/parent_testmonial';
 
 $route['news'] = 'PagesController/news';
 

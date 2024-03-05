@@ -11,18 +11,18 @@ class DiseasesController extends CI_Controller
 	}
 	public function condition($group)
 	{
-		// echo "<pre>";
-		// print_r($this->diseases_group);
-		// echo "</pre>"; die;
 		switch ($group) {
 			case "neural":
-				$this->load->load_view('diseases/conditions-group', $this->data);
+				$this->load->load_view('diseases/neurological', $this->data);
 				break;
-			case "new-hope-clinic-group":
-				$this->load->load_view('diseases/new-hope-clinic-group', $this->data);
-				break;
+				// case "new-hope-clinic":
+				// 	$this->load->load_view('diseases/new-hope-clinic-group', $this->data);
+				// 	break;
 			case "developmental-problem":
 				$this->load->load_view('diseases/developmental-problem', $this->data);
+				break;
+			case "infertility":
+				$this->load->load_view('diseases/infertility', $this->data);
 				break;
 			case "couple-clinic":
 				$this->load->load_view('diseases/couple-clinic', $this->data);
@@ -47,7 +47,7 @@ class DiseasesController extends CI_Controller
 				break;
 
 			default:
-				$this->load->load_view('diseases/conditions-group');
+				redirect('');
 				break;
 		}
 	}
@@ -58,56 +58,52 @@ class DiseasesController extends CI_Controller
 				switch ($condition) {
 					case 'neural':
 						# code...
-						$this->load->load_view('diseases/condition/neural_new');
+						$this->load->load_view('diseases/condition/neural_new', $this->data);
 						break;
 					case 'cerebral-palsy':
 						# code...
-						$this->load->load_view('diseases/condition/nerul/cerebral-palsy-detail');
+						$this->load->load_view('diseases/condition/neural/cerebral-palsy-detail', $this->data);
 						break;
 					case 'developmental-delay':
 						# code...
-						$this->load->load_view('diseases/condition/nerul/developmental-delay');
+						$this->load->load_view('diseases/condition/neural/developmental-delay', $this->data);
 						break;
 					case 'alzheimers-disease':
 						# code...
-						$this->load->load_view('diseases/condition/nerul/alzheimers-disease');
+						$this->load->load_view('diseases/condition/neural/alzheimers-disease', $this->data);
 						break;
 					case 'parkinsons-disease':
 						# code...
-						$this->load->load_view('diseases/condition/nerul/parkinsons-disease');
+						$this->load->load_view('diseases/condition/neural/parkinsons-disease', $this->data);
 						break;
 					case 'multiple-sclerosis':
 						# code...
-						$this->load->load_view('diseases/condition/nerul/multiple-sclerosis');
+						$this->load->load_view('diseases/condition/neural/multiple-sclerosis', $this->data);
 						break;
 					case 'neurogenetic-disorder':
 						# code...
-						$this->load->load_view('diseases/condition/nerul/neurogenetic-disorder');
+						$this->load->load_view('diseases/condition/neural/neurogenetic-disorder', $this->data);
 						break;
 
 					default:
-						$this->load->load_view('diseases/conditions-details');
+						redirect('condition/neural');
 						break;
 				}
 				break;
 
-			case 'new-hope-clinic':
+			case 'infertility':
 				switch ($condition) {
-					case 'new-hope-clinic-detail':
+					case 'azoospermia':
 						# code...
-						$this->load->load_view('diseases/condition/new-hope-clinic-detail');
-						break;
-					case 'azoospermia-detail':
-						# code...
-						$this->load->load_view('diseases/condition/azoospermia-detail');
+						$this->load->load_view('diseases/condition/infertility/azoospermia-detail');
 						break;
 					case 'pcod-pcos':
 						# code...
-						$this->load->load_view('diseases/condition/pcod-detail');
+						$this->load->load_view('diseases/condition/infertility/pcod-detail');
 						break;
 
 					default:
-						$this->load->load_view('diseases/conditions-details');
+						redirect('condition/infertility');
 						break;
 				}
 				break;

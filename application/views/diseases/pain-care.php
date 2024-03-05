@@ -25,7 +25,7 @@
 		<div class="row justify-content-center">
 			<div class="col-xl-9 col-12">
 				<div class="row justify-content-center">
-				<div class="col-2">
+				<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
@@ -35,7 +35,7 @@
 								<h6 class="text-theme">Osteo Arthritis </h6>
 							</a>
 						</div>
-						<div class="col-2">
+						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
@@ -45,7 +45,7 @@
 								<h6 class="text-theme">Avasular Necrosis </h6>
 							</a>
 						</div>
-						<div class="col-2">
+						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
@@ -55,7 +55,7 @@
 								<h6 class="text-theme">Cervical Spondylitis</h6>
 							</a>
 						</div>
-						<div class="col-2">
+						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
@@ -65,7 +65,7 @@
 								<h6 class="text-theme">Back and Spine Issues</h6>
 							</a>
 						</div>
-						<div class="col-2">
+						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">

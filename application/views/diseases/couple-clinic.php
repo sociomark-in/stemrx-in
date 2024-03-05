@@ -25,66 +25,66 @@
 		<div class="row justify-content-center">
 			<div class="col-xl-9 col-12">
 				<div class="row justify-content-center">
-				<div class="col-2">
-							<a href="#" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cosmetic Gynecology" class="w-100">
-									</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cosmetic Gynecology" class="w-100">
 								</div>
-								<h6 class="text-theme">Cosmetic Gynecology</h6>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="#" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Vaginal rejuvenation" class="w-100">
-									</div>
+							</div>
+							<h6 class="text-theme">Cosmetic Gynecology</h6>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Vaginal rejuvenation" class="w-100">
 								</div>
-								<h6 class="text-theme">Vaginal rejuvenation</h6>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="#" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cell Preservation for Fertility" class="w-100">
-									</div>
+							</div>
+							<h6 class="text-theme">Vaginal rejuvenation</h6>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cell Preservation for Fertility" class="w-100">
 								</div>
-								<h6 class="text-theme">Cell Preservation for Fertility</h6>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="#" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Inflatable Penile Implant" class="w-100">
-									</div>
+							</div>
+							<h6 class="text-theme">Cell Preservation for Fertility</h6>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Inflatable Penile Implant" class="w-100">
 								</div>
-								<h6 class="text-theme">Inflatable Penile Implant</h6>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="#" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Erectile dysfuction" class="w-100">
-									</div>
+							</div>
+							<h6 class="text-theme">Inflatable Penile Implant</h6>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Erectile dysfuction" class="w-100">
 								</div>
-								<h6 class="text-theme">Erectile dysfuction</h6>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="#" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Vasectomy" class="w-100">
-									</div>
+							</div>
+							<h6 class="text-theme">Erectile dysfuction</h6>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="#" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Vasectomy" class="w-100">
 								</div>
-								<h6 class="text-theme">Vasectomy</h6>
-							</a>
-						</div>
+							</div>
+							<h6 class="text-theme">Vasectomy</h6>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

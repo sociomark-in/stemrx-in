@@ -4,12 +4,12 @@
 		<div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Azoospermia Details</h1>
+				<h1 class="breadcumb-title">Azoospermia Condition</h1>
 				<div class="breadcumb-menu-wrap">
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
-						<li><a href="index.html">Home</a></li>
-						<li class="active">Azoospermia Details</li>
+						<li><a href="<?= base_url() ?>">Home</a></li>
+						<li class="active">Azoospermia Condition</li>
 					</ul>
 				</div>
 			</div>

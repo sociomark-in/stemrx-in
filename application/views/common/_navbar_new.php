@@ -25,8 +25,8 @@
 						<li class="menu-item-has-children">
 							<a href="#">Our Patient Journey </a>
 							<ul class="sub-menu">
-								<li><a href="#">National</a></li>
-								<li><a href="#">International</a></li>
+								<li><a href="<?= base_url('patient-testimonial') ?>">National</a></li>
+								<li><a href="<?= base_url('patient-testimonial') ?>">International</a></li>
 							</ul>
 						</li>
 						<li><a href="#">Brochure </a></li>
@@ -36,57 +36,57 @@
 					<ul class="sub-menu">
 						<!--<li><a href="<?= base_url() ?>service">Conditions</a></li>-->
 						<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
-						<li><a href="<?= base_url() ?>condition/condition-group">Neural</a></li>
-						<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Clinic</a></li>
-						<li><a href="<?= base_url() ?>condition/new-hope-clinic-group">New Hope Clinic</a></li>
+						<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
+						<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a></li>
+						<!-- <li><a href="<?= base_url() ?>condition/new-hope-clinic">New Hope Clinic</a></li> -->
 						<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic (New Hope)</a></li>
-						<li><a href="<?= base_url() ?>condition/pain-care">Pain Clinic</a></li>
-						<li><a href="<?= base_url() ?>condition/eye-care">Eye Clinic</a></li>
+						<li><a href="<?= base_url() ?>condition/pain-care">Pain Care</a></li>
+						<li><a href="<?= base_url() ?>condition/eye-care">Eye Care</a></li>
 						<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a></li>
-						<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Dental Treatment</a></li>
+						<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a></li>
+						<li><a href="javascript:void()">Dental Treatment</a></li>
 						<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
-						<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Chromosomal Disorders</a></li>
-						<li><a href="<?= base_url() ?>condition/condition-group">Surgical Procedure</a></li>
+						<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
+						<li><a href="javascript:void()">Chromosomal Disorders</a></li>
+						<li><a href="javascript:void()">Surgical Procedure</a></li>
 					</ul>
 				</li>
 				<li class="menu-item-has-children">
 					<a href="#"><span class="has-new-label">Therapeutics </span></a>
 					<ul class="sub-menu">
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Hyperbaric Oxygen Therapy </a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Laser Therapy</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Aquatic Therapy</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Ozone Therap</a></li>
+						<li><a href="javascript:void()">Hyperbaric Oxygen Therapy </a></li>
+						<li><a href="javascript:void()">Laser Therapy</a></li>
+						<li><a href="javascript:void()">Aquatic Therapy</a></li>
+						<li><a href="javascript:void()">Ozone Therap</a></li>
 
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Detoxification Therapy</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Energy Therapy</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Very Intense Pressure Pulse (VIPP)</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Electromagnetic Field</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Brain Stimulation</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Stem Therapy</a></li>
+						<li><a href="javascript:void()">Detoxification Therapy</a></li>
+						<li><a href="javascript:void()">Energy Therapy</a></li>
+						<li><a href="javascript:void()">Very Intense Pressure Pulse (VIPP)</a></li>
+						<li><a href="javascript:void()">Electromagnetic Field</a></li>
+						<li><a href="javascript:void()">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
+						<li><a href="javascript:void()">Brain Stimulation</a></li>
+						<li><a href="javascript:void()">Stem Therapy</a></li>
 
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Faradic and Galvanic Stimulation</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Cell Regulation</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Non-Surgical Spinal Decompression Therapy</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Magnetic Resonance Therapy (MRT)</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Infrared Sauna</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Brain Retrainer</a></li>
+						<li><a href="javascript:void()">Faradic and Galvanic Stimulation</a></li>
+						<li><a href="javascript:void()">Cell Regulation</a></li>
+						<li><a href="javascript:void()">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
+						<li><a href="javascript:void()">Non-Surgical Spinal Decompression Therapy</a></li>
+						<li><a href="javascript:void()">Magnetic Resonance Therapy (MRT)</a></li>
+						<li><a href="javascript:void()">Infrared Sauna</a></li>
+						<li><a href="javascript:void()">Brain Retrainer</a></li>
 
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Trans Corneal Electrical Stimulation</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Cryotherapy</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Transcranial Optic Stimulation</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Robotic Gloves</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Treadmill with Motorized Exoskeleton</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">FMT- (Fecal Microbiota Transplant)</a></li>
-						<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Treadmill with Harness</a></li>
+						<li><a href="javascript:void()">Trans Corneal Electrical Stimulation</a></li>
+						<li><a href="javascript:void()">Cryotherapy</a></li>
+						<li><a href="javascript:void()">Transcranial Optic Stimulation</a></li>
+						<li><a href="javascript:void()">Robotic Gloves</a></li>
+						<li><a href="javascript:void()">Treadmill with Motorized Exoskeleton</a></li>
+						<li><a href="javascript:void()">FMT- (Fecal Microbiota Transplant)</a></li>
+						<li><a href="javascript:void()">Treadmill with Harness</a></li>
 					</ul>
 				</li>
 
 				<li><a href="<?= base_url('team-of-experts') ?>">Team of Experts</a></li>
-				<li><a href="<?= base_url('parent-testomonial') ?>">Patient Testimonial</a></li>
+				<li><a href="<?= base_url('patient-testimonial') ?>">Patient Testimonial</a></li>
 				<li class="menu-item-has-children">
 					<a href="#">In Media</a>
 					<ul class="sub-menu">
@@ -222,8 +222,8 @@
 											<li class="menu-item-has-children">
 												<a href="#">Our Patient Journey </a>
 												<ul class="sub-menu">
-													<li><a href="#">National</a></li>
-													<li><a href="#">International</a></li>
+													<li><a href="<?= base_url('patient-testimonial') ?>">National</a></li>
+													<li><a href="<?= base_url('patient-testimonial') ?>">International</a></li>
 												</ul>
 											</li>
 											<li><a href="#">Brochure </a></li>
@@ -233,19 +233,20 @@
 										<ul class="sub-menu">
 											<!--<li><a href="<?= base_url() ?>service">Conditions</a></li>-->
 											<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
-											<li><a href="<?= base_url() ?>condition/condition-group">Neural</a></li>
-											<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/new-hope-clinic-group">New Hope Clinic</a></li>
+											<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
+											<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a></li>
+											<li><a href="<?= base_url() ?>condition/infertility">Infertility</a></li>
+											<!-- <li><a href="<?= base_url() ?>condition/new-hope-clinic">New Hope Clinic</a></li> -->
 											<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic (New Hope)</a></li>
-											<li><a href="<?= base_url() ?>condition/pain-care">Pain Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/eye-care">Eye Clinic</a></li>
+											<li><a href="<?= base_url() ?>condition/pain-care">Pain Care</a></li>
+											<li><a href="<?= base_url() ?>condition/eye-care">Eye Care</a></li>
 											<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a></li>
-											<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Dental Treatment</a></li>
+											<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a></li>
+											<li><a href="javascript:void()">Dental Treatment</a></li>
 											<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Chromosomal Disorders</a></li>
-											<li><a href="<?= base_url() ?>condition/condition-group">Surgical Procedure</a></li>
+											<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
+											<li><a href="javascript:void()">Chromosomal Disorders</a></li>
+											<li><a href="javascript:void()">Surgical Procedure</a></li>
 										</ul>
 									</li>
 									<li class="menu-item-has-children mega-menu-wrap">
@@ -254,53 +255,53 @@
 											<li>
 												<!-- <a href="shop.html">Pagelist 1</a> -->
 												<ul>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Hyperbaric Oxygen Therapy </a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Laser Therapy</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Aquatic Therapy</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Ozone Therap</a></li>
+													<li><a href="javascript:void()">Hyperbaric Oxygen Therapy </a></li>
+													<li><a href="javascript:void()">Laser Therapy</a></li>
+													<li><a href="javascript:void()">Aquatic Therapy</a></li>
+													<li><a href="javascript:void()">Ozone Therap</a></li>
 												</ul>
 											</li>
 											<li>
 												<!-- <a href="#">Pagelist 2</a> -->
 												<ul>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Detoxification Therapy</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Energy Therapy</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Very Intense Pressure Pulse (VIPP)</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Electromagnetic Field</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Brain Stimulation</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Stem Therapy</a></li>
+													<li><a href="javascript:void()">Detoxification Therapy</a></li>
+													<li><a href="javascript:void()">Energy Therapy</a></li>
+													<li><a href="javascript:void()">Very Intense Pressure Pulse (VIPP)</a></li>
+													<li><a href="javascript:void()">Electromagnetic Field</a></li>
+													<li><a href="javascript:void()">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
+													<li><a href="javascript:void()">Brain Stimulation</a></li>
+													<li><a href="javascript:void()">Stem Therapy</a></li>
 												</ul>
 											</li>
 											<li>
 												<!-- <a href="#">Pagelist 3</a> -->
 												<ul>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Faradic and Galvanic Stimulation</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Cell Regulation</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Non-Surgical Spinal Decompression Therapy</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Magnetic Resonance Therapy (MRT)</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Infrared Sauna</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Brain Retrainer</a></li>
+													<li><a href="javascript:void()">Faradic and Galvanic Stimulation</a></li>
+													<li><a href="javascript:void()">Cell Regulation</a></li>
+													<li><a href="javascript:void()">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
+													<li><a href="javascript:void()">Non-Surgical Spinal Decompression Therapy</a></li>
+													<li><a href="javascript:void()">Magnetic Resonance Therapy (MRT)</a></li>
+													<li><a href="javascript:void()">Infrared Sauna</a></li>
+													<li><a href="javascript:void()">Brain Retrainer</a></li>
 												</ul>
 											</li>
 											<li>
 												<!-- <a href="#">Pagelist 4</a> -->
 												<ul>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Trans Corneal Electrical Stimulation</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Cryotherapy</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Transcranial Optic Stimulation</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Robotic Gloves</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Treadmill with Motorized Exoskeleton</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">FMT- (Fecal Microbiota Transplant)</a></li>
-													<li><a href="<?= base_url("therapeutics/therapy-single") ?>">Treadmill with Harness</a></li>
+													<li><a href="javascript:void()">Trans Corneal Electrical Stimulation</a></li>
+													<li><a href="javascript:void()">Cryotherapy</a></li>
+													<li><a href="javascript:void()">Transcranial Optic Stimulation</a></li>
+													<li><a href="javascript:void()">Robotic Gloves</a></li>
+													<li><a href="javascript:void()">Treadmill with Motorized Exoskeleton</a></li>
+													<li><a href="javascript:void()">FMT- (Fecal Microbiota Transplant)</a></li>
+													<li><a href="javascript:void()">Treadmill with Harness</a></li>
 												</ul>
 											</li>
 										</ul>
 									</li>
 
 									<li><a href="<?= base_url('team-of-experts') ?>">Team of Experts</a></li>
-									<li><a href="<?= base_url('parent-testomonial') ?>">Patient Testimonial</a></li>
+									<li><a href="<?= base_url('patient-testimonial') ?>">Patient Testimonial</a></li>
 									<li class="menu-item-has-children">
 										<a href="#">In Media</a>
 										<ul class="sub-menu">
@@ -322,7 +323,7 @@
 							<a href="<?= base_url() ?>" class="icon-btn style3 sideMenuToggler"><i class="far fa-bars"></i></a>
 						</div>
 						<div class="col-auto d-none-xxxl">
-							<div class="header-call phone-box d-flex align-items-center style2"><a href="tel:66925682596" class="box-icon"><i class="fas fa-phone-alt"></i></a>
+							<div class="header-call phone-box d-flex align-items-center style2"><a href="tel:9987274620" class="box-icon"><i class="fas fa-phone-alt"></i></a>
 								<div class="media-body"><span class="fs-xs text-title">Call Anytime</span>
 									<p class="h4 fw-bold lh-1 mb-0"><a href="tel:9987274620">+91 9987274620</a></p>
 								</div>
