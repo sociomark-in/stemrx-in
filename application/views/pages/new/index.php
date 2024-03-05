@@ -6,14 +6,14 @@
 				<!-- <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">We always put the</h1>
 				<h1 class="text-white ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style="left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">patients first</h1>
 				<p class="ls-l text-white ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
-				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; "><a href="<?= base_url() ?>en/service" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a></div> -->
+				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; "><a href="<?= base_url() ?>service" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a></div> -->
 			</div>
 			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;"><img src="<?= base_url() ?>assets/img/hero/pain-relif.jpeg" alt="pain-relif" class="ls-bg">
 				<!-- <div class="ls-slide" data-ls="duration: 13000; transition2d: 5;"><img src="<?= base_url() ?>assets/img/hero/h-bg-1-1-ph.jpg" alt="pain-relif" class="ls-bg"> -->
 				<!-- <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Best Treatment for</h1>
 				<h1 class="text-white ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style="left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">healthy life</h1>
 				<p class="ls-l text-white ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
-				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; "><a href="<?= base_url() ?>en/service" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a></div> -->
+				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; "><a href="<?= base_url() ?>service" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a></div> -->
 			</div>
 		</div>
 	</section>
@@ -45,9 +45,9 @@
 							<div class="media-icon"><i class="fas fa-phone"></i></div>
 							<div class="media-body">
 								<h3 class="media-title">CALL ANYTIME 24/7</h3>
-								<p class="media-text"><a href="<?= base_url() ?>en/tel:+919987274620">+91 99872 74620</a></p>
+								<p class="media-text"><a href="<?= base_url() ?>tel:+919987274620">+91 99872 74620</a></p>
 							</div>
-						</div><a href="<?= base_url() ?>en/about" class="vs-btn">Learn More</a>
+						</div><a href="<?= base_url() ?>about" class="vs-btn">Learn More</a>
 					</div>
 				</div>
 			</div>
@@ -72,9 +72,9 @@
 								<img src="<?= base_url('assets/img/icons/hair.png') ?>" alt="Hairfall" height="60">
 							</div>
 							<div class="sr-content">
-								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>en/service">Hairfall</a></h3>
+								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>service">Hairfall</a></h3>
 								<p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
-							</div><a href="<?= base_url() ?>en/service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+							</div><a href="<?= base_url() ?>service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
 						</div>
 					</div>
 					<div class="col-xl-4 mb-25">
@@ -82,9 +82,9 @@
 							<div class="sr-img"><img src="<?= base_url() ?>assets/img/service/sr-30-1.jpg" alt="Service Image" class="w-100"></div>
 							<div class="sr-icon"><img src="<?= base_url('assets/img/icons/abortion.png') ?>" alt="Hairfall" height="60"></div>
 							<div class="sr-content">
-								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>en/service">Infertility</a></h3>
+								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>service">Infertility</a></h3>
 								<p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
-							</div><a href="<?= base_url() ?>en/service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+							</div><a href="<?= base_url() ?>service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
 						</div>
 					</div>
 					<div class="col-xl-4 mb-25">
@@ -92,20 +92,12 @@
 							<div class="sr-img"><img src="<?= base_url() ?>assets/img/service/sr-30-3.jpg" alt="Service Image" class="w-100"></div>
 							<div class="sr-icon"><img src="<?= base_url('assets/img/icons/uterus.png') ?>" alt="Hairfall" height="60"></div>
 							<div class="sr-content">
-								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>en/service">Cosmatics Gynecology</a></h3>
+								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>service">Cosmatics Gynecology</a></h3>
 								<p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
-							</div><a href="<?= base_url() ?>en/service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+							</div><a href="<?= base_url() ?>service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
 						</div>
 					</div>
 				<?php endfor ?>
-
-			</div>
-			<div class="row">
-				<div class="col-12">
-					<div class="text-center">
-						<a href="" class="vs-btn">View More Treatments</a>
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -115,152 +107,147 @@
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 					<!-- <div class="section-title"><span class="h3 text-theme sec-subtitle">Advanced Treatments</span> -->
-						<h2 class="h1">Our Specialities</h2>
-						<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
-					</div>
+					<h2 class="h1">Our Specialities</h2>
+					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
 				</div>
 			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-9 col-md-11 col-12">
-					<div class="row g-4">
-						<div class="col-2">
-							<a href="<?= base_url() ?>condition/condition-group" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-lg-9 col-md-11 col-12">
+				<div class="row g-4">
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url() ?>condition/neural" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
 								</div>
-								<p>Neural</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>condition/developmental-problem" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Developmatal Clinic</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>condition/new-hope-clinic-group" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>New Hope Clinic</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>condition/couple-clinic" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Couple Clinic (New Hope)</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>condition/pain-care" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Pain Clinic</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>condition/eye-care" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Eye Clinic</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>condition/metabolic-diseases" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Metabolic Diseases</p>
-							</a>
-						</div>
-						<!--<div class="col-2">-->
-						<!--	<a href="<?= base_url() ?>" class="text-center">-->
-						<!--		<div class="card bg-white sp-item mb-2">-->
-						<!--			<div class="card-body">-->
-						<!--				<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">-->
-						<!--			</div>-->
-						<!--		</div>-->
-						<!--		<p>Cosmetic</p>-->
-						<!--	</a>-->
-						<!--</div>-->
-						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Dental Treatment</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>condition/regenerative-clinic" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Regenerative Clinic</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>condition/dermatology-care" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Dermatology</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Chromosomal disorders</p>
-							</a>
-						</div>
-						<div class="col-2">
-							<a href="<?= base_url() ?>" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
-								</div>
-								<p>Surgical Procedure</p>
-							</a>
-						</div>
-						<div class="col-12">
-							<div class="text-center">
-								<a href="" class="vs-btn">View More</a>
 							</div>
-						</div>
+							<p>Neurological Problems</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url() ?>condition/developmental-problem" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Developmental Problems</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url() ?>condition/infertility" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Infertility</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url() ?>condition/couple-clinic" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Couple Clinic (New Hope)</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url() ?>condition/pain-care" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Pain Care</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url() ?>condition/eye-care" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Eye Care</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url() ?>condition/metabolic-diseases" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Metabolic Diseases</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url("condition/cosmatic-diseases") ?>" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Cosmetic Treatments</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="javascript:void()" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Dental Treatment</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url() ?>condition/regenerative-clinic" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Regenerative Clinic</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="<?= base_url() ?>condition/dermatology-care" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Dermatology Care</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="javascript:void()" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Chromosomal disorders</p>
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<a href="javascript:void()" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
+							<p>Surgical Procedure</p>
+						</a>
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</section>
 
@@ -375,22 +362,22 @@
 				<div class="wow fadeInUp" data-wow-delay="0.3s">
 					<div class="row vs-carousel text-center" data-slide-show="5" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="3" data-xs-slide-show="1">
 						<div class="col-auto">
-							<div class="brand"><img src="<?= base_url() ?>assets/img/brand/brand-1-1.svg" alt="Brand Image"></div>
+							<div class="project-img"><a href="https://placehold.co/334x480" class=" popup-image"><img src="https://placehold.co/334x480" alt="Project Image" class="w-100"></a></div>
 						</div>
 						<div class="col-auto">
-							<div class="brand"><img src="<?= base_url() ?>assets/img/brand/brand-1-2.svg" alt="Brand Image"></div>
+							<div class="project-img"><a href="https://placehold.co/334x480" class=" popup-image"><img src="https://placehold.co/334x480" alt="Project Image" class="w-100"></a></div>
 						</div>
 						<div class="col-auto">
-							<div class="brand"><img src="<?= base_url() ?>assets/img/brand/brand-1-3.svg" alt="Brand Image"></div>
+							<div class="project-img"><a href="https://placehold.co/334x480" class=" popup-image"><img src="https://placehold.co/334x480" alt="Project Image" class="w-100"></a></div>
 						</div>
 						<div class="col-auto">
-							<div class="brand"><img src="<?= base_url() ?>assets/img/brand/brand-1-4.svg" alt="Brand Image"></div>
+							<div class="project-img"><a href="https://placehold.co/334x480" class=" popup-image"><img src="https://placehold.co/334x480" alt="Project Image" class="w-100"></a></div>
 						</div>
 						<div class="col-auto">
-							<div class="brand"><img src="<?= base_url() ?>assets/img/brand/brand-1-5.svg" alt="Brand Image"></div>
+							<div class="project-img"><a href="https://placehold.co/334x480" class=" popup-image"><img src="https://placehold.co/334x480" alt="Project Image" class="w-100"></a></div>
 						</div>
 						<div class="col-auto">
-							<div class="brand"><img src="<?= base_url() ?>assets/img/brand/brand-1-6.svg" alt="Brand Image"></div>
+							<div class="project-img"><a href="https://placehold.co/334x480" class=" popup-image"><img src="https://placehold.co/334x480" alt="Project Image" class="w-100"></a></div>
 						</div>
 					</div>
 				</div>
@@ -475,13 +462,13 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="text-center">
-					<a href="" class="vs-btn">View All Doctors</a>
+					<a href="<?= base_url("team-of-experts") ?>" class="vs-btn">View All Doctors</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="vs-shop-wrapper space-top space-md-bottom">
+	<section class="vs-shop-wrapper space-top space-md-bottom d-none">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 wow fadeIn" data-wow-delay="0.3s">
@@ -613,30 +600,52 @@
 						</div>
 					</div>
 				</div>
-				<div class="row justify-content-center">
+				<div class="row justify-content-center mb-lg-5 mb-3">
 					<div class="col-xl-10">
 						<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="2">
-							<div class="col-xl-6">
-								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
+							<div class="col-md-6">
+								<a href="https://www.youtube.com/watch?v=6_M1otolKZw&feature=youtu.be" class="ratio-16x9" target="_blank">
 									<div class="youtube-testimonial">
-										<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg"  alt="">
+										<img src="<?= base_url() ?>assets/img/testimonial/6_M1otolKZw-HD.jpg" alt="">
 									</div>
 								</a>
 							</div>
-							<div class="col-xl-6">
-								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
+							<div class="col-md-6">
+								<a href="https://www.youtube.com/watch?v=l6ybS_3Dmuo&feature=youtu.be" class="ratio-16x9" target="_blank">
 									<div class="youtube-testimonial">
-										<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg"  alt="">
+										<img src="<?= base_url() ?>assets/img/testimonial/l6ybS_3Dmuo-HD.jpg" alt="">
 									</div>
 								</a>
 							</div>
-							<div class="col-xl-6">
-								<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
+							<div class="col-md-6">
+								<a href="https://www.youtube.com/watch?v=6qcuCAI8Dn0&feature=youtu.be" class="ratio-16x9" target="_blank">
 									<div class="youtube-testimonial">
-										<img src="<?= base_url() ?>assets/img/testimonial/thumbnail-1.jpg"  alt="">
+										<img src="<?= base_url() ?>assets/img/testimonial/6qcuCAI8Dn0-HD.jpg" alt="">
 									</div>
 								</a>
 							</div>
+							<div class="col-md-6">
+								<a href="https://www.youtube.com/watch?v=lBfJqyGyxEI&feature=youtu.be" class="ratio-16x9" target="_blank">
+									<div class="youtube-testimonial">
+										<img src="<?= base_url() ?>assets/img/testimonial/lBfJqyGyxEI-HD.jpg" alt="">
+									</div>
+								</a>
+							</div>
+
+							<div class="col-md-6">
+								<a href="https://www.youtube.com/watch?v=2r3KGm11u5I&feature=youtu.be" class="ratio-16x9" target="_blank">
+									<div class="youtube-testimonial">
+										<img src="<?= base_url() ?>assets/img/testimonial/2r3KGm11u5I-HD.jpg" alt="">
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="text-center">
+							<a href="<?= base_url("parents-testimonials") ?>" class="vs-btn">View All Testimonials</a>
 						</div>
 					</div>
 				</div>
@@ -657,53 +666,53 @@
 			<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3" data-lg-slide-show="2">
 				<div class="col-xl-4">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="<?= base_url() ?>assets/img/blog/b-1-1.jpg" alt="Blog Image" class="w-100">
+						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
 							<div class="blog-date">
 								<div class="day">22</div>Jan 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>en/blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>en/blog"><i class="fal fa-user"></i>David Smith</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>en/blog">Services enable process is tobe after user-centric schemas now</a></h3><a href="<?= base_url() ?>en/blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>David Smith</a></div>
+							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">Services enable process is tobe after user-centric schemas now</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="<?= base_url() ?>assets/img/blog/b-1-2.jpg" alt="Blog Image" class="w-100">
+						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
 							<div class="blog-date">
 								<div class="day">23</div>Mar 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>en/blog"><i class="far fa-folder"></i>Therapy</a> <a href="<?= base_url() ?>en/blog"><i class="fal fa-user"></i>Vivi Marian</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>en/blog">From its medieval origins to the digital era everything there</a></h3><a href="<?= base_url() ?>en/blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Therapy</a> <a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>Vivi Marian</a></div>
+							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">From its medieval origins to the digital era everything there</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="<?= base_url() ?>assets/img/blog/b-1-3.jpg" alt="Blog Image" class="w-100">
+						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
 							<div class="blog-date">
 								<div class="day">28</div>Dec 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>en/blog"><i class="far fa-folder"></i>Acupressure </a><a href="<?= base_url() ?>en/blog"><i class="fal fa-user"></i>Moris John</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>en/blog">Latin derived from Cicero's 1st-century BC text De Fini now with</a></h3><a href="<?= base_url() ?>en/blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Acupressure </a><a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>Moris John</a></div>
+							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">Latin derived from Cicero's 1st-century BC text De Fini now with</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="<?= base_url() ?>assets/img/blog/b-1-4.jpg" alt="Blog Image" class="w-100">
+						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
 							<div class="blog-date">
 								<div class="day">22</div>Jan 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>en/blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>en/blog"><i class="fal fa-user"></i>David Smith</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>en/blog">Creation timelines the standard lorem ipsum passage vary</a></h3><a href="<?= base_url() ?>en/blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>David Smith</a></div>
+							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">Creation timelines the standard lorem ipsum passage vary</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -724,53 +733,53 @@
 			<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3" data-lg-slide-show="2">
 				<div class="col-xl-4">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="<?= base_url() ?>assets/img/blog/b-1-1.jpg" alt="Blog Image" class="w-100">
+						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
 							<div class="blog-date">
 								<div class="day">22</div>Jan 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>en/blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>en/blog"><i class="fal fa-user"></i>David Smith</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>en/blog">Services enable process is tobe after user-centric schemas now</a></h3><a href="<?= base_url() ?>en/blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>David Smith</a></div>
+							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">Services enable process is tobe after user-centric schemas now</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="<?= base_url() ?>assets/img/blog/b-1-2.jpg" alt="Blog Image" class="w-100">
+						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
 							<div class="blog-date">
 								<div class="day">23</div>Mar 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>en/blog"><i class="far fa-folder"></i>Therapy</a> <a href="<?= base_url() ?>en/blog"><i class="fal fa-user"></i>Vivi Marian</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>en/blog">From its medieval origins to the digital era everything there</a></h3><a href="<?= base_url() ?>en/blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Therapy</a> <a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>Vivi Marian</a></div>
+							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">From its medieval origins to the digital era everything there</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="<?= base_url() ?>assets/img/blog/b-1-3.jpg" alt="Blog Image" class="w-100">
+						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
 							<div class="blog-date">
 								<div class="day">28</div>Dec 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>en/blog"><i class="far fa-folder"></i>Acupressure </a><a href="<?= base_url() ?>en/blog"><i class="fal fa-user"></i>Moris John</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>en/blog">Latin derived from Cicero's 1st-century BC text De Fini now with</a></h3><a href="<?= base_url() ?>en/blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Acupressure </a><a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>Moris John</a></div>
+							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">Latin derived from Cicero's 1st-century BC text De Fini now with</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="<?= base_url() ?>assets/img/blog/b-1-4.jpg" alt="Blog Image" class="w-100">
+						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
 							<div class="blog-date">
 								<div class="day">22</div>Jan 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>en/blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>en/blog"><i class="fal fa-user"></i>David Smith</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>en/blog">Creation timelines the standard lorem ipsum passage vary</a></h3><a href="<?= base_url() ?>en/blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>David Smith</a></div>
+							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">Creation timelines the standard lorem ipsum passage vary</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
