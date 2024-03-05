@@ -25,7 +25,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 align-self-center">
-					<div class="about-content mb-2"><span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span>
+					<!-- <div class="about-content mb-2"><span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
 						<div class="row">
 							<div class="col-xl-10">
 								<h2 class="h1 mb-3">You Carry <span class="text-theme">Your Own Repairing Kits...</span> in Your Body!</h2>
@@ -465,7 +465,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-					<div class="section-title"><span class="h3 text-theme sec-subtitle">StemRx Shop</span>
+					<!-- <div class="section-title"><span class="h3 text-theme sec-subtitle">StemRx Shop</span> -->
 						<h2 class="h1">Our Rejuvenating Kits</h2>
 						<!--</div>-->
 					</div>
