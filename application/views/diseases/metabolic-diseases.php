@@ -26,7 +26,7 @@
 			<div class="col-xl-9 col-12">
 				<div class="row justify-content-center">
 				<div class="col-lg-2 col-md-4 col-6">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/metabolic-diseases/diabetes") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Diabetes" class="w-100">
@@ -36,7 +36,7 @@
 							</a>
 						</div>
 						<div class="col-lg-2 col-md-4 col-6">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/metabolic-diseases/obesity") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="OBESITY" class="w-100">
@@ -46,7 +46,7 @@
 							</a>
 						</div>
 						<div class="col-lg-2 col-md-4 col-6">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/metabolic-diseases/hyperlipidemia") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="HYPERLIPIDEMIA" class="w-100">

@@ -91,6 +91,7 @@
 					<a href="#">In Media</a>
 					<ul class="sub-menu">
 						<li><a href="<?= base_url("news") ?>">News </a></li>
+						<li><a href="<?= base_url("pr-articles") ?>">PR Article</a></li>
 						<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 						<li><a href="">Our Webinar </a></li>
 						<li><a href="<?= base_url("blogs") ?>">Blog</a></li>
@@ -306,6 +307,7 @@
 										<a href="#">In Media</a>
 										<ul class="sub-menu">
 											<li><a href="<?= base_url("news") ?>">News </a></li>
+											<li><a href="<?= base_url("pr-articles") ?>">PR Article</a></li>
 											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 											<li><a href="">Our Webinar </a></li>
 											<li><a href="<?= base_url("blogs") ?>">Blog</a></li>
@@ -323,9 +325,9 @@
 							<a href="<?= base_url() ?>" class="icon-btn style3 sideMenuToggler"><i class="far fa-bars"></i></a>
 						</div>
 						<div class="col-auto d-none-xxxl">
-							<div class="header-call phone-box d-flex align-items-center style2"><a href="tel:9987274620" class="box-icon"><i class="fas fa-phone-alt"></i></a>
+							<div class="header-call phone-box d-flex align-items-center style2"><a href="tel:9979976862" class="box-icon"><i class="fas fa-phone-alt"></i></a>
 								<div class="media-body"><span class="fs-xs text-title">Call Anytime</span>
-									<p class="h4 fw-bold lh-1 mb-0"><a href="tel:9987274620">+91 9987274620</a></p>
+									<p class="h4 fw-bold lh-1 mb-0"><a href="tel:9979976862">+91 9979976862</a></p>
 								</div>
 							</div>
 						</div>

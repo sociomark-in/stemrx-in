@@ -108,6 +108,24 @@ class DiseasesController extends CI_Controller
 				}
 				break;
 
+			case 'metabolic-diseases':
+				switch ($condition) {
+					case 'diabetes':
+						$this->load->load_view('diseases/condition/metabolic/diabetes');
+						break;
+					case 'hyperlipidemia':
+						$this->load->load_view('diseases/condition/metabolic/hyperlipidemia');
+						break;
+					case 'obesity':
+						$this->load->load_view('diseases/condition/metabolic/obesity');
+						break;
+
+					default:
+						redirect("condition/metabolic-diseases");
+						break;
+				}
+				break;
+
 			default:
 				switch ($condition) {
 					case 'neural':

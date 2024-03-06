@@ -329,7 +329,7 @@
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#">
+						<a href="https://www.freepressjournal.in/mumbai/navi-mumbai-nmmc-holds-dental-check-up-for-sanitation-workers" target="_blank">
 							<picture>
 								<source srcset="<?= base_url() ?>assets/img/articles/navi-mumbai-1024x576.webp" type="image/webp">
 								<img src="<?= base_url() ?>assets/img/articles/navi-mumbai-1024x576.jpg" alt="" class="w-100">
@@ -337,14 +337,15 @@
 						</a>
 					</div>
 					<div class="blog-content my-3 px-3">
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<p class="text-dark">Navi Mumbai: NMMC Holds Dental Check-up For Sanitation Workers</p>
+						<a href="https://www.freepressjournal.in/mumbai/navi-mumbai-nmmc-holds-dental-check-up-for-sanitation-workers" target="_blank" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#">
+						<a href="https://news.abplive.com/lifestyle/world-arthritis-day-2023-how-yoga-and-exercise-can-help-deal-with-this-1632035" target="_blank">
 							<picture>
 								<source srcset="<?= base_url() ?>assets/img/articles/abp-live.webp" type="image/webp">
 								<img src="<?= base_url() ?>assets/img/articles/abp-live.jpg" alt="" class="w-100">
@@ -352,14 +353,15 @@
 						</a>
 					</div>
 					<div class="blog-content my-3 px-3">
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<p class="text-dark">World Arthritis Day 2023: How Yoga And Exercise Can Help Deal With This</p>
+						<a href="https://news.abplive.com/lifestyle/world-arthritis-day-2023-how-yoga-and-exercise-can-help-deal-with-this-1632035" target="_blank" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#">
+						<a href="https://onlinemediacafe.com/health/the-gift-of-the-organ-is-equivalent-to-the-gift-of-life/" target="_blank">
 							<picture>
 								<source srcset="<?= base_url() ?>assets/img/articles/onlinemediacafe.webp" type="image/webp">
 								<img src="<?= base_url() ?>assets/img/articles/onlinemediacafe.jpg" alt="" class="w-100">
@@ -367,14 +369,15 @@
 						</a>
 					</div>
 					<div class="blog-content my-3 px-3">
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<p class="text-dark">The Gift of the Organ is Equivalent to the Gift of Life</p>
+						<a href="https://onlinemediacafe.com/health/the-gift-of-the-organ-is-equivalent-to-the-gift-of-life/" target="_blank" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#">
+						<a href="https://www.onlymyhealth.com/does-exercising-before-bed-affect-sleep-1697188502" target="_blank">
 							<picture>
 								<source srcset="<?= base_url() ?>assets/img/articles/only-myhealth2-1024x576.webp" type="image/webp">
 								<img src="<?= base_url() ?>assets/img/articles/only-myhealth2-1024x576.jpg" alt="" class="w-100">
@@ -382,14 +385,15 @@
 						</a>
 					</div>
 					<div class="blog-content my-3 px-3">
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<p class="text-dark">The Nightly Workout Dilemma: Expert Answers If Exercising Before Bed Affects Your Sleep</p>
+						<a href="https://www.onlymyhealth.com/does-exercising-before-bed-affect-sleep-1697188502" target="_blank" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#">
+						<a href="https://www.onlymyhealth.com/foods-to-eat-and-avoid-for-psoriasis-patients-1697014895" target="_blank">
 							<picture>
 								<source srcset="<?= base_url() ?>assets/img/articles/only-myhealth-1024x576.webp" type="image/webp">
 								<img src="<?= base_url() ?>assets/img/articles/only-myhealth-1024x576.jpg" alt="" class="w-100">
@@ -397,14 +401,15 @@
 						</a>
 					</div>
 					<div class="blog-content my-3 px-3">
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<p class="text-dark">Psoriasis Diet Recommendations: Expert Lists Foods To Eat And Avoid</p>
+						<a href="https://www.onlymyhealth.com/foods-to-eat-and-avoid-for-psoriasis-patients-1697014895" target="_blank" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#">
+						<a href="https://news.abplive.com/lifestyle/did-you-know-breast-cancer-can-occur-in-men-as-well-know-all-about-it-1633868" target="_blank">
 							<picture>
 								<source srcset="<?= base_url() ?>assets/img/articles/breast-cancer.webp" type="image/webp">
 								<img src="<?= base_url() ?>assets/img/articles/breast-cancer.jpg" alt="" class="w-100">
@@ -412,14 +417,15 @@
 						</a>
 					</div>
 					<div class="blog-content my-3 px-3">
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<p class="text-dark">Breast Cancer Awareness Month 2023: Did You Know Breast Cancer Can Occur In Men As Well? See What Experts Say</p>
+						<a href="https://news.abplive.com/lifestyle/did-you-know-breast-cancer-can-occur-in-men-as-well-know-all-about-it-1633868" target="_blank" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#">
+						<a href="https://www.onlymyhealth.com/how-does-binge-watching-affect-your-sleep-1697694039" target="_blank">
 							<picture>
 								<source srcset="<?= base_url() ?>assets/img/articles/Main-binge-watching-1024x576.webp" type="image/webp">
 								<img src="<?= base_url() ?>assets/img/articles/Main-binge-watching-1024x576.jpg" alt="" class="w-100">
@@ -427,7 +433,8 @@
 						</a>
 					</div>
 					<div class="blog-content my-3 px-3">
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<p class="text-dark">The Sleep Dilemma: Expert Explains Impact Of Binge-Watching On Your Sleep</p>
+						<a href="https://www.onlymyhealth.com/how-does-binge-watching-affect-your-sleep-1697694039" target="_blank" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -435,7 +442,7 @@
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#">
+						<a href="https://newsmantra.in/title-the-gift-of-the-organ-is-equivalent-to-the-gift-of-life/" target="_blank">
 							<picture>
 								<source srcset="<?= base_url() ?>assets/img/articles/dr-mahajan-article.webp" type="image/webp">
 								<img src="<?= base_url() ?>assets/img/articles/dr-mahajan-article.jpg" alt="" class="w-100">
@@ -443,7 +450,24 @@
 						</a>
 					</div>
 					<div class="blog-content my-3 px-3">
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<p class="text-dark">The Gift of the Organ is Equivalent to the Gift of Life</p>
+						<a href="https://newsmantra.in/title-the-gift-of-the-organ-is-equivalent-to-the-gift-of-life/" target="_blank" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-single">
+					<div class="blog-img">
+						<a href="https://www.apnnews.com/revolutionizing-pediatric-care-regenerative-medicine-offers-hope-for-muscular-dystrophy-patients/" target="_blank">
+							<picture>
+								<source srcset="<?= base_url() ?>assets/img/articles/dr-mahajan-article.webp" type="image/webp">
+								<img src="<?= base_url() ?>assets/img/articles/dr-mahajan-article.jpg" alt="" class="w-100">
+							</picture>
+						</a>
+					</div>
+					<div class="blog-content my-3 px-3">
+						<p class="text-dark">Revolutionizing Pediatric Care: Regenerative Medicine Offers Hope for Muscular Dystrophy Patients</p>
+						<a href="https://www.apnnews.com/revolutionizing-pediatric-care-regenerative-medicine-offers-hope-for-muscular-dystrophy-patients/" target="_blank" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -492,31 +516,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-4 col-lg-6 col-12 mb-3">
-				<div class="vs-blog blog-single">
-					<div class="blog-img">
-						<a href="#">
-							<picture>
-								<source srcset="<?= base_url() ?>assets/img/articles/dr-mahajan-article.webp" type="image/webp">
-								<img src="<?= base_url() ?>assets/img/articles/dr-mahajan-article.jpg" alt="" class="w-100">
-							</picture>
-						</a>
-					</div>
-					<div class="blog-content my-3 px-3">
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>
-			
-			
-
-			
-			
-			
-			
-			
-			
-			
 		</div>
 	</div>
 </section>

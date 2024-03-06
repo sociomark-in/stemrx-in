@@ -38,7 +38,7 @@
 							<div class="media-icon"><i class="fas fa-phone"></i></div>
 							<div class="media-body">
 								<h3 class="media-title">CALL ANYTIME 24/7</h3>
-								<p class="media-text"><a href="<?= base_url() ?>tel:+919987274620">+91 99872 74620</a></p>
+								<p class="media-text"><a href="<?= base_url() ?>tel:+919979976862">+91 997 997 6862</a></p>
 							</div>
 						</div><a href="<?= base_url() ?>about" class="vs-btn">Learn More</a>
 					</div>
@@ -46,56 +46,8 @@
 			</div>
 		</div>
 	</section>
-	<section class="vs-service-wrapper space-md">
-		<div class="container">
-			<div class="row text-center justify-content-center">
-				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-					<!--<div class="section-title"><span class="h3 text-theme sec-subtitle">Latest Jobs</span>-->
-					<h2 class="h1">Our Services</h2>
-					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
-					<!--</div>-->
-				</div>
-			</div>
-			<div class="row vs-carousel wow fadeIn" data-wow-delay="0.3s" data-slide-show="3">
-				<?php for ($i = 0; $i < 4; $i++) : ?>
-					<div class="col-xl-4 mb-25">
-						<div class="service-box">
-							<div class="sr-img"><img src="<?= base_url() ?>assets/img/service/sr-30-2.jpg" alt="Service Image" class="w-100"></div>
-							<div class="sr-icon">
-								<img src="<?= base_url('assets/img/icons/hair.png') ?>" alt="Hairfall" height="60">
-							</div>
-							<div class="sr-content">
-								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>service">Hairfall</a></h3>
-								<p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
-							</div><a href="<?= base_url() ?>service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
-						</div>
-					</div>
-					<div class="col-xl-4 mb-25">
-						<div class="service-box">
-							<div class="sr-img"><img src="<?= base_url() ?>assets/img/service/sr-30-1.jpg" alt="Service Image" class="w-100"></div>
-							<div class="sr-icon"><img src="<?= base_url('assets/img/icons/abortion.png') ?>" alt="Hairfall" height="60"></div>
-							<div class="sr-content">
-								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>service">Infertility</a></h3>
-								<p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
-							</div><a href="<?= base_url() ?>service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
-						</div>
-					</div>
-					<div class="col-xl-4 mb-25">
-						<div class="service-box">
-							<div class="sr-img"><img src="<?= base_url() ?>assets/img/service/sr-30-3.jpg" alt="Service Image" class="w-100"></div>
-							<div class="sr-icon"><img src="<?= base_url('assets/img/icons/uterus.png') ?>" alt="Hairfall" height="60"></div>
-							<div class="sr-content">
-								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>service">Cosmatics Gynecology</a></h3>
-								<p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
-							</div><a href="<?= base_url() ?>service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
-						</div>
-					</div>
-				<?php endfor ?>
-			</div>
-		</div>
-	</section>
-
-	<section class="vs-specialities-wrapper space-top space-md-bottom">
+	
+	<section class="vs-specialities-wrapper space-top">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -243,6 +195,56 @@
 		</div>
 		</div>
 	</section>
+
+	<section class="vs-service-wrapper space-md">
+		<div class="container">
+			<div class="row text-center justify-content-center">
+				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+					<!--<div class="section-title"><span class="h3 text-theme sec-subtitle">Latest Jobs</span>-->
+					<h2 class="h1">Our Services</h2>
+					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+					<!--</div>-->
+				</div>
+			</div>
+			<div class="row vs-carousel wow fadeIn" data-wow-delay="0.3s" data-slide-show="3">
+				<?php for ($i = 0; $i < 4; $i++) : ?>
+					<div class="col-xl-4 mb-25">
+						<div class="service-box">
+							<div class="sr-img"><img src="<?= base_url() ?>assets/img/service/sr-30-2.jpg" alt="Service Image" class="w-100"></div>
+							<div class="sr-icon">
+								<img src="<?= base_url('assets/img/icons/hair.png') ?>" alt="Hairfall" height="60">
+							</div>
+							<div class="sr-content">
+								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>service">Hairfall</a></h3>
+								<p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
+							</div><a href="<?= base_url() ?>service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+						</div>
+					</div>
+					<div class="col-xl-4 mb-25">
+						<div class="service-box">
+							<div class="sr-img"><img src="<?= base_url() ?>assets/img/service/sr-30-1.jpg" alt="Service Image" class="w-100"></div>
+							<div class="sr-icon"><img src="<?= base_url('assets/img/icons/abortion.png') ?>" alt="Hairfall" height="60"></div>
+							<div class="sr-content">
+								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>service">Infertility</a></h3>
+								<p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
+							</div><a href="<?= base_url() ?>service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+						</div>
+					</div>
+					<div class="col-xl-4 mb-25">
+						<div class="service-box">
+							<div class="sr-img"><img src="<?= base_url() ?>assets/img/service/sr-30-3.jpg" alt="Service Image" class="w-100"></div>
+							<div class="sr-icon"><img src="<?= base_url('assets/img/icons/uterus.png') ?>" alt="Hairfall" height="60"></div>
+							<div class="sr-content">
+								<h3 class="h4"><a class="text-reset" href="<?= base_url() ?>service">Cosmatics Gynecology</a></h3>
+								<p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
+							</div><a href="<?= base_url() ?>service" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+						</div>
+					</div>
+				<?php endfor ?>
+			</div>
+		</div>
+	</section>
+
 
 	<section class="vs-skill-wrapper">
 		<div class="container">
