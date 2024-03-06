@@ -29,7 +29,9 @@
 						<a href="<?= base_url("condition/neural/cerebral-palsy") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									<div class="p-3">
+										<img src="<?= base_url("assets/img/icons/diseases/neurogenic-disorder.png") ?>" alt="Condition Single" class="w-100">
+									</div>
 								</div>
 							</div>
 							<h6 class="text-theme">Cerebral Palsy</h6>
@@ -39,7 +41,9 @@
 						<a href="<?= base_url("condition/neural/developmental-delay") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									<div class="p-3">
+										<img src="<?= base_url("assets/img/icons/diseases/autism.png") ?>" alt="Condition Single" class="w-100">
+									</div>
 								</div>
 							</div>
 							<h6 class="text-theme">Developmental Delay</h6>
@@ -49,7 +53,9 @@
 						<a href="<?= base_url("condition/neural/alzheimers-disease") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									<div class="p-3">
+										<img src="<?= base_url("assets/img/icons/diseases/alzheimer.png") ?>" alt="Condition Single" class="w-100">
+									</div>
 								</div>
 							</div>
 							<h6 class="text-theme">Alzheimer's disease </h6>
@@ -59,7 +65,9 @@
 						<a href="<?= base_url("condition/neural/parkinsons-disease") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									<div class="p-3">
+										<img src="<?= base_url("assets/img/icons/diseases/parkinsons.png") ?>" alt="Condition Single" class="w-100">
+									</div>
 								</div>
 							</div>
 							<h6 class="text-theme">Parkinson's disease </h6>
@@ -69,7 +77,9 @@
 						<a href="<?= base_url("condition/neural/multiple-sclerosis") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									<div class="p-3">
+										<img src="<?= base_url("assets/img/icons/diseases/sclerosis.png") ?>" alt="Condition Single" class="w-100">
+									</div>
 								</div>
 							</div>
 							<h6 class="text-theme">Multiple sclerosis </h6>
@@ -79,7 +89,9 @@
 						<a href="<?= base_url("condition/neural/neurogenetic-disorder") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Condition Single" class="w-100">
+									<div class="p-3">
+										<img src="<?= base_url("assets/img/icons/diseases/neurogenic-disorder.png") ?>" alt="Condition Single" class="w-100">
+									</div>
 								</div>
 							</div>
 							<h6 class="text-theme">Neurogenetic Disorder </h6>
