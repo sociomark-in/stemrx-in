@@ -59,13 +59,13 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="">
-						<h2>Revolutionizing Diabetes Care: StemRx Hospital Pioneers Groundbreaking Treatments!</h2>
+						<h2 class="h1">Revolutionizing Diabetes Care: StemRx Hospital Pioneers Groundbreaking Treatments!</h2>
 						<p class="fs-md mb-4 pb-2">
 							<strong class="text-title">Diabetes Mellitus</strong> is a chronic metabolic disorder characterized by hyperglycemia, resulting from defects in insulin secretion, insulin action, or both. Insulin, produced by pancreatic beta cells, facilitates glucose uptake by tissues, regulating blood glucose levels. In type 1 diabetes, pancreatic beta cells are destroyed by autoimmune processes, leading to absolute insulin deficiency. Type 2 diabetes involves insulin resistance in peripheral tissues and impaired insulin secretion. Both types result in inadequate glucose uptake, causing hyperglycemia. The pathophysiology of diabetes involves complex interplay among genetic, environmental, and lifestyle factors. Chronic hyperglycemia contributes to microvascular and macrovascular complications, including nephropathy, retinopathy, neuropathy, and cardiovascular diseases.
 						</p>
 					</div>
 					<div class="">
-						<h3>Symptoms</h3>
+						<h2>Symptoms</h2>
 						<p>
 							Here are the key symptoms of diabetes:
 						</p>
@@ -120,9 +120,55 @@
 							</li>
 						</ul>
 					</div>
+					<div class="">
+						<h2>Common Fears and Concerns</h2>
+						<ul class="row">
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Fear of complications:</h6>
+									<p>Individuals with diabetes often fear the long-term complications such as nerve damage, kidney disease, and vision problems.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Hypoglycemia:</h6>
+									<p>The fear of low blood sugar episodes, which can lead to dizziness, confusion, and even unconsciousness, is a common concern among diabetics.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Managing blood sugar levels:</h6>
+									<p> Many individuals with diabetes worry about becoming dependent on medication to manage their condition, with concerns about side effects and long-term impacts.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Lifestyle limitations:</h6>
+									<p>Fear of having to restrict or alter lifestyle habits such as diet and exercise due to diabetes management requirements is prevalent.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Social stigma:</h6>
+									<p> Some people with diabetes fear judgment or discrimination from others due to misconceptions about the condition, leading to social anxiety and isolation.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Financial strain:</h6>
+									<p>Managing diabetes can be costly due to expenses associated with medications, supplies, and healthcare services, leading to concerns about financial stability.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Fear of the unknown:</h6>
+									<p>Uncertainty about the future progression of the disease and its potential impact on overall health and quality of life can cause anxiety and distress.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
 		</div>
 	</section>
 
@@ -193,10 +239,10 @@
 						<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
 						<h2 class="h1 mb-3">We're Here For You</h2>
 						<div class="row">
-							<div class="col-xl-10 mb-md-2 pb-md-1">
+							<div class="col-xl-10 pb-md-1">
 								<p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p>
 							</div>
-							<div class="col-md-6 col-lg-5 col-xl-4">
+							<!-- <div class="col-md-6 col-lg-5 col-xl-4">
 								<ul class="vs-list list-unstyled text-title">
 									<li>99% success rate</li>
 									<li>100% Confidential</li>
@@ -209,8 +255,73 @@
 									<li>Expert surveillance agents</li>
 									<li>Over 50 years experience</li>
 								</ul>
+							</div> -->
+							<div class="col-12">
+								<div class="vs-accordion accordion accordion-style2" id="vs-faq-accordion">
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Cutting-edge Stem Cell Therapy</button></h2>
+										<div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion" style="">
+											<div class="accordion-body">
+												<p>
+													StemRx Hospital specializes in innovative stem cell therapy for diabetes management. This therapy holds promise for regenerating damaged pancreatic cells, potentially reducing or eliminating the need for insulin injections and improving overall blood sugar control.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Personalized Treatment Plans</button></h2>
+										<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													The hospital prides itself on creating personalized treatment plans for each patient. By considering individual factors such as age, lifestyle, and severity of diabetes, they tailor interventions to maximize effectiveness and long-term outcomes.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Multidisciplinary Team Approach</button></h2>
+										<div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													StemRx employs a multidisciplinary team of experts including endocrinologists, stem cell researchers, nutritionists, and psychologists. This collaborative approach ensures comprehensive care addressing not only the physical aspects of diabetes but also the psychological and lifestyle factors that impact it.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">State-of-the-Art Facilities</button></h2>
+										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													StemRx Hospital is equipped with state-of-the-art facilities, including advanced diagnostic tools and treatment equipment. This enables the hospital to deliver cutting-edge therapies and ensure the highest standards of care for patients with diabetes.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Holistic Approach to Wellness</button></h2>
+										<div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													StemRx recognizes the importance of holistic wellness in diabetes management. In addition to medical interventions, they offer complementary therapies such as acupuncture, and stress management techniques to support overall well-being.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Track Record of Success</button></h2>
+										<div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													StemRx Hospital has a track record of success in helping patients achieve significant improvements in their diabetes management. Testimonials and success stories from satisfied patients attest to the effectiveness of their approach.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
 						<div class="d-none">
 							<ul class="offer-counter counter-list list-unstyled" data-offer-date="01/01/2024">
 								<li>
