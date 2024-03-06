@@ -67,6 +67,11 @@ class PagesController extends CI_Controller
 		$this->data['page']['title'] = "";
 		$this->load->load_view('pages/news', $this->data);
 	}
+	public function articles()
+	{
+		$this->data['page']['title'] = "";
+		$this->load->load_view('pages/pr-articles', $this->data);
+	}
 	public function services()
 	{
 		$this->data['page']['title'] = "";

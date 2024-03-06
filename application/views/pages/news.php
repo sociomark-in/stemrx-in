@@ -26,12 +26,12 @@
 				<div class="col-lg-4">
 					<div class="vs-blog blog-single">
 						<div class="blog-img">
-							<a href="#"><img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image"></a>
+							<a href="#"><img src="https://placehold.co/480x334" alt="Blog Image"></a>
 						</div>
 					</div>
 					<div class="vs-blog blog-single d-none">
 						<div class="blog-img vs-carousel" data-fade="true" data-arrows="true" data-slide-show="1" data-next-arrow="far fa-arrow-right" data-prev-arrow="far fa-arrow-left">
-							<a href="#"><img src="assets/img/blog/blog-s-1-2.jpg" alt="Blog Image"></a>
+							<a href="#"><img src="https://placehold.co/480x334" alt="Blog Image"></a>
 						</div>
 						<div class="blog-content">
 							<h2 class="blog-title h3"><a href="#">Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum</a></h2>

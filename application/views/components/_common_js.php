@@ -1,8 +1,7 @@
 <!--==============================
         All Js File
     ============================== -->
-<!-- Jquery -->
-<script src="<?= base_url() ?>assets/js/vendor/jquery-3.6.0.min.js"></script>
+
 <!-- Slick Slider -->
 <script src="<?= base_url() ?>assets/js/slick.min.js"></script>
 <!-- <script src="<?= base_url() ?>assets/js/app.min.js"></script> -->
@@ -38,4 +37,14 @@
 			includedLanguages: 'ar,fr,en'
 		}, 'google_translate_element');
 	}
+
+	$('.lang-select').on("click", () => {
+		var theLang = $(this).attr('data-lang');
+		$('.goog-te-combo').val(theLang);
+
+		//alert($(this).attr('href'));
+		window.location = $(this).attr('href');
+		// location.reload();
+
+	});
 </script>

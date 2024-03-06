@@ -30,6 +30,8 @@
 <!-- <link rel="stylesheet" href="<?= base_url() ?>assets/css/app.min.css"> -->
 <!-- Fontawesome Icon -->
 <link rel="stylesheet" href="<?= base_url() ?>assets/css/fontawesome.min.css">
+<!-- Flag Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.0/css/flag-icons.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- Layerslider -->
 <link rel="stylesheet" href="<?= base_url() ?>assets/css/layerslider.min.css">
 <!-- jQuery DatePicker -->
@@ -43,5 +45,9 @@
 <!-- Theme Custom CSS -->
 <link rel="stylesheet" href="<?= base_url() ?>assets/css/theme.min.css">
 <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.min.css">
+
+<!-- Jquery -->
+<script src="<?= base_url() ?>assets/js/vendor/jquery-3.6.0.min.js"></script>
+
  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
 <title>StemRx Hospitals - New Layout </title>

@@ -64,6 +64,7 @@ $route['disclaimer'] = 'PagesController/disclaimer';
 $route['patient-testimonial'] = 'PagesController/parent_testmonial';
 
 $route['news'] = 'PagesController/news';
+$route['pr-articles'] = 'PagesController/articles';
 
 
 $route['media/(:any)'] = 'PagesController/media/$1';
