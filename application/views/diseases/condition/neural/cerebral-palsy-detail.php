@@ -24,7 +24,12 @@
                 <div class="col-12">
                     <div class="service-content mb-30">
                         <div class="vs-surface wow" data-wow-delay="0.3s">
-                            <img src="<?= base_url("assets/") ?>img/service/cerebral-palsy.jpg" alt="Service Image" class="w-100">
+                            <picture>
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/cerebral-palsy_1200x600.jpg" type="image/jpg">
+								<source srcset="" type="image/webp">
+								<source srcset="" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/cerebral-palsy_800x800.jpg" alt="Service Image" class="w-100">
+							</picture>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-xl-11 col-xxl-10 ">
