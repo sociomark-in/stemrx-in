@@ -15,35 +15,6 @@
 	<div class="form-box">
 		<div class="row">
 			<?php if (!is_array($fields)) : ?>
-				<!-- <div class="col-lg-6 form-group">
-					<select class="form-select style3">
-						<option hidden="" disabled="disabled" selected="selected">Select Condition</option>
-						<option>Neural</option>
-						<option>Developmental Clinic</option>
-						<option>New Hope Clinic</option>
-						<option>Couple Clinic (New Hope)</option>
-						<option>Pain Clinic</option>
-						<option>Eye Clinic</option>
-						<option>Metabolic Diseases</option>
-						<option>Cosmetic</option>
-						<option>Dental Treatment</option>
-						<option>Regenerative Clinic</option>
-						<option>Dermatology</option>
-						<option>Chromosomal Disorders</option>
-						<option>Surgical Procedure</option>
-					</select>
-				</div>
-				<div class="col-lg-6 form-group">
-					<select class="form-select style3">
-						<option hidden disabled="disabled" selected="selected">
-							Choose Doctor
-						</option>
-						<option>Aerospace Medicine</option>
-						<option>Bariatric Surgery</option>
-						<option>Infectious Diseases</option>
-						<option>Laboratory Medicine</option>
-					</select>
-				</div> -->
 				<div class="col-12 form-group">
 					<input type="text" class="form-control style3" placeholder="Your Name" />
 					<i class="fal small fa-user"></i>
