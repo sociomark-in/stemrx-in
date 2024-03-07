@@ -94,7 +94,7 @@
 						<li><a href="<?= base_url("pr-articles") ?>">PR Article</a></li>
 						<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 						<li><a href="">Our Webinar </a></li>
-						<li><a href="<?= base_url("blogs") ?>">Blog</a></li>
+						<li><a href="javascript:void()">Blog</a></li>
 						<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 					</ul>
 				</li>
@@ -309,8 +309,8 @@
 											<li><a href="<?= base_url("news") ?>">News </a></li>
 											<li><a href="<?= base_url("pr-articles") ?>">PR Article</a></li>
 											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
-											<li><a href="">Our Webinar </a></li>
-											<li><a href="<?= base_url("blogs") ?>">Blog</a></li>
+											<li><a href="javascript:void()">Our Webinar </a></li>
+											<li><a href="javascript:void()">Blogs</a></li>
 											<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 										</ul>
 									</li>
