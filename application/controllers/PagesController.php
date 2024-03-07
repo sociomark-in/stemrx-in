@@ -25,82 +25,114 @@ class PagesController extends CI_Controller
 
 	public function index()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => APP_NAME
+		];
 		$this->load->load_view('pages/new/index', $this->data);
 	}
 
 	public function blogs()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Blogs" . " - " . APP_NAME
+		];
 		$this->load->load_view('blogs/blogs', $this->data);
 	}
 	public function about()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "About StemRx" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/about', $this->data);
 	}
 	public function contact()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Contact Us" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/contact', $this->data);
 	}
 	public function gallery()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Gallery" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/gallery', $this->data);
 	}
 	public function parent_testmonial()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Testimonials" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/parent-testmonial', $this->data);
 	}
 	public function appointment()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 	}
 	public function projects()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 	}
 	public function news()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/news', $this->data);
 	}
 	public function articles()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/pr-articles', $this->data);
 	}
 	public function services()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/service', $this->data);
 	}
 	public function service_detail()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/service-details', $this->data);
 	}
 	public function service_single($service)
 	{
 		switch ($service) {
 			case 'cosmetic-gynecology':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('treatments/cosmatic-gynac', $this->data);
 				break;
 			case 'infertility':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('treatments/infertility', $this->data);
 				break;
 
 			case 'hairfall':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('treatments/hairfall', $this->data);
 				break;
 
 			default:
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('pages/service-details', $this->data);
 				break;
 		}
@@ -109,16 +141,22 @@ class PagesController extends CI_Controller
 	{
 		switch ($media) {
 			case 'instagram-media':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('media/instagram-media', $this->data);
 				break;
 			case 'youtube-media':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('media/youtube-media', $this->data);
 				break;
 
 			default:
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('pages/service-details', $this->data);
 				break;
 		}
@@ -127,23 +165,33 @@ class PagesController extends CI_Controller
 	{
 		switch ($center) {
 			case 'navi-mumbai':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('centers/navi-mumbai', $this->data);
 				break;
 			case 'hyderabad':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('centers/hyderabad', $this->data);
 				break;
 			case 'nepal':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('centers/nepal', $this->data);
 				break;
 			case 'maldives':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('centers/maldives', $this->data);
 				break;
 			default:
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('pages/service-details', $this->data);
 				break;
 		}
@@ -152,108 +200,156 @@ class PagesController extends CI_Controller
 	{
 		switch ($condition) {
 			case 'advanced-pain-management':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/advanced-pain-management', $this->data);
 				break;
 			case 'orthopedic-conditions':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/orthopedic-conditions', $this->data);
 				break;
 			case 'auto-immune-diseases':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/auto-immune-diseases', $this->data);
 				break;
 			case 'neurological-diseases':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/neurological-diseases', $this->data);
 				break;
 			case 'infertility':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/infertility', $this->data);
 				break;
 			case 'advanced-pain-management':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/advanced-pain-management', $this->data);
 				break;
 			case 'metabolic-diseases':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/metabolic-diseases', $this->data);
 				break;
 			case 'eye-conditions':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/eye-conditions', $this->data);
 				break;
 			case 'dentistry':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/dentistry', $this->data);
 				break;
 			case 'respiratory-diseases':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/respiratory-diseases', $this->data);
 				break;
 			case 'breast-cancer':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/breast-cancer', $this->data);
 				break;
 			case 'chronic-kidney-disease':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/chronic-kidney-disease', $this->data);
 				break;
 			case 'cosmetic-conditions':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/cosmetic-conditions', $this->data);
 				break;
 			case 'gastrointestinal-diseases':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/gastrointestinal-diseases', $this->data);
 				break;
 			case 'genetic-disorders':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/genetic-disorders', $this->data);
 				break;
 			case 'orphan-diseases':
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('condition/orphan-diseases', $this->data);
 				break;
 			default:
-				$this->data['page']['title'] = "";
+				$this->data['page'] = [
+					'title' => "Diabetes" . " - " . APP_NAME
+				];
 				$this->load->load_view('pages/service-details');
 				break;
 		}
 	}
 	public function teams()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/teams');
 	}
 	public function shop()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/shop');
 	}
 	public function privacy_policy()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('footer/privacy_policy');
 	}
 	public function terms_condition()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('footer/terms_condition');
 	}
 	public function disclaimer()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('footer/disclaimer');
 	}
 	public function return_policy()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('footer/return_policy');
 	}
 	public function shop_details()
 	{
-		$this->data['page']['title'] = "";
+		$this->data['page'] = [
+			'title' => "Diabetes" . " - " . APP_NAME
+		];
 		$this->load->load_view('pages/shop-detail');
 	}
 	public function page($url)
