@@ -22,43 +22,125 @@
 <section class="vs-blog-wrapper space-top space-md-bottom">
 	<div class="container">
 		<div class="row">
-			<?php for ($i = 0; $i < 5; $i++) : ?>
-				<div class="col-lg-4">
-					<div class="vs-blog blog-single">
-						<div class="blog-img">
-							<a href="#"><img src="https://placehold.co/480x334" alt="Blog Image"></a>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-21-08-2023.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-21-08-2023.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">21</div> Aug 2023
 						</div>
 					</div>
-					<div class="vs-blog blog-single d-none">
-						<div class="blog-img vs-carousel" data-fade="true" data-arrows="true" data-slide-show="1" data-next-arrow="far fa-arrow-right" data-prev-arrow="far fa-arrow-left">
-							<a href="#"><img src="https://placehold.co/480x334" alt="Blog Image"></a>
-						</div>
-						<div class="blog-content">
-							<h2 class="blog-title h3"><a href="#">Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum</a></h2>
-							<p>Conveniently whiteboard team building architectures without sticky partnerships. Energistically redefine emerging paradigms after resource sucking bandwidth. Dramatically supply transparent expertise whereas market-driven testingtodo procedures. Professionally visualize client-centric services via inexpensive models.</p>
-							<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-8">
 					<div class="blog-content">
-						<h2 class="blog-title h3"><a href="#">Efficiently monetize models transparent sources redefine distributed innovation</a></h2>
-						<p>Conveniently whiteboard team building architectures without sticky partnerships. Energistically redefine emerging paradigms after resource sucking bandwidth. Dramatically supply transparent expertise whereas market-driven testingtodo procedures. Professionally visualize client-centric services via inexpensive models.</p>
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Unraveling the Consequences of Post-COVID Lung Fibrosis: Treatment Advances and StemRx Bioscience Solution</h3><a href="https://saamtv.esakal.com/lifestyle/post-covid-increased-lung-fibrosis-problem-how-to-take-care-kkd99" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 					</div>
-
 				</div>
-			<?php endfor ?>
-		</div>
+			</div>
 		<div class="row">
-			<div class="col-lg-12">
-				<div class="vs-pagination pb-30">
-					<ul>
-						<li><a href="#" class="active">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#"><i class="fas fa-angle-right"></i></a></li>
-					</ul>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-21-08-2023.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-21-08-2023.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">21</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Unraveling the Consequences of Post-COVID Lung Fibrosis: Treatment Advances and StemRx Bioscience Solution</h3>
+						<a href="https://marathi.webdunia.com/article/marathi-health-article/the-problem-of-post-covid-pulmonary-fibrosis-123081800042_1.html" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-21-08-2023-001.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-21-08-2023-001.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">21</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Unraveling the Consequences of Post-COVID Lung Fibrosis: Treatment Advances and StemRx Bioscience Solution</h3><a href="https://www.mymahanagar.com/lifestyle/post-covid-lungs-fibrosis-problem/633433/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-18-08-2023.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-18-08-2023.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">18</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Unraveling the Consequences of Post-COVID Lung Fibrosis: Treatment Advances and StemRx Bioscience Solution</h3><a href="https://medgatetoday.com/unraveling-the-consequences-of-post-covid-lung-fibrosis-treatment-advances-and-stemrx-bioscience-solution/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-09-08-2023.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-09-08-2023.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">09</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Migraine: Pandora's Box Pen Truth – Unveiling A New Treatment Protocol With Cell Therapy</h3><a href="https://up18news.com/migraine-pandoras-box-pen-truth-unveiling-a-new-treatment-protocol-with-cell-therapy/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+					<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-09-08-2023-001.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-09-08-2023-001.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">09</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Advancing Cognitive Clarity and Mental Agility through Cutting-Edge Cell Therapy</h3><a href="https://www.tv9marathi.com/health/what-is-brain-fog-symptoms-and-precaution-mental-health-latest-marathi-health-news-996173.html" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+					<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-09-08-2023-002.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-09-08-2023-002.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">09</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Pioneering Treatment Offers Hope for Diabetes Type 2 Patients</h3><a href="https://zeenews.india.com/marathi/health/what-is-cell-base-therapy-see-how-it-is-beneficial-for-diabetic-patients/735771" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
 				</div>
 			</div>
 		</div>
