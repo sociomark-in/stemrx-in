@@ -22,12 +22,158 @@
 <section class="vs-blog-wrapper space-top space-md-bottom">
 	<div class="container">
 		<div class="row">
+			<!-- September news -->
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-card">
 					<div class="blog-img">
 						<picture>
-							<source srcset="<?= base_url() ?>assets/img/news/news-21-08-2023.webp" type="image/webp">
-							<img src="<?= base_url() ?>assets/img/news/news-21-08-2023.jpg" alt="Blog Image" class="w-100">
+							<source srcset="<?= base_url() ?>assets/img/news/sep/news-20-09-2023-000.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/sep/news-20-09-2023-000.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">20</div> Sep 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Ankylosing Spondylitis: Here Are Some Current Treatment Options Available</h3>
+						<a href="https://www.onlymyhealth.com/current-treatment-options-for-ankylosing-spondylitis-1695021589" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/sep/news-18-09-2023-000.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/sep/news-18-09-2023-000.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">18</div> Sep 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base"> PCOS Awareness Month 2023: Common Signs, Symptoms To Look Out For</h3>
+						<a href="https://www.republicworld.com/health/pcos-awareness-month-2023-common-signs-symptoms-to-look-out-for-articleshow/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/sep/news-13-09-2023-000.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/sep/news-13-09-2023-000.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">13</div> Sep 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base"> Revolutionizing PCOD and PCOS Treatment: The Promise of Regenerative Medicine</h3>
+						<a href="https://www.thehealthsite.com/diseases-conditions/pcos/revolutionizing-pcod-and-pcos-treatment-the-promise-of-regenerative-medicine-1009115/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/sep/news-07-09-2023-000.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/sep/news-07-09-2023-000.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">7</div> Sep 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base"> Revolutionizing PCOD and PCOS Treatment: The Promise of Regenerative Medicine</h3>
+						<a href="https://zeenews.india.com/marathi/health/how-is-regenerative-medicine-treatment-beneficial-for-pcod-and-pcos/743656" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- August news -->
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-25-08-2023-001.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-25-08-2023-001.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">25</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Fogging Of The Brain Or Brain Fog: How StemRx Helps Combat Mental Fatigue</h3>
+						<a href="https://www.thehealthsite.com/diseases-conditions/mental-health/fogging-of-the-brain-or-brain-fog-how-stemrx-helps-combat-mental-fatigue-1003792/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-25-08-2023-000.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-25-08-2023-000.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">25</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Million-Dollar Therapies</h3>
+						<a href="https://www.deccanchronicle.com/lifestyle/health-and-wellbeing/240823/million-dollar-therapies.html" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-24-08-2023-000.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-24-08-2023-000.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">24</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">What is stemrx therapy benefits of stem for diabetes treatment</h3>
+						<a href="https://www.thehealthsite.com/hindi/diseases-conditions/what-is-stemrx-therapy-benefits-of-stemr-for-diabetes-treatment-in-hindi-1003247/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-23-08-2023-000.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-23-08-2023-000.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">23</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Navi Mumbai: NMMC Holds Dental Check-up For Sanitation Workers (For Your Information)</h3>
+						<a href="https://www.freepressjournal.in/mumbai/navi-mumbai-nmmc-holds-dental-check-up-for-sanitation-workers" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-21-08-2023-003.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-21-08-2023-003.jpg" alt="Blog Image" class="w-100">
 						</picture>
 						<div class="blog-date">
 							<div class="day">21</div> Aug 2023
@@ -35,11 +181,29 @@
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
-						<h3 class="blog-title h5 font-body lh-base">Unraveling the Consequences of Post-COVID Lung Fibrosis: Treatment Advances and StemRx Bioscience Solution</h3><a href="https://saamtv.esakal.com/lifestyle/post-covid-increased-lung-fibrosis-problem-how-to-take-care-kkd99" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+						<h3 class="blog-title h5 font-body lh-base">Benefits of StemRx treatment for Diabetes patients</h3>
+						<a href="https://www.hindustantimes.com/lifestyle/health/benefits-of-stemrx-treatment-for-diabetes-patients-101692455802692.html" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
-		<div class="row">
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/news-21-08-2023-002.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/news-21-08-2023-002.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">21</div> Aug 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Unraveling the Consequences of Post-COVID Lung Fibrosis: Treatment Advances and StemRx Bioscience Solution</h3>
+						<a href="https://marathi.webdunia.com/article/marathi-health-article/the-problem-of-post-covid-pulmonary-fibrosis-123081800042_1.html#google_vignette" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-card">
 					<div class="blog-img">
@@ -112,7 +276,7 @@
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-card">
 					<div class="blog-img">
-					<picture>
+						<picture>
 							<source srcset="<?= base_url() ?>assets/img/news/news-09-08-2023-001.webp" type="image/webp">
 							<img src="<?= base_url() ?>assets/img/news/news-09-08-2023-001.jpg" alt="Blog Image" class="w-100">
 						</picture>
@@ -129,7 +293,7 @@
 			<div class="col-xl-4 col-lg-6 col-12 mb-3">
 				<div class="vs-blog blog-card">
 					<div class="blog-img">
-					<picture>
+						<picture>
 							<source srcset="<?= base_url() ?>assets/img/news/news-09-08-2023-002.webp" type="image/webp">
 							<img src="<?= base_url() ?>assets/img/news/news-09-08-2023-002.jpg" alt="Blog Image" class="w-100">
 						</picture>
