@@ -26,50 +26,50 @@
 			<div class="col-xl-9 col-12">
 				<div class="row justify-content-center">
 				<div class="col-lg-2 col-md-4 col-6">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/pain-care/osteoarthritis") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cosmetic Gynecology" class="w-100">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Osteo Arthritis" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Osteo Arthritis </h6>
 							</a>
 						</div>
 						<div class="col-lg-2 col-md-4 col-6">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/pain-care/avascular-necrosis") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Vaginal rejuvenation" class="w-100">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Avasular Necrosis" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Avasular Necrosis </h6>
 							</a>
 						</div>
 						<div class="col-lg-2 col-md-4 col-6">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/pain-care/cervical-spondylitis") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cell Preservation for Fertility" class="w-100">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cervical Spondylitis" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Cervical Spondylitis</h6>
 							</a>
 						</div>
 						<div class="col-lg-2 col-md-4 col-6">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/pain-care/osteoarthritis") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Inflatable Penile Implant" class="w-100">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Back and Spine Issues" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Back and Spine Issues</h6>
 							</a>
 						</div>
 						<div class="col-lg-2 col-md-4 col-6">
-							<a href="#" class="text-center">
+							<a href="<?= base_url("condition/pain-care/migraine") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Erectile dysfuction" class="w-100">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Migrain" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Migrain </h6>
