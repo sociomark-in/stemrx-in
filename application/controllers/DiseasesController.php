@@ -183,6 +183,39 @@ class DiseasesController extends CI_Controller
 				}
 				break;
 
+			case 'pain-care':
+				switch ($condition) {
+					case 'migraine':
+						$this->data['page'] = [
+							'title' => "Migraine" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/pain-care/migraine', $this->data);
+						break;
+					case 'cervical-spondylitis':
+						$this->data['page'] = [
+							'title' => "Cervical spondylitis" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/pain-care/cervical-spondylitis', $this->data);
+						break;
+					case 'osteoarthritis':
+						$this->data['page'] = [
+							'title' => "Osteoarthritis" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/pain-care/osteoarthritis', $this->data);
+						break;
+					case 'avascular-necrosis':
+						$this->data['page'] = [
+							'title' => "Avascular necrosis" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/pain-care/avascular-necrosis', $this->data);
+						break;
+
+					default:
+						redirect("condition/metabolic-diseases");
+						break;
+				}
+				break;
+
 			default:
 				switch ($condition) {
 					case 'neural':
