@@ -26,27 +26,27 @@
 				</div>
 				<div class="col-lg-6 align-self-center">
 					<!-- <div class="about-content mb-2"><span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
-						<div class="row">
-							<div class="col-xl-10">
-								<h2 class="h1 mb-3">You Carry <span class="text-theme">Your Own Repairing Kits...</span> in Your Body!</h2>
-							</div>
-							<div class="col-xl-10">
-								<p class="mb-4">Dr. Pradeep V. Mahajan is an acclaimed professional emerging at the horizon of transformational healthcare for the masses by conceptualizing, inventing, creating and contributing by effective & innovative technologies in this noble profession. This has been pioneered through regenerative medicine and developing cellular therapy techniques for mass welfare where conventional methods have had their limitations.</p>
-							</div>
+					<div class="row">
+						<div class="col-xl-10">
+							<h2 class="h1 mb-3">You Carry <span class="text-theme">Your Own Repairing Kits...</span> in Your Body!</h2>
 						</div>
-						<div class="media-style1">
-							<div class="media-icon"><i class="fas fa-phone"></i></div>
-							<div class="media-body">
-								<h3 class="media-title">CALL ANYTIME 24/7</h3>
-								<p class="media-text"><a href="<?= base_url() ?>tel:+919979976862">+91 997 997 6862</a></p>
-							</div>
-						</div><a href="<?= base_url() ?>about" class="vs-btn">Learn More</a>
+						<div class="col-xl-10">
+							<p class="mb-4">Dr. Pradeep V. Mahajan is an acclaimed professional emerging at the horizon of transformational healthcare for the masses by conceptualizing, inventing, creating and contributing by effective & innovative technologies in this noble profession. This has been pioneered through regenerative medicine and developing cellular therapy techniques for mass welfare where conventional methods have had their limitations.</p>
+						</div>
 					</div>
+					<div class="media-style1">
+						<div class="media-icon"><i class="fas fa-phone"></i></div>
+						<div class="media-body">
+							<h3 class="media-title">CALL ANYTIME 24/7</h3>
+							<p class="media-text"><a href="<?= base_url() ?>tel:+919979976862">+91 997 997 6862</a></p>
+						</div>
+					</div><a href="<?= base_url() ?>about" class="vs-btn">Learn More</a>
 				</div>
 			</div>
 		</div>
+		</div>
 	</section>
-	
+
 	<section class="vs-specialities-wrapper space-top">
 		<div class="container">
 			<div class="row text-center justify-content-center">
@@ -145,6 +145,7 @@
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url() ?>assets/img/icons/diseases/dental.png" alt="Speciality" class="w-100">
+
 								</div>
 							</div>
 							<p>Dental Treatment</p>
@@ -183,7 +184,7 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="javascript:void()" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
+								<div class="card-body p-5">
 									<img src="<?= base_url() ?>assets/img/icons/diseases/surgical-procedure.png" alt="Speciality" class="w-100">
 								</div>
 							</div>
@@ -468,97 +469,97 @@
 			<div class="row justify-content-center">
 				<div class="col-12 wow fadeIn" data-wow-delay="0.3s">
 					<!-- <div class="section-title"><span class="h3 text-theme sec-subtitle">StemRx Shop</span> -->
-						<h2 class="h1">Our Rejuvenating Kits</h2>
-						<!--</div>-->
-					</div>
+					<h2 class="h1">Our Rejuvenating Kits</h2>
+					<!--</div>-->
 				</div>
-				<div class="shop-grid-area">
-					<div class="row mb-3">
-						<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
-							<div class="vs-product-box product-grid">
-								<div class="product-img">
-									<img src="assets/img/product/p-1-1.jpg" class="w-100" alt="Product Image">
-									<div class="actions-btn">
-										<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
-										<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
-										<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
-									</div>
-								</div>
-								<div class="product-content">
-									<div class="rating-wrap">
-										<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-									</div>
-									<h4 class="product-title h5"><a href="shop-details.html">Ibuprofen</a></h4>
-									<span class="price">$99.00</span>
+			</div>
+			<div class="shop-grid-area">
+				<div class="row mb-3">
+					<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+						<div class="vs-product-box product-grid">
+							<div class="product-img">
+								<img src="assets/img/product/p-1-1.jpg" class="w-100" alt="Product Image">
+								<div class="actions-btn">
+									<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
+									<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
+									<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
-							<div class="vs-product-box product-grid">
-								<div class="product-img">
-									<img src="assets/img/product/p-1-2.jpg" class="w-100" alt="Product Image">
-									<div class="actions-btn">
-										<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
-										<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
-										<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
-									</div>
+							<div class="product-content">
+								<div class="rating-wrap">
+									<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
 								</div>
-								<div class="product-content">
-									<div class="rating-wrap">
-										<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-									</div>
-									<h4 class="product-title h5"><a href="shop-details.html">Doxycycline</a></h4>
-									<span class="price">$120.00</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
-							<div class="vs-product-box product-grid">
-								<div class="product-img">
-									<img src="assets/img/product/p-1-3.jpg" class="w-100" alt="Product Image">
-									<div class="actions-btn">
-										<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
-										<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
-										<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
-									</div>
-								</div>
-								<div class="product-content">
-									<div class="rating-wrap">
-										<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-									</div>
-									<h4 class="product-title h5"><a href="shop-details.html">Kevzara</a></h4>
-									<span class="price">$29.00</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
-							<div class="vs-product-box product-grid">
-								<div class="product-img">
-									<img src="assets/img/product/p-1-4.jpg" class="w-100" alt="Product Image">
-									<div class="actions-btn">
-										<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
-										<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
-										<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
-									</div>
-								</div>
-								<div class="product-content">
-									<div class="rating-wrap">
-										<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-									</div>
-									<h4 class="product-title h5"><a href="shop-details.html">Metoprolol</a></h4>
-									<span class="price">$75.00</span>
-								</div>
+								<h4 class="product-title h5"><a href="shop-details.html">Ibuprofen</a></h4>
+								<span class="price">$99.00</span>
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-12">
-							<div class="text-center">
-								<a href="" class="vs-btn">View All Kits</a>
+					<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+						<div class="vs-product-box product-grid">
+							<div class="product-img">
+								<img src="assets/img/product/p-1-2.jpg" class="w-100" alt="Product Image">
+								<div class="actions-btn">
+									<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
+									<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
+									<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="rating-wrap">
+									<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+								</div>
+								<h4 class="product-title h5"><a href="shop-details.html">Doxycycline</a></h4>
+								<span class="price">$120.00</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+						<div class="vs-product-box product-grid">
+							<div class="product-img">
+								<img src="assets/img/product/p-1-3.jpg" class="w-100" alt="Product Image">
+								<div class="actions-btn">
+									<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
+									<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
+									<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="rating-wrap">
+									<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+								</div>
+								<h4 class="product-title h5"><a href="shop-details.html">Kevzara</a></h4>
+								<span class="price">$29.00</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+						<div class="vs-product-box product-grid">
+							<div class="product-img">
+								<img src="assets/img/product/p-1-4.jpg" class="w-100" alt="Product Image">
+								<div class="actions-btn">
+									<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
+									<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
+									<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
+								</div>
+							</div>
+							<div class="product-content">
+								<div class="rating-wrap">
+									<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+								</div>
+								<h4 class="product-title h5"><a href="shop-details.html">Metoprolol</a></h4>
+								<span class="price">$75.00</span>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="text-center">
+							<a href="" class="vs-btn">View All Kits</a>
+						</div>
+					</div>
+				</div>
+			</div>
 	</section>
 
 
