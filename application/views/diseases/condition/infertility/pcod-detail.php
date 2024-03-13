@@ -24,7 +24,12 @@
 				<div class="col-12">
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
-							<img src="<?= base_url("assets/") ?>img/service/sr-d-1.jpg" alt="Service Image" class="w-100">
+							<picture>
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/pcod-pcos_1200x600.webp" type="image/webp">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/pcod-pcos_1200x600.jpg" type="image/jpg">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/pcod-pcos_800x800.jpg" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/pcod-pcos_800x800.jpg" alt="Service Image" class="w-100">
+							</picture>
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-xl-11 col-xxl-10 ">
@@ -34,14 +39,7 @@
 											<span class="fs-xs">Condition Name</span>
 											<h2 class="h5 mb-0">PCOD / PCOS</h2>
 										</div>
-										<div class="col-sm-6 col-lg-auto">
-											<span class="fs-xs">Time Duration</span>
-											<h2 class="h5 mb-0">More Than 12 Hour</h2>
-										</div>
-										<div class="col-sm-6 col-lg-auto">
-											<span class="fs-xs">Doctor Name</span>
-											<h2 class="h5 mb-0">Dr. Pallavi & Dr. Mahajan</h2>
-										</div>
+
 										<div class="col-sm-6 col-lg-auto">
 											<a href="#appointment" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
 										</div>

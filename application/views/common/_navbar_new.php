@@ -6,12 +6,12 @@
 			<ul>
 				<li class="menu-item-has-children"><a href="<?= base_url() ?>about">About Us</a>
 					<ul class="sub-menu">
-						<li><a href="#">About Regenrative Therapy </a></li>
+						<li><a href="#">About Regenerative Therapy </a></li>
 						<li><a href="#">Our Founder</a></li>
-						<li><a href="#">Why Stemrx Hospital</a></li>
+						<li><a href="#">Why StemRx Hospital</a></li>
 						<li><a href="#">Our Commitment</a></li>
 						<li><a href="#">Our Foundation </a></li>
-						<li><a href="#">Our Acheivement </a></li>
+						<li><a href="#">Our Achievement </a></li>
 						<li><a href="#">Reserach Activity </a></li>
 						<li class="menu-item-has-children">
 							<a href="#">Our Centers </a>
@@ -48,16 +48,16 @@
 						<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
 						<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
 						<li><a href="javascript:void()">Chromosomal Disorders</a></li>
-						<li><a href="javascript:void()">Surgical Procedure</a></li>
+						<!-- <li><a href="javascript:void()">Surgical Procedure</a></li> -->
 					</ul>
 				</li>
 				<li class="menu-item-has-children">
 					<a href="#"><span class="has-new-label">Therapeutics </span></a>
 					<ul class="sub-menu">
-						<li><a href="javascript:void()">Hyperbaric Oxygen Therapy </a></li>
-						<li><a href="javascript:void()">Laser Therapy</a></li>
-						<li><a href="javascript:void()">Aquatic Therapy</a></li>
-						<li><a href="javascript:void()">Ozone Therap</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>hyperbaric-oxygen-therapy">Hyperbaric Oxygen Therapy </a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>laser-therapy">Laser Therapy</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>aquatic-therapy">Aquatic Therapy</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>ozone-therapy">Ozone Therapy</a></li>
 
 						<li><a href="javascript:void()">Detoxification Therapy</a></li>
 						<li><a href="javascript:void()">Energy Therapy</a></li>
@@ -158,11 +158,11 @@
 		<div class="container container-style1 py-1">
 			<div class="row justify-content-center justify-content-xl-between">
 				<div class="col-auto">
-					<ul class="header-top-info list-unstyled m-0">
+					<!-- <ul class="header-top-info list-unstyled m-0">
 						<li><i class="far fa-envelope"></i><a href="mailto:drpvmahajan@stemrx.in" class="text-reset">drpvmahajan@stemrx.in</a></li>
 						<li><i class="far fa-map-marker-alt"></i>R-831,Thane – Belapur Rd, TTC Industrial Area, Rabale.</li>
 						<li><i class="far fa-clock"></i>Mon - Fri: 8:00 am - 7:00 pm</li>
-					</ul>
+					</ul> -->
 				</div>
 				<div class="col-auto d-none d-xl-block">
 					<ul class="head-top-links text-end">
@@ -204,12 +204,12 @@
 								<ul>
 									<li class="menu-item-has-children"><a href="<?= base_url() ?>about">About Us</a>
 										<ul class="sub-menu">
-											<li><a href="#">About Regenrative Therapy </a></li>
+											<li><a href="#">About Regenerative Therapy </a></li>
 											<li><a href="#">Our Founder</a></li>
-											<li><a href="#">Why Stemrx Hospital</a></li>
+											<li><a href="#">Why StemRx Hospital</a></li>
 											<li><a href="#">Our Commitment</a></li>
 											<li><a href="#">Our Foundation </a></li>
-											<li><a href="#">Our Acheivement </a></li>
+											<li><a href="#">Our Achievement </a></li>
 											<li><a href="#">Reserach Activity </a></li>
 											<li class="menu-item-has-children">
 												<a href="#">Our Centers </a>
@@ -247,7 +247,7 @@
 											<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
 											<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
 											<li><a href="javascript:void()">Chromosomal Disorders</a></li>
-											<li><a href="javascript:void()">Surgical Procedure</a></li>
+											<!-- <li><a href="javascript:void()">Surgical Procedure</a></li> -->
 										</ul>
 									</li>
 									<li class="menu-item-has-children mega-menu-wrap">
@@ -257,9 +257,9 @@
 												<!-- <a href="shop.html">Pagelist 1</a> -->
 												<ul>
 													<li><a href="<?= base_url('therapeutics/') ?>hyperbaric-oxygen-therapy">Hyperbaric Oxygen Therapy </a></li>
-													<li><a href="javascript:void()">Laser Therapy</a></li>
-													<li><a href="javascript:void()">Aquatic Therapy</a></li>
-													<li><a href="javascript:void()">Ozone Therap</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>laser-therapy">Laser Therapy</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>aquatic-therapy">Aquatic Therapy</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>ozone-therapy">Ozone Therapy</a></li>
 												</ul>
 											</li>
 											<li>

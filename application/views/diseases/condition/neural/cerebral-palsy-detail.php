@@ -4,12 +4,12 @@
         <div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
         <div class="container z-index-common">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Cerebral Palsy Details</h1>
+                <h1 class="breadcumb-title">Cerebral Palsy</h1>
                 <div class="breadcumb-menu-wrap">
                     <i class="far fa-home-lg"></i>
                     <ul class="breadcumb-menu">
                         <li><a href="index.html">Home</a></li>
-                        <li class="active">Cerebral Palsy Details</li>
+                        <li class="active">Cerebral Palsy</li>
                     </ul>
                 </div>
             </div>
@@ -25,9 +25,9 @@
                     <div class="service-content mb-30">
                         <div class="vs-surface wow" data-wow-delay="0.3s">
                             <picture>
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/cerebral-palsy_1200x600.webp" type="image/webp">
 								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/cerebral-palsy_1200x600.jpg" type="image/jpg">
-								<source srcset="" type="image/webp">
-								<source srcset="" type="image/webp">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/cerebral-palsy_800x800.jpg" type="image/webp">
 								<img src="<?= base_url("assets/") ?>img/banners/conditions/cerebral-palsy_800x800.jpg" alt="Service Image" class="w-100">
 							</picture>
                         </div>
@@ -39,14 +39,7 @@
                                             <span class="fs-xs">Condition Name</span>
                                             <h2 class="h5 mb-0">Cerebral Palsy</h2>
                                         </div>
-                                        <div class="col-sm-6 col-lg-auto">
-                                            <span class="fs-xs">Time Duration</span>
-                                            <h2 class="h5 mb-0">More Than 12 Hour</h2>
-                                        </div>
-                                        <div class="col-sm-6 col-lg-auto">
-                                            <span class="fs-xs">Doctor Name</span>
-                                            <h2 class="h5 mb-0">Dr. Pallavi & Dr. Mahajan</h2>
-                                        </div>
+										
                                         <div class="col-sm-6 col-lg-auto">
                                             <a href="#appointment" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
                                         </div>

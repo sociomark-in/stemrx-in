@@ -7,15 +7,29 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-xl-8" data-sec-pos="top-half" data-pos-for=".brand-wrap1">
-				<form action="#" class="form-style1 form-wrap2">
-					<div class="form-group mb-0 d-md-flex text-center text-md-start">
-						<i class="fas fa-envelope text-theme"></i>
-						<input type="text" class="form-control" placeholder="Enter your email address" />
-						<button type="submit" class="vs-btn style2 mt-30 mt-md-0">
-							<i class="far fa-long-arrow-right"></i>Subscribe
-						</button>
+				<form action="#" id="footerSubsForm" class="form-style1 form-wrap2">
+					<div class="mb-0 d-md-flex gap-md-4 text-center text-md-start">
+						<div class="form-group mb-0 w-100">
+							<i class="fas fa-envelope text-theme"></i>
+							<input type="email" name="subscription_email" required class="form-control" placeholder="Enter your email address" />
+						</div>
+						<div class="">
+							<button type="submit" class="vs-btn style2 mt-30 mt-md-0">
+								<i class="far fa-long-arrow-right"></i>Subscribe
+							</button>
+						</div>
 					</div>
 				</form>
+				<script>
+					$('#footerSubsForm').validate({
+						rules: {
+							subscription_email: 'required'
+						},
+						messages: {
+							subscription_email: 'Email is Required!'
+						}
+					})
+				</script>
 			</div>
 		</div>
 	</div>
@@ -39,64 +53,13 @@
 	</div>
 	<div class="widget-area">
 		<div class="container">
-			<div class="row justify-content-between d-none">
-				<div class="col-md-6 col-lg-auto col-xl-3">
-					<div class="widget footer-widget widget_nav_menu">
-						<h3 class="widget_title">Quick Links</h3>
-						<div class="menu-all-pages-container">
-							<ul class="menu">
-								<li><a href="javascript:void()">All Therapeutics</a></li>
-								<li><a href="javascript:void()">All Conditions</a></li>
-								<li><a href="<?= base_url() ?>gallery">Gallery</a></li>
-								<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-auto col-xl-3">
-					<div class="widget footer-widget widget_nav_menu">
-						<h3 class="widget_title">Treatments</h3>
-						<div class="menu-all-pages-container">
-							<ul class="menu">
-								<li><a href="<?= base_url() ?>service/hairfall">Hairfall</a></li>
-								<li><a href="<?= base_url() ?>service/infertility">Infertility</a></li>
-								<li><a href="<?= base_url() ?>service/cosmetic-gynecology">Cosmatics Gynecology</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-auto col-xl-3">
-					<div class="widget footer-widget widget_nav_menu">
-						<h3 class="widget_title">Treatments</h3>
-						<div class="menu-all-pages-container">
-							<ul class="menu">
-								<li><a href="<?= base_url() ?>service/hairfall">Hairfall</a></li>
-								<li><a href="<?= base_url() ?>service/infertility">Infertility</a></li>
-								<li><a href="<?= base_url() ?>service/cosmetic-gynecology">Cosmatics Gynecology</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-auto col-xl-3">
-					<div class="widget footer-widget widget_nav_menu">
-						<h3 class="widget_title">Treatments</h3>
-						<div class="menu-all-pages-container">
-							<ul class="menu">
-								<li><a href="<?= base_url() ?>service/hairfall">Hairfall</a></li>
-								<li><a href="<?= base_url() ?>service/infertility">Infertility</a></li>
-								<li><a href="<?= base_url() ?>service/cosmetic-gynecology">Cosmatics Gynecology</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="row justify-content-between">
 				<div class="col-md-6 col-lg-3 col-xl-3">
 					<div class="widget footer-widget">
 						<h3 class="widget_title">About Us</h3>
 						<div class="vs-widget-about">
-							<p>Energistically reintermediate worldwide interfaces vis-a-vis emerging integrate leadership skills.</p>
-							<h4><a class="text-theme hover-white" href="tel:919987274620"><i class="fas fa-phone-volume me-2 pe-1"></i>+91 99872 74620</a></h4>
+							<p>Dr. Pradeep V. Mahajan is an acclaimed professional emerging at the horizon of transformational healthcare for the masses.</p>
+							<h4><a class="text-theme hover-white" href="tel:919979976862"><i class="fas fa-phone-volume me-2 pe-1"></i>+91 99799 76862</a></h4>
 							<div class="d-flex mt-3 pt-1">
 								<div class="avater-small mr-20"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Avater Image"></div>
 								<div class="media-body align-self-center">
@@ -109,12 +72,12 @@
 				</div>
 				<div class="col-md-6 col-lg-auto col-xl-auto">
 					<div class="widget footer-widget widget_nav_menu">
-						<h3 class="widget_title">Treatments</h3>
+						<h3 class="widget_title">Conditions</h3>
 						<div class="menu-all-pages-container">
 							<ul class="menu">
-								<li><a href="<?= base_url() ?>service/hairfall">Hairfall</a></li>
-								<li><a href="<?= base_url() ?>service/infertility">Infertility</a></li>
-								<li><a href="<?= base_url() ?>service/cosmetic-gynecology">Cosmatics Gynecology</a></li>
+								<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
+								<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a></li>
+								<li><a href="<?= base_url() ?>condition/infertility">Infertility</a></li>
 							</ul>
 						</div>
 					</div>
@@ -124,9 +87,10 @@
 						<h3 class="widget_title">Quick Links</h3>
 						<div class="menu-all-pages-container">
 							<ul class="menu">
-								<li><a href="javascript:void()">All Therapeutics</a></li>
-								<li><a href="javascript:void()">All Conditions</a></li>
-								<li><a href="javascript:void()">Gallery</a></li>
+								<li><a href="<?= base_url() ?>team-of-experts">Team Of Experts</a></li>
+								<li><a href="<?= base_url() ?>news">News</a></li>
+								<li><a href="<?= base_url() ?>pr-articles">PR Articles</a></li>
+								<li><a href="<?= base_url() ?>patient-testimonial">Testimonials</a></li>
 								<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
 							</ul>
 						</div>
@@ -147,8 +111,8 @@
 				</div>
 				<div class="col-md-6 col-lg-3 col-xl-3">
 					<div class="widget footer-widget">
-						<h3 class="widget_title">Visiting Hours</h3>
-						<div class="footer-table">
+						<h3 class="widget_title">Contact Address</h3>
+						<div class="footer-table d-none">
 							<table>
 								<tr>
 									<td>Mon - Fri:</td>
@@ -174,7 +138,7 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
 				<div class="col-auto text-center text-md-end">
-					<p class="mb-0 text-white">Copyright <i class="fal fa-copyright"></i> <?= date('Y') ?> <a class="text-white" href="<?= base_url() ?>">StemRx Hospitals</a>. All rights reserved by <a class="text-white" href="https://www.sociomark.in/" target="_blank">Sociomark</a>.</p>
+					<p class="mb-0 text-white">Copyright <i class="fal fa-copyright"></i> <?= date('Y') ?> <a class="text-white" href="<?= base_url() ?>">StemRx Hospitals</a>. All rights reserved. Developed by <a class="text-white" href="https://www.sociomark.in/" target="_blank">Sociomark</a>.</p>
 				</div>
 				<div class="col-auto d-md-block">
 					<ul class="footer-bottom-menu">

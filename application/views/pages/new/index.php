@@ -53,7 +53,7 @@
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 					<!-- <div class="section-title"><span class="h3 text-theme sec-subtitle">Advanced Treatments</span> -->
 					<h2 class="h1">Our Specialities</h2>
-					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 				</div>
 			</div>
 		</div>
@@ -203,7 +203,7 @@
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 					<!--<div class="section-title"><span class="h3 text-theme sec-subtitle">Latest Jobs</span>-->
 					<h2 class="h1">Our Services</h2>
-					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 					<!--</div>-->
 				</div>
 			</div>
@@ -292,7 +292,7 @@
 						<h2 class="h1 mb-3">We're Here For You</h2>
 						<div class="row">
 							<div class="col-xl-10 mb-md-2 pb-md-1">
-								<p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p>
+								<!-- <p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p> -->
 							</div>
 							<div class="col-md-6 col-lg-5 col-xl-4">
 								<ul class="vs-list list-unstyled text-title">
@@ -388,7 +388,7 @@
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="0.3s">
 					<!--<div class="section-title"><span class="h3 text-theme sec-subtitle">Case Study</span>-->
 					<h2 class="h1 text-white">Our Team</h2>
-					<p class="text-white">Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+					<!-- <p class="text-white">Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 					<!--</div>-->
 				</div>
 			</div>
@@ -592,7 +592,7 @@
 					<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 						<div class="section-title"><span class="h3 text-theme sec-subtitle">Testimonial</span>
 							<h2 class="h1">Our Patients Responses</h2>
-							<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+							<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 						</div>
 					</div>
 				</div>
@@ -649,13 +649,13 @@
 		</section>
 	</div>
 
-	<section class="vs-blog-wrapper space-top">
+	<section class="vs-blog-wrapper space-top d-none">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="0.3s">
 					<div class="section-title"><span class="h3 text-theme sec-subtitle">Blog Posts</span>
 						<h2 class="h1">Case Studies</h2>
-						<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+						<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 					</div>
 				</div>
 			</div>
@@ -722,60 +722,80 @@
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="0.3s">
 					<div class="section-title"><span class="h3 text-theme sec-subtitle">Blog Posts</span>
 						<h2 class="h1">Latest News</h2>
-						<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+						<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 					</div>
 				</div>
 			</div>
 			<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3" data-lg-slide-show="2">
-				<div class="col-xl-4">
+				<div class="col-xl-4 col-lg-6 col-12 mb-3">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
+						<div class="blog-img">
+							<picture>
+								<source srcset="<?= base_url() ?>assets/img/news/sep/news-20-09-2023-000.webp" type="image/webp">
+								<img src="<?= base_url() ?>assets/img/news/sep/news-20-09-2023-000.jpg" alt="Blog Image" class="w-100">
+							</picture>
 							<div class="blog-date">
-								<div class="day">22</div>Jan 2023
+								<div class="day">20</div> Sep 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>David Smith</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">Services enable process is tobe after user-centric schemas now</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+							<h3 class="blog-title h5 font-body lh-base">Ankylosing Spondylitis: Here Are Some Current Treatment Options Available</h3>
+							<a href="https://www.onlymyhealth.com/current-treatment-options-for-ankylosing-spondylitis-1695021589" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4">
+				<div class="col-xl-4 col-lg-6 col-12 mb-3">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
+						<div class="blog-img">
+							<picture>
+								<source srcset="<?= base_url() ?>assets/img/news/sep/news-18-09-2023-000.webp" type="image/webp">
+								<img src="<?= base_url() ?>assets/img/news/sep/news-18-09-2023-000.jpg" alt="Blog Image" class="w-100">
+							</picture>
 							<div class="blog-date">
-								<div class="day">23</div>Mar 2023
+								<div class="day">18</div> Sep 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Therapy</a> <a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>Vivi Marian</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">From its medieval origins to the digital era everything there</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+							<h3 class="blog-title h5 font-body lh-base"> PCOS Awareness Month 2023: Common Signs, Symptoms To Look Out For</h3>
+							<a href="https://www.republicworld.com/health/pcos-awareness-month-2023-common-signs-symptoms-to-look-out-for-articleshow/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4">
+				<div class="col-xl-4 col-lg-6 col-12 mb-3">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
+						<div class="blog-img">
+							<picture>
+								<source srcset="<?= base_url() ?>assets/img/news/sep/news-13-09-2023-000.webp" type="image/webp">
+								<img src="<?= base_url() ?>assets/img/news/sep/news-13-09-2023-000.jpg" alt="Blog Image" class="w-100">
+							</picture>
 							<div class="blog-date">
-								<div class="day">28</div>Dec 2023
+								<div class="day">13</div> Sep 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Acupressure </a><a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>Moris John</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">Latin derived from Cicero's 1st-century BC text De Fini now with</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+							<h3 class="blog-title h5 font-body lh-base"> Revolutionizing PCOD and PCOS Treatment: The Promise of Regenerative Medicine</h3>
+							<a href="https://www.thehealthsite.com/diseases-conditions/pcos/revolutionizing-pcod-and-pcos-treatment-the-promise-of-regenerative-medicine-1009115/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4">
+				<div class="col-xl-4 col-lg-6 col-12 mb-3">
 					<div class="vs-blog blog-card">
-						<div class="blog-img"><img src="https://placehold.co/480x334" alt="Blog Image" class="w-100">
+						<div class="blog-img">
+							<picture>
+								<source srcset="<?= base_url() ?>assets/img/news/sep/news-07-09-2023-000.webp" type="image/webp">
+								<img src="<?= base_url() ?>assets/img/news/sep/news-07-09-2023-000.jpg" alt="Blog Image" class="w-100">
+							</picture>
 							<div class="blog-date">
-								<div class="day">22</div>Jan 2023
+								<div class="day">7</div> Sep 2023
 							</div>
 						</div>
 						<div class="blog-content">
-							<div class="blog-meta"><a href="<?= base_url() ?>blog"><i class="far fa-folder"></i>Mental Health</a> <a href="<?= base_url() ?>blog"><i class="fal fa-user"></i>David Smith</a></div>
-							<h3 class="blog-title h5 font-body lh-base"><a href="<?= base_url() ?>blog">Creation timelines the standard lorem ipsum passage vary</a></h3><a href="<?= base_url() ?>blog" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+							<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+							<h3 class="blog-title h5 font-body lh-base"> Revolutionizing PCOD and PCOS Treatment: The Promise of Regenerative Medicine</h3>
+							<a href="https://zeenews.india.com/marathi/health/how-is-regenerative-medicine-treatment-beneficial-for-pcod-and-pcos/743656" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -789,7 +809,7 @@
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="0.3s">
 					<div class="section-title"><span class="h3 text-theme sec-subtitle">Frequently Asked</span>
 						<h2 class="h1">FAQs</h2>
-						<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+						<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 					</div>
 				</div>
 			</div>

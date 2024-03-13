@@ -3,11 +3,11 @@
 		<div class="parallax" data-parallax-image="<?= base_url() ?>assets/img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Neural Conditions</h1>
+				<h1 class="breadcumb-title">Neurological Problems</h1>
 				<div class="breadcumb-menu-wrap"><i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="index-2.html">Home</a></li>
-						<li class="active">Neural Conditions</li>
+						<li class="active">Neurological Problems</li>
 					</ul>
 				</div>
 			</div>
@@ -17,7 +17,7 @@
 		<div class="container">
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
-					<h2 class="h1">All Neural Conditions</h2>
+					<h2 class="h1">All Neurological Problems</h2>
 					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
 				</div>
 			</div>

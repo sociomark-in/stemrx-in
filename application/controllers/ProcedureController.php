@@ -25,15 +25,24 @@ class ProcedureController extends CI_Controller
 				$this->data['page'] = [
 					'title' => "Hyperbaric Oxygen Therapy" . " - " . APP_NAME
 				];
-				$this->load->load_view('therapeutics/hot', $this->data);
+				$this->load->load_view('therapeutics/hbot', $this->data);
 				break;
 			case 'laser-therapy':
+				$this->data['page'] = [
+					'title' => "Laser Therapy" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/laser-therapy', $this->data);
 				break;
 			case 'aquatic-therapy':
+				$this->data['page'] = [
+					'title' => "Aquatic Therapy" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/aquatic-therapy', $this->data);
 				break;
 			case 'ozone-therapy':
+				$this->data['page'] = [
+					'title' => "Ozone Therapy" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/ozone-therapy', $this->data);
 				break;
 			case 'detoxification-therapy':
