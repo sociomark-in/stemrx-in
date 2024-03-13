@@ -133,11 +133,13 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="<?= base_url("condition/cosmatic-diseases") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
-									<img src="<?= base_url() ?>assets/img/icons/home/Cosmetic_Treatment.png" alt="Speciality" class="w-100">
 								<div class="card-body p-5">
+									<img src="<?= base_url() ?>assets/img/icons/diseases/cosmetic.png" alt="Speciality" class="w-100">
+								</div>
+							</div>
 							<p>Cosmetic Treatments</p>
 						</a>
+					</div>
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="javascript:void()" class="text-center">
 							<div class="card bg-white sp-item mb-2">
@@ -182,7 +184,7 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="javascript:void()" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
+								<div class="card-body p-5">
 									<img src="<?= base_url() ?>assets/img/icons/diseases/surgical-procedure.png" alt="Speciality" class="w-100">
 								</div>
 							</div>
