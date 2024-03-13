@@ -46,26 +46,62 @@ class ProcedureController extends CI_Controller
 				$this->load->load_view('therapeutics/ozone-therapy', $this->data);
 				break;
 			case 'detoxification-therapy':
+				$this->data['page'] = [
+					'title' => "Detoxification Therapy" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/detoxification-therapy', $this->data);
 				break;
 			case 'energy-therapy':
+				$this->data['page'] = [
+					'title' => "Energy Therapy" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/energy-therapy', $this->data);
 				break;
 			case 'very-intense-pressure-pulse':
+				$this->data['page'] = [
+					'title' => "Very Intense Pressure Pulse (VIPP)" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/vipp', $this->data);
 				break;
+			case 'electromagnetic-field-therapy':
+				$this->data['page'] = [
+					'title' => "Electromagnetic Field Therapy" . " - " . APP_NAME
+				];
+				$this->load->load_view('therapeutics/em-therapy', $this->data);
+				break;
 			case 'rhythm-therapy':
+				$this->data['page'] = [
+					'title' => "Vibration / Resonance / Rhythm Therapy" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/rhythm-therapy', $this->data);
 				break;
 			case 'brain-stimulation':
+				$this->data['page'] = [
+					'title' => "Brain Stimulation Therapy" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/brain-stimulation', $this->data);
 				break;
-			case 'stem-therapy':
-				$this->load->load_view('therapeutics/stem-therapy', $this->data);
-				break;
 			case 'faradic-and-galvanic-stimulation':
+				$this->data['page'] = [
+					'title' => "Faradic and Galvanic Stimulation Therapy" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/faradic-stimulation', $this->data);
 				break;
+			case 'brain-retrainer':
+				$this->data['page'] = [
+					'title' => "Brain Retrainer" . " - " . APP_NAME
+				];
+				$this->load->load_view('therapeutics/brain-retrainer', $this->data);
+				break;
+			case 'infrared-sauna':
+				$this->data['page'] = [
+					'title' => "Infrared Sauna" . " - " . APP_NAME
+				];
+				$this->load->load_view('therapeutics/infrared-sauna', $this->data);
+				break;
+
+
+
 			case 'cell-regulation':
 				$this->load->load_view('therapeutics/cell-regulation', $this->data);
 				break;
@@ -75,11 +111,8 @@ class ProcedureController extends CI_Controller
 			case 'non-surgical-spinal-decompression-therapy':
 				$this->load->load_view('therapeutics/non-surgical-spinal-decompression-therapy', $this->data);
 				break;
-			case 'brain-retrainer':
-				$this->load->load_view('therapeutics/brain-retrainer', $this->data);
-				break;
-			case 'infrared-sauna':
-				$this->load->load_view('therapeutics/infrared-sauna', $this->data);
+			case 'stem-therapy':
+				$this->load->load_view('therapeutics/stem-therapy', $this->data);
 				break;
 			case 'trans-corneal-electrical-stimulation':
 				$this->load->load_view('therapeutics/trans-corneal-electrical-stimulation', $this->data);

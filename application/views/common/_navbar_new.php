@@ -59,21 +59,21 @@
 						<li><a href="<?= base_url('therapeutics/') ?>aquatic-therapy">Aquatic Therapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>ozone-therapy">Ozone Therapy</a></li>
 
-						<li><a href="javascript:void()">Detoxification Therapy</a></li>
-						<li><a href="javascript:void()">Energy Therapy</a></li>
-						<li><a href="javascript:void()">Very Intense Pressure Pulse (VIPP)</a></li>
-						<li><a href="javascript:void()">Electromagnetic Field</a></li>
-						<li><a href="javascript:void()">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
-						<li><a href="javascript:void()">Brain Stimulation</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>detoxification-therapy">Detoxification Therapy</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>energy-therapy">Energy Therapy</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>very-intense-pressure-pulse">Very Intense Pressure Pulse (VIPP)</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>electromagnetic-field-therapy">Electromagnetic Field</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>rhythm-therapy">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>brain-stimulation">Brain Stimulation</a></li>
 						<li><a href="javascript:void()">Stem Therapy</a></li>
 
-						<li><a href="javascript:void()">Faradic and Galvanic Stimulation</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>faradic-and-galvanic-stimulation">Faradic and Galvanic Stimulation</a></li>
 						<li><a href="javascript:void()">Cell Regulation</a></li>
 						<li><a href="javascript:void()">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
 						<li><a href="javascript:void()">Non-Surgical Spinal Decompression Therapy</a></li>
 						<li><a href="javascript:void()">Magnetic Resonance Therapy (MRT)</a></li>
-						<li><a href="javascript:void()">Infrared Sauna</a></li>
-						<li><a href="javascript:void()">Brain Retrainer</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>infrared-sauna">Infrared Sauna</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>brain-retrainer">Brain Retrainer</a></li>
 
 						<li><a href="javascript:void()">Trans Corneal Electrical Stimulation</a></li>
 						<li><a href="javascript:void()">Cryotherapy</a></li>
@@ -265,25 +265,25 @@
 											<li>
 												<!-- <a href="#">Pagelist 2</a> -->
 												<ul>
-													<li><a href="javascript:void()">Detoxification Therapy</a></li>
-													<li><a href="javascript:void()">Energy Therapy</a></li>
-													<li><a href="javascript:void()">Very Intense Pressure Pulse (VIPP)</a></li>
-													<li><a href="javascript:void()">Electromagnetic Field</a></li>
-													<li><a href="javascript:void()">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
-													<li><a href="javascript:void()">Brain Stimulation</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>detoxification-therapy">Detoxification Therapy</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>energy-therapy">Energy Therapy</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>very-intense-pressure-pulse">Very Intense Pressure Pulse (VIPP)</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>electromagnetic-field-therapy">Electromagnetic Field</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>rhythm-therapy">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>brain-stimulation">Brain Stimulation</a></li>
 													<li><a href="javascript:void()">Stem Therapy</a></li>
 												</ul>
 											</li>
 											<li>
 												<!-- <a href="#">Pagelist 3</a> -->
 												<ul>
-													<li><a href="javascript:void()">Faradic and Galvanic Stimulation</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>faradic-and-galvanic-stimulation">Faradic and Galvanic Stimulation</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>infrared-sauna">Infrared Sauna</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>brain-retrainer">Brain Retrainer</a></li>
 													<li><a href="javascript:void()">Cell Regulation</a></li>
 													<li><a href="javascript:void()">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
 													<li><a href="javascript:void()">Non-Surgical Spinal Decompression Therapy</a></li>
 													<li><a href="javascript:void()">Magnetic Resonance Therapy (MRT)</a></li>
-													<li><a href="javascript:void()">Infrared Sauna</a></li>
-													<li><a href="javascript:void()">Brain Retrainer</a></li>
 												</ul>
 											</li>
 											<li>
