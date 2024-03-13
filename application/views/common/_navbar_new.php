@@ -257,9 +257,9 @@
 												<!-- <a href="shop.html">Pagelist 1</a> -->
 												<ul>
 													<li><a href="<?= base_url('therapeutics/') ?>hyperbaric-oxygen-therapy">Hyperbaric Oxygen Therapy </a></li>
-													<li><a href="<?= base_url('therapeutics/') ?>">Laser Therapy</a></li>
-													<li><a href="<?= base_url('therapeutics/') ?>">Aquatic Therapy</a></li>
-													<li><a href="<?= base_url('therapeutics/') ?>">Ozone Therap</a></li>
+													<li><a href="javascript:void()">Laser Therapy</a></li>
+													<li><a href="javascript:void()">Aquatic Therapy</a></li>
+													<li><a href="javascript:void()">Ozone Therap</a></li>
 												</ul>
 											</li>
 											<li>
