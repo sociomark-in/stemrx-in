@@ -56,16 +56,6 @@
 							</a>
 						</div>
 						<div class="col-lg-2 col-md-4 col-6">
-							<a href="<?= base_url("condition/pain-care/osteoarthritis") ?>" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Back and Spine Issues" class="w-100">
-									</div>
-								</div>
-								<h6 class="text-theme">Back and Spine Issues</h6>
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-4 col-6">
 							<a href="<?= base_url("condition/pain-care/migraine") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">

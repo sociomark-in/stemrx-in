@@ -54,31 +54,32 @@
 	<div class="widget-area">
 		<div class="container">
 			<div class="row justify-content-between">
-				<div class="col-md-6 col-lg-3 col-xl-3">
-					<div class="widget footer-widget">
-						<h3 class="widget_title">About Us</h3>
-						<div class="vs-widget-about">
-							<p>Dr. Pradeep V. Mahajan is an acclaimed professional emerging at the horizon of transformational healthcare for the masses.</p>
-							<h4><a class="text-theme hover-white" href="tel:919979976862"><i class="fas fa-phone-volume me-2 pe-1"></i>+91 99799 76862</a></h4>
-							<div class="d-flex mt-3 pt-1">
-								<div class="avater-small mr-20"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Avater Image"></div>
-								<div class="media-body align-self-center">
-									<h5 class="mb-0 font-body lh-1 text-white">Dr. Pradeep V. Mahajan</h5>
-									<!-- <span class="text-theme fs-xs lh-1">Senior Consultant</span> -->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-auto col-xl-auto">
+				<div class="col-md-6 col-lg-auto col-xl-6">
 					<div class="widget footer-widget widget_nav_menu">
 						<h3 class="widget_title">Conditions</h3>
 						<div class="menu-all-pages-container">
-							<ul class="menu">
-								<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
-								<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a></li>
-								<li><a href="<?= base_url() ?>condition/infertility">Infertility</a></li>
-							</ul>
+							<div class="row">
+								<div class="col-lg-6 col-12">
+									<ul class="menu">
+										<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
+										<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a></li>
+										<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic (New Hope)</a></li>
+										<li><a href="<?= base_url() ?>condition/pain-care">Pain Care</a></li>
+										<li><a href="<?= base_url() ?>condition/eye-care">Eye Care</a></li>
+										<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a></li>
+									</ul>
+								</div>
+								<div class="col-lg-6 col-12">
+									<ul class="menu">
+										<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a></li>
+										<li><a href="javascript:void()">Dental Treatment</a></li>
+										<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
+										<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
+										<li><a href="<?= base_url() ?>condition/chromosomal-disorder">Chromosomal Disorders</a></li>
+										<!-- <li><a href="javascript:void()">Surgical Procedure</a></li> -->
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -112,6 +113,19 @@
 				<div class="col-md-6 col-lg-3 col-xl-3">
 					<div class="widget footer-widget">
 						<h3 class="widget_title">Contact Address</h3>
+						<div class="d-flex my-3 pt-1 d-none">
+							<div class="avater-small mr-20"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Avater Image"></div>
+							<div class="media-body align-self-center">
+								<h5 class="mb-0 font-body lh-1 text-white">Dr. Pradeep V. Mahajan</h5>
+								<!-- <span class="text-theme fs-xs lh-1">Senior Consultant</span> -->
+							</div>
+						</div>
+						<div class="fs-md mb-2">
+							<a class="text-white" href="tel:919979976862"><i class="text-theme fas fa-phone-alt me-2 pe-1"></i>+91 99799 76862</a>
+						</div>
+						<div class="fs-md mb-2">
+							<a class="text-white" href="mailto:info@stemrx.in"><i class="text-theme fa fa-envelope me-2 pe-1"></i>info@stemrx.in</a>
+						</div>
 						<div class="footer-table d-none">
 							<table>
 								<tr>

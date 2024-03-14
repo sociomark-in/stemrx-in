@@ -52,6 +52,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'PagesController';
 $route['about'] = 'PagesController/about';
 $route['why-stemrx'] = 'PagesController/why_stemrx';
+$route['api/appointment/new'] = 'AppointmentDataController/new';
 $route['contact-us'] = 'PagesController/contact';
 $route['blogs'] = 'PagesController/blogs';
 $route['service'] = 'PagesController/services';
