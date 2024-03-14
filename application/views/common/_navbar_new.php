@@ -8,7 +8,7 @@
 					<ul class="sub-menu">
 						<li><a href="#">About Regenerative Therapy </a></li>
 						<li><a href="#">Our Founder</a></li>
-						<li><a href="#">Why StemRx Hospital</a></li>
+						<li><a href="<?= base_url() ?>why-stemrx">Why StemRx Hospital</a></li>
 						<li><a href="#">Our Commitment</a></li>
 						<li><a href="#">Our Foundation </a></li>
 						<li><a href="#">Our Achievement </a></li>
@@ -206,7 +206,7 @@
 										<ul class="sub-menu">
 											<li><a href="#">About Regenerative Therapy </a></li>
 											<li><a href="#">Our Founder</a></li>
-											<li><a href="#">Why StemRx Hospital</a></li>
+											<li><a href="<?= base_url() ?>why-stemrx">Why StemRx Hospital</a></li>
 											<li><a href="#">Our Commitment</a></li>
 											<li><a href="#">Our Foundation </a></li>
 											<li><a href="#">Our Achievement </a></li>
