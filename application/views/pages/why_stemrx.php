@@ -142,7 +142,7 @@
                         <div class="row pt-3 justify-content-center">
                             <div class="col-sm-6 col-lg-5 col-xl-6">
                                 <div class="d-flex mb-25">
-                                    <span class="text-theme mr-20"><i class="flaticon-security fa-3x lh-1"></i></span>
+                                    <span class="text-theme mr-20"><img src="<?= base_url('assets/img/icons/goal.png')?>" style="width: 80%;"></img></span>
                                     <div class="media-body">
                                         <h3 class="h5 mb-2 pb-1">GOAL</h3>
                                         <p>StemRx aims to be a global healthcare leader in the nice science of regenerative medicine, offering affordable healthcare to every person from all walks of life. </p>
@@ -151,7 +151,7 @@
                             </div>
                             <div class="col-sm-6 col-lg-5 col-xl-6">
                                 <div class="d-flex mb-25">
-                                    <span class="text-theme mr-20"><i class="flaticon-computer-mouse fa-3x lh-1"></i></span>
+                                    <span class="text-theme mr-20"><img src="<?= base_url('assets/img/icons/vision.png')?>" style="width: 80%;"></img></span>
                                     <div class="media-body">
                                         <h3 class="h5 mb-2 pb-1">VISION </h3>
                                         <p>To help patients live a normalized life style who are suffering from rare and orphan diseases by establishing close relationship between Bio-Tech researchers and clinicians where conventional medicine has limitations. </p>
@@ -160,7 +160,7 @@
                             </div>
                             <div class="col-sm-6 col-lg-5 col-xl-6">
                                 <div class="d-flex mb-25">
-                                    <span class="text-theme mr-20"><i class="flaticon-mission fa-3x lh-1"></i></span>
+                                    <span class="text-theme mr-20"><img src="<?= base_url('assets/img/icons/mission.png')?>" style="width: 80%;"></img></span>
                                     <div class="media-body">
                                         <h3 class="h5 mb-2 pb-1">MISSION</h3>
                                         <p>Dream and hope for all diseases using ‘A Living Drug Molecule’. By harnessing and regenerating the power of cells /stem cells / biological products for research and therapy, that will lead to quality and longevity of life.</p>
@@ -383,12 +383,12 @@
     <section class="appointment-wrapper space-md-bottom" id="appointment">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 mb-30">
+                <div class="col-xl-12 mb-30">
                     <div class="about-content">
                         <!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
                         <h3><b class="text-title">What is Regenerative Medicine?</b></h3>
                         <div class="row">
-                            <div class="col-xl-10 mb-md-2 pb-md-1">
+                            <div class="col-xl-12 mb-md-2 pb-md-1">
                                 <ul>
                                     <li>Regenerative medicine is a diverse field focused on repairing, replacing, or regenerating damaged tissues and organs caused by injury, illness, or aging. Unlike conventional medicine, which mainly treats symptoms, regenerative medicine aims to restore the structure and function of impaired tissues by tapping into the body's innate healing capabilities.</li>
                                     <li>This field employs various techniques, including stem cell therapy. Stem cells are particularly vital as they can transform into different cell types, serving as a cornerstone in many regenerative approaches. </li>
@@ -413,32 +413,6 @@
                             </ul>
                             <div class="vs-code-box mt-20">Use Code: <span class="text-theme">Native</span></div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 mb-30 pt-30 pt-xl-0">
-                    <div class=" bg-white wow fadeInUp">
-                        <?php
-                        $data = [
-                            "action" => [
-                                "method" => "POST",
-                                "action" => base_url()
-                            ],
-                            "title" => [
-                                'bg-image' => "",
-                                'heading' => "Book An Appointment",
-                                'desc' => "Please Call Us To Ensure",
-                            ],
-                            "props" => [
-                                'class' => "shadow-none mb-0",
-                                'bg-image' => "",
-                                'bg-color' => "#f3f6f7",
-                            ],
-                            "fields" => [
-                                "condition" => "disabled",
-                                "doctor" => "enabled",
-                            ]
-                        ];
-                        $this->load->view('common/forms/appointment_form', $data); ?>
                     </div>
                 </div>
             </div>

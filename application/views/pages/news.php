@@ -27,6 +27,96 @@
 				<div class="vs-blog blog-card">
 					<div class="blog-img">
 						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/sep/news-29-09-2023-001.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/sep/news-29-09-2023-001.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">29</div> Sep 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Revolutionary Breakthrough: Regenerative Medicine Offers Hope For Interstitial Lung Disease Patients</h3>
+						<a href="https://www.thehealthsite.com/diseases-conditions/revolutionary-breakthrough-regenerative-medicine-offers-hope-for-interstitial-lung-disease-patients-1014841/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/sep/news-25-09-2023-001.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/sep/news-25-09-2023-001.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">25</div> Sep 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">"Anne Nijland’s Miraculous Journey of Recovery: Overcoming Parkinson’s Syndrome"</h3>
+						<a href="https://medgatetoday.com/anne-nijlands-miraculous-journey-of-recovery-overcoming-parkinsons-syndrome/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/sep/news-21-09-2023-002.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/sep/news-21-09-2023-002.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">21</div> Sep 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Anne Nijland’s Miraculous Journey of Recovery: Overcoming Parkinson’s Syndrome</h3>
+						<a href="https://saamtv.esakal.com/lifestyle/what-is-parkinson-disease-know-the-symptom-and-causes-annie-has-been-battling-for-this-disease-last-11-years-kkd99" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/sep/news-21-09-2023-001.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/sep/news-21-09-2023-001.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">21</div> Sep 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Anne Nijland’s Miraculous Journey of Recovery: Overcoming Parkinson’s Syndrome</h3>
+						<a href="https://newspatrolling.com/anne-nijlands-miraculous-journey-of-recovery-overcoming-parkinsons-syndrome/" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
+							<source srcset="<?= base_url() ?>assets/img/news/sep/news-20-09-2023-001.webp" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/news/sep/news-20-09-2023-001.jpg" alt="Blog Image" class="w-100">
+						</picture>
+						<div class="blog-date">
+							<div class="day">20</div> Sep 2023
+						</div>
+					</div>
+					<div class="blog-content">
+						<div class="blog-meta"><a href="javascript:void()"><i class="far fa-folder"></i>Regenerative Medicine Researcher</a> <a href="javascript:void()"><i class="fal fa-user"></i>Dr. Pradeep Mahajan</a></div>
+						<h3 class="blog-title h5 font-body lh-base">Ankylosing Spondylitis: Here Are Some Current Treatment Options Available</h3>
+						<a href="https://marathi.indiatimes.com/lifestyle-news/health-news/treatment-of-ankylosing-spondylitis-with-cell-based-therapy/articleshow/103755739.cms" target="_blank" class="link-btn">Read More<i class="far fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-6 col-12 mb-3">
+				<div class="vs-blog blog-card">
+					<div class="blog-img">
+						<picture>
 							<source srcset="<?= base_url() ?>assets/img/news/sep/news-20-09-2023-000.webp" type="image/webp">
 							<img src="<?= base_url() ?>assets/img/news/sep/news-20-09-2023-000.jpg" alt="Blog Image" class="w-100">
 						</picture>
