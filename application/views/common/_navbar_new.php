@@ -65,23 +65,23 @@
 						<li><a href="<?= base_url('therapeutics/') ?>electromagnetic-field-therapy">Electromagnetic Field</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>rhythm-therapy">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>brain-stimulation">Brain Stimulation</a></li>
-						<li><a href="javascript:void()">Stem Therapy</a></li>
-
+						
 						<li><a href="<?= base_url('therapeutics/') ?>faradic-and-galvanic-stimulation">Faradic and Galvanic Stimulation</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>infrared-sauna">Infrared Sauna</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>brain-retrainer">Brain Retrainer</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>trans-corneal-electrical-stimulation">Trans Corneal Electrical Stimulation</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>cryotherapy">Cryotherapy</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>robotic-gloves">Robotic Gloves</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>treadmill-with-harness">Treadmill with Harness</a></li>
+						
+						<li><a href="javascript:void()">Stem Therapy</a></li>
 						<li><a href="javascript:void()">Cell Regulation</a></li>
 						<li><a href="javascript:void()">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
 						<li><a href="javascript:void()">Non-Surgical Spinal Decompression Therapy</a></li>
-						<li><a href="javascript:void()">Magnetic Resonance Therapy (MRT)</a></li>
-						<li><a href="<?= base_url('therapeutics/') ?>infrared-sauna">Infrared Sauna</a></li>
-						<li><a href="<?= base_url('therapeutics/') ?>brain-retrainer">Brain Retrainer</a></li>
-
-						<li><a href="javascript:void()">Trans Corneal Electrical Stimulation</a></li>
-						<li><a href="javascript:void()">Cryotherapy</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>magnetic-resonance-therapy">Magnetic Resonance Therapy (MRT)</a></li>
 						<li><a href="javascript:void()">Transcranial Optic Stimulation</a></li>
-						<li><a href="javascript:void()">Robotic Gloves</a></li>
 						<li><a href="javascript:void()">Treadmill with Motorized Exoskeleton</a></li>
 						<li><a href="javascript:void()">FMT- (Fecal Microbiota Transplant)</a></li>
-						<li><a href="javascript:void()">Treadmill with Harness</a></li>
 					</ul>
 				</li>
 
@@ -283,19 +283,19 @@
 													<li><a href="javascript:void()">Cell Regulation</a></li>
 													<li><a href="javascript:void()">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
 													<li><a href="javascript:void()">Non-Surgical Spinal Decompression Therapy</a></li>
-													<li><a href="javascript:void()">Magnetic Resonance Therapy (MRT)</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>magnetic-resonance-therapy">Magnetic Resonance Therapy (MRT)</a></li>
 												</ul>
 											</li>
 											<li>
 												<!-- <a href="#">Pagelist 4</a> -->
 												<ul>
-													<li><a href="javascript:void()">Trans Corneal Electrical Stimulation</a></li>
-													<li><a href="javascript:void()">Cryotherapy</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>trans-corneal-electrical-stimulation">Trans Corneal Electrical Stimulation</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>cryotherapy">Cryotherapy</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>robotic-gloves">Robotic Gloves</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>treadmill-with-harness">Treadmill with Harness</a></li>
 													<li><a href="javascript:void()">Transcranial Optic Stimulation</a></li>
-													<li><a href="javascript:void()">Robotic Gloves</a></li>
 													<li><a href="javascript:void()">Treadmill with Motorized Exoskeleton</a></li>
 													<li><a href="javascript:void()">FMT- (Fecal Microbiota Transplant)</a></li>
-													<li><a href="javascript:void()">Treadmill with Harness</a></li>
 												</ul>
 											</li>
 										</ul>

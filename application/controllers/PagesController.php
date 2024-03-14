@@ -30,7 +30,7 @@ class PagesController extends CI_Controller
 		];
 		$this->load->load_view('pages/new/index', $this->data);
 	}
-
+	
 	public function blogs()
 	{
 		$this->data['page'] = [

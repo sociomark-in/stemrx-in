@@ -17,15 +17,15 @@
 			<input type="hidden" name="source_url" value="<?= current_url() ?>">
 			<?php if (!is_array($fields)) : ?>
 				<div class="col-12 form-group">
-					<input type="text" class="form-control style3" placeholder="Your Name" />
+					<input type="text" class="form-control style3" name="enq_name" placeholder="Your Name" />
 					<i class="fal small fa-user"></i>
 				</div>
 				<div class="col-12 form-group">
-					<input type="email" class="form-control style3" placeholder="Email Address" />
+					<input type="email" class="form-control style3" name="enq_email" placeholder="Email Address" />
 					<i class="fal small fa-envelope"></i>
 				</div>
 				<div class="col-12 form-group">
-					<input type="number" class="form-control style3" placeholder="Your Phone" />
+					<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" />
 					<i class="fal small fa-phone"></i>
 				</div>
 				<!-- <div class="col-lg-6 form-group">
@@ -50,16 +50,16 @@
 				<?php endif ?>
 
 				<div class="col-12 form-group">
-					<input type="text" class="form-control style3" placeholder="Your Name" />
+					<input type="text" class="form-control style3" name="enq_name" placeholder="Your Name" />
 					<i class="fal small fa-user"></i>
 				</div>
 				<div class="col-12 form-group">
-					<input type="number" class="form-control style3" placeholder="Your Phone" />
-					<i class="fal small fa-phone"></i>
+					<input type="email" class="form-control style3" name="enq_email" placeholder="Email Address" />
+					<i class="fal small fa-envelope"></i>
 				</div>
 				<div class="col-12 form-group">
-					<input type="email" class="form-control style3" placeholder="Email Address" />
-					<i class="fal small fa-envelope"></i>
+					<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" />
+					<i class="fal small fa-phone"></i>
 				</div>
 				<div class="col-xl-12 text-center">
 					<button type="submit" class="vs-btn style2">

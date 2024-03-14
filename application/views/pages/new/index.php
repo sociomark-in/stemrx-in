@@ -40,7 +40,7 @@
 							<h3 class="media-title">CALL ANYTIME 24/7</h3>
 							<p class="media-text"><a href="<?= base_url() ?>tel:+919979976862">+91 997 997 6862</a></p>
 						</div>
-					</div><a href="<?= base_url() ?>about" class="vs-btn">Learn More</a>
+					</div><a href="<?= base_url() ?>why-stemrx" class="vs-btn">Learn More</a>
 				</div>
 			</div>
 		</div>
@@ -197,7 +197,7 @@
 		</div>
 	</section>
 
-	<section class="vs-service-wrapper space-md">
+	<section class="vs-service-wrapper space-md d-none">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -247,7 +247,7 @@
 	</section>
 
 
-	<section class="vs-skill-wrapper">
+	<section class="vs-skill-wrapper d-none">
 		<div class="container">
 			<div class="skill-wrap1 bg-white">
 				<div class="row justify-content-center justify-content-lg-between">
@@ -353,7 +353,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="vs-brand-wrapper space-md bg-light">
+		<div class="vs-brand-wrapper space-md bg-light d-none">
 			<div class="container">
 				<div class="wow fadeInUp" data-wow-delay="0.3s">
 					<div class="row vs-carousel text-center" data-slide-show="5" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="3" data-xs-slide-show="1">
@@ -464,104 +464,6 @@
 		</div>
 	</section>
 
-	<section class="vs-shop-wrapper space-top space-md-bottom d-none">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-					<!-- <div class="section-title"><span class="h3 text-theme sec-subtitle">StemRx Shop</span> -->
-					<h2 class="h1">Our Rejuvenating Kits</h2>
-					<!--</div>-->
-				</div>
-			</div>
-			<div class="shop-grid-area">
-				<div class="row mb-3">
-					<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
-						<div class="vs-product-box product-grid">
-							<div class="product-img">
-								<img src="assets/img/product/p-1-1.jpg" class="w-100" alt="Product Image">
-								<div class="actions-btn">
-									<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
-									<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
-									<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
-								</div>
-							</div>
-							<div class="product-content">
-								<div class="rating-wrap">
-									<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-								</div>
-								<h4 class="product-title h5"><a href="shop-details.html">Ibuprofen</a></h4>
-								<span class="price">$99.00</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
-						<div class="vs-product-box product-grid">
-							<div class="product-img">
-								<img src="assets/img/product/p-1-2.jpg" class="w-100" alt="Product Image">
-								<div class="actions-btn">
-									<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
-									<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
-									<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
-								</div>
-							</div>
-							<div class="product-content">
-								<div class="rating-wrap">
-									<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-								</div>
-								<h4 class="product-title h5"><a href="shop-details.html">Doxycycline</a></h4>
-								<span class="price">$120.00</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
-						<div class="vs-product-box product-grid">
-							<div class="product-img">
-								<img src="assets/img/product/p-1-3.jpg" class="w-100" alt="Product Image">
-								<div class="actions-btn">
-									<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
-									<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
-									<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
-								</div>
-							</div>
-							<div class="product-content">
-								<div class="rating-wrap">
-									<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-								</div>
-								<h4 class="product-title h5"><a href="shop-details.html">Kevzara</a></h4>
-								<span class="price">$29.00</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
-						<div class="vs-product-box product-grid">
-							<div class="product-img">
-								<img src="assets/img/product/p-1-4.jpg" class="w-100" alt="Product Image">
-								<div class="actions-btn">
-									<a class="icon-btn" href="#"><i class="fal fa-heart"></i></a>
-									<a class="icon-btn" href="#"><i class="fal fa-shopping-cart"></i></a>
-									<a class="icon-btn" href="#"><i class="far fa-search"></i></a>
-								</div>
-							</div>
-							<div class="product-content">
-								<div class="rating-wrap">
-									<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-								</div>
-								<h4 class="product-title h5"><a href="shop-details.html">Metoprolol</a></h4>
-								<span class="price">$75.00</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="text-center">
-							<a href="" class="vs-btn">View All Kits</a>
-						</div>
-					</div>
-				</div>
-			</div>
-	</section>
-
 
 	<div data-bg-src="<?= base_url() ?>assets/img/bg/bg-shape-8.jpg">
 		<section class="vs-middle-box-wrapper space space-bottom">
@@ -641,7 +543,7 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="text-center">
-							<a href="<?= base_url("parents-testimonials") ?>" class="vs-btn">View All Testimonials</a>
+							<a href="<?= base_url("patient-testimonial") ?>" class="vs-btn">View All Testimonials</a>
 						</div>
 					</div>
 				</div>
