@@ -1,7 +1,7 @@
 <div class="vs-menu-wrapper">
 	<div class="vs-menu-area text-center"><button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
 		<div class="mobile-logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/logo.png" alt="Medixi"></a></div>
-		<form action="#" class="mobile-menu-form"><input type="text" class="form-control" placeholder="Search..."> <button type="submit"><i class="fas fa-search"></i></button></form>
+		<!-- <form action="#" class="mobile-menu-form"><input type="text" class="form-control" placeholder="Search..."> <button type="submit"><i class="fas fa-search"></i></button></form> -->
 		<div class="vs-mobile-menu">
 			<ul>
 				<li class="menu-item-has-children"><a href="#">About Us</a>
@@ -199,7 +199,7 @@
 						<div class="col-auto">
 							<div class="brand-logo py-2"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/logo.png" alt="Logo" height="100"></a></div>
 						</div>
-						<div class="col text-xl-center text-end">
+						<div class="col text-xxl-center text-end">
 							<nav class="main-menu menu-style1 d-none d-xxl-block">
 								<ul>
 									<li class="menu-item-has-children"><a href="#">About Us</a>
