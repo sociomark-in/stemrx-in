@@ -241,42 +241,42 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=XtEswdfMQ3U&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/XtEswdfMQ3U-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=Y0n-Mo97l_g&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/Y0n-Mo97l_g-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=Y5KEvyXM0JU&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/Y5KEvyXM0JU-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=yPRvaxQ6T7o&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/yPRvaxQ6T7o-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=yxCRsjx2p0Y&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/yxCRsjx2p0Y-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=_m5XOHuJAxI&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/_m5XOHuJAxI-HD.jpg" alt="">
@@ -290,70 +290,70 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=1O8rDVtNGgc&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/1O8rDVtNGgc-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=2NduBfJp0Hg&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/2NduBfJp0Hg-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=2r3KGm11u5I&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/2r3KGm11u5I-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=4PTeGghN9gM&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/4PTeGghN9gM-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=3-8my1IFqRI&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/3-8my1IFqRI-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=6_M1otolKZw&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/6_M1otolKZw-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=6M693zHsOa8&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/6M693zHsOa8-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=6qcuCAI8Dn0&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/6qcuCAI8Dn0-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=7Dd87otT6m8&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/7Dd87otT6m8-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=75RXrtn4IIE&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/75RXrtn4IIE-HD.jpg" alt="">
@@ -367,70 +367,70 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=AtuSGwm5MRI&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/AtuSGwm5MRI-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=2NduBfJp0Hg&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/2NduBfJp0Hg-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=Bcb-5O9W9Y8&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/Bcb-5O9W9Y8-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=cgPetzeC0h8&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/cgPetzeC0h8-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=eeI2X_dSbcs&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/eeI2X_dSbcs-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=ehQ-fHJJI5s&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/ehQ-fHJJI5s-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=fmWlfc7HyBI&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/fmWlfc7HyBI-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=hG92GiqX6mw&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/hG92GiqX6mw-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=HwIRJwAxOlU&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/HwIRJwAxOlU-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=i5a4U_0zfcA&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/i5a4U_0zfcA-HD.jpg" alt="">
@@ -444,77 +444,77 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=KJQFNafNkLI&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/KJQFNafNkLI-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=KqkND5nw3_c&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/KqkND5nw3_c-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=KWPF5SKUdqg&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/KWPF5SKUdqg-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=L1vMpDZs2vk&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/L1vMpDZs2vk-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=l6ybS_3Dmuo&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/l6ybS_3Dmuo-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=lBfJqyGyxEI&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/lBfJqyGyxEI-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=MgOcZF8Cu7g&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/MgOcZF8Cu7g-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=34O1BBVx54E&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/34O1BBVx54E-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=Hpo3uGo0jMQ&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/Hpo3uGo0jMQ-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=mRsIydqd0MA&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/mRsIydqd0MA-HD.jpg" alt="">
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item">
 						<a href="https://www.youtube.com/watch?v=uJpfFKSK1-M&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/uJpfFKSK1-M-HD.jpg" alt="">

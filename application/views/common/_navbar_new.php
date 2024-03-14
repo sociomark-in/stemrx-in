@@ -16,10 +16,10 @@
 						<li class="menu-item-has-children">
 							<a href="#">Our Centers </a>
 							<ul class="sub-menu">
-								<li><a href="<?= base_url() ?>our-center/navi-mumbai">Navi Mumbai</a></li>
-								<li><a href="<?= base_url() ?>our-center/hyderabad">Hyderabad </a></li>
-								<li><a href="<?= base_url() ?>our-center/nepal">Nepal </a></li>
-								<li><a href="<?= base_url() ?>our-center/maldives">Maldives </a></li>
+								<li><a href="#">Navi Mumbai</a></li>
+								<li><a href="#">Hyderabad </a></li>
+								<li><a href="#">Nepal </a></li>
+								<li><a href="#">Maldives </a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
@@ -65,7 +65,7 @@
 						<li><a href="<?= base_url('therapeutics/') ?>electromagnetic-field-therapy">Electromagnetic Field</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>rhythm-therapy">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>brain-stimulation">Brain Stimulation</a></li>
-						
+
 						<li><a href="<?= base_url('therapeutics/') ?>faradic-and-galvanic-stimulation">Faradic and Galvanic Stimulation</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>infrared-sauna">Infrared Sauna</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>brain-retrainer">Brain Retrainer</a></li>
@@ -73,7 +73,7 @@
 						<li><a href="<?= base_url('therapeutics/') ?>cryotherapy">Cryotherapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>robotic-gloves">Robotic Gloves</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>treadmill-with-harness">Treadmill with Harness</a></li>
-						
+
 						<li><a href="javascript:void()">Stem Therapy</a></li>
 						<li><a href="javascript:void()">Cell Regulation</a></li>
 						<li><a href="javascript:void()">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
@@ -214,10 +214,10 @@
 											<li class="menu-item-has-children">
 												<a href="#">Our Centers </a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>our-center/navi-mumbai">Navi Mumbai</a></li>
-													<li><a href="<?= base_url() ?>our-center/hyderabad">Hyderabad </a></li>
-													<li><a href="<?= base_url() ?>our-center/nepal">Nepal </a></li>
-													<li><a href="<?= base_url() ?>our-center/maldives">Maldives </a></li>
+													<li><a href="#">Navi Mumbai</a></li>
+													<li><a href="#">Hyderabad </a></li>
+													<li><a href="#">Nepal </a></li>
+													<li><a href="#">Maldives </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
