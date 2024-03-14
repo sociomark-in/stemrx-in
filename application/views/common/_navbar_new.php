@@ -1,7 +1,7 @@
 <div class="vs-menu-wrapper">
 	<div class="vs-menu-area text-center"><button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
 		<div class="mobile-logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/logo.png" alt="Medixi"></a></div>
-		<form action="#" class="mobile-menu-form"><input type="text" class="form-control" placeholder="Search..."> <button type="submit"><i class="fas fa-search"></i></button></form>
+		<!-- <form action="#" class="mobile-menu-form"><input type="text" class="form-control" placeholder="Search..."> <button type="submit"><i class="fas fa-search"></i></button></form> -->
 		<div class="vs-mobile-menu">
 			<ul>
 				<li class="menu-item-has-children"><a href="#">About Us</a>
@@ -16,10 +16,10 @@
 						<li class="menu-item-has-children">
 							<a href="#">Our Centers </a>
 							<ul class="sub-menu">
-								<li><a href="<?= base_url() ?>our-center/navi-mumbai">Navi Mumbai</a></li>
-								<li><a href="<?= base_url() ?>our-center/hyderabad">Hyderabad </a></li>
-								<li><a href="<?= base_url() ?>our-center/nepal">Nepal </a></li>
-								<li><a href="<?= base_url() ?>our-center/maldives">Maldives </a></li>
+								<li><a href="#">Navi Mumbai</a></li>
+								<li><a href="#">Hyderabad </a></li>
+								<li><a href="#">Nepal </a></li>
+								<li><a href="#">Maldives </a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
@@ -65,7 +65,7 @@
 						<li><a href="<?= base_url('therapeutics/') ?>electromagnetic-field-therapy">Electromagnetic Field</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>rhythm-therapy">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>brain-stimulation">Brain Stimulation</a></li>
-						
+
 						<li><a href="<?= base_url('therapeutics/') ?>faradic-and-galvanic-stimulation">Faradic and Galvanic Stimulation</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>infrared-sauna">Infrared Sauna</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>brain-retrainer">Brain Retrainer</a></li>
@@ -73,7 +73,7 @@
 						<li><a href="<?= base_url('therapeutics/') ?>cryotherapy">Cryotherapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>robotic-gloves">Robotic Gloves</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>treadmill-with-harness">Treadmill with Harness</a></li>
-						
+
 						<li><a href="javascript:void()">Stem Therapy</a></li>
 						<li><a href="javascript:void()">Cell Regulation</a></li>
 						<li><a href="javascript:void()">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
@@ -199,7 +199,7 @@
 						<div class="col-auto">
 							<div class="brand-logo py-2"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/logo.png" alt="Logo" height="100"></a></div>
 						</div>
-						<div class="col text-xl-center text-end">
+						<div class="col text-xxl-center text-end">
 							<nav class="main-menu menu-style1 d-none d-xxl-block">
 								<ul>
 									<li class="menu-item-has-children"><a href="#">About Us</a>
@@ -214,10 +214,10 @@
 											<li class="menu-item-has-children">
 												<a href="#">Our Centers </a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>our-center/navi-mumbai">Navi Mumbai</a></li>
-													<li><a href="<?= base_url() ?>our-center/hyderabad">Hyderabad </a></li>
-													<li><a href="<?= base_url() ?>our-center/nepal">Nepal </a></li>
-													<li><a href="<?= base_url() ?>our-center/maldives">Maldives </a></li>
+													<li><a href="#">Navi Mumbai</a></li>
+													<li><a href="#">Hyderabad </a></li>
+													<li><a href="#">Nepal </a></li>
+													<li><a href="#">Maldives </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">

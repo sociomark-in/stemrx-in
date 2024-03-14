@@ -25,8 +25,8 @@
 						</div>
 						<div class="team-body">
 							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Anil Daxini</a></h3>
-							<p class="fs-xs degi text-theme mb-2">Specialist</p>
-							<p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation</p>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA), </p>
+							<p class="fs-xs">Senior Consultant Assistant to Dr. Mahajan in day-to-day clinical management and administration of the hospital.</p>
 						</div>
 					</div>
 				</div>
@@ -39,8 +39,8 @@
 						</div>
 						<div class="team-body">
 							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Gauri Khanderao</a></h3>
-							<p class="fs-xs degi text-theme mb-2">Specialist</p>
-							<p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation</p>
+							<p class="fs-xs degi text-theme mb-2">BHMS, BACU, PGDHM</p>
+							<p class="fs-xs">Stem Cell Counselor, Clinical Research Associate and Consultant Homeopathy with Alternative Therapist </p>
 						</div>
 					</div>
 				</div>
@@ -53,8 +53,12 @@
 						</div>
 						<div class="team-body">
 							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Harry Mascarenhas</a></h3>
-							<p class="fs-xs degi text-theme mb-2">Specialist</p>
-							<p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation</p>
+							<p class="fs-xs degi text-theme mb-2">MBBS, DHM,</p>
+							<p class="fs-xs">
+								Experienced in clinical diagnosis and treatment,
+								Assistant to Dr. Mahajan in the day-to-day clinical management and
+								administration of the hospital.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -67,8 +71,8 @@
 						</div>
 						<div class="team-body">
 							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Pallavi Lale</a></h3>
-							<p class="fs-xs degi text-theme mb-2">Specialist</p>
-							<p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation</p>
+							<p class="fs-xs degi text-theme mb-2">Laparoscopic Surgeon </p>
+							<p class="fs-xs">Infertility & Regenerative Medicine Consultant, Laparoscopic Surgeon  </p>
 							<div class="d-none">
 								<p class="fs-xs team-info"><i class="fas fa-phone-alt text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
 								<p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
