@@ -99,7 +99,36 @@ class ProcedureController extends CI_Controller
 				];
 				$this->load->load_view('therapeutics/infrared-sauna', $this->data);
 				break;
-
+			case 'trans-corneal-electrical-stimulation':
+				$this->data['page'] = [
+					'title' => "Infrared Sauna" . " - " . APP_NAME
+				];
+				$this->load->load_view('therapeutics/tces', $this->data);
+				break;
+			case 'cryotherapy':
+				$this->data['page'] = [
+					'title' => "Infrared Sauna" . " - " . APP_NAME
+				];
+				$this->load->load_view('therapeutics/cryotherapy', $this->data);
+				break;
+			case 'robotic-gloves':
+				$this->data['page'] = [
+					'title' => "Infrared Sauna" . " - " . APP_NAME
+				];
+				$this->load->load_view('therapeutics/robotic-gloves', $this->data);
+				break;
+			case 'treadmill-with-harness':
+				$this->data['page'] = [
+					'title' => "Infrared Sauna" . " - " . APP_NAME
+				];
+				$this->load->load_view('therapeutics/treadmill-with-harness', $this->data);
+				break;
+			case 'magnetic-resonance-therapy':
+				$this->data['page'] = [
+					'title' => "Infrared Sauna" . " - " . APP_NAME
+				];
+				$this->load->load_view('therapeutics/mrt', $this->data);
+				break;
 
 
 			case 'cell-regulation':
@@ -114,26 +143,15 @@ class ProcedureController extends CI_Controller
 			case 'stem-therapy':
 				$this->load->load_view('therapeutics/stem-therapy', $this->data);
 				break;
-			case 'trans-corneal-electrical-stimulation':
-				$this->load->load_view('therapeutics/trans-corneal-electrical-stimulation', $this->data);
-				break;
-			case 'cryotherapy':
-				$this->load->load_view('therapeutics/cryotherapy', $this->data);
-				break;
+
 			case 'transcranial-optic-stimulation':
 				$this->load->load_view('therapeutics/transcranial-optic-stimulation', $this->data);
-				break;
-			case 'robotic-gloves':
-				$this->load->load_view('therapeutics/robotic-gloves', $this->data);
 				break;
 			case 'treadmill-with-motorized-exoskeleton':
 				$this->load->load_view('therapeutics/treadmill-with-motorized-exoskeleton', $this->data);
 				break;
 			case 'fmt':
 				$this->load->load_view('therapeutics/fmt', $this->data);
-				break;
-			case 'treadmill-with-harness':
-				$this->load->load_view('therapeutics/treadmill-with-harness', $this->data);
 				break;
 
 			default:

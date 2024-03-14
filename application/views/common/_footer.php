@@ -112,7 +112,7 @@
 				</div>
 				<div class="col-md-6 col-lg-3 col-xl-3">
 					<div class="widget footer-widget">
-						<h3 class="widget_title">Contact Address</h3>
+						<h3 class="widget_title">Contact Us</h3>
 						<div class="d-flex my-3 pt-1 d-none">
 							<div class="avater-small mr-20"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Avater Image"></div>
 							<div class="media-body align-self-center">
