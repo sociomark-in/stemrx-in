@@ -45,6 +45,13 @@ class PagesController extends CI_Controller
 		];
 		$this->load->load_view('pages/about', $this->data);
 	}
+	public function why_stemrx()
+	{
+		$this->data['page'] = [
+			'title' => "Why StemRx" . " - " . APP_NAME
+		];
+		$this->load->load_view('pages/why_stemrx', $this->data);
+	}
 	public function contact()
 	{
 		$this->data['page'] = [
