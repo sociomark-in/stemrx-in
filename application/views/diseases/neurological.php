@@ -89,8 +89,8 @@
 						<a href="<?= base_url("condition/neural/neurogenetic-disorder") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<div class="p-3">
-										<img src="<?= base_url("assets/img/icons/diseases/neurogenic-disorder.png") ?>" alt="Condition Single" class="w-100">
+									<div class="">
+										<img src="<?= base_url("assets/img/icons/diseases/neurogenic.png") ?>" alt="Condition Single" class="w-100">
 									</div>
 								</div>
 							</div>

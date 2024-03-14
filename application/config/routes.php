@@ -98,7 +98,7 @@ $route['condition/(:any)/(:any)'] = 'DiseasesController/condition_detail/$1/$2';
 $route['therapeutics'] = 'ProcedureController/home';
 $route['therapeutics/(:any)'] = 'ProcedureController/procedure/$1';
 
-$route['thank-you/(:any)'] = 'PagesController/thankyou/$1';
+$route['thank-you'] = 'AppointmentDataController/thank_you';
 
 // $route['(:any)'] = 'PagesController/page/$1';
 $route['404_override'] = '';

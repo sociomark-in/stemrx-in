@@ -28,8 +28,8 @@
 				<div class="col-lg-2 col-md-4 col-6">
 							<a href="<?= base_url("condition/pain-care/osteoarthritis") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Osteo Arthritis" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/arthritis.png") ?>" alt="Osteo Arthritis" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Osteo Arthritis </h6>
@@ -38,7 +38,7 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="<?= base_url("condition/pain-care/avascular-necrosis") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
+									<div class="card-body p-5">
 										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Avasular Necrosis" class="w-100">
 									</div>
 								</div>
@@ -48,8 +48,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="<?= base_url("condition/pain-care/cervical-spondylitis") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cervical Spondylitis" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/spondylosis.png") ?>" alt="Cervical Spondylitis" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Cervical Spondylitis</h6>
@@ -58,8 +58,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="<?= base_url("condition/pain-care/migraine") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Migrain" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/migraine.png") ?>" alt="Migrain" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Migrain </h6>

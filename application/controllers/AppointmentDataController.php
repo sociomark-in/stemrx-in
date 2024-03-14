@@ -6,15 +6,20 @@ class AppointmentDataController extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
+		$this->load->model('leads/LeadsModel', 'LeadsModel');
 	}
 
 	public function new_contact()
 	{
-		print_r($this->input->post());
+		if($this->LeadsModel->new_enquiry($this->input->post())){
+			redirect('thank-you');
+		}
 	}
 	public function new()
 	{
-		print_r($this->input->post());
+		if($this->LeadsModel->new_appointment($this->input->post())){
+			redirect('thank-you');
+		}
 	}
 
 	public function thank_you()
@@ -22,6 +27,6 @@ class AppointmentDataController extends CI_Controller
 		$this->data['page'] = [
 			'title' => APP_NAME
 		];
-		$this->load->view('pages/thank-you', $this->data);
+		$this->load->load_view('pages/thank-you', $this->data);
 	}
 }

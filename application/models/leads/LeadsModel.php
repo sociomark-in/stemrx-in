@@ -10,9 +10,9 @@ class LeadsModel extends CI_Model
 
 	public function new_appointment($form_data) {
 
-		if($this->db->insert($this->table['appointment'])){
+		// if($this->db->insert($this->table['appointment'])){
 
-		}
+		// }
 
 		return true;
 		
@@ -20,9 +20,9 @@ class LeadsModel extends CI_Model
 	
 	public function new_enquiry($form_data) {
 		
-		if($this->db->insert($this->table['appointment'])){
+		// if($this->db->insert($this->table['appointment'])){
 			
-		}
+		// }
 		return true;
 	}
 	

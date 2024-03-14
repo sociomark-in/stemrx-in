@@ -28,8 +28,8 @@
 				<div class="col-lg-2 col-md-4 col-6">
 							<a href="<?= base_url("condition/metabolic-diseases/diabetes") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Diabetes" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/diabetes.png") ?>" alt="Diabetes" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Diabetes</h6>
@@ -38,8 +38,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="<?= base_url("condition/metabolic-diseases/obesity") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="OBESITY" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/body-fat.png") ?>" alt="OBESITY" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">OBESITY</h6>
@@ -48,8 +48,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="<?= base_url("condition/metabolic-diseases/hyperlipidemia") ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="HYPERLIPIDEMIA" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/cholesterol.png") ?>" alt="HYPERLIPIDEMIA" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">HYPERLIPIDEMIA</h6>

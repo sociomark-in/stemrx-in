@@ -29,7 +29,7 @@
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cosmetic Gynecology" class="w-100">
+										<img src="<?= base_url("assets/img/icons/diseases/cardiac.png") ?>" alt="Cosmetic Gynecology" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Cardiac Regeneration</h6>
@@ -39,7 +39,7 @@
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Vaginal rejuvenation" class="w-100">
+										<img src="<?= base_url("assets/img/icons/diseases/islet.png") ?>" alt="Vaginal rejuvenation" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Islet Regeneration</h6>
@@ -48,8 +48,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cell Preservation for Fertility" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/liver.png") ?>" alt="Cell Preservation for Fertility" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Liver Regeneration</h6>
@@ -58,8 +58,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Inflatable Penile Implant" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/lungs.png") ?>" alt="Inflatable Penile Implant" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Lung Regeneration</h6>
@@ -68,8 +68,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Erectile dysfuction" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/musculoskeletal.png") ?>" alt="Erectile dysfuction" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Musculoskeletal Regeneration</h6>
@@ -78,8 +78,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Erectile dysfuction" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/neurogenic-disorder.png") ?>" alt="Erectile dysfuction" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Neuroregeneration</h6>
@@ -88,8 +88,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Erectile dysfuction" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/plastic-surgery.png") ?>" alt="Erectile dysfuction" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Plastic and Regenerative Surgery</h6>
@@ -98,8 +98,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Erectile dysfuction" class="w-100">
+									<div class="card-body p-5">
+										<img src="<?= base_url("assets/img/icons/diseases/vascular.png") ?>" alt="Erectile dysfuction" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Valvular and Vascular Repair and Regeneration</h6>

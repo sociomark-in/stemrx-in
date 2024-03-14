@@ -28,8 +28,8 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cosmetic Gynecology" class="w-100">
+								<div class="card-body p-5">
+									<img src="<?= base_url("assets/img/icons/diseases/psoriasis.png") ?>" alt="Cosmetic Gynecology" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Psoriasis</h6>
@@ -39,7 +39,7 @@
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Vaginal rejuvenation" class="w-100">
+									<img src="<?= base_url("assets/img/icons/diseases/hair.png") ?>" alt="Vaginal rejuvenation" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Alopecia areata</h6>
@@ -48,8 +48,8 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cell Preservation for Fertility" class="w-100">
+								<div class="card-body p-5">
+									<img src="<?= base_url("assets/img/icons/diseases/spot.png") ?>" alt="Cell Preservation for Fertility" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Melasma</h6>
@@ -58,8 +58,8 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Inflatable Penile Implant" class="w-100">
+								<div class="card-body p-5">
+									<img src="<?= base_url("assets/img/icons/diseases/vitiligo.png") ?>" alt="Inflatable Penile Implant" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Vitiligo</h6>

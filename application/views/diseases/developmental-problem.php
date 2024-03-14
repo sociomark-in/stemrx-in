@@ -29,8 +29,8 @@
 							<!-- <a href="<?= base_url('condition/developmental-problem/muscular-dystrophy') ?>" class="text-center"> -->
 							<a href="javascript:void(0)" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Ovary Rejuvenation" class="w-100">
+									<div class="card-body py-5">
+										<img src="<?= base_url("assets/img/icons/diseases/.png") ?>" alt="Muscular Dystrophy" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Muscular Dystrophy</h6>
@@ -41,8 +41,8 @@
 							<!-- <a href="<?= base_url('condition/developmental-problem/congenital-myopathy') ?>" class="text-center"> -->
 							<a href="javascript:void(0)" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Ovary Rejuvenation" class="w-100">
+									<div class="card-body py-5">
+										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Congenital Myopathies" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Congenital Myopathies</h6>
@@ -52,8 +52,8 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="<?= base_url('condition/developmental-problem/adhd') ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url("assets/img/logo.png") ?>" alt="Ovary Rejuvenation" class="w-100">
+									<div class="card-body py-5">
+										<img src="<?= base_url("assets/img/icons/diseases/ADHD.png") ?>" alt="ADHD" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">ADHD</h6>

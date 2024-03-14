@@ -29,7 +29,7 @@
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Cosmetic Gynecology" class="w-100">
+									<img src="<?= base_url("assets/img/icons/diseases/gynecology.png") ?>" alt="Cosmetic Gynecology" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Cosmetic Gynecology</h6>
@@ -39,7 +39,7 @@
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Vaginal rejuvenation" class="w-100">
+									<img src="<?= base_url("assets/img/icons/diseases/hpv.png") ?>" alt="Vaginal rejuvenation" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Vaginal rejuvenation</h6>
@@ -49,7 +49,7 @@
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Erectile dysfuction" class="w-100">
+									<img src="<?= base_url("assets/img/icons/diseases/penile-cancer.png") ?>" alt="Erectile dysfuction" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Erectile dysfuction</h6>
@@ -59,7 +59,7 @@
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
-									<img src="<?= base_url("assets/img/logo.png") ?>" alt="Vasectomy" class="w-100">
+									<img src="<?= base_url("assets/img/icons/diseases/vasectomy.png") ?>" alt="Vasectomy" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Vasectomy</h6>

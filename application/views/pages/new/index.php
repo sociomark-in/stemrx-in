@@ -1,7 +1,11 @@
 <main>
 	<section class="vs-hero-wrapper position-relative">
 		<div class="vs-hero-carousel" data-navprevnext="true" data-height="800" data-container="1900" data-slidertype="responsive">
-			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;"><img src="<?= base_url() ?>assets/img/hero/infertility.jpeg" alt="infertility" class="ls-bg">
+			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
+				<picture>
+					<source media="(min-width: 900px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg">
+					<img src="<?= base_url() ?>assets/img/banners/home-01_v.jpg" alt="infertility" class="ls-bg">
+				</picture>
 				<!-- <div class="ls-slide" data-ls="duration: 13000; transition2d: 5;"><img src="<?= base_url() ?>assets/img/hero/h-bg-1-1-ph.jpg" alt="infertility" class="ls-bg"> -->
 				<!-- <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">We always put the</h1>
 				<h1 class="text-white ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style="left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">patients first</h1>
