@@ -1,4 +1,4 @@
-<form action="#" class="form-wrap1 <?= $props['class'] ??= "" ?>" data-bg-color="<?= $props['bg-color'] ??= "" ?>">
+<form action="<?= base_url('api/appointment/new') ?>" class="form-wrap1 <?= $props['class'] ??= "" ?>" data-bg-color="<?= $props['bg-color'] ??= "" ?>">
 	<div class="form-title-box bg-title" data-bg-src="<?= $props['bg-image'] ??= "" ?>">
 		<div class="row justify-content-between align-items-center">
 			<div class="col">

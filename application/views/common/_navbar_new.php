@@ -4,7 +4,7 @@
 		<form action="#" class="mobile-menu-form"><input type="text" class="form-control" placeholder="Search..."> <button type="submit"><i class="fas fa-search"></i></button></form>
 		<div class="vs-mobile-menu">
 			<ul>
-				<li class="menu-item-has-children"><a href="<?= base_url() ?>about">About Us</a>
+				<li class="menu-item-has-children"><a href="#">About Us</a>
 					<ul class="sub-menu">
 						<li><a href="#">About Regenerative Therapy </a></li>
 						<li><a href="#">Our Founder</a></li>
@@ -47,7 +47,7 @@
 						<li><a href="javascript:void()">Dental Treatment</a></li>
 						<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
 						<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
-						<li><a href="javascript:void()">Chromosomal Disorders</a></li>
+						<li><a href="<?= base_url() ?>condition/chromosomal-disorder">Chromosomal Disorders</a></li>
 						<!-- <li><a href="javascript:void()">Surgical Procedure</a></li> -->
 					</ul>
 				</li>
@@ -202,7 +202,7 @@
 						<div class="col text-xl-center text-end">
 							<nav class="main-menu menu-style1 d-none d-xxl-block">
 								<ul>
-									<li class="menu-item-has-children"><a href="<?= base_url() ?>about">About Us</a>
+									<li class="menu-item-has-children"><a href="#">About Us</a>
 										<ul class="sub-menu">
 											<li><a href="#">About Regenerative Therapy </a></li>
 											<li><a href="#">Our Founder</a></li>
@@ -246,7 +246,7 @@
 											<li><a href="javascript:void()">Dental Treatment</a></li>
 											<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
 											<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
-											<li><a href="javascript:void()">Chromosomal Disorders</a></li>
+											<li><a href="<?= base_url() ?>condition/chromosomal-disorder">Chromosomal Disorders</a></li>
 											<!-- <li><a href="javascript:void()">Surgical Procedure</a></li> -->
 										</ul>
 									</li>

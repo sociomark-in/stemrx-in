@@ -202,49 +202,49 @@ class PagesController extends CI_Controller
 		$this->data['page'] = [
 			'title' => "Team of Experts" . " - " . APP_NAME
 		];
-		$this->load->load_view('pages/teams');
+		$this->load->load_view('pages/teams', $this->data);
 	}
 	public function shop()
 	{
 		$this->data['page'] = [
 			'title' => "Shop" . " - " . APP_NAME
 		];
-		$this->load->load_view('pages/shop');
+		$this->load->load_view('pages/shop', $this->data);
 	}
 	public function privacy_policy()
 	{
 		$this->data['page'] = [
 			'title' => "Privacy Policy" . " - " . APP_NAME
 		];
-		$this->load->load_view('footer/privacy_policy');
+		$this->load->load_view('footer/privacy_policy', $this->data);
 	}
 	public function terms_condition()
 	{
 		$this->data['page'] = [
 			'title' => "Terms & Conditions" . " - " . APP_NAME
 		];
-		$this->load->load_view('footer/terms_condition');
+		$this->load->load_view('footer/terms_condition', $this->data);
 	}
 	public function disclaimer()
 	{
 		$this->data['page'] = [
 			'title' => "Disclaimer" . " - " . APP_NAME
 		];
-		$this->load->load_view('footer/disclaimer');
+		$this->load->load_view('footer/disclaimer', $this->data);
 	}
 	public function return_policy()
 	{
 		$this->data['page'] = [
 			'title' => "Return Policy" . " - " . APP_NAME
 		];
-		$this->load->load_view('footer/return_policy');
+		$this->load->load_view('footer/return_policy', $this->data);
 	}
 	public function shop_details()
 	{
 		$this->data['page'] = [
 			'title' => "Shop Detail" . " - " . APP_NAME
 		];
-		$this->load->load_view('pages/shop-detail');
+		$this->load->load_view('pages/shop-detail', $this->data);
 	}
 	public function page($url)
 	{
@@ -254,7 +254,7 @@ class PagesController extends CI_Controller
 				break;
 
 			default:
-				$this->load->load_view('pages/' . $url);
+				$this->load->load_view('pages/' . $url, $this->data);
 				break;
 		}
 	}

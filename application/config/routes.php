@@ -51,6 +51,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 */
 $route['default_controller'] = 'PagesController';
 $route['about'] = 'PagesController/about';
+$route['about'] = 'PagesController/about';
 $route['contact-us'] = 'PagesController/contact';
 $route['blogs'] = 'PagesController/blogs';
 $route['service'] = 'PagesController/services';

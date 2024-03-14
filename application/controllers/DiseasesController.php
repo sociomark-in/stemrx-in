@@ -75,6 +75,12 @@ class DiseasesController extends CI_Controller
 				];
 				$this->load->load_view('diseases/dermatology-care', $this->data);
 				break;
+			case "chromosomal-disorder":
+				$this->data['page'] = [
+					'title' => "Chromosomal Disorder" . " - " . APP_NAME
+				];
+				$this->load->load_view('diseases/chromosomal-disorder', $this->data);
+				break;
 
 			default:
 				redirect('');
@@ -132,6 +138,7 @@ class DiseasesController extends CI_Controller
 						break;
 				}
 				break;
+
 
 			case 'infertility':
 				switch ($condition) {
@@ -215,6 +222,59 @@ class DiseasesController extends CI_Controller
 						break;
 				}
 				break;
+
+
+			case 'developmental-problem':
+				switch ($condition) {
+					case 'muscular-dystrophy':
+						$this->data['page'] = [
+							'title' => "Muscular Dystrophy" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/developmental/muscular-dystrophy', $this->data);
+						break;
+					case 'congenital-myopathy':
+						$this->data['page'] = [
+							'title' => "congenital-myopathy" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/developmental/congenital-myopathy', $this->data);
+						break;
+					case 'autism-spectrum-disorder':
+						$this->data['page'] = [
+							'title' => "autism-spectrum Disorder" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/developmental/autism-spectrum', $this->data);
+
+						break;
+					case 'adhd':
+						$this->data['page'] = [
+							'title' => "Neurogenetic Disorder" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/developmental/adhd', $this->data);
+
+						break;
+
+					default:
+						redirect('condition/developmental-problem');
+						break;
+				}
+				break;
+
+			case 'chromosomal-disorder':
+				switch ($condition) {
+					case 'trisomy-21':
+						$this->data['page'] = [
+							'title' => "Muscular Dystrophy" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/chromosomal-disorder/trisomy-21', $this->data);
+						break;
+						break;
+
+					default:
+						redirect('condition/chromosomal-disorder');
+						break;
+				}
+				break;
+
 
 			default:
 				switch ($condition) {

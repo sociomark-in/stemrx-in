@@ -9,7 +9,10 @@ class TeamController extends CI_Controller
 	}
 
 	public function home() {
-		$this->load->load_view('pages/team/home');
+		$this->data['page'] = [
+			'title' => "Team of Experts" . " - " . APP_NAME
+		];
+		$this->load->load_view('pages/team/home', $this->data);
 	}
 	
 	public function doctor($name) {
