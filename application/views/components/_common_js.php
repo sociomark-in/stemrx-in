@@ -10,7 +10,7 @@
 <script src="<?= base_url() ?>assets/js/layerslider.transitions.js"></script>
 <script src="<?= base_url() ?>assets/js/layerslider.kreaturamedia.jquery.js"></script>
 <!-- Bootstrap -->
-<script src="<?= base_url() ?>assets/js/bootstrap.min.js"></script>
+<!-- <script src="<?= base_url() ?>assets/js/bootstrap.min.js"></script> -->
 <!-- jQuery Datepicker -->
 <script src="<?= base_url() ?>assets/js/jquery.datetimepicker.min.js"></script>
 <!-- Magnific Popup -->

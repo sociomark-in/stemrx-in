@@ -4,13 +4,13 @@
 		<div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Attention Deficit/ Hyperactivity Disorder (ADHD)</h1>
+				<h1 class="breadcumb-title">Down Syndrome</h1>
 				<div class="breadcumb-menu-wrap">
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="<?= base_url() ?>">Home</a></li>
 						<li><a href="<?= base_url("condition/developmental-problem") ?>">Developmental Problem</a></li>
-						<li class="active">ADHD</li>
+						<li class="active">Down Syndrome</li>
 					</ul>
 				</div>
 			</div>
@@ -31,7 +31,7 @@
 									<div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
 										<div class="col-sm-6 col-lg-auto">
 											<span class="fs-xs">Condition Name</span>
-											<h2 class="h5 mb-0">Attention Deficit/ Hyperactivity Disorder (ADHD)</h2>
+											<h2 class="h5 mb-0">Down Syndrome Trisomy-21</h2>
 										</div>
 
 										<div class="col-sm-6 col-lg-auto">
@@ -166,36 +166,6 @@
 								<div class="">
 									<h6 class="m-0">Life expectancy</h6>
 									<p>Worries about the overall life expectancy and quality of life for individuals with Down syndrome, particularly in the context of medical advances and societal attitudes toward disability.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0"></h6>
-									<p></p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0"></h6>
-									<p></p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0"></h6>
-									<p></p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0"></h6>
-									<p></p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0"></h6>
-									<p></p>
 								</div>
 							</li>
 						</ul>

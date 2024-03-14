@@ -27,6 +27,7 @@
 	============================== -->
 <!-- Bootstrap -->
 <link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 <!-- <link rel="stylesheet" href="<?= base_url() ?>assets/css/app.min.css"> -->
 <!-- Fontawesome Icon -->
 <link rel="stylesheet" href="<?= base_url() ?>assets/css/fontawesome.min.css">

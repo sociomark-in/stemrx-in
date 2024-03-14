@@ -1,4 +1,4 @@
-<form action="<?= base_url('api/appointment/new') ?>" class="form-wrap1 <?= $props['class'] ??= "" ?>" data-bg-color="<?= $props['bg-color'] ??= "" ?>">
+<form id="appointmentForm" action="<?= base_url('api/appointment/new') ?>" method="post" class="form-wrap1 <?= $props['class'] ??= "" ?>" data-bg-color="<?= $props['bg-color'] ??= "" ?>">
 	<div class="form-title-box bg-title" data-bg-src="<?= $props['bg-image'] ??= "" ?>">
 		<div class="row justify-content-between align-items-center">
 			<div class="col">
@@ -70,3 +70,13 @@
 		</div>
 	</div>
 </form>
+<script>
+	$('#appointmentForm').validate({
+		rules: {
+			subscription_email: 'required'
+		},
+		messages: {
+			subscription_email: 'Email is Required!'
+		}
+	})
+</script>
