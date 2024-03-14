@@ -8,7 +8,7 @@ class AppointmentDataController extends CI_Controller
 		parent::__construct();
 	}
 
-	public function contact()
+	public function new_contact()
 	{
 		print_r($this->input->post());
 	}
