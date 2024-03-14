@@ -33,14 +33,7 @@
 											<span class="fs-xs">Condition Name</span>
 											<h2 class="h5 mb-0">Migraine</h2>
 										</div>
-										<div class="col-sm-6 col-lg-auto">
-											<span class="fs-xs">Time Duration</span>
-											<h2 class="h5 mb-0">More Than 12 Hour</h2>
-										</div>
-										<div class="col-sm-6 col-lg-auto">
-											<span class="fs-xs">Doctor Name</span>
-											<h2 class="h5 mb-0">Dr. Pallavi & Dr. Mahajan</h2>
-										</div>
+										
 										<div class="col-sm-6 col-lg-auto">
 											<a href="#appointment" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
 										</div>
