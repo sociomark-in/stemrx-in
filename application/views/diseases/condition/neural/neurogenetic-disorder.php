@@ -240,7 +240,7 @@
 		</div>
 	</section>
 
-	<section class="testimonial-wrapper space-bottom">
+	<section class="testimonial-wrapper  d-none space-bottom">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">

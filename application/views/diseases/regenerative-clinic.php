@@ -18,7 +18,7 @@
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
 					<h2 class="h1">All Regenerative Clinic Conditions</h2>
-					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 				</div>
 			</div>
 		</div>

@@ -23,7 +23,12 @@
 				<div class="col-12">
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
-							<img src="https://placehold.co/1200x600" alt="Disease Image" class="w-100">
+						<picture>
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/migraine_1200x600.webp" type="image/webp">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/migraine_1200x600.jpg" type="image/jpg">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/migraine_800x800.jpg" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/migraine_800x800.jpg" alt="Service Image" class="w-100">
+							</picture>
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-xl-11 col-xxl-10 ">
@@ -258,7 +263,7 @@
 						<h2 class="h1 mb-3">We're Here For You</h2>
 						<div class="row">
 							<div class="col-xl-10 pb-md-1">
-								<p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p>
+								<!-- <p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p> -->
 							</div>
 							<!-- <div class="col-md-6 col-lg-5 col-xl-4">
 								<ul class="vs-list list-unstyled text-title">

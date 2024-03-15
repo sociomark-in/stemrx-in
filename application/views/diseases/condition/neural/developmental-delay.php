@@ -239,7 +239,7 @@
 		</div>
 	</section>
 
-	<section class="testimonial-wrapper space-bottom">
+	<section class="testimonial-wrapper  d-none space-bottom d-none">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -279,6 +279,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="appointment-wrapper space-md-bottom" id="appointment">
 		<div class="container">
 			<div class="row">

@@ -23,7 +23,12 @@
 				<div class="col-12">
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
-							<img src="https://placehold.co/1200x600" alt="Disease Image" class="w-100">
+							<picture>
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/trisomy_1200x600.webp" type="image/webp">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/trisomy_1200x600.jpg" type="image/jpg">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/trisomy_800x800.jpg" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/trisomy_800x800.jpg" alt="Service Image" class="w-100">
+							</picture>
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-xl-11 col-xxl-10 ">

@@ -172,7 +172,7 @@
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-md-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
 					<h2 class="h1">Our Treatments at Stemrx</h2>
-					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 				</div>
 			</div>
 		</div>
@@ -264,14 +264,14 @@
 		</div>
 	</section>
 
-	<section class="testimonial-wrapper space-bottom">
+	<section class="testimonial-wrapper  d-none space-bottom">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="section-title">
 						<!-- <span class="h3 text-theme sec-subtitle">Testimonial</span> -->
 						<h2 class="h1">Our Patients Responses</h2>
-						<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+						<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 					</div>
 				</div>
 			</div>
@@ -313,7 +313,7 @@
 						<h2 class="h1 mb-3">We're Here For You</h2>
 						<div class="row">
 							<div class="col-xl-10 mb-md-2 pb-md-1">
-								<p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p>
+								<!-- <p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p> -->
 							</div>
 							<div class="col-md-6 col-lg-5 col-xl-4">
 								<ul class="vs-list list-unstyled text-title">

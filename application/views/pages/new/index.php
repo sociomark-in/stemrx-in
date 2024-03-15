@@ -35,7 +35,7 @@
 						<div class="media-icon"><i class="fas fa-phone"></i></div>
 						<div class="media-body">
 							<h3 class="media-title">CALL ANYTIME 24/7</h3>
-							<p class="media-text"><a href="<?= base_url() ?>tel:+919979976862">+91 997 997 6862</a></p>
+							<p class="media-text"><a href="tel:+919979976862">+91 997 997 6862</a></p>
 						</div>
 					</div><a href="<?= base_url() ?>why-stemrx" class="vs-btn">Learn More</a>
 				</div>
