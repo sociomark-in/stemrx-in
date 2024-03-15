@@ -21,6 +21,10 @@ class TeamController extends CI_Controller
 				# code...
 				$this->load->load_view('pages/team/dr-anil-daxini', $this->data);
 				break;
+			case 'dr-pallavi-lele':
+				# code...
+				$this->load->load_view('pages/team/dr-pallavi-lele', $this->data);
+				break;
 			
 			default:
 				# code...

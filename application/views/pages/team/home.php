@@ -99,7 +99,7 @@
 							</div>
 						</div>
 						<div class="team-body">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Pallavi Lale</a></h3>
+							<h3 class="h4 mb-0"><a href="<?= base_url('doctor/dr-pallavi-lele') ?>" class="text-reset">Dr. Pallavi Lale</a></h3>
 							<p class="fs-xs degi text-theme mb-2">Laparoscopic Surgeon </p>
 							<p class="fs-xs">Infertility & Regenerative Medicine Consultant, Laparoscopic Surgeon </p>
 							<div class="d-none">
