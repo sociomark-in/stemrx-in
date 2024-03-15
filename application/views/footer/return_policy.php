@@ -4,7 +4,7 @@
 				<div class="col-xl-12 mb-30">
 					<div class="about-content">
 						<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
-						<h2 class="h1 mb-3 text-center">Return Policy</h2>
+						<h2 class="h1 mb-3 text-center">Return Policy (for Products)</h2>
 						<div class="row">
 							<div class="col-md-12 col-lg-12 col-xl-12">
 								<ul class="vs-list list-unstyled text-title">
@@ -22,8 +22,6 @@
 									<p class="mb-md-4">You may not use, reproduce, distribute, or display any of the content on the Website without our prior written consent.</p>
 									<li>Sharing of Personal Information:</li>
 									<p class="mb-md-4">We do not share your personal information with third parties, except as necessary to provide you with the services you have requested, comply with legal obligations, or enforce our terms of use.</p>
-								
-								
 								</ul>
 							</div>
 						</div>

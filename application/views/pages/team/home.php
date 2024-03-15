@@ -15,7 +15,7 @@
 	</div>
 	<section class="vs-team-wrapper space">
 		<div class="container">
-			<div class="row align-items-center">
+			<div class="row align-items-center d-none">
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
 						<div class="team-head"><img src="https://placehold.co/380x320" alt="Team Area" class="w-100">
