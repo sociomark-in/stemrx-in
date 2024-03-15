@@ -12,7 +12,15 @@
 						<li><a href="#">Our Commitment</a></li>
 						<li><a href="#">Our Foundation </a></li>
 						<li><a href="#">Our Achievement </a></li>
-						<li><a href="#">Reserach Activity </a></li>
+						<li class="menu-item-has-children">
+							<a href="#">Research Activity & Patents </a>
+							<ul class="sub-menu">
+								<li><a href="#">Genetic Testing</a></li>
+								<li><a href="#">Patents </a></li>
+								<li><a href="#">Clinical Manuscripts </a></li>
+								<li><a href="#">Maldives </a></li>
+							</ul>
+						</li>
 						<li class="menu-item-has-children">
 							<a href="#">Our Centers </a>
 							<ul class="sub-menu">
@@ -210,7 +218,15 @@
 											<li><a href="#">Our Commitment</a></li>
 											<li><a href="#">Our Foundation </a></li>
 											<li><a href="#">Our Achievement </a></li>
-											<li><a href="#">Reserach Activity </a></li>
+											<li class="menu-item-has-children">
+												<a href="#">Research & Patents </a>
+												<ul class="sub-menu">
+													<li><a href="#">Genetic Testing</a></li>
+													<li><a href="#">Patents </a></li>
+													<li><a href="#">Clinical Manuscripts </a></li>
+													<li><a href="#">Maldives </a></li>
+												</ul>
+											</li>
 											<li class="menu-item-has-children">
 												<a href="#">Our Centers </a>
 												<ul class="sub-menu">

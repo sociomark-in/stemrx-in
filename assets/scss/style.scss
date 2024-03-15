@@ -1,5 +1,9 @@
 .breadcumb-wrapper{
 	padding-top: 5rem;
+	text-transform: capitalize;
+	.breadcumb-title{
+		text-transform: capitalize;
+	}
 	.breadcumb-menu-wrap{
 		margin-top: 2rem;
 		margin-bottom: -40px;
