@@ -12,13 +12,13 @@
 						<li><a href="#">Our Commitment</a></li>
 						<li><a href="#">Our Foundation </a></li>
 						<li><a href="#">Our Achievement </a></li>
+						<li><a href="#">Academics </a></li>
 						<li class="menu-item-has-children">
 							<a href="#">Research Activity & Patents </a>
 							<ul class="sub-menu">
 								<li><a href="#">Genetic Testing</a></li>
 								<li><a href="#">Patents </a></li>
 								<li><a href="#">Clinical Manuscripts </a></li>
-								<li><a href="#">Maldives </a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
@@ -47,7 +47,7 @@
 						<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
 						<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a></li>
 						<!-- <li><a href="<?= base_url() ?>condition/new-hope-clinic">New Hope Clinic</a></li> -->
-						<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic (New Hope)</a></li>
+						<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic</a></li>
 						<li><a href="<?= base_url() ?>condition/pain-care">Pain Care</a></li>
 						<li><a href="<?= base_url() ?>condition/eye-care">Eye Care</a></li>
 						<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a></li>
@@ -98,11 +98,10 @@
 				<li class="menu-item-has-children">
 					<a href="#">In Media</a>
 					<ul class="sub-menu">
-						<li><a href="<?= base_url("news") ?>">News </a></li>
-						<li><a href="<?= base_url("pr-articles") ?>">PR Article</a></li>
+						<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
 						<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
-						<li><a href="">Our Webinar </a></li>
-						<li><a href="javascript:void()">Blog</a></li>
+						<li><a href="javascript:void()">Our Webinar </a></li>
+						<li><a href="<?= base_url("pr-articles") ?>">Blogs</a></li>
 						<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 					</ul>
 				</li>
@@ -218,13 +217,13 @@
 											<li><a href="#">Our Commitment</a></li>
 											<li><a href="#">Our Foundation </a></li>
 											<li><a href="#">Our Achievement </a></li>
+											<li><a href="#">Academics </a></li>
 											<li class="menu-item-has-children">
 												<a href="#">Research & Patents </a>
 												<ul class="sub-menu">
 													<li><a href="#">Genetic Testing</a></li>
 													<li><a href="#">Patents </a></li>
 													<li><a href="#">Clinical Manuscripts </a></li>
-													<li><a href="#">Maldives </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
@@ -252,9 +251,9 @@
 											<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
 											<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
 											<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a></li>
-											<li><a href="<?= base_url() ?>condition/infertility">Infertility</a></li>
+											<li><a href="<?= base_url() ?>condition/infertility">Infertility Center</a></li>
 											<!-- <li><a href="<?= base_url() ?>condition/new-hope-clinic">New Hope Clinic</a></li> -->
-											<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic (New Hope)</a></li>
+											<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic</a></li>
 											<li><a href="<?= base_url() ?>condition/pain-care">Pain Care</a></li>
 											<li><a href="<?= base_url() ?>condition/eye-care">Eye Care</a></li>
 											<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a></li>
@@ -322,11 +321,10 @@
 									<li class="menu-item-has-children">
 										<a href="#">In Media</a>
 										<ul class="sub-menu">
-											<li><a href="<?= base_url("news") ?>">News </a></li>
-											<li><a href="<?= base_url("pr-articles") ?>">PR Article</a></li>
+											<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
 											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 											<li><a href="javascript:void()">Our Webinar </a></li>
-											<li><a href="javascript:void()">Blogs</a></li>
+											<li><a href="<?= base_url("pr-articles") ?>">Blogs</a></li>
 											<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 										</ul>
 									</li>
@@ -343,7 +341,7 @@
 						<div class="col-auto d-none-xxxl">
 							<div class="header-call phone-box d-flex align-items-center style2"><a href="tel:9979976862" class="box-icon"><i class="fas fa-phone-alt"></i></a>
 								<div class="media-body"><span class="fs-xs text-title">Call Anytime</span>
-									<p class="h4 fw-bold lh-1 mb-0"><a href="tel:9979976862">+91 9979976862</a></p>
+									<p class="h4 fw-bold lh-1 mb-0"><a href="tel:9979976862">+91 997 997 6862</a></p>
 								</div>
 							</div>
 						</div>

@@ -495,52 +495,50 @@
 						</div>
 					</div>
 				</div>
-				<div class="row justify-content-center mb-lg-5 mb-3">
-					<div class="col-xl-10">
-						<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="2">
-							<div class="col-md-6">
-								<a href="https://www.youtube.com/watch?v=6_M1otolKZw&feature=youtu.be" class="ratio-16x9" target="_blank">
-									<div class="youtube-testimonial">
-										<img src="<?= base_url() ?>assets/img/testimonial/6_M1otolKZw-HD.jpg" alt="">
-									</div>
-								</a>
-							</div>
-							<div class="col-md-6">
-								<a href="https://www.youtube.com/watch?v=l6ybS_3Dmuo&feature=youtu.be" class="ratio-16x9" target="_blank">
-									<div class="youtube-testimonial">
-										<img src="<?= base_url() ?>assets/img/testimonial/l6ybS_3Dmuo-HD.jpg" alt="">
-									</div>
-								</a>
-							</div>
-							<div class="col-md-6">
-								<a href="https://www.youtube.com/watch?v=6qcuCAI8Dn0&feature=youtu.be" class="ratio-16x9" target="_blank">
-									<div class="youtube-testimonial">
-										<img src="<?= base_url() ?>assets/img/testimonial/6qcuCAI8Dn0-HD.jpg" alt="">
-									</div>
-								</a>
-							</div>
-							<div class="col-md-6">
-								<a href="https://www.youtube.com/watch?v=lBfJqyGyxEI&feature=youtu.be" class="ratio-16x9" target="_blank">
-									<div class="youtube-testimonial">
-										<img src="<?= base_url() ?>assets/img/testimonial/lBfJqyGyxEI-HD.jpg" alt="">
-									</div>
-								</a>
-							</div>
+				<div class="container">
+					<div class="row vs-carousel mb-lg-5 mb-3 wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3">
+						<div class="col-md-6">
+							<a href="https://www.youtube.com/watch?v=6_M1otolKZw&feature=youtu.be" class="ratio-16x9" target="_blank">
+								<div class="youtube-testimonial">
+									<img src="<?= base_url() ?>assets/img/testimonial/6_M1otolKZw-HD.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6">
+							<a href="https://www.youtube.com/watch?v=l6ybS_3Dmuo&feature=youtu.be" class="ratio-16x9" target="_blank">
+								<div class="youtube-testimonial">
+									<img src="<?= base_url() ?>assets/img/testimonial/l6ybS_3Dmuo-HD.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6">
+							<a href="https://www.youtube.com/watch?v=6qcuCAI8Dn0&feature=youtu.be" class="ratio-16x9" target="_blank">
+								<div class="youtube-testimonial">
+									<img src="<?= base_url() ?>assets/img/testimonial/6qcuCAI8Dn0-HD.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6">
+							<a href="https://www.youtube.com/watch?v=lBfJqyGyxEI&feature=youtu.be" class="ratio-16x9" target="_blank">
+								<div class="youtube-testimonial">
+									<img src="<?= base_url() ?>assets/img/testimonial/lBfJqyGyxEI-HD.jpg" alt="">
+								</div>
+							</a>
+						</div>
 
-							<div class="col-md-6">
-								<a href="https://www.youtube.com/watch?v=2r3KGm11u5I&feature=youtu.be" class="ratio-16x9" target="_blank">
-									<div class="youtube-testimonial">
-										<img src="<?= base_url() ?>assets/img/testimonial/2r3KGm11u5I-HD.jpg" alt="">
-									</div>
-								</a>
-							</div>
+						<div class="col-md-6">
+							<a href="https://www.youtube.com/watch?v=2r3KGm11u5I&feature=youtu.be" class="ratio-16x9" target="_blank">
+								<div class="youtube-testimonial">
+									<img src="<?= base_url() ?>assets/img/testimonial/2r3KGm11u5I-HD.jpg" alt="">
+								</div>
+							</a>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="text-center">
-							<a href="<?= base_url("patient-testimonial") ?>" class="vs-btn">View All Testimonials</a>
+					<div class="row">
+						<div class="col-12">
+							<div class="text-center">
+								<a href="<?= base_url("patient-testimonial") ?>" class="vs-btn">View All Testimonials</a>
+							</div>
 						</div>
 					</div>
 				</div>

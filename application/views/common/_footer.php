@@ -121,7 +121,7 @@
 							</div>
 						</div>
 						<div class="fs-md mb-2">
-							<a class="text-white" href="tel:919979976862"><i class="text-theme fas fa-phone-alt me-2 pe-1"></i>+91 99799 76862</a>
+							<a class="text-white" href="tel:919979976862"><i class="text-theme fas fa-phone-alt me-2 pe-1"></i>+91 997 997 6862</a>
 						</div>
 						<div class="fs-md mb-2">
 							<a class="text-white" href="mailto:info@stemrx.in"><i class="text-theme fa fa-envelope me-2 pe-1"></i>info@stemrx.in</a>
