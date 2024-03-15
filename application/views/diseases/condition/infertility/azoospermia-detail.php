@@ -167,7 +167,7 @@
 		</div>
 	</section>
 
-	<section class="vs-specialities-wrapper space-md-bottom">
+	<section class="vs-specialities-wrapper space-md-bottom d-none">
 		<div class="container">
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-md-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
@@ -197,7 +197,7 @@
 		</div>
 	</section>
 
-	<section class="vs-team-wrapper space-md-bottom">
+	<section class="vs-team-wrapper space-md-bottom d-none">
 		<div class="container">
 			<div class="team-content text-center mb-30">
 				<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->

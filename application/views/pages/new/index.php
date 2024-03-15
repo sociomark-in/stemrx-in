@@ -137,7 +137,7 @@
 							<p>Cosmetic Treatments</p>
 						</a>
 					</div>
-					<div class="col-lg-2 col-md-4 col-6">
+					<div class="col-lg-2 col-md-4 col-6 d-none">
 						<a href="javascript:void()" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
@@ -178,7 +178,7 @@
 							<p>Chromosomal disorders</p>
 						</a>
 					</div>
-					<div class="col-lg-2 col-md-4 col-6">
+					<div class="col-lg-2 col-md-4 col-6 d-none">
 						<a href="javascript:void()" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
