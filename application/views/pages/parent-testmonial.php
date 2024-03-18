@@ -30,25 +30,29 @@
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-center">
-			<div class="col-12">
-				<div class="project-menu text-center mb-40 filter-menu-active ">
-					<button data-filter="*" class="vs-btn style4 active">All Testimonials</button>
-					<button data-filter=".neural" class="vs-btn style4">Neurological Problems</button>
-					<button data-filter=".developmental" class="vs-btn style4">Developmental Problems</button>
-					<button data-filter=".infertility" class="vs-btn style4">Infertility</button>
-					<button data-filter=".hope" class="vs-btn style4">Couple Clinic (New Hope)</button>
-					<button data-filter=".pain" class="vs-btn style4">Pain Care</button>
-					<button data-filter=".eyecare" class="vs-btn style4">Eye Care</button>
-					<button data-filter=".metabolic" class="vs-btn style4">Metabolic Diseases</button>
-					<button data-filter=".cosmetic" class="vs-btn style4">Cosmetic Treatments</button>
-					<button data-filter=".dental" class="vs-btn style4">Dental Treatment</button>
-					<button data-filter=".regenerative" class="vs-btn style4">Regenerative Clinic</button>
-					<button data-filter=".dermat" class="vs-btn style4">Dermatology Care</button>
-					<button data-filter=".chromosomes" class="vs-btn style4">Chromosomal Disorders</button>
-					<button data-filter=".other" class="vs-btn style4">Other</button>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12">
+					<div class="project-menu text-center mb-40 filter-menu-active ">
+						<button data-filter="*" class="vs-btn btn-testimonial style4 active">All Testimonials</button>
+						<button data-filter=".neural" class="vs-btn btn-testimonial style4">Neurological Problems</button>
+						<button data-filter=".developmental" class="vs-btn btn-testimonial style4">Developmental Problems</button>
+						<button data-filter=".infertility" class="vs-btn btn-testimonial style4">Infertility Center</button>
+						<button data-filter=".hope" class="vs-btn btn-testimonial style4">Couple Clinic</button>
+						<button data-filter=".pain" class="vs-btn btn-testimonial style4">Pain Care</button>
+						<button data-filter=".eyecare" class="vs-btn btn-testimonial style4">Eye Care</button>
+						<button data-filter=".metabolic" class="vs-btn btn-testimonial style4">Metabolic Diseases</button>
+						<button data-filter=".cosmetic" class="vs-btn btn-testimonial style4">Cosmetic Treatments</button>
+						<!-- <button data-filter=".dental" class="vs-btn btn-testimonial style4">Dental Treatment</button> -->
+						<button data-filter=".regenerative" class="vs-btn btn-testimonial style4">Regenerative Clinic</button>
+						<button data-filter=".dermat" class="vs-btn btn-testimonial style4">Dermatology Care</button>
+						<button data-filter=".chromosomes" class="vs-btn btn-testimonial style4">Chromosomal Disorders</button>
+						<button data-filter=".other" class="vs-btn btn-testimonial style4">Other</button>
+					</div>
 				</div>
 			</div>
+		</div>
+		<div class="row justify-content-center">
 			<div class="col-xl-10">
 				<div class="row justify-content-center filter-active">
 					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">
