@@ -20,4 +20,17 @@ class AboutController extends CI_Controller
 				break;
 		}
 	}
+
+	public function awards(){
+		$this->data['page'] = [
+			'title' => "Awards & Accolates" . " - " . APP_NAME
+		];
+		$this->load->load_view('pages/about/awards', $this->data);
+	}
+	public function academics(){
+		$this->data['page'] = [
+			'title' => "Awards & Accolates" . " - " . APP_NAME
+		];
+		$this->load->load_view('pages/about/academics', $this->data);
+	}
 }
