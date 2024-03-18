@@ -80,6 +80,9 @@ $route['our-center/(:any)'] = 'PagesController/center/$1';
 $route['about/(:any)'] = 'AboutController/about/$1';
 $route['awards'] = 'AboutController/awards';
 $route['academics'] = 'AboutController/academics';
+$route['genetic-testing'] = 'AboutController/research_genetic';
+$route['patents'] = 'AboutController/research_patents';
+$route['clinical-manuscripts'] = 'AboutController/research_manuscripts';
 
 $route['team-of-experts'] = 'TeamController/home';
 $route['doctor/(:any)'] = 'TeamController/doctor/$1';

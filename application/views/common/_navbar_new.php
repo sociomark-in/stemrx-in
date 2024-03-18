@@ -13,13 +13,13 @@
 						<li><a href="#">Our Commitment</a></li>
 						<li><a href="#">Our Foundation </a></li>
 						<li><a href="#">Our Achievement </a></li>
-						<li><a href="#">Academics </a></li>
+						<li><a href="<?= base_url('academics') ?>">Academics </a></li>
 						<li class="menu-item-has-children">
 							<a href="#">Research Activity & Patents </a>
 							<ul class="sub-menu">
-								<li><a href="#">Genetic Testing</a></li>
-								<li><a href="#">Patents </a></li>
-								<li><a href="#">Clinical Manuscripts </a></li>
+								<li><a href="<?= base_url() ?>genetic-testing">Genetic Testing</a></li>
+								<li><a href="<?= base_url() ?>patents">Patents </a></li>
+								<li><a href="<?= base_url() ?>clinical-manuscripts">Clinical Manuscripts </a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
@@ -148,17 +148,6 @@
 					Industrial Area, Rabale,<br>
 					Navi Mumbai, Maharashtra 400708</a></div>
 		</div>
-		<div class="widget footer-widget">
-			<h4 class="widget_title">Gallery Posts</h4>
-			<div class="footer-gallery">
-				<div class="gal-item"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100"></a></div>
-				<div class="gal-item"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/widget/gal-1-2.jpg" alt="Gallery Image" class="w-100"></a></div>
-				<div class="gal-item"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/widget/gal-1-3.jpg" alt="Gallery Image" class="w-100"></a></div>
-				<div class="gal-item"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/widget/gal-1-4.jpg" alt="Gallery Image" class="w-100"></a></div>
-				<div class="gal-item"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/widget/gal-1-5.jpg" alt="Gallery Image" class="w-100"></a></div>
-				<div class="gal-item"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/widget/gal-1-6.jpg" alt="Gallery Image" class="w-100"></a></div>
-			</div>
-		</div>
 	</div>
 </div>
 <header class="header-wrapper header-layout1">
@@ -219,13 +208,13 @@
 											<li><a href="#">Our Commitment</a></li>
 											<li><a href="#">Our Foundation </a></li>
 											<li><a href="#">Our Achievement </a></li>
-											<li><a href="#">Academics </a></li>
+											<li><a href="<?= base_url('academics') ?>">Academics </a></li>
 											<li class="menu-item-has-children">
-												<a href="#">Research & Patents </a>
+												<a href="#">Research Activity & Patents </a>
 												<ul class="sub-menu">
-													<li><a href="#">Genetic Testing</a></li>
-													<li><a href="#">Patents </a></li>
-													<li><a href="#">Clinical Manuscripts </a></li>
+													<li><a href="<?= base_url() ?>genetic-testing">Genetic Testing</a></li>
+													<li><a href="<?= base_url() ?>patents">Patents </a></li>
+													<li><a href="<?= base_url() ?>clinical-manuscripts">Clinical Manuscripts </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
