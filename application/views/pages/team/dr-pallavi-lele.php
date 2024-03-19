@@ -38,9 +38,9 @@
 									<th><strong>Areas of Expertise</strong></th>
 									<td>
 										<ul class="member-info-list">
-											<li>ovarian rejuvenation</li>
-											<li>cosmetic gynaecological procedures</li>
-											<li>infertility management</li>
+											<li>Obstetrics</li>
+											<li>Gynecology</li>
+											<li>Infertility treatment</li>
 										</ul>
 									</td>
 								</tr>
@@ -59,6 +59,152 @@
 			</div>
 		</div>
 	</section>
+	<section class="vs-detail-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="">
+						<h2>Key Professional Achievements:</h2>
+						<p>
+							With a wealth of experience spanning over a decade, Dr. Pallavi Lale’s expertise is evident through a series of notable achievements, including:
+						</p>
+						<ul class="row">
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Over 10 successful ovarian rejuvenation procedures performed</p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Regularly performs cosmetic laser gynecological procedures for international clients</p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Expertise in treating over 500 infertility couples, employing advanced reproductive techniques</p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Conducted over 1000 vaginal deliveries, vacuum-assisted vaginal deliveries, and cesarean sections</p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Proficient in abdominal and vaginal hysterectomies, laparoscopic surgeries, and minor procedures</p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Extensive experience managing over 10,000 outpatient departments (OPDs) and 5000 casualties</p>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="">
+						<h2>Experience:</h2>
+						<p>Expertise in Obstetrics, Gynecology, and Infertility treatment</p>
+						<h6 class="m-0">Current Position:</h6>
+						<ul class="row">
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Infertility Specialist, Cosmetic Gynecologist and Laparoscopic Surgeon at StemRx Bioscience Solutions and Advanced Fertility Centre, Navi Mumbai </p>
+								</div>
+							</li>
+						</ul>
+						<h6 class="m-0">Previous Hospitals/Institutes she has worked with:</h6>
+						<ul class="row">
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Shree Chaitanya Embryonic IVF Centre, Pune</p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Christanand Hospital, Bramhapuri</p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Currae IVF and Birthing Hospital, Thane</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="">
+						<h2>Publications & Paper Presentations:</h2>
+						<ul class="row">
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Prevalence of HELLP syndrome in preeclampsia and its fetomaternal outcome in Jharkhand, India. </p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Teenage pregnancy: A systematic review of fetomaternal outcome when compared with normal aged women. </p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Paper presentation on Prevalence of HELLP syndrome in preeclampsia and its fetomaternal outcome in Jharkhand, India in AICOG conference. </p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Won 2nd Prize at state level for paper presentation on Knowledge, Attitude, and practice of HPV vaccine among residence doctor in Obstetrics and Gynecology </p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="">
+						<h2>Certifications:</h2>
+						<p>Dr. Pallavi Lale holds following certifications:</p>
+						<ul class="row">
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Certificate of Basic Infertility Course (Madhudeep IVF Center – Bhavnagar, Gujarat) </p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Certificate of advance infertility course (Madhudeep IVF Center – Bhavnagar, Gujarat)</p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Certificate of Advance Infertility Course (Safal Infertility Training – Nagpur, Maharashtra) </p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Certificate of Laparoscopy, Hysteroscopy and Vaginal Surgeries (Pandit Hospital – Ahmednagar, Maharashtra) </p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Certificate of infertility ultrasound (BILMET ultrasound course)</p>
+								</div>
+							</li>
+							<li class="col-md-12 col-12">
+								<div class="">
+									<p>Certificate of Cosmetic gynaecology ( Eravio centre of cosmetology – Navi Mumbai, MAHARASTRA)</p>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="">
+						<h2>Registrations:</h2>
+						<p>Dr. Pallavi Lale is registered with the Medical Council of India and the Maharashtra Medical Council.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
 	<section class="vs-specialities-wrapper space-md-bottom">
 		<div class="container">
 			<div class="row justify-content-center">

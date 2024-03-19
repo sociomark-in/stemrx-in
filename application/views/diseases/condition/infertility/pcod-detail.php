@@ -47,70 +47,167 @@
 								</div>
 							</div>
 						</div>
-
-						<section class="appointment-wrapper">
+						
+						<section class="vs-detail-wrapper">
 							<div class="container">
-								<!-- <h3>About the disease:</h3> -->
-								<p>Polycystic Ovary Syndrome (PCOS), sometimes known as Polycystic Ovary Disorder (PCOD), is a common hormonal imbalance affecting women in their reproductive years. It's a complex condition with various symptoms impacting reproductive, hormonal, and metabolic functions. While its exact origins are still being explored, genetics and environment are believed to play significant roles. PCOS often manifests with ovarian cysts, though not always, making diagnosis a blend of symptoms and medical assessments.</p>
-							</div>
-						</section>
-
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>PCOS Symptoms:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Irregular menstrual cycles:</b> Hormonal imbalances disrupt ovulation, leading to irregular or absent periods.</li>
-											<li><b class="text-title">Excess androgen levels:</b>Higher-than-usual androgen levels can trigger acne, excess body hair, and hair thinning.</li>
-											<li><b class="text-title">Ovulation issues:</b>PCOS can hinder regular ovulation, impacting fertility.</li>
-											<li><b class="text-title">Polycystic ovaries:</b> Multiple small cysts on the ovaries are common, detectable through ultrasound.</li>
-											<li><b class="text-title">Weight management challenges:</b> Many with PCOS face difficulties managing weight, which can worsen other symptoms and increase health risks.</li>
-											<li><b class="text-title">Insulin resistance:</b> Higher insulin resistance raises diabetes risk.</li>
-											<li><b class="text-title">Emotional fluctuations:</b> Hormonal shifts can contribute to mood swings and depression.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Common fears and concerns:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Fertility worries.</b></li>
-											<li><b class="text-title">Managing unpredictable cycles.</b></li>
-											<li><b class="text-title">Weight fluctuations.</b></li>
-											<li><b class="text-title">Dealing with excess hair growth.</b></li>
-											<li><b class="text-title">Addressing skin concerns.</b></li>
-											<li><b class="text-title">Long-term health risks.</b></li>
-											<li><b class="text-title">Emotional well-being.</b></li>
-											<li><b class="text-title">Relationship impacts.</b></li>
-											<li><b class="text-title">Social stigma.</b></li>
-											<li><b class="text-title">Finding effective symptom management.</b></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Key advantages and unique selling points of StemRx Hospital:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Specialized PCOS expertise:</b> A dedicated team ensures personalized attention.</li>
-											<li><b class="text-title">Advanced Diagnosis:</b> Cutting-edge tools aid accurate assessment and personalized plans.</li>
-											<li><b class="text-title">Multidisciplinary care:</b> Gynecologists, endocrinologists, nutritionists, and mental health professionals collaborate for holistic management.</li>
-											<li><b class="text-title">Fertility-focused treatments:</b>Tailored fertility solutions cater to PCOS-related challenges.</li>
-											<li><b class="text-title">Research-driven care:</b> Patients benefit from the latest advancements and clinical trials.</li>
-											<li><b class="text-title">Patient-centric ethos: </b> Education and support are integral to the treatment journey.</li>
-											<li><b class="text-title">Long-term health focus:</b> Beyond symptom alleviation, the hospital targets underlying imbalances for improved overall health.</li>
-
-										</ul>
+								<div class="row">
+									<div class="col-12">
+										<div class="">
+											<h2 class="h1">About the Disease: </h2>
+											<p>Polycystic Ovary Syndrome (PCOS), sometimes known as Polycystic Ovary Disorder (PCOD), is a common hormonal imbalance affecting women in their reproductive years. It's a complex condition with various symptoms impacting reproductive, hormonal, and metabolic functions. While its exact origins are still being explored, genetics and environment are believed to play significant roles. PCOS often manifests with ovarian cysts, though not always, making diagnosis a blend of symptoms and medical assessments.</p>
+										</div>
+										<div class="">
+											<h2>Symptoms</h2>
+											<p>
+												Here are the key symptoms of PCOD / PCOS:
+											</p>
+											<ul class="row">
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Irregular menstrual cycles:</h6>
+														<p>Hormonal imbalances disrupt ovulation, leading to irregular or absent periods.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Excess androgen levels:</h6>
+														<p>Higher-than-usual androgen levels can trigger acne, excess body hair, and hair thinning.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Ovulation issues:</h6>
+														<p>PCOS can hinder regular ovulation, impacting fertility.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Polycystic ovaries:</h6>
+														<p>Multiple small cysts on the ovaries are common, detectable through ultrasound.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Weight management challenges:</h6>
+														<p>Many with PCOS face difficulties managing weight, which can worsen other symptoms and increase health risks.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Insulin resistance:</h6>
+														<p>Higher insulin resistance raises diabetes risk.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Emotional fluctuations:</h6>
+														<p>Hormonal shifts can contribute to mood swings and depression.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Common Fears and Concerns</h2>
+											<p>Here are some of the common fears and concerns regarding azoospermia:</p>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Fertility worries. </h6>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Managing unpredictable cycles.</h6>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Weight fluctuations.</h6>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Dealing with excess hair growth.</h6>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Addressing skin concerns.</h6>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Long-term health risks.</h6>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Emotional well-being.</h6>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Relationship impacts. </h6>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Social stigma. </h6>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Finding effective symptom management.</h6>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Key advantages and unique points of StemRx Hospital:</h2>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Specialized PCOS expertise:</h6>
+														<p>A dedicated team ensures personalized attention.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Advanced Diagnosis: </h6>
+														<p>Cutting-edge tools aid accurate assessment and personalized plans.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Multidisciplinary care:</h6>
+														<p>Gynecologists, endocrinologists, nutritionists, and mental health professionals collaborate for holistic management.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Fertility-focused treatments:  </h6>
+														<p>Tailored fertility solutions cater to PCOS-related challenges.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Research-driven care: </h6>
+														<p>Patients benefit from the latest advancements and clinical trials.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Patient-centric ethos: </h6>
+														<p> Education and support are integral to the treatment journey.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Long-term health focus:</h6>
+														<p>Beyond symptom alleviation, the hospital targets underlying imbalances for improved overall health.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>

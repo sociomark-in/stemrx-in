@@ -39,7 +39,7 @@
 											<span class="fs-xs">Condition Name</span>
 											<h2 class="h5 mb-0">Azoospermia</h2>
 										</div>
-										
+
 										<div class="col-sm-6 col-lg-auto">
 											<a href="#appointment" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
 										</div>
@@ -49,95 +49,171 @@
 						</div>
 
 
-						<section class="appointment-wrapper">
+						<section class="vs-detail-wrapper">
 							<div class="container">
-								<h3>Symptoms:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li>Catchy Headline</li>
-											<li>About the disease</li>
-											<li>Symptoms</li>
-											<li>Common fears and concerns</li>
-											<li>StemRx innovative treatment approach</li>
-											<li>Key advantages and unique selling points of StemRx Hospital</li>
-										</ul>
+								<div class="row">
+									<div class="col-12">
+										<div class="">
+											<h2 class="h1">About the Disease: </h2>
+											<p>Azoospermia is a medical condition that deeply impacts men and their partners, characterized by the heart-wrenching absence of sperm in semen. This heartbreaking reality often leads to profound challenges in achieving parenthood, stirring up feelings of longing and uncertainty.</p>
+											<ul class="row">
+												<li class="col-md-12 col-12">
+													<div class="">
+														<h6 class="m-0">Obstructive Azoospermia :</h6>
+														<p>Imagine a roadblock on the journey to fatherhood. This type of azoospermia presents a formidable obstacle in the form of blockages or obstructions along the reproductive tract. These roadblocks can manifest anywhere along the pathway, from the delicate epididymis to the vital vas deferens or the crucial ejaculatory ducts. Causes of these barriers include congenital abnormalities, infections, past surgeries like vasectomies, or painful inflammation. Each blockage represents not just a physical hurdle but an emotional one, as individuals face the harsh reality of their fertility challenges.</p>
+													</div>
+												</li>
+												<li class="col-md-12 col-12">
+													<div class="">
+														<h6 class="m-0">Non-Obstructive Azoospermia:</h6>
+														<p>When hope seems elusive, non-obstructive azoospermia casts a shadow over the dreams of building a family. Unlike its obstructive counterpart, this form of azoospermia reveals a different struggle—one rooted deep within the testicles. Here, the issue lies not in blockages but in the inability of the testicles to produce sufficient sperm. This silent battle is waged against genetic factors, hormonal imbalances, the harsh aftermath of chemotherapy or radiation, traumatic testicular injuries, or even the side effects of certain medications. Each of these factors not only impacts sperm production but also takes an emotional toll, leaving individuals grappling with their fertility challenges and the uncertain path ahead.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Symptoms</h2>
+											<p>
+												Here are the key symptoms of Azoospermia:
+											</p>
+											<ul class="row">
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Absence of Sperm in Ejaculate :</h6>
+														<p>Imagine sitting in the doctor's office, waiting for the results of your fertility tests, hoping for good news. When the doctor finally delivers the news, it hits you like a ton of bricks – there's not a single sperm in your ejaculate. It's a crushing realization that the dream of starting a family may be slipping away. This absence of sperm, detected during routine semen analysis, is often the first sign of azoospermia, a condition that can deeply affect a man's sense of identity and future.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Hormonal Imbalances:</h6>
+														<p>For some men, the diagnosis of azoospermia comes with a cascade of hormonal imbalances that wreak havoc on their bodies. It's not just about the absence of sperm; it's also about the toll it takes on libido, causing changes that are deeply unsettling. Imagine feeling disconnected from your own body, grappling with issues like erectile dysfunction or noticing changes like decreased facial or body hair growth. And for some, it's the added blow of gynecomastia, the enlargement of breast tissue, which can shatter confidence and self-esteem.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Testicular Abnormalities:</h6>
+														<p>Picture the discomfort and worry of experiencing persistent testicular pain or swelling. Every twinge serves as a constant reminder of the underlying condition that's affecting your fertility. It's not just physical discomfort; it's the emotional weight of knowing that something isn't right with a part of your body that feels so integral to your sense of masculinity.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Genetic Disorders:</h6>
+														<p>In some cases, the cause of azoospermia lies deep within your DNA, a genetic mutation that disrupts the delicate process of sperm production. Suddenly, the diagnosis of azoospermia isn't just about you – it's about the generations that came before you and those that may come after. It's about grappling with the uncertainty of passing on genetic abnormalities to your future children and the weight of inherited diseases that may lurk in the shadows.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Common Fears and Concerns</h2>
+											<p>Here are some of the common fears and concerns regarding azoospermia:</p>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Infertility and Reproductive Future: </h6>
+														<p>Imagine the heartache of realizing that the dream of starting a family may be slipping away. For many diagnosed with azoospermia, the fear of not being able to conceive biological children cuts deep. It's not just about biology; it's about the profound impact on relationships, family plans, and the very essence of masculinity or femininity.</p>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Emotional Impact and Psychological Well-being: </h6>
+														<p> Picture the flood of emotions that comes with an azoospermia diagnosis – sadness, frustration, anger, guilt, and a gnawing sense of inadequacy. It's a rollercoaster of emotions that shakes the core of your self-worth, identity, and hopes for future happiness.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Relationship Strain: </h6>
+														<p>Think about the strain an azoospermia diagnosis can place on relationships. It's not just about facing the challenge together; it's about navigating differing expectations, coping mechanisms, and the minefield of blame and resentment. Communication becomes strained, and feelings of isolation may creep in, threatening the very foundation of the relationship.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Stigma and Social Perception:</h6>
+														<p>Imagine the fear of judgment and stigma from society, friends, or family members who may not grasp the complexities of infertility. It's a fear that drives some to hide their struggles, retreating into secrecy and isolation, avoiding social situations where they may feel exposed or misunderstood.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Financial Burden:</h6>
+														<p>Consider the stress of grappling with the financial burden of treatment for azoospermia. From costly assisted reproductive technologies to concerns about insurance coverage and affordability, the financial strain adds another layer of stress to an already challenging situation.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Uncertainty and Lack of Control: </h6>
+														<p>Picture the anxiety that comes with facing an uncertain future and the lack of control over fertility outcomes. It's the worry about the success of treatment options, the possibility of complications, and the fear of enduring multiple failed attempts, each one taking its toll on hope and resilience.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Health Risks and Treatment Side Effects: </h6>
+														<p>Think about the fear of potential health risks or side effects associated with treatment for azoospermia. From surgical procedures to hormone therapy or medications, the concern about long-term health implications and the impact on overall well-being weighs heavily on the mind.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Genetic Concerns: </h6>
+														<p>Consider the worry about passing on genetic abnormalities to offspring or the risk of inherited diseases in future generations. It's not just about your own health; it's about the legacy you may unwittingly pass on, adding another layer of concern to an already complex situation.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Key advantages and unique points of StemRx Hospital:</h2>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Expert Team:</h6>
+														<p>Our highly specialized fertility specialists bring extensive experience in treating male infertility, including azoospermia.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Advanced Diagnosis: </h6>
+														<p>We utilize cutting-edge diagnostic techniques to pinpoint the root causes of azoospermia, ensuring personalized treatment plans for each patient.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Innovative Treatments:</h6>
+														<p>StemRx offers a diverse range of advanced treatment options, from state-of-the-art surgical procedures to hormonal therapies and assisted reproductive technologies.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Holistic Care:  </h6>
+														<p>Our multidisciplinary team collaborates closely to provide comprehensive, patient-centered care, prioritizing the well-being and comfort of every individual.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Proven Success: </h6>
+														<p>StemRx boasts high success rates in helping couples overcome male infertility, with a track record of achieving pregnancy.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Patient-Centric Focus:</h6>
+														<p> The hospital prioritizes the needs and well-being of patients, providing compassionate care and support throughout their treatment journey, empowering them to make informed decisions and actively participate in their own care.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">State-of-the-Art Facilities:</h6>
+														<p>Equipped with the latest technology and amenities, our hospital ensures optimal comfort and care for our patients.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Ongoing Support: </h6>
+														<p> We believe in providing continuous support and guidance, even after treatment, to ensure long-term success and well-being.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
 						</section>
 
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>About the disease:</h3>
-								<p>Azoospermia is a medical condition that deeply impacts men and their partners, characterized by the heart-wrenching absence of sperm in semen. This heartbreaking reality often leads to profound challenges in achieving parenthood, stirring up feelings of longing and uncertainty.</p>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Obstructive Azoospermia :</b> Imagine a roadblock on the journey to fatherhood. This type of azoospermia presents a formidable obstacle in the form of blockages or obstructions along the reproductive tract. These roadblocks can manifest anywhere along the pathway, from the delicate epididymis to the vital vas deferens or the crucial ejaculatory ducts. Causes of these barriers include congenital abnormalities, infections, past surgeries like vasectomies, or painful inflammation. Each blockage represents not just a physical hurdle but an emotional one, as individuals face the harsh reality of their fertility challenges.</li>
-											<li><b class="text-title">Non-Obstructive Azoospermia:</b> When hope seems elusive, non-obstructive azoospermia casts a shadow over the dreams of building a family. Unlike its obstructive counterpart, this form of azoospermia reveals a different struggle—one rooted deep within the testicles. Here, the issue lies not in blockages but in the inability of the testicles to produce sufficient sperm. This silent battle is waged against genetic factors, hormonal imbalances, the harsh aftermath of chemotherapy or radiation, traumatic testicular injuries, or even the side effects of certain medications. Each of these factors not only impacts sperm production but also takes an emotional toll, leaving individuals grappling with their fertility challenges and the uncertain path ahead.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Symptoms:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Absence of Sperm in Ejaculate :</b> Imagine sitting in the doctor's office, waiting for the results of your fertility tests, hoping for good news. When the doctor finally delivers the news, it hits you like a ton of bricks – there's not a single sperm in your ejaculate. It's a crushing realization that the dream of starting a family may be slipping away. This absence of sperm, detected during routine semen analysis, is often the first sign of azoospermia, a condition that can deeply affect a man's sense of identity and future.</li>
-											<li><b class="text-title">Hormonal Imbalances:</b>For some men, the diagnosis of azoospermia comes with a cascade of hormonal imbalances that wreak havoc on their bodies. It's not just about the absence of sperm; it's also about the toll it takes on libido, causing changes that are deeply unsettling. Imagine feeling disconnected from your own body, grappling with issues like erectile dysfunction or noticing changes like decreased facial or body hair growth. And for some, it's the added blow of gynecomastia, the enlargement of breast tissue, which can shatter confidence and self-esteem.</li>
-											<li><b class="text-title">Testicular Abnormalities:</b>Picture the discomfort and worry of experiencing persistent testicular pain or swelling. Every twinge serves as a constant reminder of the underlying condition that's affecting your fertility. It's not just physical discomfort; it's the emotional weight of knowing that something isn't right with a part of your body that feels so integral to your sense of masculinity.</li>
-											<li><b class="text-title">Genetic Disorders:</b>In some cases, the cause of azoospermia lies deep within your DNA, a genetic mutation that disrupts the delicate process of sperm production. Suddenly, the diagnosis of azoospermia isn't just about you – it's about the generations that came before you and those that may come after. It's about grappling with the uncertainty of passing on genetic abnormalities to your future children and the weight of inherited diseases that may lurk in the shadows.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Common fears and concerns:</h3>
-								<p>Here are some of the common fears and concerns regarding azoospermia:</p>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Infertility and Reproductive Future:</b> Imagine the heartache of realizing that the dream of starting a family may be slipping away. For many diagnosed with azoospermia, the fear of not being able to conceive biological children cuts deep. It's not just about biology; it's about the profound impact on relationships, family plans, and the very essence of masculinity or femininity.</li>
-											<li><b class="text-title">Emotional Impact and Psychological Well-being:</b>Picture the flood of emotions that comes with an azoospermia diagnosis – sadness, frustration, anger, guilt, and a gnawing sense of inadequacy. It's a rollercoaster of emotions that shakes the core of your self-worth, identity, and hopes for future happiness.</li>
-											<li><b class="text-title">Relationship Strain:</b>Think about the strain an azoospermia diagnosis can place on relationships. It's not just about facing the challenge together; it's about navigating differing expectations, coping mechanisms, and the minefield of blame and resentment. Communication becomes strained, and feelings of isolation may creep in, threatening the very foundation of the relationship.</li>
-											<li><b class="text-title">Stigma and Social Perception:</b>Imagine the fear of judgment and stigma from society, friends, or family members who may not grasp the complexities of infertility. It's a fear that drives some to hide their struggles, retreating into secrecy and isolation, avoiding social situations where they may feel exposed or misunderstood.</li>
-											<li><b class="text-title">Financial Burden:</b>Consider the stress of grappling with the financial burden of treatment for azoospermia. From costly assisted reproductive technologies to concerns about insurance coverage and affordability, the financial strain adds another layer of stress to an already challenging situation.</li>
-											<li><b class="text-title">Uncertainty and Lack of Control:</b>Picture the anxiety that comes with facing an uncertain future and the lack of control over fertility outcomes. It's the worry about the success of treatment options, the possibility of complications, and the fear of enduring multiple failed attempts, each one taking its toll on hope and resilience.</li>
-											<li><b class="text-title">Health Risks and Treatment Side Effects:</b>Think about the fear of potential health risks or side effects associated with treatment for azoospermia. From surgical procedures to hormone therapy or medications, the concern about long-term health implications and the impact on overall well-being weighs heavily on the mind.</li>
-											<li><b class="text-title">Genetic Concerns:</b>Consider the worry about passing on genetic abnormalities to offspring or the risk of inherited diseases in future generations. It's not just about your own health; it's about the legacy you may unwittingly pass on, adding another layer of concern to an already complex situation.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Key advantages and unique selling points of StemRx Hospital:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Expert Team:</b> Our highly specialized fertility specialists bring extensive experience in treating male infertility, including azoospermia.</li>
-											<li><b class="text-title">Advanced Diagnosis:</b> We utilize cutting-edge diagnostic techniques to pinpoint the root causes of azoospermia, ensuring personalized treatment plans for each patient.</li>
-											<li><b class="text-title">Innovative Treatments:</b> StemRx offers a diverse range of advanced treatment options, from state-of-the-art surgical procedures to hormonal therapies and assisted reproductive technologies.</li>
-											<li><b class="text-title">Holistic Care:</b> Our multidisciplinary team collaborates closely to provide comprehensive, patient-centered care, prioritizing the well-being and comfort of every individual.</li>
-											<li><b class="text-title">Proven Success:</b> StemRx boasts high success rates in helping couples overcome male infertility, with a track record of achieving pregnancy.</li>
-											<li><b class="text-title">State-of-the-Art Facilities:</b> Equipped with the latest technology and amenities, our hospital ensures optimal comfort and care for our patients.</li>
-											<li><b class="text-title">Ongoing Support:</b> We believe in providing continuous support and guidance, even after treatment, to ensure long-term success and well-being.</li>
-
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
 						<!-- <p class="fs-md text-title mb-4 pb-2">Professionally iterate out-of-the-box relationships without scalable "outside the box" thinking. Intrinsicly revolutionize team building customer service before cross-platform portals. Quickly plagiarize resource maximizing mindshare and state of the art deliverables. Phosfluorescently reintermediate sustainable architectures for enterprise relationships. Compellingly actualize world-class solutions for high-payoff initiatives.</p>
 						<p>Monotonectally foster alternative technology vis-a-vis multifunctional leadership. Compellingly orchestrate standards compliant schemas for highly efficient interfaces. Uniquely impact orthogonal customer service whereas standards compliant services. Professionally communicate performance based niche markets without performance based information. Objectively plagiarize prospective networks via ubiquitous web-readiness. Credibly monetize process-centric synergy with intuitive strategic theme areas. Professionally provide access to optimal portals without dynamic supply chains. Enthusiastically re-engineer equity invested imperatives without leveraged alignments. Monotonectally scale parallel methods of empowerment rather than wireless sources. Competently scale robust relationships without maintainable synergy. Completely enhance best-of-breed models for ubiquitous applications. Quickly underwhelm bricks-and-clicks bandwidth with resource maximizing e-services. Appropriately incentivize out-of-the-box relationships after customized users. Continually productivate real-time testing procedures and backward-compatible scenarios. Holisticly predominate enabled ideas whereas future-proof content.</p>
 						<div class="row mt-40 mb-20">

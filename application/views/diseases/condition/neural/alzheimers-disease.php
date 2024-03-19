@@ -39,7 +39,7 @@
 											<span class="fs-xs">Condition Name</span>
 											<h2 class="h5 mb-0">Alzheimer's Disease</h2>
 										</div>
-										
+
 										<div class="col-sm-6 col-lg-auto">
 											<a href="#appointment" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
 										</div>
@@ -48,68 +48,163 @@
 							</div>
 						</div>
 
-						<section class="appointment-wrapper">
+						<section class="vs-detail-wrapper">
 							<div class="container">
-								<h4><b class="text-title">"Unlocking Hope: StemRx Hospital's Groundbreaking Approach to Alzheimer's Disease"</b></h4>
-							</div>
-						</section>
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Here are some key symptoms of Alzheimer's Disease:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Muscle stiffness or weakness:</b> Individuals with cerebral palsy may experience muscle stiffness, making movements difficult and rigid.</li>
-											<li><b class="text-title">Poor coordination:</b> Coordination difficulties are common, affecting tasks such as walking, reaching, or grasping objects.</li>
-											<li><b class="text-title">Abnormal reflexes:</b> Reflexes may be exaggerated or diminished, leading to involuntary movements or abnormal posture.</li>
-											<li><b class="text-title">Delayed milestones:</b> Children with cerebral palsy may reach developmental milestones, such as sitting up or walking, later than their peers.</li>
-											<li><b class="text-title">Spasticity:</b> Some individuals may have spastic cerebral palsy, characterized by stiff, tight muscles that can interfere with movement.</li>
-											<li><b class="text-title">Ataxia: </b>Others may have ataxic cerebral palsy, which causes problems with balance and coordination.</li>
-											<li><b class="text-title">Speech and communication difficulties:</b> Many individuals with cerebral palsy may experience challenges with speech and language development.</li>
-										</ul>
+								<div class="row">
+									<div class="col-12">
+										<div class="">
+											<h2 class="h1">Unlocking Hope: StemRx Hospital's Groundbreaking Approach to Alzheimer's Disease</h2>
+										</div>
+										<div class="">
+											<h2>Symptoms</h2>
+											<p>
+												Here are the key symptoms of Alzheimer's Disease:
+											</p>
+											<ul class="row">
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Muscle stiffness or weakness:</h6>
+														<p>Individuals with cerebral palsy may experience muscle stiffness, making movements difficult and rigid.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Poor coordination:</h6>
+														<p>Coordination difficulties are common, affecting tasks such as walking, reaching, or grasping objects.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Abnormal reflexes:</h6>
+														<p>Reflexes may be exaggerated or diminished, leading to involuntary movements or abnormal posture.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Delayed milestones:</h6>
+														<p>Children with cerebral palsy may reach developmental milestones, such as sitting up or walking, later than their peers.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Spasticity:</h6>
+														<p>Some individuals may have spastic cerebral palsy, characterized by stiff, tight muscles that can interfere with movement.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Ataxia:</h6>
+														<p>Others may have ataxic cerebral palsy, which causes problems with balance and coordination.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Speech and communication difficulties:</h6>
+														<p>Many individuals with cerebral palsy may experience challenges with speech and language development.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Common Fears and Concerns</h2>
+											<p>Living with cerebral palsy can evoke a range of fears and concerns that are deeply rooted in human emotions. These can include:</p>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Fear of exclusion and isolation:</h6>
+														<p>Individuals with cerebral palsy may fear being left out or marginalized by society due to their physical limitations or differences. The desire for acceptance and inclusion is a fundamental human need, and the fear of rejection can be deeply distressing.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Concerns about independence:</h6>
+														<p>Many individuals with cerebral palsy worry about their ability to live independently and perform everyday tasks without assistance. The fear of dependence on others can evoke feelings of helplessness and inadequacy, challenging their sense of autonomy and self-worth.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Anxiety about future health complications:</h6>
+														<p>The unpredictable nature of cerebral palsy and its potential for secondary health issues, such as muscle contractures or joint deformities, can generate significant anxiety. Fear of deterioration in health or increased pain and discomfort can weigh heavily on individuals with cerebral palsy and their loved ones.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Worries about social stigma and discrimination: </h6>
+														<p>The pervasive stigma surrounding disabilities can lead to fears of discrimination, prejudice, or ridicule. Concerns about being judged or misunderstood by others can erode self-confidence and contribute to social anxiety.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Financial insecurity:</h6>
+														<p>Managing the costs associated with medical care, assistive devices, and therapies can be a source of significant stress for individuals with cerebral palsy and their families. Fear of financial instability or inability to afford necessary treatments can exacerbate feelings of uncertainty and vulnerability.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Emotional struggles:</h6>
+														<p>Coping with the physical and emotional challenges of cerebral palsy can take a toll on mental well-being. Feelings of frustration, anger, or sadness about limitations imposed by the condition may arise, along with concerns about not being understood or supported by others.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Uncertainty about the future:</h6>
+														<p>The long-term outlook for individuals with cerebral palsy can be uncertain, leading to fears about what the future holds. Questions about employment opportunities, relationships, and overall quality of life may loom large, creating a sense of unease about what lies ahead.</p>
+													</div>
+												</li>
+											</ul>
+											<p>Addressing these fears and concerns requires a supportive environment that acknowledges the emotional impact of cerebral palsy and provides access to resources, therapies, and community support networks, which you can get under one roof at StemRx Hospital and Research Centre. Empathy, understanding, and advocacy are essential in helping individuals with cerebral palsy navigate these challenges and live fulfilling lives.</p>
+										</div>
+										<div class="">
+											<h2>Benefits</h2>
+											<p>Stem cell treatment at StemRx Hospital for cerebral palsy offers numerous benefits that can significantly improve the quality of life for individuals with this condition:</p>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Regeneration of damaged tissue:</h6>
+														<p>Stem cell therapy has the potential to regenerate damaged brain tissue, promoting neural repair and restoring function in areas affected by cerebral palsy. This regeneration can lead to improvements in motor skills, coordination, and overall mobility.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Reduction of inflammation:</h6>
+														<p>Stem cells have anti-inflammatory properties that can help reduce inflammation in the brain, which is often associated with cerebral palsy. By decreasing inflammation, stem cell therapy may alleviate symptoms such as muscle stiffness and spasticity, allowing for smoother movement and improved range of motion.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Enhancement of neuroplasticity: </h6>
+														<p>Stem cells can stimulate neuroplasticity, the brain's ability to reorganize and form new connections. This can facilitate learning and adaptation, enabling individuals with cerebral palsy to develop new motor skills and improve existing ones.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Potential for long-term improvement: </h6>
+														<p>Stem cell therapy has the potential to provide long-term benefits for individuals with cerebral palsy. By promoting ongoing neural repair and regeneration, it may lead to sustained improvements in motor function and overall quality of life.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Minimally invasive procedure: </h6>
+														<p>Stem cell therapy at StemRx Hospital is typically performed using minimally invasive techniques, such as intravenous infusion or injection. This reduces the risk of complications and shortens recovery time, allowing patients to return to their daily activities more quickly.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Personalized treatment approach:</h6>
+														<p> At StemRx Hospital, stem cell therapy for cerebral palsy is tailored to each patient's specific needs and medical history. This personalized approach ensures that individuals receive the most effective and appropriate treatment for their condition, maximizing the chances of successful outcomes.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Comprehensive care:</h6>
+														<p>In addition to stem cell therapy, StemRx Hospital provides comprehensive care and support services for individuals with cerebral palsy, including physical therapy, occupational therapy, and assistive device recommendations. This holistic approach addresses the multifaceted needs of patients and promotes their overall well-being.</p>
+													</div>
+												</li>
+											</ul>
+											<p>Overall, stem cell treatment at StemRx Hospital offers promising benefits for individuals with cerebral palsy, potentially leading to significant improvements in motor function, mobility, and quality of life.</p>
+										</div>
 									</div>
 								</div>
-							</div>
-						</section>
-
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Common fears and Concerns:</h3>
-								<p>Living with cerebral palsy can evoke a range of fears and concerns that are deeply rooted in human emotions. These can include:</p>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Fear of exclusion and isolation:</b> Individuals with cerebral palsy may fear being left out or marginalized by society due to their physical limitations or differences. The desire for acceptance and inclusion is a fundamental human need, and the fear of rejection can be deeply distressing.</li>
-											<li><b class="text-title">Concerns about independence: </b> Many individuals with cerebral palsy worry about their ability to live independently and perform everyday tasks without assistance. The fear of dependence on others can evoke feelings of helplessness and inadequacy, challenging their sense of autonomy and self-worth.</li>
-											<li><b class="text-title">Anxiety about future health complications:</b> The unpredictable nature of cerebral palsy and its potential for secondary health issues, such as muscle contractures or joint deformities, can generate significant anxiety. Fear of deterioration in health or increased pain and discomfort can weigh heavily on individuals with cerebral palsy and their loved ones.</li>
-											<li><b class="text-title">Worries about social stigma and discrimination:</b> The pervasive stigma surrounding disabilities can lead to fears of discrimination, prejudice, or ridicule. Concerns about being judged or misunderstood by others can erode self-confidence and contribute to social anxiety.</li>
-											<li><b class="text-title">Financial insecurity:</b> Managing the costs associated with medical care, assistive devices, and therapies can be a source of significant stress for individuals with cerebral palsy and their families. Fear of financial instability or inability to afford necessary treatments can exacerbate feelings of uncertainty and vulnerability.</li>
-											<li><b class="text-title">Emotional struggles:</b> Coping with the physical and emotional challenges of cerebral palsy can take a toll on mental well-being. Feelings of frustration, anger, or sadness about limitations imposed by the condition may arise, along with concerns about not being understood or supported by others.</li>
-											<li><b class="text-title">Uncertainty about the future:</b> The long-term outlook for individuals with cerebral palsy can be uncertain, leading to fears about what the future holds. Questions about employment opportunities, relationships, and overall quality of life may loom large, creating a sense of unease about what lies ahead.</li>
-										</ul>
-									</div>
-								</div>
-								<p>Addressing these fears and concerns requires a supportive environment that acknowledges the emotional impact of cerebral palsy and provides access to resources, therapies, and community support networks, which you can get under one roof at StemRx Hospital and Research Centre. Empathy, understanding, and advocacy are essential in helping individuals with cerebral palsy navigate these challenges and live fulfilling lives.</p>
-							</div>
-						</section>
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Benefits:</h3>
-								<p>Stem cell treatment at StemRx Hospital for cerebral palsy offers numerous benefits that can significantly improve the quality of life for individuals with this condition:</p>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Regeneration of damaged tissue:</b> Stem cell therapy has the potential to regenerate damaged brain tissue, promoting neural repair and restoring function in areas affected by cerebral palsy. This regeneration can lead to improvements in motor skills, coordination, and overall mobility.</li>
-											<li><b class="text-title">Reduction of inflammation: </b> Stem cells have anti-inflammatory properties that can help reduce inflammation in the brain, which is often associated with cerebral palsy. By decreasing inflammation, stem cell therapy may alleviate symptoms such as muscle stiffness and spasticity, allowing for smoother movement and improved range of motion.</li>
-											<li><b class="text-title">Enhancement of neuroplasticity:</b> Stem cells can stimulate neuroplasticity, the brain's ability to reorganize and form new connections. This can facilitate learning and adaptation, enabling individuals with cerebral palsy to develop new motor skills and improve existing ones.</li>
-											<li><b class="text-title">Potential for long-term improvement:</b> Stem cell therapy has the potential to provide long-term benefits for individuals with cerebral palsy. By promoting ongoing neural repair and regeneration, it may lead to sustained improvements in motor function and overall quality of life.</li>
-											<li><b class="text-title">Minimally invasive procedure:</b> Stem cell therapy at StemRx Hospital is typically performed using minimally invasive techniques, such as intravenous infusion or injection. This reduces the risk of complications and shortens recovery time, allowing patients to return to their daily activities more quickly.</li>
-											<li><b class="text-title">Personalized treatment approach:</b> At StemRx Hospital, stem cell therapy for cerebral palsy is tailored to each patient's specific needs and medical history. This personalized approach ensures that individuals receive the most effective and appropriate treatment for their condition, maximizing the chances of successful outcomes.</li>
-											<li><b class="text-title">Comprehensive care:</b> In addition to stem cell therapy, StemRx Hospital provides comprehensive care and support services for individuals with cerebral palsy, including physical therapy, occupational therapy, and assistive device recommendations. This holistic approach addresses the multifaceted needs of patients and promotes their overall well-being.</li>
-										</ul>
-									</div>
-								</div>
-								<p>Overall, stem cell treatment at StemRx Hospital offers promising benefits for individuals with cerebral palsy, potentially leading to significant improvements in motor function, mobility, and quality of life.</p>
 							</div>
 						</section>
 

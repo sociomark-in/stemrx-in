@@ -48,57 +48,200 @@
 							</div>
 						</div>
 
-						<section class="appointment-wrapper">
+						<section class="vs-detail-wrapper">
 							<div class="container">
-								<h4><b class="text-title">"Unlocking Hope: StemRX Hospital Breakthroughs in Neurogenetic Disorder Treatment"</b></h4>
-							</div>
-						</section>
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>About the disease:</h3>
-								<p> Neurogenetic disorders represent a complex spectrum of conditions characterized by aberrant functioning or development of the nervous system due to genetic mutations. These mutations may affect various aspects of neurological function, including cognition, motor skills, and sensory processing. Disorders such as Huntington's disease, fragile X syndrome, and Rett syndrome are prominent examples within this category.</p>
-								<p> The etiology of neurogenetic disorders often involves mutations in specific genes critical for nervous system development, neurotransmitter regulation, or neuronal function. These genetic aberrations can lead to structural abnormalities in the brain, altered synaptic transmission, or impaired cellular signaling pathways, ultimately manifesting as neurological symptoms.</p>
-							</div>
-						</section>
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Here are some key symptoms of Neurogenetic Disorder:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Developmental Delays: </b> Delayed milestones in infancy and childhood, such as sitting up, crawling, or walking.</li>
-											<li><b class="text-title">Intellectual Disability: </b> Below-average intellectual functioning and adaptive behaviors affecting everyday social and practical skills.</li>
-											<li><b class="text-title">Motor Impairments: </b> Difficulties with movement control, coordination, or muscle tone, which may manifest as tremors, stiffness, or weakness.</li>
-											<li><b class="text-title">Seizures:</b> Recurrent, unprovoked seizures of varying types and severity.</li>
-											<li><b class="text-title">Sensory Deficits:</b> Altered sensory processing, including vision, hearing, touch, taste, or smell abnormalities.</li>
-											<li><b class="text-title">Behavioral and Psychiatric Symptoms:</b>Behavioral problems such as impulsivity, aggression, anxiety, or depression, often starting in childhood or adolescence.</li>
-											<li><b class="text-title">Speech and Language Disorders: </b> Difficulty with speech articulation, language comprehension, or expression.</li>
-											<li><b class="text-title">Neurological Regression:</b> Loss of previously acquired developmental milestones or skills, sometimes occurring in childhood or adolescence.</li>
-											<li><b class="text-title">Neuromuscular Symptoms:</b> Weakness, muscle wasting, or abnormal reflexes due to nerve or muscle dysfunction.</li>
-											<li><b class="text-title">Autonomic Dysfunction: </b> Problems with involuntary bodily functions like blood pressure regulation, sweating, or bowel/bladder control.</li>
-											<li><b class="text-title">Neurodegeneration:</b>Progressive loss of nerve cells and decline in neurological function over time.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Common fears and Concerns:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Genetic Inheritance: </b> Individuals may fear passing on the neurogenetic disease to their children due to its hereditary nature.</li>
-											<li><b class="text-title">Limited Treatment Options: </b> Fear of limited or ineffective treatment options for managing the symptoms or progression of the disease.</li>
-											<li><b class="text-title">Financial Burden:</b> Concerns about the financial costs associated with managing the disease, including medical expenses, caregiving, and potential loss of income.</li>
-											<li><b class="text-title">Emotional Impact: </b> Fear of the emotional toll of living with a neurogenetic disease, including anxiety, depression, and feelings of isolation.</li>
-											<li><b class="text-title">Stigma and Discrimination: </b> Worries about facing stigma or discrimination due to misconceptions or lack of understanding about the disease from others.</li>
-											<li><b class="text-title">Uncertainty of Prognosis:</b> Concerns about the unpredictable nature of the disease progression and uncertainty about long-term prognosis.</li>
-											<li><b class="text-title">Genetic Testing Concerns: </b> Worries about the implications of genetic testing, including privacy concerns, insurance discrimination, and emotional readiness for potential results.</li>
-											<li><b class="text-title">Impact on Family Dynamics: </b> Concerns about how the disease will affect family dynamics, roles, and responsibilities.</li>
-											<li><b class="text-title">Loss of Independence: </b> Fear of losing independence and autonomy due to the progressive nature of the disease.</li>
-										</ul>
+								<div class="row">
+									<div class="col-12">
+										<div class="">
+											<h2 class="h1">Unlocking Hope: StemRX Hospital Breakthroughs in Neurogenetic Disorder Treatment</h2>
+											<p>Neurogenetic disorders represent a complex spectrum of conditions characterized by aberrant functioning or development of the nervous system due to genetic mutations. These mutations may affect various aspects of neurological function, including cognition, motor skills, and sensory processing. Disorders such as Huntington's disease, fragile X syndrome, and Rett syndrome are prominent examples within this category.</p>
+											<p>The etiology of neurogenetic disorders often involves mutations in specific genes critical for nervous system development, neurotransmitter regulation, or neuronal function. These genetic aberrations can lead to structural abnormalities in the brain, altered synaptic transmission, or impaired cellular signaling pathways, ultimately manifesting as neurological symptoms.</p>
+										</div>
+										<div class="">
+											<h2>Symptoms</h2>
+											<p>
+												Here are the key symptoms of Neurogenetic Disorder:
+											</p>
+											<ul class="row">
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Developmental Delays:</h6>
+														<p>Delayed milestones in infancy and childhood, such as sitting up, crawling, or walking.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Intellectual Disability:</h6>
+														<p>Below-average intellectual functioning and adaptive behaviors affecting everyday social and practical skills.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Motor Impairments:</h6>
+														<p>Difficulties with movement control, coordination, or muscle tone, which may manifest as tremors, stiffness, or weakness.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Seizures:</h6>
+														<p>Recurrent, unprovoked seizures of varying types and severity.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Sensory Deficits: </h6>
+														<p>Altered sensory processing, including vision, hearing, touch, taste, or smell abnormalities.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Behavioral and Psychiatric Symptoms:</h6>
+														<p>Behavioral problems such as impulsivity, aggression, anxiety, or depression, often starting in childhood or adolescence.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Speech and Language Disorders:</h6>
+														<p>Difficulty with speech articulation, language comprehension, or expression.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Neurological Regression:</h6>
+														<p>Loss of previously acquired developmental milestones or skills, sometimes occurring in childhood or adolescence.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Neuromuscular Symptoms: </h6>
+														<p>Weakness, muscle wasting, or abnormal reflexes due to nerve or muscle dysfunction.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Autonomic Dysfunction: </h6>
+														<p>Problems with involuntary bodily functions like blood pressure regulation, sweating, or bowel/bladder control.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Neurodegeneration:</h6>
+														<p>Progressive loss of nerve cells and decline in neurological function over time.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Common Fears and Concerns</h2>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Genetic Inheritance: </h6>
+														<p>Individuals may fear passing on the neurogenetic disease to their children due to its hereditary nature.</p>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Limited Treatment Options: </h6>
+														<p> Fear of limited or ineffective treatment options for managing the symptoms or progression of the disease.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Financial Burden: </h6>
+														<p>Concerns about the financial costs associated with managing the disease, including medical expenses, caregiving, and potential loss of income.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Emotional Impact: </h6>
+														<p>Fear of the emotional toll of living with a neurogenetic disease, including anxiety, depression, and feelings of isolation.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Stigma and Discrimination:</h6>
+														<p>Worries about facing stigma or discrimination due to misconceptions or lack of understanding about the disease from others.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Uncertainty of Prognosis: </h6>
+														<p>Concerns about the unpredictable nature of the disease progression and uncertainty about long-term prognosis.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Genetic Testing Concerns: </h6>
+														<p>Worries about the implications of genetic testing, including privacy concerns, insurance discrimination, and emotional readiness for potential results.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Impact on Family Dynamics: </h6>
+														<p>Concerns about how the disease will affect family dynamics, roles, and responsibilities.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Loss of Independence: </h6>
+														<p>Fear of losing independence and autonomy due to the progressive nature of the disease.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Key advantages and unique points of StemRx Hospital:</h2>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Cutting-Edge Stem Cell Therapy:</h6>
+														<p>StemRx Hospital specializes in advanced stem cell therapies tailored specifically for neurogenetic disorders, offering innovative treatment options not widely available elsewhere.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Personalized Treatment Plans:</h6>
+														<p>Each patient receives a personalized treatment plan developed by a multidisciplinary team of experts, integrating the latest research and technologies to address their unique neurogenetic condition.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Expertise in Neurogenetics:</h6>
+														<p>StemRx Hospital boasts a team of renowned neurogenetic specialists with extensive experience in diagnosing and treating a wide range of neurogenetic disorders, ensuring patients receive the highest standard of care.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">State-of-the-Art Facilities: </h6>
+														<p>The hospital is equipped with state-of-the-art facilities and infrastructure, including advanced diagnostic tools and specialized treatment units, creating an optimal environment for patient care and recovery.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Comprehensive Care Approach: </h6>
+														<p>StemRx Hospital adopts a holistic approach to patient care, encompassing not only medical treatment but also psychological support, rehabilitation services, and ongoing monitoring to optimize patient outcomes and quality of life.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Patient-Centric Focus:</h6>
+														<p> The hospital prioritizes the needs and well-being of patients, providing compassionate care and support throughout their treatment journey, empowering them to make informed decisions and actively participate in their own care.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Collaborative Care Network:</h6>
+														<p> StemRx Hospital collaborates closely with referring physicians, specialists, and support organizations to ensure seamless continuity of care and comprehensive support for patients and their families.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Commitment to Excellence: </h6>
+														<p> StemRx Hospital is dedicated to achieving excellence in every aspect of its operations, from clinical care to patient experience, continually striving to set new standards of quality and innovation in the field of neurogenetics.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -110,25 +253,7 @@
 								<p> Additionally, we employ stimulations in the form of Quantum energy medicine and incorporate growth factors and peptides to enhance treatment outcomes.</p>
 							</div>
 						</section>
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Key advantages and unique points of StemRx Hospital:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Cutting-Edge Stem Cell Therapy:</b> StemRx Hospital specializes in advanced stem cell therapies tailored specifically for neurogenetic disorders, offering innovative treatment options not widely available elsewhere.</li>
-											<li><b class="text-title">Personalized Treatment Plans:</b> Each patient receives a personalized treatment plan developed by a multidisciplinary team of experts, integrating the latest research and technologies to address their unique neurogenetic condition.</li>
-											<li><b class="text-title">Expertise in Neurogenetics: </b> StemRx Hospital boasts a team of renowned neurogenetic specialists with extensive experience in diagnosing and treating a wide range of neurogenetic disorders, ensuring patients receive the highest standard of care.</li>
-											<li><b class="text-title">State-of-the-Art Facilities:</b> The hospital is equipped with state-of-the-art facilities and infrastructure, including advanced diagnostic tools and specialized treatment units, creating an optimal environment for patient care and recovery.</li>
-											<li><b class="text-title">Comprehensive Care Approach: </b>StemRx Hospital adopts a holistic approach to patient care, encompassing not only medical treatment but also psychological support, rehabilitation services, and ongoing monitoring to optimize patient outcomes and quality of life.</li>
-											<li><b class="text-title">Patient-Centric Focus: </b>The hospital prioritizes the needs and well-being of patients, providing compassionate care and support throughout their treatment journey, empowering them to make informed decisions and actively participate in their own care.</li>
-											<li><b class="text-title">Collaborative Care Network: </b>StemRx Hospital collaborates closely with referring physicians, specialists, and support organizations to ensure seamless continuity of care and comprehensive support for patients and their families.</li>
-											<li><b class="text-title">Commitment to Excellence: </b>StemRx Hospital is dedicated to achieving excellence in every aspect of its operations, from clinical care to patient experience, continually striving to set new standards of quality and innovation in the field of neurogenetics.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
+
 					</div>
 				</div>
 			</div>

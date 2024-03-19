@@ -39,7 +39,7 @@
 											<span class="fs-xs">Condition Name</span>
 											<h2 class="h5 mb-0">Parkinson's Disease</h2>
 										</div>
-										
+
 										<div class="col-sm-6 col-lg-auto">
 											<a href="#appointment" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
 										</div>
@@ -48,55 +48,183 @@
 							</div>
 						</div>
 
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h4><b class="text-title">"Revolutionizing Parkinson's Care: StemRx Hospital Unveils Breakthrough Treatments!"</b></h4>
-							</div>
-						</section>
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>About the disease:</h3>
-								<p> Parkinson's disease (PD) is a neurodegenerative disorder characterized by the progressive loss of dopaminergic neurons in the substantia nigra region of the brain. This loss leads to a deficiency in dopamine, a neurotransmitter crucial for coordinating movement. The primary symptoms of PD include tremors, bradykinesia (slowed movement), rigidity, and postural instability.</p>
-								<p> The pathology of Parkinson's disease involves the accumulation of misfolded alpha-synuclein protein aggregates, known as Lewy bodies, within neurons. These aggregates disrupt cellular function and contribute to neuronal dysfunction and eventual cell death. Additionally, there is evidence of oxidative stress, mitochondrial dysfunction, and neuroinflammation in the brains of individuals with PD, further exacerbating the neurodegenerative process. </p>
-							</div>
-						</section>
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Here are some key symptoms of Parkinson's Disease:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Tremors: </b> Your hands or fingers might start shaking involuntarily, like they've got a mind of their own.</li>
-											<li><b class="text-title">Bradykinesia:</b> Moving around becomes a slow-motion affair, turning simple tasks into real challenges that take way longer than they should.</li>
-											<li><b class="text-title">Rigidity: </b> Muscles can feel as stiff as a board, making it tough to move smoothly and comfortably.</li>
-											<li><b class="text-title">Postural instability:</b> Balancing becomes a bit like walking on a tightrope without a safety net, with an increased risk of stumbling and falling.</li>
-											<li><b class="text-title">Bradyphrenia: </b> Thoughts slow down, memory plays hide and seek, and focusing becomes a bit like trying to catch a slippery fish.</li>
-											<li><b class="text-title">Speech changes: </b>Your voice might get softer, words might start slurring, or you could find yourself pausing mid-sentence as if the words are taking a detour.</li>
-											<li><b class="text-title">Micrographia:</b> Writing suddenly feels like trying to fit an elephant into a matchbox, with letters shrinking and crowding together on the page.</li>
-											<li><b class="text-title">Freezing:</b> Sometimes it's like pressing pause on your body's remote control, especially when you're trying to get going with something like walking.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
 
-						<section class="appointment-wrapper">
+						<section class="vs-detail-wrapper">
 							<div class="container">
-								<h3>Common fears and Concerns:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Struggling with Movement: </b> People worry about their muscles acting out of their control, making it harder to do simple things like moving smoothly, causing shaky hands, stiff muscles, and slow movements, which can make daily tasks tough and make them feel less independent.</li>
-											<li><b class="text-title">Quality of Life Takes a Hit: </b> Concerns arise about how the disease affects overall well-being. It might make it harder to move around, speak clearly, or do things they used to enjoy, all leading to a lower quality of life.</li>
-											<li><b class="text-title">Mind on the Decline:</b> There's fear about losing sharpness in thinking. Memory might start to fade, it could become tough to focus, and there's worry about developing dementia, which can really mess with daily life and relationships.</li>
-											<li><b class="text-title">Dealing with Med Side Effects: </b> Worries pop up about the not-so-great effects of meds they take to manage Parkinson's symptoms. These might bring on weird movements, hallucinations, or make them feel nauseous or dizzy, all making it harder to feel good.</li>
-											<li><b class="text-title">Watching Symptoms Get Worse:</b> Anxiety sets in as they see the disease steadily progress. They don't know how bad things might get over time, making them feel more dependent and less able to do things on their own.</li>
-											<li><b class="text-title">Feeling Alone in a Crowd:</b> There's a fear of being left out socially because of the disease. They worry about others noticing their tremors or speech troubles and it gets harder to join in social activities, making them feel isolated and sad.</li>
-											<li><b class="text-title">Money Matters:</b> They worry about the big bucks needed to manage Parkinson's. From doctor visits to special care, it all adds up. Plus, they might not be able to work as much, adding to the financial stress.</li>
-											<li><b class="text-title">Strained Relationships:</b> Fear creeps in about how the disease might change relationships with loved ones. Feeling like a burden or having roles shift can put a strain on emotional bonds with family, friends, and caregivers.</li>
-											<li><b class="text-title">Hopelessness Without a Cure:</b> They feel anxious because there's no cure for Parkinson's. It's tough not knowing what treatments might help or what the future holds, leading to feelings of hopelessness and frustration.</li>
-											<li><b class="text-title">Independence at Risk:</b> They worry about losing their independence as the disease goes on. They might need more help with everyday tasks, making them feel like they're losing control and might need to rely on others more in the long+ run.</li>
-										</ul>
+								<div class="row">
+									<div class="col-12">
+										<div class="">
+											<h2 class="h1">Revolutionizing Parkinson's Care: StemRx Hospital Unveils Breakthrough Treatments!</h2>
+											<p>Parkinson's disease (PD) is a neurodegenerative disorder characterized by the progressive loss of dopaminergic neurons in the substantia nigra region of the brain. This loss leads to a deficiency in dopamine, a neurotransmitter crucial for coordinating movement. The primary symptoms of PD include tremors, bradykinesia (slowed movement), rigidity, and postural instability.</p>
+											<p>The pathology of Parkinson's disease involves the accumulation of misfolded alpha-synuclein protein aggregates, known as Lewy bodies, within neurons. These aggregates disrupt cellular function and contribute to neuronal dysfunction and eventual cell death. Additionally, there is evidence of oxidative stress, mitochondrial dysfunction, and neuroinflammation in the brains of individuals with PD, further exacerbating the neurodegenerative process.</p>
+										</div>
+										<div class="">
+											<h2>Symptoms</h2>
+											<p>
+												Here are the key symptoms of Parkinson's Disease:
+											</p>
+											<ul class="row">
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Tremors:</h6>
+														<p>Your hands or fingers might start shaking involuntarily, like they've got a mind of their own.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Bradykinesia:</h6>
+														<p>Moving around becomes a slow-motion affair, turning simple tasks into real challenges that take way longer than they should.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Rigidity:</h6>
+														<p>Muscles can feel as stiff as a board, making it tough to move smoothly and comfortably.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Postural instability:</h6>
+														<p>Balancing becomes a bit like walking on a tightrope without a safety net, with an increased risk of stumbling and falling.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Bradyphrenia:</h6>
+														<p>Thoughts slow down, memory plays hide and seek, and focusing becomes a bit like trying to catch a slippery fish.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Speech changes:</h6>
+														<p>Your voice might get softer, words might start slurring, or you could find yourself pausing mid-sentence as if the words are taking a detour.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Micrographia:</h6>
+														<p>Writing suddenly feels like trying to fit an elephant into a matchbox, with letters shrinking and crowding together on the page.</p>
+													</div>
+												</li>
+												<li class="col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Freezing:</h6>
+														<p>Sometimes it's like pressing pause on your body's remote control, especially when you're trying to get going with something like walking.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Common Fears and Concerns</h2>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Struggling with Movement:</h6>
+														<p>People worry about their muscles acting out of their control, making it harder to do simple things like moving smoothly, causing shaky hands, stiff muscles, and slow movements, which can make daily tasks tough and make them feel less independent.
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Quality of Life Takes a Hit:</h6>
+														<p>Concerns arise about how the disease affects overall well-being. It might make it harder to move around, speak clearly, or do things they used to enjoy, all leading to a lower quality of life.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Mind on the Decline: </h6>
+														<p>There's fear about losing sharpness in thinking. Memory might start to fade, it could become tough to focus, and there's worry about developing dementia, which can really mess with daily life and relationships.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Dealing with Med Side Effects: </h6>
+														<p>Worries pop up about the not-so-great effects of meds they take to manage Parkinson's symptoms. These might bring on weird movements, hallucinations, or make them feel nauseous or dizzy, all making it harder to feel good.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Watching Symptoms Get Worse:</h6>
+														<p>Anxiety sets in as they see the disease steadily progress. They don't know how bad things might get over time, making them feel more dependent and less able to do things on their own.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Feeling Alone in a Crowd:</h6>
+														<p>There's a fear of being left out socially because of the disease. They worry about others noticing their tremors or speech troubles and it gets harder to join in social activities, making them feel isolated and sad.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Money Matters:</h6>
+														<p>They worry about the big bucks needed to manage Parkinson's. From doctor visits to special care, it all adds up. Plus, they might not be able to work as much, adding to the financial stress.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Strained Relationships: </h6>
+														<p>Fear creeps in about how the disease might change relationships with loved ones. Feeling like a burden or having roles shift can put a strain on emotional bonds with family, friends, and caregivers.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Hopelessness Without a Cure:</h6>
+														<p>They feel anxious because there's no cure for Parkinson's. It's tough not knowing what treatments might help or what the future holds, leading to feelings of hopelessness and frustration.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Independence at Risk: </h6>
+														<p>They worry about losing their independence as the disease goes on. They might need more help with everyday tasks, making them feel like they're losing control and might need to rely on others more in the long+ run.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="">
+											<h2>Key advantages and unique points of StemRx Hospital:</h2>
+											<ul class="row">
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Focused Expertise: </h6>
+														<p>StemRx Hospital specializes exclusively in Parkinson's Disease care, ensuring that patients benefit from a highly specialized approach tailored to their unique needs.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Pioneering Stem Cell Therapy:</h6>
+														<p>StemRx Hospital is renowned for its cutting-edge stem cell treatments, offering hope for patients by potentially rejuvenating damaged brain cells, enhancing motor function, and slowing down the progression of the disease.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Comprehensive Team Approach: </h6>
+														<p>At StemRx Hospital, patients have access to a diverse team of specialists, including neurologists, neurosurgeons, rehabilitation therapists, and researchers, all collaborating to provide holistic care addressing every aspect of Parkinson's Disease.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Tailored Treatment Plans: </h6>
+														<p>Every patient at StemRx receives a personalized treatment plan crafted around their medical history, symptoms, and aspirations. This personalized approach maximizes the effectiveness of care and enhances patient outcomes.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">State-of-the-Art Facilities: </h6>
+														<p>StemRx Hospital is equipped with the latest medical technologies and facilities dedicated to diagnosing, treating, and rehabilitating Parkinson's Disease patients. From advanced imaging tools to robotic surgery capabilities, patients benefit from the most innovative treatments available.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Dedication to Research:</h6>
+														<p> StemRx Hospital is dedicated to pushing the boundaries of Parkinson's Disease treatment through ongoing research and innovation. By actively engaging in clinical trials and collaborating with leading researchers, they strive to continuously improve patient care and outcomes.</p>
+													</div>
+												</li>
+												<li class="col-lg-4 col-md-6 col-12">
+													<div class="">
+														<h6 class="m-0">Patient-Centric Approach:</h6>
+														<p>StemRx Hospital places patients and their families at the heart of care. They ensure active involvement in decision-making, provide continuous support, education, and resources, empowering patients to effectively manage their condition and improve their quality of life.</p>
+													</div>
+												</li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -106,24 +234,6 @@
 								<h3>StemRx innovative treatment approach:</h3>
 								<p>At StemRx Hospital, our treatment plan for Parkinson's disease integrates cutting-edge cellular therapy. We specialize in transplanting dopamine-producing cells directly into the brain to address the root cause of motor function impairment.</p>
 								<p> Alongside this, we incorporate Quantum energy medicines for stimulation and incorporate growth factors and peptides to enhance the effectiveness of our treatment protocol. This comprehensive approach aims to alleviate symptoms such as tremors and rigidity while managing the progression of the disease, offering hope and improved quality of life for our patients.</p>
-							</div>
-						</section>
-						<section class="appointment-wrapper">
-							<div class="container">
-								<h3>Key advantages and unique points of StemRx Hospital:</h3>
-								<div class="row gx-40">
-									<div class="col-xl-12">
-										<ul>
-											<li><b class="text-title">Focused Expertise:</b> StemRx Hospital specializes exclusively in Parkinson's Disease care, ensuring that patients benefit from a highly specialized approach tailored to their unique needs.</li>
-											<li><b class="text-title">Pioneering Stem Cell Therapy: </b> StemRx Hospital is renowned for its cutting-edge stem cell treatments, offering hope for patients by potentially rejuvenating damaged brain cells, enhancing motor function, and slowing down the progression of the disease.</li>
-											<li><b class="text-title">Comprehensive Team Approach:</b> At StemRx Hospital, patients have access to a diverse team of specialists, including neurologists, neurosurgeons, rehabilitation therapists, and researchers, all collaborating to provide holistic care addressing every aspect of Parkinson's Disease.</li>
-											<li><b class="text-title">Tailored Treatment Plans:</b> Every patient at StemRx receives a personalized treatment plan crafted around their medical history, symptoms, and aspirations. This personalized approach maximizes the effectiveness of care and enhances patient outcomes.</li>
-											<li><b class="text-title">State-of-the-Art Facilities:</b>StemRx Hospital is equipped with the latest medical technologies and facilities dedicated to diagnosing, treating, and rehabilitating Parkinson's Disease patients. From advanced imaging tools to robotic surgery capabilities, patients benefit from the most innovative treatments available.</li>
-											<li><b class="text-title">Dedication to Research: </b>StemRx Hospital is dedicated to pushing the boundaries of Parkinson's Disease treatment through ongoing research and innovation. By actively engaging in clinical trials and collaborating with leading researchers, they strive to continuously improve patient care and outcomes.</li>
-											<li><b class="text-title">Patient-Centric Approach: </b> StemRx Hospital places patients and their families at the heart of care. They ensure active involvement in decision-making, provide continuous support, education, and resources, empowering patients to effectively manage their condition and improve their quality of life.</li>
-										</ul>
-									</div>
-								</div>
 							</div>
 						</section>
 					</div>
