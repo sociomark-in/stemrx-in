@@ -251,7 +251,7 @@
 											</li>
 											<!--<li><a href="<?= base_url() ?>service">Conditions</a></li>-->
 											<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
-											<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
+											<!-- <li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li> -->
 											<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a></li>
 											<li><a href="<?= base_url() ?>condition/infertility">Infertility Center</a></li>
 											<!-- <li><a href="<?= base_url() ?>condition/new-hope-clinic">New Hope Clinic</a></li> -->
