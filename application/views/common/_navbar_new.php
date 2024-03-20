@@ -238,6 +238,17 @@
 									</li>
 									<li class="menu-item-has-children"><a href="#">Conditions</a>
 										<ul class="sub-menu">
+											<li class="menu-item-has-children">
+												<a href="#">Neurological Problems</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url('condition/neural/cerebral-palsy') ?>">Cerebral Palsy</a></li>
+													<li><a href="<?= base_url('condition/neural/developmental-delay') ?>">Delayed Development</a></li>
+													<li><a href="<?= base_url('condition/neural/alzheimers-disease') ?>">Alzheimer's Disease</a></li>
+													<li><a href="<?= base_url('condition/neural/parkinsons-disease') ?>">Parkinson's Disease</a></li>
+													<li><a href="<?= base_url('condition/neural/multiple-sclerosis') ?>">Multiple Sclerosis</a></li>
+													<li><a href="<?= base_url('condition/neural/neurogenetic-disorder') ?>">Neurogenetic Disorder</a></li>
+												</ul>
+											</li>
 											<!--<li><a href="<?= base_url() ?>service">Conditions</a></li>-->
 											<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
 											<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
@@ -254,6 +265,7 @@
 											<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
 											<li><a href="<?= base_url() ?>condition/chromosomal-disorder">Chromosomal Disorders</a></li>
 											<!-- <li><a href="javascript:void()">Surgical Procedure</a></li> -->
+
 										</ul>
 									</li>
 									<li class="menu-item-has-children mega-menu-wrap">
