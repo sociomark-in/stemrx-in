@@ -234,7 +234,7 @@
 											<img src="<?= base_url() ?>assets/img/icons/diseases/infertility.png" alt="Speciality" class="w-100">
 										</div>
 									</div>
-									<p>Infertility</p>
+									<p>Infertility Center</p>
 								</a>
 							</div>
 							<div class="col-lg-2 col-md-4 col-6">
