@@ -244,7 +244,7 @@
 											<img src="<?= base_url() ?>assets/img/icons/diseases/couple.png" alt="Speciality" class="w-100">
 										</div>
 									</div>
-									<p>Couple Clinic (New Hope)</p>
+									<p>Couple Clinic</p>
 								</a>
 							</div>
 							<div class="col-lg-2 col-md-4 col-6">
