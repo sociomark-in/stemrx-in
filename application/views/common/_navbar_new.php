@@ -240,19 +240,101 @@
 										<ul class="sub-menu">
 											<!--<li><a href="<?= base_url() ?>service">Conditions</a></li>-->
 											<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
-											<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a></li>
-											<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a></li>
-											<li><a href="<?= base_url() ?>condition/infertility">Infertility Center</a></li>
+											<li><a href="<?= base_url() ?>condition/neural">Neurological Problems</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>condition/neural/cerebral-palsy">Cerebral Palsy</a></li>
+													<li><a href="<?= base_url() ?>condition/neural/developmental-delay">Delayed Development</a></li>
+													<li><a href="<?= base_url() ?>condition/neural/alzheimers-disease">Alzheimer's Disease</a></li>
+													<li><a href="<?= base_url() ?>condition/neural/parkinsons-disease">Parkinson's Disease</a></li>
+													<li><a href="<?= base_url() ?>condition/neural/multiple-sclerosis">Multiple Sclerosis</a></li>
+													<li><a href="<?= base_url() ?>condition/neural/neurogenetic-disorder">Neurogenetic Disorder</a></li>
+												</ul>
+											</li>
+											<li><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>condition/neural/cerebral-palsy">Muscular Dystrophy</a></li>
+													<li><a href="<?= base_url() ?>condition/neural/developmental-delay">Congenital Myopathies</a></li>
+													<li><a href="<?= base_url() ?>condition/neural/alzheimers-disease">ADHD</a></li>
+												</ul>
+											</li>
+											<li><a href="<?= base_url() ?>condition/infertility">Infertility Center</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>condition/infertility/azoospermia">Azoospermia</a></li>
+													<li><a href="<?= base_url() ?>condition/infertility/pcod-pcos">PCOD / PCOS</a></li>
+													<li><a href="<?= base_url() ?>">Decrease Ovarian Reserve</a></li>
+													<li><a href="<?= base_url() ?>">Thin Endometrium </a></li>
+													<li><a href="<?= base_url() ?>condition/infertility/pcod-pcos">Ashermen's Syndrome </a></li>
+													<li><a href="<?= base_url() ?>">Premature Menopause</a></li>
+												</ul>
+											</li>
 											<!-- <li><a href="<?= base_url() ?>condition/new-hope-clinic">New Hope Clinic</a></li> -->
-											<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/pain-care">Pain Care</a></li>
-											<li><a href="<?= base_url() ?>condition/eye-care">Eye Care</a></li>
-											<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a></li>
-											<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a></li>
+											<li><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>">Cosmetic Gynecology</a></li>
+													<li><a href="<?= base_url() ?>">Vaginal rejuvenation</a></li>
+													<li><a href="<?= base_url() ?>">Erectile dysfuction</a></li>
+													<li><a href="<?= base_url() ?>">Vasectomy </a></li>
+												</ul>
+											</li>
+											<li><a href="<?= base_url() ?>condition/pain-care">Pain Care</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>condition/pain-care/osteoarthritis">Osteo Arthritis </a></li>
+													<li><a href="<?= base_url() ?>condition/pain-care/avascular-necrosis">Avasular Necrosis </a></li>
+													<li><a href="<?= base_url() ?>condition/pain-care/cervical-spondylitis">Cervical Spondylitis</a></li>
+													<li><a href="<?= base_url() ?>condition/pain-care/migraine">Migrain </a></li>
+												</ul>
+											</li>
+											<li><a href="<?= base_url() ?>condition/eye-care">Eye Care</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>">Diabetic Retinopathy</a></li>
+													<li><a href="<?= base_url() ?>">Cataract</a></li>
+													<li><a href="<?= base_url() ?>">Glaucoma</a></li>
+													<li><a href="<?= base_url() ?>">Age-related macular degeneration (AMD) </a></li>
+													<li><a href="<?= base_url() ?>">Optic Nerve Injury</a></li>
+												</ul>
+											</li>
+											<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>condition/metabolic-diseases/diabetes">Diabetes</a></li>
+													<li><a href="<?= base_url() ?>condition/metabolic-diseases/obesity">Obesity</a></li>
+													<li><a href="<?= base_url() ?>condition/metabolic-diseases/hyperlipidemia">Hyperlipdemia</a></li>
+												</ul>
+											</li>
+											<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>">Diabetic Retinopathy</a></li>
+													<li><a href="<?= base_url() ?>">Cataract</a></li>
+													<li><a href="<?= base_url() ?>">Glaucoma</a></li>
+													<li><a	 href="<?= base_url() ?>">Age-related macular degeneration (AMD) </a></li>
+													<li><a href="<?= base_url() ?>">Optic Nerve Injury</a></li>
+												</ul>
+											</li>
 											<li><a href="javascript:void()">Dental Treatment</a></li>
-											<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
-											<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
-											<li><a href="<?= base_url() ?>condition/chromosomal-disorder">Chromosomal Disorders</a></li>
+											<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>">Cardiac Regeneration</a></li>
+													<li><a href="<?= base_url() ?>">Islet Regeneration</a></li>
+													<li><a href="<?= base_url() ?>">Liver Regeneration</a></li>
+													<li><a href="<?= base_url() ?>">Lung Regeneration</a></li>
+													<li><a href="<?= base_url() ?>">Musculoskeletal Regeneration</a></li>
+													<li><a href="<?= base_url() ?>">Neuroregeneration</a></li>
+													<li><a href="<?= base_url() ?>">Plastic and Regenerative Surgery</a></li>
+													<li><a href="<?= base_url() ?>">Valvular and Vascular Repair and Regeneration</a></li>
+												</ul>
+											</li>
+											<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>">Psoriasis</a></li>
+													<li><a href="<?= base_url() ?>">Alopecia areata</a></li>
+													<li><a href="<?= base_url() ?>">Melasma</a></li>
+													<li><a href="<?= base_url() ?>">Vitiligo</a></li>
+												</ul>
+											</li>
+											<li><a href="<?= base_url() ?>condition/chromosomal-disorder">Chromosomal Disorders</a>
+												<ul class="sub-menu">
+													<li><a href="<?= base_url() ?>condition/chromosomal-disorder/trisomy-21">Down Syndrome</a></li>
+												</ul>
+											</li>
 											<!-- <li><a href="javascript:void()">Surgical Procedure</a></li> -->
 										</ul>
 									</li>

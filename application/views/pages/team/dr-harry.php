@@ -18,7 +18,7 @@
 			<div class="row gx-40">
 				<div class="col-lg-5">
 					<div class="member-header mb-40 overflow-hidden rounded-3 position-relative">
-						<div class="member-details-img"><img src="<?= base_url() ?>assets/img/team/dr-anil-daxini-3x2.jpg" alt="Member Image" class="w-100"></div>
+						<div class="member-details-img"><img src="<?= base_url() ?>assets/img/project/harry600_800.jpg" alt="Member Image" class="w-100"></div>
 						<div class="member-angle-links">
 							<div class="shape"><img src="<?= base_url() ?>assets/img/bg/member-shape.png" alt="Shape"></div>
 							
@@ -28,10 +28,10 @@
 				</div>
 				<div class="col-lg-7">
 					<div class="team-content">
-						<h2 class="mb-0 mt-n2">Dr. Anil Daxini</h2>
-						<p class="text-theme fs-xs">MD (Mum), MD (USA). Diplomat American Board of Internal Medicine</p>
+						<h2 class="mb-0 mt-n2">Dr. Harry Mascarenhas, </h2>
+						<p class="text-theme fs-xs">MBBS, DHM</p>
 						<!-- <p class="fs-md text-title">Rapidiously productivate multimedia based scenarios and economically sound ROI. Dynamically seize cross-platform "outside the box" thinking after enterprise markets. Efficiently enhance end-to-end relationships...</p> -->
-						<p>Senior Consultant Associate to Dr Mahajan in clinical management and Academic Research.</p>
+						<p>Highly experienced in clinical diagnosis and treatment especially emergencies and application of regenerative medicine in Neuro/ Orthopedic/G/Resp/Cardiovascular management. Assistant to Dr Mahajan in day-to-day clinical management and administration of the hospital</p>
 						<table class="member-table">
 							<tbody>
 								<tr>

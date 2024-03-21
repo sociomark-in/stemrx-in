@@ -1,5 +1,46 @@
+<style>
+	@media screen and (max-width: 600px) {
+	.indicator{
+		display: none;
+	}
+}
+
+</style>
 <main>
+	<!--==============================
+      Hero Area
+    ==============================-->
 	<section class="vs-hero-wrapper position-relative">
+		<div class="vs-hero-carousel" data-navprevnext="true" data-height="800" data-container="1900" data-slidertype="responsive">
+			<div class="ls-slide" data-ls="duration: 1000; transition2d: 5;">
+				<picture>
+					<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
+					<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
+					<source srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/webp">
+					<img src="<?= base_url() ?>assets/img/banners/home-01_v.jpg" alt="Service Image" class="ls-bg w-100">
+				</picture>
+			</div>
+			<div class="ls-slide" data-ls="duration: 1000; transition2d: 5;">
+				<!-- <img src="https://placehold.co/1900x1000" alt="Hero Image" class="ls-bg"> -->
+				<picture>
+					<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
+					<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
+					<source srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/webp">
+					<img src="<?= base_url() ?>assets/img/banners/home-01_v.jpg" alt="Service Image" class="ls-bg w-100">
+				</picture>
+			</div>
+			<div class="ls-slide" data-ls="duration: 1000; transition2d: 5;">
+				<!-- <img src="https://placehold.co/1900x1000" alt="Hero Image" class="ls-bg"> -->
+				<picture>
+					<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
+					<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
+					<source srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/webp">
+					<img src="<?= base_url() ?>assets/img/banners/home-01_v.jpg" alt="Service Image" class="ls-bg w-100">
+				</picture>
+			</div>
+		</div>
+	</section>
+	<section class="vs-hero-wrapper position-relative d-none">
 		<picture>
 			<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
 			<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
@@ -440,12 +481,14 @@
 				<div class="col-xl-6 mb-30">
 					<div class="about-content">
 						<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
-						<h2 class="h1 mb-3">We're Here For You</h2>
+						<h2 class="h1 mb-3">Why Stemrx</h2>
 						<div class="row">
 							<div class="col-xl-10 mb-md-2 pb-md-1">
-								<!-- <p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p> -->
+								<p class="mb-md-4">StemRx is the only healthcare services organization that offers a complete end to end healthcare package under one single roof right from the point where the patient walks in for a consultation, the evaluation, the medical assessments, the therapies, the medication, long term post discharge strategies and much more.</p>
+								<p class="mb-md-4">One look at the patient feedback library will indicate that at StemRx we are committed to improvement of medical condition of the patient by meeting the defined timeline-based milestones, as well as ensuring that there is patient delight when the patient departs from our facility.</p>
+								<p class="mb-md-4">StemRx Hospital and Research Centre is a leader in advanced healthcare that embraces an end-to-end approach towards treating / managing various debilitating, degenerative medical conditions using regenerative medicine, future technology molecules, enhanced and advanced rehabilitation comprising of quantum energy medicine along with artificial intelligence to the needy people globally from all walks of life.</p>
 							</div>
-							<div class="col-md-6 col-lg-5 col-xl-4">
+							<!-- <div class="col-md-6 col-lg-5 col-xl-4">
 								<ul class="vs-list list-unstyled text-title">
 									<li>99% success rate</li>
 									<li>100% Confidential</li>
@@ -458,7 +501,7 @@
 									<li>Expert surveillance agents</li>
 									<li>Over 50 years experience</li>
 								</ul>
-							</div>
+							</div> -->
 						</div>
 						<div class="d-none">
 							<ul class="offer-counter counter-list list-unstyled" data-offer-date="01/01/2024">
@@ -532,7 +575,7 @@
 		</div>
 	</section>
 
-	<section class="vs-project-wrapper position-relative space-top pb-50" data-bg-color="#f9f9f9">
+	<section class="vs-project-wrapper position-relative pt-80 pb-50" data-bg-color="#f9f9f9">
 		<div class="project-shape" data-bg-src="<?= base_url() ?>assets/img/bg/bg-shape-7.jpg"></div>
 		<div class="container z-index-common">
 			<div class="row text-center justify-content-center">
@@ -548,7 +591,7 @@
 					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
-							<h4 class="project-name">Dr. Pradeep Mahajan</h4>
+							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Dr. Pradeep Mahajan</a></h4>
 							<span class="project-cat fs-xs">Founder and Chairman</span>
 							<a href="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
@@ -556,60 +599,60 @@
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/Dr-Joshi.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/joshi.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name">Dr. Meghnad Joshi</h4>
 							<span class="project-cat fs-xs">Senior Consultant</span>
-							<a href="<?= base_url() ?>assets/img/project/Dr-Joshi.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>assets/img/project/joshi.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/Dr-Chandan-Sen.png" alt="Project Image" class="w-100"></div>
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/chandan.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name">Dr. Chandan Sen </h4>
 							<span class="project-cat fs-xs">Senior Consultant</span>
-							<a href="<?= base_url() ?>assets/img/project/Dr-Chandan-Sen.png" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>assets/img/project/chandan.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/dr.pallavi.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
-							<h4 class="project-name">Dr. Pradeep Mahajan</h4>
-							<span class="project-cat fs-xs">Founder and Chairman</span>
-							<a href="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pallavi-lele">Dr. Pallavi L</a></h4>
+							<span class="project-cat fs-xs">MBBS MD</span>
+							<a href="<?= base_url() ?>assets/img/project/dr.pallavi.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/Dr-Joshi.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/dr.anil.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
-							<h4 class="project-name">Dr. Meghnad Joshi</h4>
+							<h4 class="project-name">Dr. Anil Daxini</h4>
+							<span class="project-cat fs-xs">MD (Mum), MD (USA),</span>
+							<a href="<?= base_url() ?>assets/img/project/dr.anil.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="vs-project-box mb-30">
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/dr.harry.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-content">
+							<h4 class="project-name">Dr. Harry Mascarenhas </h4>
 							<span class="project-cat fs-xs">Senior Consultant</span>
-							<a href="<?= base_url() ?>assets/img/project/Dr-Joshi.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-4">
-					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/Dr-Chandan-Sen.png" alt="Project Image" class="w-100"></div>
-						<div class="project-content">
-							<h4 class="project-name">Dr. Chandan Sen </h4>
-							<span class="project-cat fs-xs">Senior Consultant</span>
-							<a href="<?= base_url() ?>assets/img/project/Dr-Chandan-Sen.png" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>assets/img/project/dr.harry.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-12">
-				<div class="text-center">
-					<a href="<?= base_url("team-of-experts") ?>" class="vs-btn">View All Doctors</a>
+			<div class="row">
+				<div class="col-12">
+					<div class="text-center">
+						<a href="<?= base_url("team-of-experts") ?>" class="vs-btn">View All Doctors</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -643,7 +686,8 @@
 			<div class="container">
 				<div class="row text-center justify-content-center">
 					<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-						<div class="section-title"><span class="h3 text-theme sec-subtitle">Testimonial</span>
+						<div class="section-title">
+							<!-- <span class="h3 text-theme sec-subtitle">Testimonial</span> -->
 							<h2 class="h1">Our Patients Responses</h2>
 							<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 						</div>
@@ -704,7 +748,8 @@
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="0.3s">
-					<div class="section-title"><span class="h3 text-theme sec-subtitle">Blog Posts</span>
+					<div class="section-title">
+						<!-- <span class="h3 text-theme sec-subtitle">Blog Posts</span> -->
 						<h2 class="h1">Case Studies</h2>
 						<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 					</div>
@@ -767,11 +812,12 @@
 		</div>
 	</section>
 
-	<section class="vs-blog-wrapper space-top space-md-bottom">
+	<section class="vs-blog-wrapper pt-80 space-md-bottom">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeIn" data-wow-delay="0.3s">
-					<div class="section-title"><span class="h3 text-theme sec-subtitle">Blog Posts</span>
+					<div class="section-title">
+						<!-- <span class="h3 text-theme sec-subtitle">Blog Posts</span> -->
 						<h2 class="h1">Latest News</h2>
 						<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 					</div>

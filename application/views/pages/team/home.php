@@ -45,15 +45,15 @@
 				</div>
 			</div>
 			<div class="row">
-			<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
-						<div class="team-head"><img src="https://placehold.co/380x320" alt="Team Area" class="w-100">
-							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url() ?>doctor/dr-pradeep-mahajan"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
 						</div>
 						<div class="team-body p-3">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Pradeep Mahajan</a></h3>
+							<h3 class="h4 mb-0"><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan" class="text-reset"><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Dr. Pradeep Mahajan</a></h3>
 							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA), | 30 + Years Experience </p>
 							<p class="fs-xs">Senior Consultant Assistant to Dr. Mahajan in day-to-day clinical management and administration of the hospital.</p>
 						</div>
@@ -62,12 +62,12 @@
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
 						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/Dr. Anil Daxini.jpg" alt="Team Area" class="w-100">
-							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-anil-daxini"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
 						</div>
 						<div class="team-body">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Anil Daxini</a></h3>
+							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-anil-daxini" class="text-reset">Dr. Anil Daxini</a></h3>
 							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA), | 25 + Years Experience</p>
 							<p class="fs-xs">Senior Consultant Assistant to Dr. Mahajan in day-to-day clinical management and administration of the hospital.</p>
 						</div>
@@ -76,12 +76,12 @@
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
 						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/Dr. Gauri Khanderao.jpg" alt="Team Area" class="w-100">
-							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-gauri-khanderao"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
 						</div>
 						<div class="team-body">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Gauri Khanderao</a></h3>
+							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-gauri-khanderao" class="text-reset">Dr. Gauri Khanderao</a></h3>
 							<p class="fs-xs degi text-theme mb-2">BHMS, BACU, PGDHM</p>
 							<p class="fs-xs">Stem Cell Counselor, Clinical Research Associate and Consultant Homeopathy with Alternative Therapist </p>
 						</div>
@@ -90,12 +90,12 @@
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
 						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/Dr. Harry Mascarenhas.jpg" alt="Team Area" class="w-100">
-							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-harry"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
 						</div>
 						<div class="team-body">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Harry Mascarenhas</a></h3>
+							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-harry" class="text-reset">Dr. Harry Mascarenhas</a></h3>
 							<p class="fs-xs degi text-theme mb-2">MBBS, DHM,</p>
 							<p class="fs-xs">
 								Experienced in clinical diagnosis and treatment,
@@ -108,12 +108,12 @@
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
 						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/Dr. Pallavi Lale.jpg" alt="Team Area" class="w-100">
-							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-pallavi-lele"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
 						</div>
 						<div class="team-body">
-							<h3 class="h4 mb-0"><a href="<?= base_url('doctor/dr-pallavi-lele') ?>" class="text-reset">Dr. Pallavi Lale</a></h3>
+							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-pallavi-lele" class="text-reset">Dr. Pallavi Lale</a></h3>
 							<p class="fs-xs degi text-theme mb-2">Laparoscopic Surgeon | 10 + Years Experience </p>
 							<p class="fs-xs">Infertility & Regenerative Medicine Consultant, Laparoscopic Surgeon </p>
 							<div class="d-none">
