@@ -1,10 +1,9 @@
 <style>
 	@media screen and (max-width: 600px) {
-	.indicator{
-		display: none;
+		.indicator {
+			display: none;
+		}
 	}
-}
-
 </style>
 <main>
 	<!--==============================
@@ -597,7 +596,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4">
+				<div class="col-xl-4 d-none">
 					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/joshi.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
@@ -607,7 +606,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4">
+				<div class="col-xl-4 d-none">
 					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/chandan.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
@@ -629,16 +628,6 @@
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/dr.anil.jpg" alt="Project Image" class="w-100"></div>
-						<div class="project-content">
-							<h4 class="project-name">Dr. Anil Daxini</h4>
-							<span class="project-cat fs-xs">MD (Mum), MD (USA),</span>
-							<a href="<?= base_url() ?>assets/img/project/dr.anil.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-4">
-					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/dr.harry.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name">Dr. Harry Mascarenhas </h4>
@@ -647,6 +636,17 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-xl-4">
+					<div class="vs-project-box mb-30">
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/dr.anil.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-content">
+							<h4 class="project-name">Dr. Anil Daxini</h4>
+							<span class="project-cat fs-xs">MD (Mum), MD (USA),</span>
+							<a href="<?= base_url() ?>assets/img/project/dr.anil.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+						</div>
+					</div>
+				</div>
+
 			</div>
 			<div class="row">
 				<div class="col-12">

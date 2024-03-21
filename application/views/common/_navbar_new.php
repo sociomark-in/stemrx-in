@@ -249,18 +249,6 @@
 													<li><a href="<?= base_url('condition/neural/neurogenetic-disorder') ?>">Neurogenetic Disorder</a></li>
 												</ul>
 											</li>
-											<!--<li><a href="<?= base_url() ?>service">Conditions</a></li>-->
-											<!--<li><a href="<?= base_url() ?>service-details">Condition Details</a></li>-->
-											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/neural">Neurological Problems</a>
-												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>condition/neural/cerebral-palsy">Cerebral Palsy</a></li>
-													<li><a href="<?= base_url() ?>condition/neural/developmental-delay">Delayed Development</a></li>
-													<li><a href="<?= base_url() ?>condition/neural/alzheimers-disease">Alzheimer's Disease</a></li>
-													<li><a href="<?= base_url() ?>condition/neural/parkinsons-disease">Parkinson's Disease</a></li>
-													<li><a href="<?= base_url() ?>condition/neural/multiple-sclerosis">Multiple Sclerosis</a></li>
-													<li><a href="<?= base_url() ?>condition/neural/neurogenetic-disorder">Neurogenetic Disorder</a></li>
-												</ul>
-											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a>
 												<ul class="sub-menu">
 													<li><a href="<?= base_url() ?>condition/neural/cerebral-palsy">Muscular Dystrophy</a></li>
@@ -313,11 +301,8 @@
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>">Diabetic Retinopathy</a></li>
-													<li><a href="<?= base_url() ?>">Cataract</a></li>
-													<li><a href="<?= base_url() ?>">Glaucoma</a></li>
-													<li><a	 href="<?= base_url() ?>">Age-related macular degeneration (AMD) </a></li>
-													<li><a href="<?= base_url() ?>">Optic Nerve Injury</a></li>
+													<li><a href="<?= base_url() ?>">Acne </a></li>
+													<li><a href="<?= base_url() ?>">Scar Revision </a></li>
 												</ul>
 											</li>
 											<li><a href="javascript:void()">Dental Treatment</a></li>
