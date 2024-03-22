@@ -81,6 +81,12 @@ class DiseasesController extends CI_Controller
 				];
 				$this->load->load_view('diseases/chromosomal-disorder', $this->data);
 				break;
+			case "infertility2":
+				$this->data['page'] = [
+					'title' => "Infertility" . " - " . APP_NAME
+				];
+				$this->load->load_view('diseases/infertility2', $this->data);
+				break;
 
 			default:
 				redirect('');
@@ -267,6 +273,38 @@ class DiseasesController extends CI_Controller
 						];
 						$this->load->load_view('diseases/condition/chromosomal-disorder/trisomy-21', $this->data);
 						break;
+
+					default:
+						redirect('condition/chromosomal-disorder');
+						break;
+				}
+				break;
+
+			case 'infertility2':
+				switch ($condition) {
+					case 'ivf':
+						$this->data['page'] = [
+							'title' => "IVF" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/infertility2/ivf', $this->data);
+						break;
+					case 'endometrim-rejuvenation':
+						$this->data['page'] = [
+							'title' => "Endometrim Rejuvenation" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/infertility2/endometrim-rejuvenation', $this->data);
+						break;
+					case 'menopausal-symtoms-reversal':
+						$this->data['page'] = [
+							'title' => "Menopausal Symtoms Reversal" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/infertility2/menopausal-symtoms-reversal', $this->data);
+						break;
+					case 'ovarian-rejuvenation':
+						$this->data['page'] = [
+							'title' => "Ovarian Rejuvenation" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/infertility2/ovarian-rejuvenation', $this->data);
 						break;
 
 					default:

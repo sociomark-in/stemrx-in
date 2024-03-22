@@ -345,6 +345,7 @@
 													<li><a href="<?= base_url('therapeutics/') ?>laser-therapy">Laser Therapy</a></li>
 													<li><a href="<?= base_url('therapeutics/') ?>aquatic-therapy">Aquatic Therapy</a></li>
 													<li><a href="<?= base_url('therapeutics/') ?>ozone-therapy">Ozone Therapy</a></li>
+													<li><a href="<?= base_url() ?>condition/infertility2">Advanced Infertility</a></li>
 												</ul>
 											</li>
 											<li>
