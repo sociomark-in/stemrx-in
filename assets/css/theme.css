@@ -11268,14 +11268,18 @@ a.icon-btn.style4 i {
 .booking_button-wrapper {
   position: fixed;
   right: 0;
-  top: 50%;
+  bottom: 3rem;
   transform: translateY(-50%);
   z-index: 999;
 }
 .booking_button-wrapper .booking_button {
   background-color: var(--theme-color3);
   color: var(--white-color);
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+.style3-sm {
+  padding: 1rem;
 }
 
 .service-box .sr-icon:has(img) {

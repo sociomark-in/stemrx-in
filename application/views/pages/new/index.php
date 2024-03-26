@@ -9,33 +9,51 @@
 	<!--==============================
       Hero Area
     ==============================-->
-	<section class="vs-hero-wrapper position-relative">
+	<section class="vs-hero-wrapper position-relative  ">
 		<div class="vs-hero-carousel" data-navprevnext="true" data-height="800" data-container="1900" data-slidertype="responsive">
-			<div class="ls-slide" data-ls="duration: 1000; transition2d: 5;">
+			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
 				<picture>
-					<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
-					<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
-					<source srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/webp">
-					<img src="<?= base_url() ?>assets/img/banners/home-01_v.jpg" alt="Service Image" class="ls-bg w-100">
+					<source media="(min-width: 800px)" srcset="https://placehold.co/1920x800" type="image/webp">
+					<source media="(max-width: 800px)" srcset="https://placehold.co/1920x800" type="image/jpg">
+					<source srcset="https://placehold.co/1920x800" type="image/webp">
+					<img src="https://placehold.co/1920x800" alt="Service Image" class="ls-bg w-100">
 				</picture>
+				<h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">We always put the</h1>
+				<h1 class="text-dark ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style="left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Patients First</h1>
+				<p class="ls-l text-dark ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
+				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
+					<a href="service.html" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a>
+				</div>
 			</div>
-			<div class="ls-slide" data-ls="duration: 1000; transition2d: 5;">
-				<!-- <img src="https://placehold.co/1900x1000" alt="Hero Image" class="ls-bg"> -->
-				<picture>
-					<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
-					<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
-					<source srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/webp">
-					<img src="<?= base_url() ?>assets/img/banners/home-01_v.jpg" alt="Service Image" class="ls-bg w-100">
+			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
+			<picture>
+					<source media="(min-width: 800px)" srcset="https://placehold.co/1920x800" type="image/webp">
+					<source media="(max-width: 800px)" srcset="https://placehold.co/1920x800" type="image/jpg">
+					<source srcset="https://placehold.co/1920x800" type="image/webp">
+					<img src="https://placehold.co/1920x800" alt="Service Image" class="ls-bg w-100">
 				</picture>
+				<h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Best Treatment for</h1>
+				<h1 class="text-dark ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style="left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Healthy Life</h1>
+				<p class="ls-l text-dark ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
+				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
+					<a href="service.html" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a>
+				</div>
 			</div>
-			<div class="ls-slide" data-ls="duration: 1000; transition2d: 5;">
-				<!-- <img src="https://placehold.co/1900x1000" alt="Hero Image" class="ls-bg"> -->
-				<picture>
-					<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
-					<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
-					<source srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/webp">
-					<img src="<?= base_url() ?>assets/img/banners/home-01_v.jpg" alt="Service Image" class="ls-bg w-100">
-				</picture>
+			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
+				<a href="">
+					<picture>
+						<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
+						<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
+						<source srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/webp">
+						<img src="<?= base_url() ?>assets/img/banners/home-01_v.jpg" alt="Service Image" class="ls-bg w-100">
+					</picture>
+				</a>
+				<!-- <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Best Medics, Doctors</h1>
+				<h1 class="text-dark ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style="left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">and physicians</h1>
+				<p class="ls-l text-dark ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
+				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
+					<a href="service.html" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a>
+				</div> -->
 			</div>
 		</div>
 	</section>
