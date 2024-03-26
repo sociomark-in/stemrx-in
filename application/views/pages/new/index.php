@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
-			<picture>
+				<picture>
 					<source media="(min-width: 800px)" srcset="https://placehold.co/1920x800" type="image/webp">
 					<source media="(max-width: 800px)" srcset="https://placehold.co/1920x800" type="image/jpg">
 					<source srcset="https://placehold.co/1920x800" type="image/webp">
@@ -102,304 +102,206 @@
 	</section>
 
 	<section class="vs-specialities-wrapper space-top">
-		<div class="container d-none">
-			<div class="row text-center justify-content-center">
-				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-					<!-- <div class="section-title"><span class="h3 text-theme sec-subtitle">Advanced Treatments</span> -->
-					<h2 class="h1">Our Specialities</h2>
-					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
-				</div>
-			</div>
-		</div>
-		<div class="row justify-content-center d-none">
-			<div class="col-lg-9 col-md-11 col-12">
-				<div class="row g-4">
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url() ?>condition/neural" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/neurogenic-disorder.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Neurological Problems</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url() ?>condition/developmental-problem" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/autism.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Developmental Problems</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url() ?>condition/infertility" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/infertility.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Infertility</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url() ?>condition/couple-clinic" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/couple.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Couple Clinic</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url() ?>condition/pain-care" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/pain-care.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Pain Care</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url() ?>condition/eye-care" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/eye-care.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Eye Care</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url() ?>condition/metabolic-diseases" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/metabolism.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Metabolic Diseases</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url("condition/cosmatic-diseases") ?>" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/cosmetic.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Cosmetic Treatments</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6 d-none">
-						<a href="javascript:void()" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/dental.png" alt="Speciality" class="w-100">
-
-								</div>
-							</div>
-							<p>Dental Treatment</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url() ?>condition/regenerative-clinic" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/regenerative.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Regenerative Clinic</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url() ?>condition/dermatology-care" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/dermatology.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Dermatology Care</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6">
-						<a href="javascript:void()" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/chromosomal-disorder.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Chromosomal disorders</p>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-4 col-6 d-none">
-						<a href="javascript:void()" class="text-center">
-							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-5">
-									<img src="<?= base_url() ?>assets/img/icons/diseases/surgical-procedure.png" alt="Speciality" class="w-100">
-								</div>
-							</div>
-							<p>Surgical Procedure</p>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="container">
-			<div class="row">
-				<ul class="nav product-tab mb-30 justify-content-center mb-4" id="productTab" role="tablist">
-					<li class="nav-item" role="presentation">
-						<a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Our Specialities</a>
-					</li>
-					<li class="nav-item" role="presentation">
-						<a class="nav-link " id="reviews-tab" data-bs-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Therapeutics </a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-xl-9 col-xxl-8">
-				<div class="tab-content mb-25 " id="productTabContent">
-					<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-						<div class="row g-4">
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url() ?>condition/neural" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/neurogenic-disorder.png" alt="Speciality" class="w-100">
-										</div>
+			<div class="row justify-content-center g-4 mb-4">
+				<div class="col-xl-9 col-lg-10 col-md-11 col-12">
+					<div class="row justify-content-center mb-3">
+						<div class="col-lg-3 col-md-4 col-6">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-trigger="hover" data-bs-toggle="popover" class="text-center">
+								<div class="card bg-white sp-item mb-2">
+									<div class="card-body">
+										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/calendar.png" alt="Speciality" class="w-100" height="70"></div>
+										<h6 class="m-0">Book Appointment</h6>
 									</div>
-									<p>Neurological Problems</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url() ?>condition/developmental-problem" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/autism.png" alt="Speciality" class="w-100">
-										</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-6">
+							<a href="<?= base_url() ?>team-of-experts" class="text-center">
+								<div class="card bg-white sp-item mb-2">
+									<div class="card-body">
+										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/doctor.png" alt="Speciality" class="w-100" height="70"></div>
+										<h6 class="m-0">Find Experts</h6>
 									</div>
-									<p>Developmental Problems</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url() ?>condition/infertility" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/infertility.png" alt="Speciality" class="w-100">
-										</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-6">
+							<a href="<?= base_url() ?>condition/neural" class="text-center">
+								<div class="card bg-white sp-item mb-2">
+									<div class="card-body">
+										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/hospital.png" alt="Speciality" class="w-100" height="70"></div>
+										<h6 class="m-0">Our Hospitals</h6>
 									</div>
-									<p>Infertility Center</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url() ?>condition/couple-clinic" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/couple.png" alt="Speciality" class="w-100">
-										</div>
-									</div>
-									<p>Couple Clinic</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url() ?>condition/pain-care" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/pain-care.png" alt="Speciality" class="w-100">
-										</div>
-									</div>
-									<p>Pain Care</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url() ?>condition/eye-care" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/eye-care.png" alt="Speciality" class="w-100">
-										</div>
-									</div>
-									<p>Eye Care</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url() ?>condition/metabolic-diseases" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/metabolism.png" alt="Speciality" class="w-100">
-										</div>
-									</div>
-									<p>Metabolic Diseases</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url("condition/cosmatic-diseases") ?>" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/cosmetic.png" alt="Speciality" class="w-100">
-										</div>
-									</div>
-									<p>Cosmetic Treatments</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6 d-none">
-								<a href="javascript:void()" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/dental.png" alt="Speciality" class="w-100">
-
-										</div>
-									</div>
-									<p>Dental Treatment</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url() ?>condition/regenerative-clinic" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/regenerative.png" alt="Speciality" class="w-100">
-										</div>
-									</div>
-									<p>Regenerative Clinic</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="<?= base_url() ?>condition/dermatology-care" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/dermatology.png" alt="Speciality" class="w-100">
-										</div>
-									</div>
-									<p>Dermatology Care</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6">
-								<a href="javascript:void()" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/chromosomal-disorder.png" alt="Speciality" class="w-100">
-										</div>
-									</div>
-									<p>Chromosomal disorders</p>
-								</a>
-							</div>
-							<div class="col-lg-2 col-md-4 col-6 d-none">
-								<a href="javascript:void()" class="text-center">
-									<div class="card bg-white sp-item mb-2">
-										<div class="card-body p-5">
-											<img src="<?= base_url() ?>assets/img/icons/diseases/surgical-procedure.png" alt="Speciality" class="w-100">
-										</div>
-									</div>
-									<p>Surgical Procedure</p>
-								</a>
-							</div>
+								</div>
+							</a>
 						</div>
 					</div>
-					<div class="tab-pane fade " id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-12">
+					<ul class="nav product-tab mb-30 justify-content-center mb-4" id="productTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Our Specialities</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link " id="reviews-tab" data-bs-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Therapeutics </a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12">
+					<div class="tab-content mb-25 " id="productTabContent">
+						<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+							<div class="row g-4">
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url() ?>condition/neural" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/neurogenic-disorder.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Neurological Problems</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url() ?>condition/developmental-problem" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/autism.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Developmental Problems</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url() ?>condition/infertility" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/infertility.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Infertility Center</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url() ?>condition/couple-clinic" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/couple.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Couple Clinic</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url() ?>condition/pain-care" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/pain-care.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Pain Care</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url() ?>condition/eye-care" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/eye-care.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Eye Care</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url() ?>condition/metabolic-diseases" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/metabolism.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Metabolic Diseases</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url("condition/cosmatic-diseases") ?>" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/cosmetic.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Cosmetic Treatments</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6 d-none">
+									<a href="javascript:void()" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/dental.png" alt="Speciality" class="w-100">
 
+											</div>
+										</div>
+										<h6>Dental Treatment</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url() ?>condition/regenerative-clinic" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/regenerative.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Regenerative Clinic</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url() ?>condition/dermatology-care" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/dermatology.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Dermatology Care</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="javascript:void()" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/chromosomal-disorder.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Chromosomal disorders</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6 d-none">
+									<a href="javascript:void()" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/diseases/surgical-procedure.png" alt="Speciality" class="w-100">
+											</div>
+										</div>
+										<h6>Surgical Procedure</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade " id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+							<div class="row g-4">
+								<?php for ($i = 0; $i < 10; $i++) : ?>
+									<div class="col-lg-2 col-md-4 col-6">
+										<a href="<?= base_url() ?>" class="">
+											<div class="card bg-white sp-item mb-2">
+												<div class="card-body">
+													<p class="m-0">Hyperbaric Oxygen Therapy</p>
+												</div>
+											</div>
+										</a>
+									</div>
+								<?php endfor ?>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
