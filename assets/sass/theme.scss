@@ -253,10 +253,10 @@ body {
 	}
 }
 
-iframe{
-	&.ratio{
+iframe {
+	&.ratio {
 		width: 100%;
-		&.ratio-16x9{
+		&.ratio-16x9 {
 			aspect-ratio: 16/9;
 		}
 	}
@@ -317,14 +317,17 @@ a {
 .booking_button-wrapper {
 	position: fixed;
 	right: 0;
-	top: 50%;
+	bottom: 3rem;
 	transform: translateY(-50%);
 	z-index: 999;
 	.booking_button {
 		background-color: var(--theme-color3);
 		color: var(--white-color);
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
+}
+.style3-sm {
+	padding: 1rem;
 }
 .service-box .sr-icon {
 	&:has(img) {
@@ -341,4 +344,75 @@ a {
 .service-box .sr-content {
 	padding: 0 10px;
 	margin-top: 1rem;
+}
+.vs-swiper {
+	.handle-white {
+		$size: 3rem;
+		&.swiper-button-prev {
+			background: url("../img/icons/left.png") no-repeat;
+			width: $size;
+			height: $size;
+			background-size: contain;
+			background-position: right;
+		}
+		&.swiper-button-next {
+			background: url("../img/icons/right.png") no-repeat;
+			width: $size;
+			height: $size;
+			background-size: contain;
+			background-position: left;
+		}
+		&::after {
+			display: none;
+		}
+	}
+	.swiper-slide {
+		&:has(.text-content) {
+			position: relative;
+			.text-content {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				padding: calc(max(5vmax, 10%));
+			}
+		}
+	}
+}
+.footer-layout1 {
+	.footer-bottom-menu {
+		li {
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		a {
+			color: $white-color;
+
+			&:hover {
+				color: $white-color;
+			}
+		}
+	}
+}
+
+.footer-widget {
+	margin-bottom: 2rem;
+	.widget_title {
+		font-size: 20px;
+		margin-bottom: 0.7rem;
+	}
+	&.widget_nav_menu {
+		margin-bottom: 2rem;
+		.widget_title {
+			font-size: 20px;
+			margin-bottom: 0.7rem;
+		}
+		a {
+			font-size: 0.9rem;
+			margin-bottom: 0.5rem;
+		}
+	}
 }

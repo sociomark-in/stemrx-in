@@ -151,7 +151,7 @@
 	</div>
 </div>
 <header class="header-wrapper header-layout1">
-	<div class="header-top bg-title py-2 d-none d-md-block">
+	<div class="header-top bg-dark d-none d-md-block">
 		<div class="container container-style1 py-1">
 			<div class="row justify-content-center justify-content-xl-between">
 				<div class="col-auto">
@@ -239,7 +239,7 @@
 									<li class="menu-item-has-children"><a href="#">Conditions</a>
 										<ul class="sub-menu">
 											<li class="menu-item-has-children">
-												<a href="#">Neurological Problems</a>
+												<a href="<?= base_url('condition/neural') ?>">Neurological Problems</a>
 												<ul class="sub-menu">
 													<li><a href="<?= base_url('condition/neural/cerebral-palsy') ?>">Cerebral Palsy</a></li>
 													<li><a href="<?= base_url('condition/neural/developmental-delay') ?>">Delayed Development</a></li>

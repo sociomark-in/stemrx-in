@@ -3,7 +3,7 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d30153.37013397536!2d73.002349!3d19.143979!3m2!1i1024!2i768!4f13.1!2m1!1sStemRx%20Bioscience%20Solutions%20Private%20Limited%20Dr.%20Mahajan&#39;s%20Hospital%20%26%20ITC%20R-831%2C%20Thane%20-%20Belapur%20Rd%2C%20next%20to%20Shell%20Petrol%20Pump%2C%20T.T.C%2C%20Industrial%20Area%2C%20Rabale%2C%20Navi%20Mumbai%2C%20Maharashtra%20400708!5e0!3m2!1sen!2sus!4v1705993370658!5m2!1sen!2sus" style="border:0; width:100%; height: 300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	</div>
 </div>
-<div class="vs-newsletter-wrapper space-md">
+<div class="vs-newsletter-wrapper space-md-top mb-4">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-xl-8" data-sec-pos="top-half" data-pos-for=".brand-wrap1">
@@ -54,7 +54,7 @@
 	<div class="widget-area">
 		<div class="container">
 			<div class="row justify-content-between">
-				<div class="col-md-6 col-lg-auto col-xl-6">
+				<div class="col-12 col-lg-auto col-xl-6">
 					<div class="widget footer-widget widget_nav_menu">
 						<h3 class="widget_title">Conditions</h3>
 						<div class="menu-all-pages-container">
@@ -83,30 +83,64 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-12 col-lg-auto col-xl-6">
+					<div class="widget_nav_menu">
+						<div class="row">
+							<div class="col-xl-6 col-12">
+								<ul class="menu">
+									<li><a href="javascript:void(0)">Special Link</a></li>
+									<li><a href="javascript:void(0)">Special Link</a></li>
+									<li><a href="javascript:void(0)">Special Link </a></li>
+								</ul>
+							</div>
+							<div class="col-xl-6 col-12">
+								<ul class="menu">
+									<li><a href="javascript:void(0)">Special Link</a></li>
+									<li><a href="javascript:void(0)">Special Link</a></li>
+									<li><a href="javascript:void(0)">Special Link </a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-between">
+				<div class="col-xl-auto col-lg-4 col-md-6">
+					<div class="widget footer-widget widget_nav_menu">
+						<h3 class="widget_title">About StemRx</h3>
+						<ul class="menu">
+							<li><a href="<?= base_url() ?>why-stemrx">Why StemRx</a></li>
+							<li><a href="<?= base_url() ?>team-of-experts">Team of Experts</a></li>
+							<li><a href="<?= base_url('academics') ?>">Academics </a></li>
+							<li><a href="<?= base_url() ?>patient-testimonial">All Testimonials</a></li>
+							<li><a href="https://stemrxbiosciences.in/" target="_blank">Our Store</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-auto col-lg-4 col-md-6">
+					<div class="widget footer-widget widget_nav_menu">
+						<h3 class="widget_title">StemRx in Media</h3>
+						<ul class="menu">
+							<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
+							<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
+							<li><a href="javascript:void()">Our Webinar </a></li>
+							<li><a href="<?= base_url("pr-articles") ?>">Blogs</a></li>
+							<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
+						</ul>
+					</div>
+				</div>
 				<div class="col-md-6 col-lg-auto col-xl-auto">
 					<div class="widget footer-widget widget_nav_menu">
 						<h3 class="widget_title">Quick Links</h3>
 						<div class="menu-all-pages-container">
 							<ul class="menu">
-								<li><a href="<?= base_url() ?>team-of-experts">Team Of Experts</a></li>
-								<li><a href="<?= base_url() ?>news">News</a></li>
-								<li><a href="<?= base_url() ?>pr-articles">PR Articles</a></li>
-								<li><a href="<?= base_url() ?>patient-testimonial">Testimonials</a></li>
+								<li><a href="<?= base_url() ?>team-of-experts">Team of Experts</a></li>
+								<li><a href="<?= base_url() ?>patient-testimonial">All Testimonials</a></li>
+								<li><a href="https://stemrxbiosciences.in/" target="_blank">Our Store</a></li>
+								<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
+								<li><a href="<?= base_url("pr-articles") ?>">Blogs</a></li>
 								<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
 							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 col-xl-auto d-none">
-					<div class="widget footer-widget">
-						<h4 class="widget_title">Gallery Posts</h4>
-						<div class="footer-gallery">
-							<div class="gal-item"><a href="#"><img src="<?= base_url() ?>assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100"></a></div>
-							<div class="gal-item"><a href="#"><img src="<?= base_url() ?>assets/img/widget/gal-1-2.jpg" alt="Gallery Image" class="w-100"></a></div>
-							<div class="gal-item"><a href="#"><img src="<?= base_url() ?>assets/img/widget/gal-1-3.jpg" alt="Gallery Image" class="w-100"></a></div>
-							<div class="gal-item"><a href="#"><img src="<?= base_url() ?>assets/img/widget/gal-1-4.jpg" alt="Gallery Image" class="w-100"></a></div>
-							<div class="gal-item"><a href="#"><img src="<?= base_url() ?>assets/img/widget/gal-1-5.jpg" alt="Gallery Image" class="w-100"></a></div>
-							<div class="gal-item"><a href="#"><img src="<?= base_url() ?>assets/img/widget/gal-1-6.jpg" alt="Gallery Image" class="w-100"></a></div>
 						</div>
 					</div>
 				</div>
@@ -114,16 +148,16 @@
 					<div class="widget footer-widget">
 						<h3 class="widget_title">Contact Us</h3>
 						<div class="d-flex my-3 pt-1 d-none">
-							<div class="avater-small mr-20"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Avater Image"></div>
+							<div class="avater-small mr-20"><img src="<?= base_url() ?>assets/img/team/drpvmahajan.jpg" alt="Avater Image"></div>
 							<div class="media-body align-self-center">
 								<h5 class="mb-0 font-body lh-1 text-white">Dr. Pradeep V. Mahajan</h5>
 								<!-- <span class="text-theme fs-xs lh-1">Senior Consultant</span> -->
 							</div>
 						</div>
-						<div class="fs-md mb-2">
+						<div class="mb-2">
 							<a class="text-white" href="tel:919979976862"><i class="text-theme fas fa-phone-alt me-2 pe-1"></i>+91 997 997 6862</a>
 						</div>
-						<div class="fs-md mb-2">
+						<div class="mb-2">
 							<a class="text-white" href="mailto:info@stemrx.in"><i class="text-theme fa fa-envelope me-2 pe-1"></i>info@stemrx.in</a>
 						</div>
 						<div class="footer-table d-none">
@@ -142,7 +176,7 @@
 								</tr>
 							</table>
 						</div>
-						<div class="address-line"><i class="far fa-map-marker-alt text-theme fs-md"></i> <a href="#" class="text-reset fs-md">Dr. Mahajan’s Hospital & ITC R-831,Thane – Belapur Rd, Next to Shell Petrol Pump, TTC Industrial Area, Rabale, Navi Mumbai, Maharashtra 400708.</a></div>
+						<div class="d-flex gap-2 align-top"><i class="far fa-map-marker-alt text-theme"></i> <a href="#" class="text-white">Dr. Mahajan’s Hospital & ITC R-831,Thane – Belapur Rd, Next to Shell Petrol Pump, TTC Industrial Area, Rabale, Navi Mumbai, Maharashtra 400708.</a></div>
 					</div>
 				</div>
 			</div>
