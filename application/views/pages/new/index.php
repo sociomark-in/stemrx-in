@@ -6,58 +6,78 @@
 	}
 </style>
 <main>
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<!-- Swiper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<!--==============================
       Hero Area
     ==============================-->
-	<section class="vs-hero-wrapper position-relative  d-none">
-		<div class="vs-hero-carousel" data-navprevnext="true" data-height="800" data-container="1900" data-slidertype="responsive">
-			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
-				<picture>
-					<source media="(min-width: 800px)" srcset="https://placehold.co/1920x800" type="image/webp">
-					<source media="(max-width: 800px)" srcset="https://placehold.co/1920x800" type="image/jpg">
-					<source srcset="https://placehold.co/1920x800" type="image/webp">
-					<img src="https://placehold.co/1920x800" alt="Service Image" class="ls-bg w-100">
-				</picture>
-				<h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">We always put the</h1>
-				<h1 class="text-dark ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style="left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Patients First</h1>
-				<p class="ls-l text-dark ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
-				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
-					<a href="service.html" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a>
+	<section class="vs-hero-wrapper position-relative">
+		<div class="vs-swiper swiper bannerSwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" data-ls="duration: 13000; transition2d: 5;">
+					<div class="media-content">
+						<picture>
+							<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.webp" type="image/webp">
+							<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.jpg" type="image/jpg">
+							<source media="(max-width: 800px)" srcset="https://placehold.co/800x600" type="image/jpg">
+							<source srcset="" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.jpg" alt="Service Image" class="ls-bg w-100">
+						</picture>
+					</div>
+					<div class="text-content mt-4 d-none d-md-block">
+						<div class="row">
+							<div class="col-xl-7 col-12">
+								<div class="mb-md-4 mb-3">
+									<h1 class="text-white">Healing People with Regenerative Medicines & Advanced Therapies </h1>
+									<h3 class="text-dark">By Smart Technology and Integrated Approach</h3>
+									<!-- <p class="text-dark ls-responsive ls-hide-sm" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p> -->
+								</div>
+								<div class="ls-btn" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
+									<a href="service.html" class="vs-btn style3 hover-white">View All Therapeutics<i class="fas fa-bolt"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
-				<picture>
-					<source media="(min-width: 800px)" srcset="https://placehold.co/1920x800" type="image/webp">
-					<source media="(max-width: 800px)" srcset="https://placehold.co/1920x800" type="image/jpg">
-					<source srcset="https://placehold.co/1920x800" type="image/webp">
-					<img src="https://placehold.co/1920x800" alt="Service Image" class="ls-bg w-100">
-				</picture>
-				<h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Best Treatment for</h1>
-				<h1 class="text-dark ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style="left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Healthy Life</h1>
-				<p class="ls-l text-dark ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
-				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
-					<a href="service.html" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a>
-				</div>
-			</div>
-			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
-				<a href="">
-					<picture>
-						<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
-						<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
-						<source srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/webp">
-						<img src="<?= base_url() ?>assets/img/banners/home-01_v.jpg" alt="Service Image" class="ls-bg w-100">
-					</picture>
-				</a>
-				<!-- <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Best Medics, Doctors</h1>
-				<h1 class="text-dark ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style="left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">and physicians</h1>
-				<p class="ls-l text-dark ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
-				<div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
-					<a href="service.html" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a>
+				<!-- <div class="swiper-slide" data-ls="duration: 13000; transition2d: 5;">
+					<div class="media-content">
+						<picture>
+							<source media="(min-width: 800px)" srcset="https://placehold.co/1920x800" type="image/webp">
+							<source media="(max-width: 800px)" srcset="https://placehold.co/800x600" type="image/jpg">
+							<source srcset="" type="image/webp">
+							<img src="https://placehold.co/1920x800" alt="Service Image" class="ls-bg w-100">
+						</picture>
+					</div>
+					<div class="text-content d-none d-md-block">
+						<h1 class="text-title">Healing People with</h1>
+						<h3 class="text-dark">Regenerative Medicines & Advanced Therapies</h3>
+						<p class="text-dark ls-responsive ls-hide-sm" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
+						<div class="ls-btn" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
+							<a href="service.html" class="vs-btn style3 hover-white">View All Services<i class="fas fa-bolt"></i></a>
+						</div>
+					</div>
 				</div> -->
 			</div>
+			<div class="swiper-button-next handle-white"></div>
+			<div class="swiper-button-prev handle-white"></div>
 		</div>
+		<script>
+			var swiper = new Swiper(".bannerSwiper", {
+				navigation: {
+					nextEl: ".bannerSwiper .swiper-button-next",
+					prevEl: ".bannerSwiper .swiper-button-prev",
+				},
+				// autoplay:{
+				// 	enabled: true,
+				// 	duration: 1000
+				// },
+				loop: true
+			});
+		</script>
 	</section>
-	<section class="vs-hero-wrapper position-relative">
+	<section class="vs-hero-wrapper position-relative d-none">
 		<picture>
 			<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
 			<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
@@ -103,7 +123,7 @@
 
 	<section class="vs-specialities-wrapper space-top">
 		<div class="container">
-			<div class="row justify-content-center g-4 mb-4">
+			<!-- <div class="row justify-content-center g-4 mb-4">
 				<div class="col-xl-9 col-lg-10 col-md-11 col-12">
 					<div class="row justify-content-center mb-3">
 						<div class="col-lg-3 col-md-4 col-6">
@@ -126,27 +146,20 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-3 col-md-4 col-6">
-							<a href="javascript:void(0)" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70"></div>
-										<h6 class="m-0">Our Hospitals</h6>
-									</div>
-								</div>
-							</a>
-						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="row justify-content-center">
 				<div class="col-12">
 					<ul class="nav product-tab mb-30 justify-content-center mb-4" id="productTab" role="tablist">
 						<li class="nav-item" role="presentation">
 							<a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Our Specialities</a>
 						</li>
+						<!-- <li class="nav-item" role="presentation">
+							<a class="nav-link " id="therapies-tab" data-bs-toggle="tab" href="#therapies" role="tab" aria-controls="therapies" aria-selected="false">Therapeutics </a>
+						</li> -->
 						<li class="nav-item" role="presentation">
-							<a class="nav-link " id="reviews-tab" data-bs-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Therapeutics </a>
+							<a class="nav-link " id="locations-tab" data-bs-toggle="tab" href="#locations" role="tab" aria-controls="locations" aria-selected="false">Our Hospitals </a>
 						</li>
 					</ul>
 				</div>
@@ -287,7 +300,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade " id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+						<div class="tab-pane fade " id="therapies" role="tabpanel" aria-labelledby="therapies-tab">
 							<div class="row g-4">
 								<?php for ($i = 0; $i < 10; $i++) : ?>
 									<div class="col-lg-2 col-md-4 col-6">
@@ -300,6 +313,50 @@
 										</a>
 									</div>
 								<?php endfor ?>
+							</div>
+						</div>
+						<div class="tab-pane fade " id="locations" role="tabpanel" aria-labelledby="locations-tab">
+							<div class="row g-4 justify-content-center">
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="javascript:void(0)" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
+											</div>
+										</div>
+										<h6>Navi Mumbai</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="javascript:void(0)" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
+											</div>
+										</div>
+										<h6>Hyderabad</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="javascript:void(0)" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
+											</div>
+										</div>
+										<h6>Nepal</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="javascript:void(0)" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
+											</div>
+										</div>
+										<h6>Maldives</h6>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -374,7 +431,7 @@
 					<div class="col-md-6 col-lg-auto mb-30">
 						<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon hover-style2 align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-medical-equipment"></i></span>
 							<div class="media-body">
-								<h2 class="mt-n2 mb-0 text-theme">100+</h2>
+								<h2 class="mt-n2 mb-0 text-theme">10+</h2>
 								<p class="text-title fs-md fw-medium mt-1 mt-xl-0 mb-2 mb-xl-2">Experienced Doctor's</p>
 								<p class="fs-xs mb-0">Incubate extensive scenarios without top-line quality vectors. Authoritatively engage</p>
 							</div>

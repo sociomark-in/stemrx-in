@@ -345,8 +345,60 @@ a {
 	padding: 0 10px;
 	margin-top: 1rem;
 }
+.vs-swiper {
+	.handle-white {
+		$size: 3rem;
+		&.swiper-button-prev {
+			background: url("../img/icons/left.png") no-repeat;
+			width: $size;
+			height: $size;
+			background-size: contain;
+			background-position: right;
+		}
+		&.swiper-button-next {
+			background: url("../img/icons/right.png") no-repeat;
+			width: $size;
+			height: $size;
+			background-size: contain;
+			background-position: left;
+		}
+		&::after {
+			display: none;
+		}
+	}
+	.swiper-slide {
+		&:has(.text-content) {
+			position: relative;
+			.text-content {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				padding: calc(max(5vmax, 10%));
+			}
+		}
+	}
+}
+.footer-layout1 {
+	.footer-bottom-menu {
+		li {
+			&:last-child {
+				margin-right: 0;
+			}
+		}
 
-.footer-widget{
+		a {
+			color: $white-color;
+
+			&:hover {
+				color: $white-color;
+			}
+		}
+	}
+}
+
+.footer-widget {
 	margin-bottom: 2rem;
 	.widget_title {
 		font-size: 20px;
