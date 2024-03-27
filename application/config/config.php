@@ -25,6 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $config['base_url'] = 'http://localhost/stemrx-hospitals/';
 $config['base_url'] = 'https://test.apogeedigitech.in/repositories/stemrx-hospitals/';
+$config['base_url'] = 'https://stemrx.in/';
 /*
 |--------------------------------------------------------------------------
 | Index File

@@ -88,16 +88,16 @@
 						<div class="row">
 							<div class="col-xl-6 col-12">
 								<ul class="menu">
-									<li><a href="javascript:void(0)">Special Link</a></li>
-									<li><a href="javascript:void(0)">Special Link</a></li>
-									<li><a href="javascript:void(0)">Special Link </a></li>
+									<li><a href="<?= base_url('condition/neural/cerebral-palsy')?>">Cerebral Palsy</a></li>
+									<li><a href="<?= base_url('condition/neural/developmental-delay')?>">Developmental Delay</a></li>
+									<li><a href="<?= base_url('condition/pain-care/avascular-necrosis')?>">Avascular Necrosis </a></li>
 								</ul>
 							</div>
 							<div class="col-xl-6 col-12">
 								<ul class="menu">
-									<li><a href="javascript:void(0)">Special Link</a></li>
-									<li><a href="javascript:void(0)">Special Link</a></li>
-									<li><a href="javascript:void(0)">Special Link </a></li>
+									<li><a href="<?= base_url('condition/pain-care/osteoarthritis')?>">Osteoarthritis</a></li>
+									<li><a href="<?= base_url('condition/pain-care/migraine')?>">Migraine</a></li>
+									<!--<li><a href="<?= base_url('condition/neural/cerebral-palsy')?>">Special Link </a></li>-->
 								</ul>
 							</div>
 						</div>

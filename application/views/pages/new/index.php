@@ -29,7 +29,7 @@
 					</div>
 					<div class="text-content mt-4 d-none d-md-block">
 						<div class="row">
-							<div class="col-xl-7 col-12">
+							<div class="col-xl-6 col-lg-5 col-md-5 col-12">
 								<div class="mb-md-4 mb-3">
 									<h1 class="text-white">Healing People with Regenerative Medicines & Advanced Therapies </h1>
 									<h3 class="text-dark">By Smart Technology and Integrated Approach</h3>
@@ -458,7 +458,7 @@
 				<div class="col-xl-6 mb-30">
 					<div class="about-content">
 						<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
-						<h2 class="h1 mb-3">Why Stemrx</h2>
+						<h2 class="h1 mb-3">Why StemRx</h2>
 						<div class="row">
 							<div class="col-xl-10 mb-md-2 pb-md-1">
 								<p class="mb-md-4">StemRx is the only healthcare services organization that offers a complete end to end healthcare package under one single roof right from the point where the patient walks in for a consultation, the evaluation, the medical assessments, the therapies, the medication, long term post discharge strategies and much more.</p>
@@ -578,7 +578,7 @@
 					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.pallavi.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
-							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pallavi-lele">Dr. Pallavi L</a></h4>
+							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pallavi-lele">Dr. Pallavi Lale</a></h4>
 							<span class="project-cat fs-xs">MBBS MD</span>
 							<a href="<?= base_url() ?>doctor/dr-pallavi-lele" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>

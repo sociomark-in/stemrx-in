@@ -4,12 +4,12 @@
         <div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
         <div class="container z-index-common">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Why Stemrx</h1>
+                <h1 class="breadcumb-title">Why StemRx</h1>
                 <div class="breadcumb-menu-wrap">
                     <i class="far fa-home-lg"></i>
                     <ul class="breadcumb-menu">
                         <li><a href="index.html">Home</a></li>
-                        <li class="active">Why Stemrx</li>
+                        <li class="active">Why StemRx</li>
                     </ul>
                 </div>
             </div>
@@ -246,7 +246,7 @@
         <div class="container">
             <div class="row text-center justify-content-center mb-30">
                 <div class="col-md-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
-                    <h2 class="h1">Our Treatments at Stemrx</h2>
+                    <h2 class="h1">Our Treatments at StemRx</h2>
                     <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
                 </div>
             </div>
