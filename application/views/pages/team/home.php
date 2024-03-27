@@ -47,7 +47,7 @@
 			<div class="row">
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
-						<div class="team-head"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Team Area" class="w-100">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/drpvmahajan.jpg" alt="Team Area" class="w-100">
 							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url() ?>doctor/dr-pradeep-mahajan"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
@@ -61,7 +61,7 @@
 				</div>
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
-						<div class="team-head"><img src="<?= base_url() ?>assets/img/project/dr.pallavi.jpg" alt="Team Area" class="w-100">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr.pallavi.jpg" alt="Team Area" class="w-100">
 							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-pallavi-lele"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
@@ -79,7 +79,7 @@
 				</div>
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
-						<div class="team-head"><img src="<?= base_url() ?>assets/img/project/dr.harry.jpg" alt="Team Area" class="w-100">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr.harry.jpg" alt="Team Area" class="w-100">
 							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-harry"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
@@ -111,7 +111,7 @@
 				</div>
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
-						<div class="team-head"><img src="<?= base_url() ?>assets/img/project/dr.anil.jpg" alt="Team Area" class="w-100">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr.anil.jpg" alt="Team Area" class="w-100">
 							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-anil-daxini"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>

@@ -9,7 +9,7 @@
 	<!--==============================
       Hero Area
     ==============================-->
-	<section class="vs-hero-wrapper position-relative  ">
+	<section class="vs-hero-wrapper position-relative  d-none">
 		<div class="vs-hero-carousel" data-navprevnext="true" data-height="800" data-container="1900" data-slidertype="responsive">
 			<div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
 				<picture>
@@ -57,7 +57,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="vs-hero-wrapper position-relative d-none">
+	<section class="vs-hero-wrapper position-relative">
 		<picture>
 			<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01.jpg" type="image/webp">
 			<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/home-01_v.jpg" type="image/jpg">
@@ -110,7 +110,7 @@
 							<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-trigger="hover" data-bs-toggle="popover" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/calendar.png" alt="Speciality" class="w-100" height="70"></div>
+										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/color/calendar.png" alt="Speciality" class="w-100" height="70"></div>
 										<h6 class="m-0">Book Appointment</h6>
 									</div>
 								</div>
@@ -120,17 +120,17 @@
 							<a href="<?= base_url() ?>team-of-experts" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/doctor.png" alt="Speciality" class="w-100" height="70"></div>
+										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/color/stethoscope.png" alt="Speciality" class="w-100" height="70"></div>
 										<h6 class="m-0">Find Experts</h6>
 									</div>
 								</div>
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-4 col-6">
-							<a href="<?= base_url() ?>condition/neural" class="text-center">
+							<a href="javascript:void(0)" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body">
-										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/hospital.png" alt="Speciality" class="w-100" height="70"></div>
+										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70"></div>
 										<h6 class="m-0">Our Hospitals</h6>
 									</div>
 								</div>
@@ -158,7 +158,7 @@
 									<a href="<?= base_url() ?>condition/neural" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/neurogenic-disorder.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/neurogenic-disorder.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Neurological Problems</h6>
@@ -168,7 +168,7 @@
 									<a href="<?= base_url() ?>condition/developmental-problem" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/autism.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/autism.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Developmental Problems</h6>
@@ -178,7 +178,7 @@
 									<a href="<?= base_url() ?>condition/infertility" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/infertility.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/infertility.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Infertility Center</h6>
@@ -188,7 +188,7 @@
 									<a href="<?= base_url() ?>condition/couple-clinic" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/couple.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/couple.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Couple Clinic</h6>
@@ -198,7 +198,7 @@
 									<a href="<?= base_url() ?>condition/pain-care" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/pain-care.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/pain-care.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Pain Care</h6>
@@ -208,7 +208,7 @@
 									<a href="<?= base_url() ?>condition/eye-care" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/eye-care.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/eye-care.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Eye Care</h6>
@@ -218,7 +218,7 @@
 									<a href="<?= base_url() ?>condition/metabolic-diseases" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/metabolism.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/metabolism.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Metabolic Diseases</h6>
@@ -228,17 +228,17 @@
 									<a href="<?= base_url("condition/cosmatic-diseases") ?>" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/cosmetic.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/cosmetic.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Cosmetic Treatments</h6>
 									</a>
 								</div>
-								<div class="col-lg-2 col-md-4 col-6 d-none">
+								<div class="col-lg-2 col-md-4 col-6">
 									<a href="javascript:void()" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/dental.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/tooth.png" alt="Speciality" class="w-100">
 
 											</div>
 										</div>
@@ -249,7 +249,7 @@
 									<a href="<?= base_url() ?>condition/regenerative-clinic" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/regenerative.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/regenerative.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Regenerative Clinic</h6>
@@ -259,7 +259,7 @@
 									<a href="<?= base_url() ?>condition/dermatology-care" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/dermatology.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/dermatology.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Dermatology Care</h6>
@@ -269,7 +269,7 @@
 									<a href="javascript:void()" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/chromosomal-disorder.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/chromosomal-disorder.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Chromosomal disorders</h6>
@@ -279,7 +279,7 @@
 									<a href="javascript:void()" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
-												<img src="<?= base_url() ?>assets/img/icons/diseases/surgical-procedure.png" alt="Speciality" class="w-100">
+												<img src="<?= base_url() ?>assets/img/icons/color/diseases/surgical-procedure.png" alt="Speciality" class="w-100">
 											</div>
 										</div>
 										<h6>Surgical Procedure</h6>
@@ -358,7 +358,7 @@
 	</section>
 
 
-	<section class="vs-skill-wrapper d-none">
+	<section class="vs-skill-wrapper">
 		<div class="container">
 			<div class="skill-wrap1 bg-white">
 				<div class="row justify-content-center justify-content-lg-between">
@@ -508,61 +508,41 @@
 			<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3">
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/drpvmahajan.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Dr. Pradeep Mahajan</a></h4>
 							<span class="project-cat fs-xs">Founder and Chairman</span>
-							<a href="<?= base_url() ?>assets/img/project/drpvmahajan.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-4 d-none">
-					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/joshi.jpg" alt="Project Image" class="w-100"></div>
-						<div class="project-content">
-							<h4 class="project-name">Dr. Meghnad Joshi</h4>
-							<span class="project-cat fs-xs">Senior Consultant</span>
-							<a href="<?= base_url() ?>assets/img/project/joshi.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-4 d-none">
-					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/chandan.jpg" alt="Project Image" class="w-100"></div>
-						<div class="project-content">
-							<h4 class="project-name">Dr. Chandan Sen </h4>
-							<span class="project-cat fs-xs">Senior Consultant</span>
-							<a href="<?= base_url() ?>assets/img/project/chandan.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>doctor/dr-pradeep-mahajan" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/dr.pallavi.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.pallavi.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pallavi-lele">Dr. Pallavi L</a></h4>
 							<span class="project-cat fs-xs">MBBS MD</span>
-							<a href="<?= base_url() ?>assets/img/project/dr.pallavi.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>doctor/dr-pallavi-lele" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/dr.harry.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.harry.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name">Dr. Harry Mascarenhas </h4>
 							<span class="project-cat fs-xs">Senior Consultant</span>
-							<a href="<?= base_url() ?>assets/img/project/dr.harry.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>doctor/dr-harry" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
-						<div class="project-img"><img src="<?= base_url() ?>assets/img/project/dr.anil.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.anil.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name">Dr. Anil Daxini</h4>
 							<span class="project-cat fs-xs">MD (Mum), MD (USA),</span>
-							<a href="<?= base_url() ?>assets/img/project/dr.anil.jpg" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>doctor/dr-anil-daxini" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>

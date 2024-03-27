@@ -4412,7 +4412,7 @@ textarea.form-control.is-invalid {
 }
 .footer-layout2 .widget_title {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 41px;
   padding-top: 18px;
 }
@@ -11296,4 +11296,23 @@ a.icon-btn.style4 i {
 .service-box .sr-content {
   padding: 0 10px;
   margin-top: 1rem;
+}
+
+.footer-widget {
+  margin-bottom: 2rem;
+}
+.footer-widget .widget_title {
+  font-size: 20px;
+  margin-bottom: 0.7rem;
+}
+.footer-widget.widget_nav_menu {
+  margin-bottom: 2rem;
+}
+.footer-widget.widget_nav_menu .widget_title {
+  font-size: 20px;
+  margin-bottom: 0.7rem;
+}
+.footer-widget.widget_nav_menu a {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
 }

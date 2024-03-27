@@ -239,7 +239,7 @@
 									<li class="menu-item-has-children"><a href="#">Conditions</a>
 										<ul class="sub-menu">
 											<li class="menu-item-has-children">
-												<a href="#">Neurological Problems</a>
+												<a href="<?= base_url('condition/neural') ?>">Neurological Problems</a>
 												<ul class="sub-menu">
 													<li><a href="<?= base_url('condition/neural/cerebral-palsy') ?>">Cerebral Palsy</a></li>
 													<li><a href="<?= base_url('condition/neural/developmental-delay') ?>">Delayed Development</a></li>

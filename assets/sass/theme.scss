@@ -253,10 +253,10 @@ body {
 	}
 }
 
-iframe{
-	&.ratio{
+iframe {
+	&.ratio {
 		width: 100%;
-		&.ratio-16x9{
+		&.ratio-16x9 {
 			aspect-ratio: 16/9;
 		}
 	}
@@ -326,7 +326,7 @@ a {
 		font-size: 1rem;
 	}
 }
-.style3-sm{
+.style3-sm {
 	padding: 1rem;
 }
 .service-box .sr-icon {
@@ -344,4 +344,23 @@ a {
 .service-box .sr-content {
 	padding: 0 10px;
 	margin-top: 1rem;
+}
+
+.footer-widget{
+	margin-bottom: 2rem;
+	.widget_title {
+		font-size: 20px;
+		margin-bottom: 0.7rem;
+	}
+	&.widget_nav_menu {
+		margin-bottom: 2rem;
+		.widget_title {
+			font-size: 20px;
+			margin-bottom: 0.7rem;
+		}
+		a {
+			font-size: 0.9rem;
+			margin-bottom: 0.5rem;
+		}
+	}
 }
