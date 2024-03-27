@@ -21,7 +21,8 @@
 						<picture>
 							<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.webp" type="image/webp">
 							<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.jpg" type="image/jpg">
-							<source media="(max-width: 800px)" srcset="https://placehold.co/800x600" type="image/jpg">
+							<!-- <source media="(max-width: 800px)" srcset="https://placehold.co/800x600" type="image/jpg"> -->
+							<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.jpg" type="image/jpg">
 							<source srcset="" type="image/webp">
 							<img src="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.jpg" alt="Service Image" class="ls-bg w-100">
 						</picture>
