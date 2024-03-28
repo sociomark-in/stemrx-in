@@ -17,7 +17,14 @@ class AppointmentDataController extends CI_Controller
 	}
 	public function new()
 	{
-		if($this->LeadsModel->new_appointment($this->input->post())){
+		$form_data = $this->input->post();
+		$data = [
+			'name' => $form_data['enq_name'],
+			'email' => $form_data['enq_email'],
+			'contact' => $form_data['enq_contact'],
+			'source_url' => $form_data['source_url'],
+		];
+		if($this->LeadsModel->new_appointment($data)){
 			redirect('thank-you');
 		}
 	}

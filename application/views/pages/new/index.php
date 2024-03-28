@@ -36,7 +36,7 @@
 									<!-- <p class="text-dark ls-responsive ls-hide-sm" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p> -->
 								</div>
 								<div class="ls-btn" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
-									<a href="service.html" class="vs-btn style3 hover-white">View All Therapeutics<i class="fas fa-bolt"></i></a>
+									<a href="<?= base_url('doctor/dr-pradeep-mahajan')  ?>" class="vs-btn style3 hover-white">View Our Expert<i class="fas fa-bolt"></i></a>
 								</div>
 							</div>
 						</div>
