@@ -17,7 +17,7 @@
 		</div>
 	</div>
 
-	<section class="vs-service-wrapper space-top">
+	<section class="vs-service-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -30,23 +30,48 @@
 								<img src="https://placehold.co/800x800" alt="Service Image" class="w-100">
 							</picture>
 						</div>
-						<div class="row justify-content-center">
-							<div class="col-xl-11 col-xxl-10 ">
-								<div class="service-bar">
-									<div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
-										<div class="col-sm-6 col-lg-auto">
-											<span class="fs-xs">Researchs</span>
-											<h2 class="h5 mb-0">Genetic Testing</h2>
-										</div>
-
-										<div class="col-sm-6 col-lg-auto">
-											<a href="#appointment" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="vs-about-wrapper space-md">
+		<div class="container">
+			<h2 class="h1">What is Genetic Testing?</h2>
+			<p class="fs-md">
+				Every individual has a different genetic makeup and hence different set of health issues. By understanding and testing DNA we are able to:
+			</p>
+			<ul>
+				<li>Confirm or rule out a suspected genetic condition or help determine a person’s chance of developing or passing on a genetic disorder.</li>
+				<li>Identify the root cause of existing health problems and also provide targeted solutions.</li>
+				<li>Make necessary lifestyle changes, whether it is altering your food habits or knowing which foods you should eat more (food that your body lacks) or which foods you must control and if possible avoid (that your body is allergic, intolerant and sensitive to).</li>
+			</ul>
+		</div>
+	</section>
+	<section class="vs-about-wrapper space-bottom">
+		<div class="container">
+			<h2 class="h1 text-center">450+ Tests are available!</h2>
+			<p class="fs-md">
+				Every individual has a different genetic makeup and hence different set of health issues. By understanding and testing DNA we are able to:
+			</p>
+			<ul>
+				<li>Confirm or rule out a suspected genetic condition or help determine a person’s chance of developing or passing on a genetic disorder.</li>
+				<li>Identify the root cause of existing health problems and also provide targeted solutions.</li>
+				<li>Make necessary lifestyle changes, whether it is altering your food habits or knowing which foods you should eat more (food that your body lacks) or which foods you must control and if possible avoid (that your body is allergic, intolerant and sensitive to).</li>
+			</ul>
+		</div>
+	</section>
+	<section class="vs-image">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-9 col-12">
+					<img class="w-100" src="<?= base_url('assets/img/about/') ?>genetic-testing-inherited-diseases-768x1024.jpg" alt="">
+				</div>
+				<div class="col-lg-9 col-12">
+					<img class="w-100" src="<?= base_url('assets/img/about/') ?>genetic-testing-exome-sequencing-768x1024.jpg" alt="">
+				</div>
+				<div class="col-lg-9 col-12">
+					<img class="w-100" src="<?= base_url('assets/img/about/') ?>genetic-testing-autism-1024x676.jpg" alt="">
 				</div>
 			</div>
 		</div>

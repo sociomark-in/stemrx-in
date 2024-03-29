@@ -33,7 +33,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12">
-					<div class="project-menu text-center mb-40 filter-menu-active ">
+					<div class="project-menu text-center mb-40 filter-menu-active">
 						<button data-filter="*" class="vs-btn btn-testimonial style4 active">All Testimonials</button>
 						<button data-filter=".neural" class="vs-btn btn-testimonial style4">Neurological Problems</button>
 						<button data-filter=".developmental" class="vs-btn btn-testimonial style4">Developmental Problems</button>
