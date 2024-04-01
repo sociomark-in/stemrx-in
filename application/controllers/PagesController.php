@@ -26,7 +26,8 @@ class PagesController extends CI_Controller
 	public function index()
 	{
 		$this->data['page'] = [
-			'title' => APP_NAME
+			'title' => "Stemrx Brain and Spine Institute - Cell Therapy in India",
+			'description' =>"Stemrx Brain and Spine Institute is the best cell therapy center in India, which treat patients with neurodegerative and neurodevelopmental disorders.",
 		];
 		$this->load->load_view('pages/new/index', $this->data);
 	}
@@ -51,6 +52,13 @@ class PagesController extends CI_Controller
 			'title' => "Why StemRx" . " - " . APP_NAME
 		];
 		$this->load->load_view('pages/why_stemrx', $this->data);
+	}
+	public function regenerative_therapy()
+	{
+		$this->data['page'] = [
+			'title' => "Regenerative Therapy" . " - " . APP_NAME
+		];
+		$this->load->load_view('pages/regenerative_therapy', $this->data);
 	}
 	public function contact()
 	{

@@ -1,7 +1,8 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="author" content="Vecuro">
-<meta name="description" content="StemRx Hospitals - New Layout">
+<!--<meta name="description" content="<?php //if ($page['description'] !== NULL && $page['description'] !== "" ) {echo $page['description'];} else {echo "StemRx Hospitals";}?>">-->
+<meta name="description" content="<?= (array_key_exists('description', $page))?$page['description'] : "" ?>">
 <meta name="keywords" content="StemRx Hospitals - New Layout">
 <meta name="robots" content="INDEX,FOLLOW">
 

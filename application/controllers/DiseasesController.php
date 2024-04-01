@@ -29,7 +29,8 @@ class DiseasesController extends CI_Controller
 				break;
 			case "infertility":
 				$this->data['page'] = [
-					'title' => "Infertility" . " - " . APP_NAME
+					'title' => "Best IVF Center/Clinic in Mumbai | Stemrx Hospital" . " - " . APP_NAME,
+					'description' => "Looking for a fertility specialist or IVF center near you? Discover top IVF doctors and the best fertility hospital nearby. Trust our expert care for your towards parenthood."
 				];
 				$this->load->load_view('diseases/infertility', $this->data);
 				break;
@@ -41,43 +42,50 @@ class DiseasesController extends CI_Controller
 				break;
 			case "pain-care":
 				$this->data['page'] = [
-					'title' => "Pain Care Conditions" . " - " . APP_NAME
+					'title' => "Effective Pain Care Solutions: Visit Our Pain Management Clinic Today" . " - " . APP_NAME,
+					'description' =>"Seeking relief from pain? Our pain management clinic offers effective solutions for various types of pain. Visit us now for personalized care and relief."
 				];
 				$this->load->load_view('diseases/pain-care', $this->data);
 				break;
 			case "eye-care":
 				$this->data['page'] = [
-					'title' => "Eye Care Conditions" . " - " . APP_NAME
+					'title' => "Comprehensive Eye Care & Vision Services at StemRx Hospital" . " - " . APP_NAME,
+					'description' => "Experience top-quality eye care and vision services at StemRx Hospital. Our expert team provides comprehensive solutions tailored to your needs. Trust us for your eye health."
 				];
 				$this->load->load_view('diseases/eye-care', $this->data);
 				break;
 			case "metabolic-diseases":
 				$this->data['page'] = [
-					'title' => "Metabolic Diseases" . " - " . APP_NAME
+					'title' => "Effective Metabolic Syndrome Treatments: Find Relief at StemRx Hospital" . " - " . APP_NAME,
+					'description' => "Explore effective treatments for metabolic syndrome at StemRx Hospital. Our dedicated team offers personalized care to manage and improve metabolic health. Take the first step towards a healthier lifestyle today."
 				];
 				$this->load->load_view('diseases/metabolic-diseases', $this->data);
 				break;
 			case "cosmatic-diseases":
 				$this->data['page'] = [
-					'title' => "Cosmetic Diseases" . " - " . APP_NAME
+					'title' => "Cosmetic Treatments at StemRx Hospital" . " - " . APP_NAME,
+					'description' => "Transform your appearance with simple cosmetic treatments at StemRx Hospital. Feel confident and beautiful with our easy procedures. Book your appointment now!"
 				];
 				$this->load->load_view('diseases/cosmatic-diseases', $this->data);
 				break;
 			case "regenerative-clinic":
 				$this->data['page'] = [
-					'title' => "Regenerative Clinic" . " - " . APP_NAME
+					'title' => "Transformative Regenerative Treatments at StemRx Hospital" . " - " . APP_NAME,
+					'description' => "Discover the power of regenerative medicine at StemRx Hospital's dedicated clinic. Our advanced treatments harness the body's natural healing abilities to restore function and vitality. Experience personalized care and rejuvenation today."
 				];
 				$this->load->load_view('diseases/regenerative-clinic', $this->data);
 				break;
 			case "dermatology-care":
 				$this->data['page'] = [
-					'title' => "Dermatology Care" . " - " . APP_NAME
+					'title' => "Expert Dermatologist in Mumbai: Visit StemRx Hospital Today" . " - " . APP_NAME,
+					'description' => "Looking for a trusted dermatologist in Mumbai? StemRx Hospital offers expert skin care services to address all your dermatological concerns. Schedule your appointment now for healthy, glowing skin."
 				];
 				$this->load->load_view('diseases/dermatology-care', $this->data);
 				break;
 			case "chromosomal-disorder":
 				$this->data['page'] = [
-					'title' => "Chromosomal Disorder" . " - " . APP_NAME
+					'title' => "Comprehensive Care for Chromosomal Disorders at StemRx Hospital" . " - " . APP_NAME,
+					'description' => "Find expert care and support for chromosomal disorders at StemRx Hospital. Our specialized team offers comprehensive treatments to manage and improve the quality of life for individuals with chromosomal abnormalities. "
 				];
 				$this->load->load_view('diseases/chromosomal-disorder', $this->data);
 				break;
@@ -104,13 +112,15 @@ class DiseasesController extends CI_Controller
 						break;
 					case 'cerebral-palsy':
 						$this->data['page'] = [
-							'title' => "Cerebral Palsy" . " - " . APP_NAME
+							'title' => "Cerebral Palsy Hospital in Mumbai | Top Treatment & Expert Doctors - StemRx Hospital" . " - " . APP_NAME,
+							'description' => "Seeking the best treatment for cerebral palsy in India? StemRx Hospital in Mumbai offers advanced therapies led by top doctors specializing in cerebral palsy treatment."
 						];
 						$this->load->load_view('diseases/condition/neural/cerebral-palsy-detail', $this->data);
 						break;
 					case 'developmental-delay':
 						$this->data['page'] = [
-							'title' => "Developmental Delay" . " - " . APP_NAME
+							'title' => "Development Delay Treatment: Mumbai, India - StemRx Hospital" . " - " . APP_NAME,
+							'description' =>"Expert care for developmental delay at StemRx Hospital in Mumbai. Our specialists offer effective treatment for better progress. Trust us for your loved one's growth."
 						];
 						$this->load->load_view('diseases/condition/neural/developmental-delay', $this->data);
 						break;
