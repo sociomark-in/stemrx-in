@@ -194,7 +194,7 @@
 				<div class="container-fluid position-relative">
 					<div class="row align-items-center justify-content-between">
 						<div class="col-auto">
-							<div class="brand-logo py-2"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/logo.png" alt="Logo" class="h-100"></a></div>
+							<div class="brand-logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/logo.png" alt="Logo" class="h-100"></a></div>
 						</div>
 						<div class="col text-xxl-center text-end">
 							<nav class="main-menu menu-style1 d-none d-xxl-block">
