@@ -17,15 +17,15 @@
 			<input type="hidden" name="source_url" value="<?= current_url() ?>">
 			<?php if (!is_array($fields)) : ?>
 				<div class="col-12 form-group">
-					<input type="text" class="form-control style3" name="enq_name" placeholder="Your Name" />
+					<input type="text" class="form-control style3" name="enq_name" placeholder="Your Name" required/>
 					<i class="fal small fa-user"></i>
 				</div>
 				<div class="col-12 form-group">
-					<input type="email" class="form-control style3" name="enq_email" placeholder="Email Address" />
+					<input type="email" class="form-control style3" name="enq_email" placeholder="Email Address" required />
 					<i class="fal small fa-envelope"></i>
 				</div>
 				<div class="col-12 form-group">
-					<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" />
+					<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" pattern="^\d{10}" maxlength="10" minlength="10" required/>
 					<i class="fal small fa-phone"></i>
 				</div>
 				<!-- <div class="col-lg-6 form-group">

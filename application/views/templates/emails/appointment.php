@@ -112,7 +112,7 @@
 															<td
 																style="border: 1px solid #444444; padding: 8px 16px; border-collapse: collapse; font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:18px;line-height:32px;font-weight:400;font-style:normal;color:#1d1d1d;text-decoration:none;letter-spacing:0px;">
 																<b><a style="text-decoration: none; color: inherit;"
-																		href="tel:<?= $enquiry['contact'] ?>">+<?= $enquiry['contact'] ?></a></b>
+																		href="tel:<?= $enquiry['contact'] ?>"><?= $enquiry['contact'] ?></a></b>
 															</td>
 														</tr>
 													</table>
@@ -152,7 +152,7 @@
 																style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#414141;text-decoration:none;letter-spacing:0px;">
 																<!-- Links -->
 																<singleline>
-																	<a href="#" mc:edit data-button
+																	<a href="https://stemrx.in/why-stemrx" mc:edit data-button
 																		data-text-style="Footer Links"
 																		style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:28px;font-weight:400;font-style:normal;color:#414141;text-decoration:none;letter-spacing:0px;display:inline-block;vertical-align:middle;"><span>About
 																			StemRx</span></a>
@@ -179,7 +179,7 @@
 																style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#414141;text-decoration:none;letter-spacing:0px;">
 																<!-- Links -->
 																<singleline>
-																	<a href="#" mc:edit data-button
+																	<a href="https://stemrx.in/privacy-policy" mc:edit data-button
 																		data-text-style="Footer Links"
 																		style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:28px;font-weight:400;font-style:normal;color:#414141;text-decoration:none;letter-spacing:0px;display:inline-block;vertical-align:middle;"><span>Privacy
 																			Policy</span></a>
@@ -206,7 +206,7 @@
 																style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#414141;text-decoration:none;letter-spacing:0px;">
 																<!-- Links -->
 																<singleline>
-																	<a href="#" mc:edit data-button
+																	<a href="https://stemrx.in/contact-us" mc:edit data-button
 																		data-text-style="Footer Links"
 																		style="font-family:'Roboto',Arial,Helvetica,sans-serif;font-size:14px;line-height:28px;font-weight:400;font-style:normal;color:#414141;text-decoration:none;letter-spacing:0px;display:inline-block;vertical-align:middle;"><span>Contact
 																			Us</span></a>
@@ -244,7 +244,7 @@
 																				role="presentation">
 																				<tr>
 																					<td align="center">
-																						<a href="">
+																						<a href="https://www.youtube.com/@stemrxindia">
 																							<img style="width:28px;border:0px;display: inline!important;"
 																								src="https://cdn.jsdelivr.net/gh/hemantkarekar/widgets-kit@main/social-icons-set/icons/round-flat-filled/55px/youtube.png"
 																								width="28" border="0"
@@ -271,7 +271,7 @@
 																				<tr>
 																					<td width="7"></td>
 																					<td align="center">
-																						<a href="">
+																						<a href="https://www.facebook.com/stemrxindia">
 																							<img style="width:28px;border:0px;display: inline!important;"
 																								src="https://cdn.jsdelivr.net/gh/hemantkarekar/widgets-kit@main/social-icons-set/icons/round-flat-filled/55px/facebook.png"
 																								width="28" border="0"
@@ -298,7 +298,7 @@
 																				<tr>
 																					<td width="7"></td>
 																					<td align="center">
-																						<a href="">
+																						<a href="https://www.instagram.com/stemrxindia/">
 																							<img style="width:28px;border:0px;display: inline!important;"
 																								src="https://cdn.jsdelivr.net/gh/hemantkarekar/widgets-kit@main/social-icons-set/icons/round-flat-filled/55px/instagram.png"
 																								width="28" border="0"

@@ -5,24 +5,7 @@ class PagesController extends CI_Controller
 {
 
 	public $data;
-
-	/* 
-	$route['about-us'] = 'PagesController/about';
-	$route['contact-us'] = 'PagesController/contact';
-	$route['appointment'] = 'PagesController/appointment';
-	$route['blogs'] = 'PagesController/blogs';
-	$route['projects'] = 'PagesController/projects';
-	$route['services'] = 'PagesController/services';
-	$route['teams'] = 'PagesController/teams';
-	$route['shop'] = 'PagesController/shop';
-
-
-	$route['team-detail'] = 'PagesController/team_detail';
-	$route['shop-detail'] = 'PagesController/shop_detail';
-	$route['blog/(:any)'] = 'PagesController/blog_detail/$1';
-	$route['service/(:any)'] = 'PagesController/service_detail/$1';
-	*/
-
+	
 	public function index()
 	{
 		$this->data['page'] = [

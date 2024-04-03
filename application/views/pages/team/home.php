@@ -54,8 +54,8 @@
 						</div>
 						<div class="team-body p-3">
 							<h3 class="h4 mb-0"><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan" class="text-reset">Dr. Pradeep Mahajan</a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA), | 30 + Years Experience </p>
-							<p class="fs-xs">Senior Consultant Assistant to Dr. Mahajan in day-to-day clinical management and administration of the hospital.</p>
+							<p class="fs-xs degi text-theme mb-2">MBBS, MS, Diploma-Urology, AFIH</p>
+							<!--<p class="fs-xs">Senior Consultant Assistant to Dr. Mahajan in day-to-day clinical management and administration of the hospital.</p>-->
 						</div>
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 						</div>
 						<div class="team-body py-3">
 							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-pallavi-lele" class="text-reset">Dr. Pallavi Lale</a></h3>
-							<p class="fs-xs degi text-theme mb-2">Laparoscopic Surgeon | 10 + Years Experience </p>
+							<p class="fs-xs degi text-theme mb-2">MBBS MD</p>
 							<p class="fs-xs">Infertility & Regenerative Medicine Consultant, Laparoscopic Surgeon </p>
 							<div class="d-none">
 								<p class="fs-xs team-info"><i class="fas fa-phone-alt text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
@@ -104,7 +104,7 @@
 						</div>
 						<div class="team-body py-3">
 							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-gauri-khanderao" class="text-reset">Dr. Gauri Khanderao</a></h3>
-							<p class="fs-xs degi text-theme mb-2">BHMS, BACU, PGDHM</p>
+							<p class="fs-xs degi text-theme mb-2">BHMS, B.ACU, PGDHM</p>
 							<p class="fs-xs">Stem Cell Counselor, Clinical Research Associate and Consultant Homeopathy with Alternative Therapist </p>
 						</div>
 					</div>
@@ -118,7 +118,7 @@
 						</div>
 						<div class="team-body py-3">
 							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-anil-daxini" class="text-reset">Dr. Anil Daxini</a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA), | 25 + Years Experience</p>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine</p>
 							<p class="fs-xs">Senior Consultant Assistant to Dr. Mahajan in day-to-day clinical management and administration of the hospital.</p>
 						</div>
 					</div>

@@ -25,18 +25,15 @@ class AppointmentDataController extends CI_Controller
 			'contact' => $form_data['enq_contact'],
 			'source_url' => $form_data['source_url'],
 		];
+		$data_email['enquiry'] = $this->data;
 		if ($this->LeadsModel->new_appointment($this->data)) {
+		    $this->send_email($data_email);
 			redirect('thank-you');
 		}
 	}
 
-	public function send_email()
+	public function send_email($data)
 	{
-		$this->data['enquiry'] = [
-			'name' => 'Hemant Karekar',
-			'email' => 'hemant.karekar15@gmail.com',
-			'contact' => '+918689862375',
-		];
 		$this->load->library('email');
 
 		$config = array(
@@ -52,12 +49,13 @@ class AppointmentDataController extends CI_Controller
 		$this->email->initialize($config);
 
 		$this->email->from('userinfo@stemrx.in', 'StemRx Hospitals');
-		$this->email->to('hemant@sociomark.in');
+		// $this->email->to('hemant@sociomark.in');
+		$this->email->to('info@stemrx.in');
 		// $this->email->cc('another@another-example.com');
 		// $this->email->bcc('them@their-example.com');
 
-		$this->email->subject('Email Test');
-		$this->email->message($this->load->view('templates/emails/appointment', $this->data, true));
+		$this->email->subject('New Appointment / Enquiry');
+		$this->email->message($this->load->view('templates/emails/appointment', $data, true));
 
 		$this->email->send();
 		$this->email->print_debugger();
@@ -67,11 +65,10 @@ class AppointmentDataController extends CI_Controller
 
 	public function thank_you()
 	{
-		$this->send_email();
 
-		// $this->data['page'] = [
-		// 	'title' => APP_NAME
-		// ];
-		// $this->load->load_view('pages/thank-you', $this->data);
+		$this->data['page'] = [
+			'title' => APP_NAME
+		];
+		$this->load->load_view('pages/thank-you', $this->data);
 	}
 }

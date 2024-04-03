@@ -7,7 +7,7 @@
 				<li class="menu-item-has-children"><a href="#">About Us</a>
 					<ul class="sub-menu">
 						<li><a href="<?= base_url() ?>regenerative-therapy">About Regenerative Therapy </a></li>
-						<li><a href="#">Our Founder</a></li>
+						<li><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Our Founder</a></li>
 						<li><a href="#">Awards & Accolates</a></li>
 						<li><a href="<?= base_url() ?>why-stemrx">Why StemRx Hospital</a></li>
 						<li><a href="#">Our Commitment</a></li>
@@ -202,7 +202,7 @@
 									<li class="menu-item-has-children"><a href="#">About Us</a>
 										<ul class="sub-menu">
 											<li><a href="<?= base_url() ?>regenerative-therapy">About Regenerative Therapy </a></li>
-											<li><a href="#">Our Founder</a></li>
+											<li><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Our Founder</a></li>
 											<li><a href="#">Awards & Accolates</a></li>
 											<li><a href="<?= base_url() ?>why-stemrx">Why StemRx Hospital</a></li>
 											<li><a href="#">Our Commitment</a></li>

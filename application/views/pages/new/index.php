@@ -589,7 +589,7 @@
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.harry.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name">Dr. Harry Mascarenhas </h4>
-							<span class="project-cat fs-xs">Senior Consultant</span>
+							<span class="project-cat fs-xs">MBBS, DHM</span>
 							<a href="<?= base_url() ?>doctor/dr-harry" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
@@ -599,7 +599,7 @@
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.anil.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name">Dr. Anil Daxini</h4>
-							<span class="project-cat fs-xs">MD (Mum), MD (USA),</span>
+							<span class="project-cat fs-xs">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine</span>
 							<a href="<?= base_url() ?>doctor/dr-anil-daxini" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
