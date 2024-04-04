@@ -22,14 +22,14 @@
 							<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.webp" type="image/webp">
 							<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.jpg" type="image/jpg">
 							<!-- <source media="(max-width: 800px)" srcset="https://placehold.co/800x600" type="image/jpg"> -->
-							<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.jpg" type="image/jpg">
+							<source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan_800x1000.jpg" type="image/jpg">
 							<source srcset="" type="image/webp">
 							<img src="<?= base_url() ?>assets/img/banners/banner-pradeep-mahajan.jpg" alt="Service Image" class="ls-bg w-100">
 						</picture>
 					</div>
 					<div class="text-content mt-4 d-none d-md-block">
 						<div class="row">
-							<div class="col-xl-6 col-lg-5 col-md-5 col-12">
+							<div class="col-xl-6 col-lg-7 col-md-7 col-12">
 								<div class="mb-md-4 mb-3">
 									<h1 class="text-white">Healing People with Regenerative Medicines & Advanced Therapies </h1>
 									<h3 class="text-dark">By Smart Technology and Integrated Approach</h3>
@@ -89,18 +89,8 @@
 	<section class="vs-about-wrapper space-md">
 		<div class="parallax" data-parallax-image="<?= base_url() ?>assets/img/bg/bg-7.jpg"></div>
 		<div class="container">
-			<div class="row flex-row-reverse">
-				<div class="col-lg-6 mb-40 mb-lg-0">
-					<div class="vs-surface wow" data-wow-delay="0.3s">
-						<div class="about-img3 position-relative"><img src="<?= base_url() ?>assets/img/about/dr-pvmahajan.jpg" alt="About Image" class="w-100"> <a href="https://www.youtube.com/watch?v=EhVz6AFwAXc" class="popup-video play-btn style2 position-center"><i class="fas fa-play"></i></a>
-							<div class="exp-box-bottom bg-white">
-								<div class="exp-year text-theme"><span class="counter">30</span>+</div>
-								<p class="exp-text text-title mb-0">Years of Experience</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 align-self-center">
+			<div class="row">
+				<div class="col-lg-6 align-self-center mb-40 mb-lg-0">
 					<!-- <div class="about-content mb-2"><span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
 					<div class="row">
 						<div class="col-xl-10">
@@ -111,12 +101,22 @@
 						</div>
 					</div>
 					<div class="media-style1">
-						<div class="media-icon"><i class="fas fa-phone"></i></div>
+						<div class="media-icon"><i class="fas fa-phone-alt"></i></div>
 						<div class="media-body">
 							<h3 class="media-title">CALL ANYTIME 24/7</h3>
 							<p class="media-text"><a href="tel:+919979976862">+91 997 997 6862</a></p>
 						</div>
 					</div><a href="<?= base_url() ?>why-stemrx" class="vs-btn">Learn More</a>
+				</div>
+				<div class="col-lg-6 mb-40 mb-lg-0">
+					<div class="vs-surface wow" data-wow-delay="0.3s">
+						<div class="about-img3 position-relative"><img src="<?= base_url() ?>assets/img/about/dr-pvmahajan.jpg" alt="About Image" class="w-100"> <a href="https://www.youtube.com/watch?v=EhVz6AFwAXc" class="popup-video play-btn style2 position-center"><i class="fas fa-play"></i></a>
+							<div class="exp-box-bottom bg-white">
+								<div class="exp-year text-theme"><span class="counter">30</span>+</div>
+								<p class="exp-text text-title mb-0">Years of Experience</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

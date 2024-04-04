@@ -197,9 +197,9 @@
 							<div class="brand-logo"><a href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/img/logo.png" alt="Logo" class="h-100"></a></div>
 						</div>
 						<div class="col text-xxl-center text-end">
-							<nav class="main-menu menu-style1 d-none d-xxl-block">
+							<nav class="main-menu menu-style1 d-none d-lg-block">
 								<ul>
-									<li class="menu-item-has-children"><a href="#">About Us</a>
+									<li class="menu-item-has-children"><a href="#">About Us&nbsp;</a>
 										<ul class="sub-menu">
 											<li><a href="<?= base_url() ?>regenerative-therapy">About Regenerative Therapy </a></li>
 											<li><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Our Founder</a></li>
@@ -210,7 +210,7 @@
 											<li><a href="#">Our Achievement </a></li>
 											<li><a href="<?= base_url('academics') ?>">Academics </a></li>
 											<li class="menu-item-has-children">
-												<a href="#">Research Activity & Patents </a>
+												<a href="#">Research Activity & Patents&nbsp;</a>
 												<ul class="sub-menu">
 													<li><a href="<?= base_url() ?>genetic-testing">Genetic Testing</a></li>
 													<li><a href="<?= base_url() ?>patents">Patents </a></li>
@@ -218,7 +218,7 @@
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
-												<a href="#">Our Centers </a>
+												<a href="#">Our Centers&nbsp;</a>
 												<ul class="sub-menu">
 													<li><a href="#">Navi Mumbai</a></li>
 													<li><a href="#">Hyderabad </a></li>
@@ -227,7 +227,7 @@
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
-												<a href="#">Our Patient Journey </a>
+												<a href="#">Our Patient Journey&nbsp;</a>
 												<ul class="sub-menu">
 													<li><a href="<?= base_url('patient-testimonial') ?>">National</a></li>
 													<li><a href="<?= base_url('patient-testimonial') ?>">International</a></li>
@@ -236,7 +236,7 @@
 											<li><a href="#">Brochure </a></li>
 										</ul>
 									</li>
-									<li class="menu-item-has-children"><a href="#">Conditions</a>
+									<li class="menu-item-has-children"><a href="#">Conditions&nbsp;</a>
 										<ul class="sub-menu">
 											<li class="menu-item-has-children">
 												<a href="<?= base_url('condition/neural') ?>">Neurological Problems</a>
@@ -336,7 +336,7 @@
 										</ul>
 									</li>
 									<li class="menu-item-has-children mega-menu-wrap">
-										<a href="#"><span class="has-new-label">Therapeutics </span></a>
+										<a href="#"><span class="has-new-label">Therapeutics&nbsp;</span></a>
 										<ul class="mega-menu">
 											<li>
 												<!-- <a href="shop.html">Pagelist 1</a> -->
@@ -390,7 +390,7 @@
 									<li><a href="<?= base_url('team-of-experts') ?>">Team of Experts</a></li>
 									<li><a href="<?= base_url('patient-testimonial') ?>">Patient Testimonial</a></li>
 									<li class="menu-item-has-children">
-										<a href="#">In Media</a>
+										<a href="#">In Media&nbsp;</a>
 										<ul class="sub-menu">
 											<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
 											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
@@ -403,9 +403,9 @@
 
 								</ul>
 							</nav>
-							<button class="vs-menu-toggle d-inline-block d-xxl-none"><i class="fas fa-bars"></i></button>
+							<button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>
 						</div>
-						<div class="col-auto gap-3 d-none d-xxl-flex">
+						<div class="col-auto gap-3 d-none d-lg-flex">
 							<!--<a href="<?= base_url() ?>" class="icon-btn style3 searchBoxTggler"><i class="far fa-search"></i></a> -->
 							<a href="<?= base_url() ?>" class="icon-btn style3 sideMenuToggler"><i class="far fa-bars"></i></a>
 						</div>

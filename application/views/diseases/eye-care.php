@@ -29,7 +29,7 @@
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body p-5">
-										<img src="<?= base_url("assets/img/icons/diseases/retinopathy.png") ?>" alt="Diabetic Retinopathy" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/retina.png") ?>" alt="Diabetic Retinopathy" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Diabetic Retinopathy</h6>
@@ -39,7 +39,7 @@
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body p-5">
-										<img src="<?= base_url("assets/img/icons/diseases/cataract.png") ?>" alt="Cataract" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/cataract.png") ?>" alt="Cataract" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Cataract</h6>
@@ -49,7 +49,7 @@
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body p-5">
-										<img src="<?= base_url("assets/img/icons/diseases/glaucoma.png") ?>" alt="Glaucoma" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/glaucoma.png") ?>" alt="Glaucoma" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Glaucoma</h6>
@@ -59,7 +59,7 @@
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body p-5">
-										<img src="<?= base_url("assets/img/icons/diseases/optical.png") ?>" alt="Age-related macular degeneration (AMD)" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/eye-care.png") ?>" alt="Age-related macular degeneration (AMD)" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Age-related macular degeneration (AMD)</h6>
@@ -69,7 +69,7 @@
 							<a href="#" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body p-5">
-										<img src="<?= base_url("assets/img/icons/diseases/optical.png") ?>" alt="Optic Nerve Injury" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/eye-care.png") ?>" alt="Optic Nerve Injury" class="w-100">
 									</div>
 								</div>
 								<h6 class="text-theme">Optic Nerve Injury</h6>

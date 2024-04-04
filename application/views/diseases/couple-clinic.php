@@ -28,8 +28,8 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
-									<img src="<?= base_url("assets/img/icons/diseases/gynecology.png") ?>" alt="Cosmetic Gynecology" class="w-100">
+								<div class="card-body p-5">
+									<img src="<?= base_url("assets/img/icons/color/diseases/gynecology.png") ?>" alt="Cosmetic Gynecology" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Cosmetic Gynecology</h6>
@@ -38,8 +38,8 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
-									<img src="<?= base_url("assets/img/icons/diseases/hpv.png") ?>" alt="Vaginal rejuvenation" class="w-100">
+								<div class="card-body p-5">
+									<img src="<?= base_url("assets/img/icons/color/diseases/vagina.png") ?>" alt="Vaginal rejuvenation" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Vaginal rejuvenation</h6>
@@ -48,8 +48,8 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
-									<img src="<?= base_url("assets/img/icons/diseases/penile-cancer.png") ?>" alt="Erectile dysfuction" class="w-100">
+								<div class="card-body p-5">
+									<img src="<?= base_url("assets/img/icons/color/diseases/erectile-dysfunction.png") ?>" alt="Erectile dysfuction" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Erectile dysfuction</h6>
@@ -58,8 +58,8 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body">
-									<img src="<?= base_url("assets/img/icons/diseases/vasectomy.png") ?>" alt="Vasectomy" class="w-100">
+								<div class="card-body p-5">
+									<img src="<?= base_url("assets/img/icons/color/diseases/vasectomy.png") ?>" alt="Vasectomy" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Vasectomy</h6>

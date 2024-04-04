@@ -11218,6 +11218,16 @@ iframe.ratio.ratio-16x9 {
   color: var(--white-color);
 }
 
+.main-menu ul li {
+  margin: 0 10px;
+}
+.main-menu ul li .sub-menu li:first-child {
+  margin: 0;
+}
+.main-menu ul li .mega-menu li:first-child {
+  margin: 0 10px;
+}
+
 .main-menu a {
   color: var(--title-color2);
   font-weight: 400;
@@ -11268,8 +11278,8 @@ a.icon-btn.style4 i {
 .booking_button-wrapper {
   position: fixed;
   right: 0;
-  bottom: 3rem;
-  transform: translateY(-50%);
+  top: 75%;
+  transform: translate(6rem, -50%) rotate(-90deg);
   z-index: 999;
 }
 .booking_button-wrapper .booking_button {
@@ -11324,7 +11334,7 @@ a.icon-btn.style4 i {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: max(8vmax, 9%) max(5vmax, 5%);
+  padding: min(6vmax, 6%) max(5vmax, 5%);
 }
 
 .footer-layout1 .footer-bottom-menu li:last-child {

@@ -126,7 +126,7 @@
 											<tr data-element="black-intro-4-headline" data-label="Intro Headline">
 												<td class="type48" data-text-style="Intro Headline"
 													style="font-family:'Roboto Slab',Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;font-style:normal;color:#1d1d1d;text-decoration:none;letter-spacing:0px;">
-													Thanks & Regards,  <br>
+													Thanks & Regards,<br>
 													<b>Sociomark</b>
 												</td>
 											</tr>

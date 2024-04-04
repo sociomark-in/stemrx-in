@@ -28,8 +28,8 @@
 					<div class="col-lg-2 col-md-4 col-6">
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
-								<div class="card-body p-3">
-									<img src="<?= base_url("assets/img/icons/diseases/acne.png") ?>" alt="Acne " class="w-100">
+								<div class="card-body p-5">
+									<img src="<?= base_url("assets/img/icons/color/diseases/acne.png") ?>" alt="Acne " class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Acne </h6>
@@ -39,7 +39,7 @@
 						<a href="#" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
-									<img src="<?= base_url("assets/img/icons/diseases/no-scars.png") ?>" alt="Scar Revision " class="w-100">
+									<img src="<?= base_url("assets/img/icons/color/diseases/no-scars.png") ?>" alt="Scar Revision " class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">Scar Revision </h6>

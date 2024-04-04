@@ -30,7 +30,7 @@
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
 									<div class="p-3">
-										<img src="<?= base_url("assets/img/icons/diseases/neurogenic-disorder.png") ?>" alt="Condition Single" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/brain.png") ?>" alt="Condition Single" class="w-100">
 									</div>
 								</div>
 							</div>
@@ -42,7 +42,7 @@
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
 									<div class="p-3">
-										<img src="<?= base_url("assets/img/icons/diseases/autism.png") ?>" alt="Condition Single" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/autism.png") ?>" alt="Condition Single" class="w-100">
 									</div>
 								</div>
 							</div>
@@ -54,7 +54,7 @@
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
 									<div class="p-3">
-										<img src="<?= base_url("assets/img/icons/diseases/alzheimer.png") ?>" alt="Condition Single" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/alzheimer.png") ?>" alt="Condition Single" class="w-100">
 									</div>
 								</div>
 							</div>
@@ -66,7 +66,7 @@
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
 									<div class="p-3">
-										<img src="<?= base_url("assets/img/icons/diseases/parkinsons.png") ?>" alt="Condition Single" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/parkinsons.png") ?>" alt="Condition Single" class="w-100">
 									</div>
 								</div>
 							</div>
@@ -78,7 +78,7 @@
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
 									<div class="p-3">
-										<img src="<?= base_url("assets/img/icons/diseases/sclerosis.png") ?>" alt="Condition Single" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/sclerosis.png") ?>" alt="Condition Single" class="w-100">
 									</div>
 								</div>
 							</div>
@@ -90,7 +90,7 @@
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
 									<div class="">
-										<img src="<?= base_url("assets/img/icons/diseases/neurogenic.png") ?>" alt="Condition Single" class="w-100">
+										<img src="<?= base_url("assets/img/icons/color/diseases/neurogenic-disorder.png") ?>" alt="Condition Single" class="w-100">
 									</div>
 								</div>
 							</div>
