@@ -87,7 +87,7 @@
 					];
 					$this->load->view('common/forms/appointment_form', $data); ?>
 				</div>
-				<div class="col-lg-5">
+				<div class="col-lg-5 d-none">
 					<div class="team-schedule bg-smoke wow fadeInUp" data-wow-delay="0.3s">
 						<h3 class="h4 border-title">Timings & Schedule</h3>
 						<table class="team-schedule-table">

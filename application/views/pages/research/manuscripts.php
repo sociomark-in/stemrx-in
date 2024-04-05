@@ -42,6 +42,11 @@
 					</div>
 				</div>
 				<div class="col-xl-9 col-lg-8 col-12">
+					<style>
+						.blog-img img {
+							height: 220px;
+						}
+					</style>
 					<div class="row filter-active">
 						<div class="col-12 filter-item 2022">
 							<div class="vs-blog blog-card">
@@ -49,8 +54,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2022_01_NK-Cells-Development-Maturation-and-increasing-clinical-applications_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2022_01_NK-Cells-Development-Maturation-and-increasing-clinical-applications_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -77,8 +82,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2021-November-Advantages-and-Clinical-Applications-of-LPRP_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2021-November-Advantages-and-Clinical-Applications-of-LPRP_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -105,8 +110,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2021-October-Current-Perspectives-of-UCBCs_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2021-October-Current-Perspectives-of-UCBCs_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>

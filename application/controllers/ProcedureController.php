@@ -15,11 +15,63 @@ class ProcedureController extends CI_Controller
 	{
 		$this->load->load_view('treatments/treatment-home', $this->data);
 	}
+
+	public function procedure_detail($procedure_group, $procedure)
+	{
+		switch ($procedure_group) {
+			case 'advanced-infertility-treatment':
+				switch ($procedure) {
+					case 'ivf':
+						$this->data['page'] = [
+							'title' => "IVF" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/infertility2/ivf', $this->data);
+						break;
+					case 'endometrium-rejuvenation':
+						$this->data['page'] = [
+							'title' => "Endometrium Rejuvenation" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/infertility2/endometrim-rejuvenation', $this->data);
+						break;
+					case 'menopausal-symptoms-reversal':
+						$this->data['page'] = [
+							'title' => "Menopausal Symptoms Reversal" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/infertility2/menopausal-symtoms-reversal', $this->data);
+						break;
+					case 'ovarian-rejuvenation':
+						$this->data['page'] = [
+							'title' => "Ovarian Rejuvenation" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/infertility2/ovarian-rejuvenation', $this->data);
+						break;
+
+
+					default:
+						redirect('therapeutics/advanced-infertility-treatment');
+						break;
+				}
+				break;
+
+			default:
+				# code...
+				break;
+		}
+	}
 	public function procedure($procedure)
 	{
 		switch ($procedure) {
 			case 'advanced-pain-management':
+				$this->data['page'] = [
+					'title' => "Hyperbaric Oxygen Therapy" . " - " . APP_NAME
+				];
 				$this->load->load_view('therapeutics/advanced-pain-management', $this->data);
+				break;
+			case "advanced-infertility-treatment":
+				$this->data['page'] = [
+					'title' => "Advanced Infertility Treatment" . " - " . APP_NAME
+				];
+				$this->load->load_view('therapeutics/infertility', $this->data);
 				break;
 			case 'hyperbaric-oxygen-therapy':
 				$this->data['page'] = [

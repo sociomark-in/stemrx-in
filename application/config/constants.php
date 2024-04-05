@@ -13,6 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 defined('SHOW_DEBUG_BACKTRACE') OR define('SHOW_DEBUG_BACKTRACE', TRUE);
 defined('APP_NAME') OR define('APP_NAME', "StemRx Hospital and Research Centre");
+defined('MAIN_CONTACT') OR define('MAIN_CONTACT', "+919979976862");
 
 /*
 |--------------------------------------------------------------------------

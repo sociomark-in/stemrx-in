@@ -168,6 +168,12 @@ class PagesController extends CI_Controller
 				];
 				$this->load->load_view('centers/navi-mumbai', $this->data);
 				break;
+			case 'mumbai':
+				$this->data['page'] = [
+					'title' => "StemRx at Mumbai" . " - " . APP_NAME
+				];
+				$this->load->load_view('centers/mumbai', $this->data);
+				break;
 			case 'hyderabad':
 				$this->data['page'] = [
 					'title' => "StemRx at Hyderabad" . " - " . APP_NAME

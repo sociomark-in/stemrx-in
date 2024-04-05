@@ -39,7 +39,7 @@
 						<a href="<?= base_url("condition/infertility/pcod-pcos") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
-									<img src="<?= base_url("assets/img/icons/color/diseases/pcod.png") ?>" alt="PCOD" class="w-100">
+									<img src="<?= base_url("assets/img/icons/color/diseases/vagina.png") ?>" alt="PCOD" class="w-100">
 								</div>
 							</div>
 							<h6 class="text-theme">PCOD / PCOS</h6>

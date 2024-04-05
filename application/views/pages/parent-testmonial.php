@@ -83,7 +83,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item other">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item pain">
 						<a href="https://www.youtube.com/watch?v=6qcuCAI8Dn0&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/6qcuCAI8Dn0-HD.jpg" alt="">
@@ -348,7 +348,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item other">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item pain">
 						<a href="https://www.youtube.com/watch?v=6qcuCAI8Dn0&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/6qcuCAI8Dn0-HD.jpg" alt="">
@@ -362,7 +362,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item other">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item pain">
 						<a href="https://www.youtube.com/watch?v=75RXrtn4IIE&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/75RXrtn4IIE-HD.jpg" alt="">
@@ -390,7 +390,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item other">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item pain">
 						<a href="https://www.youtube.com/watch?v=Bcb-5O9W9Y8&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/Bcb-5O9W9Y8-HD.jpg" alt="">
@@ -523,7 +523,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item other">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item developmental">
 						<a href="https://www.youtube.com/watch?v=uJpfFKSK1-M&feature=youtu.be" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/uJpfFKSK1-M-HD.jpg" alt="">

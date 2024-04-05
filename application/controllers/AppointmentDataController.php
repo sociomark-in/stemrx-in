@@ -18,17 +18,67 @@ class AppointmentDataController extends CI_Controller
 
 	public function new()
 	{
-		$form_data = $this->input->post();
-		$this->data = [
-			'name' => $form_data['enq_name'],
-			'email' => $form_data['enq_email'],
-			'contact' => $form_data['enq_contact'],
-			'source_url' => $form_data['source_url'],
-		];
-		$data_email['enquiry'] = $this->data;
-		if ($this->LeadsModel->new_appointment($this->data)) {
-		    $this->send_email($data_email);
-			redirect('thank-you');
+		if (isset($_POST['form_submit'])) {
+			$url = "https://www.google.com/recaptcha/api/siteverify";
+			$data = [
+				'secret' => "your_secret_key_here",
+				'response' => $_POST['token'],
+				// 'remoteip' => $_SERVER['REMOTE_ADDR']
+			];
+
+			// $options = array(
+			// 	'http' => array(
+			// 		'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+			// 		'method'  => 'POST',
+			// 		'content' => http_build_query($data)
+			// 	)
+			// );
+
+			// $context  = stream_context_create($options);
+			// $response = file_get_contents($url, false, $context);
+
+			// $res = json_decode($response, true);
+
+			$api_url = 'https://www.google.com/recaptcha/api/siteverify'; 
+            $resq_data = array( 
+                'secret' => "6LclYrApAAAAAJyeVKwmOPxHa8UwB3Tj8f3cJJFG", 
+                'response' => $_POST['token'], 
+                'remoteip' => $_SERVER['REMOTE_ADDR'] 
+            ); 
+ 
+            $curlConfig = array( 
+                CURLOPT_URL => $api_url, 
+                CURLOPT_POST => true, 
+                CURLOPT_RETURNTRANSFER => true, 
+                CURLOPT_POSTFIELDS => $resq_data, 
+                CURLOPT_SSL_VERIFYPEER => false 
+            ); 
+ 
+            $ch = curl_init(); 
+            curl_setopt_array($ch, $curlConfig); 
+            $response = curl_exec($ch); 
+            if (curl_errno($ch)) { 
+				$api_error = curl_error($ch); 
+				print_r($api_error); 
+            } 
+            curl_close($ch);
+
+			$res = json_decode($response, true);
+			if ($res['success'] == true) {
+				print_r($this->input->post()); 
+				$form_data = $this->input->post();
+				$this->data = [
+					'name' => $form_data['enq_name'],
+					'email' => $form_data['enq_email'],
+					'contact' => $form_data['enq_contact'],
+					'source_url' => $form_data['source_url'],
+				];
+				$data_email['enquiry'] = $this->data;
+				if ($this->LeadsModel->new_appointment($this->data)) {
+					// $this->send_email($data_email);
+					redirect('thank-you');
+				}
+			}
 		}
 	}
 

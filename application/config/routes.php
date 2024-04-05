@@ -103,6 +103,7 @@ $route['condition/(:any)/(:any)'] = 'DiseasesController/condition_detail/$1/$2';
 
 $route['therapeutics'] = 'ProcedureController/home';
 $route['therapeutics/(:any)'] = 'ProcedureController/procedure/$1';
+$route['therapeutics/(:any)/(:any)'] = 'ProcedureController/procedure_detail/$1/$2';
 
 $route['thank-you'] = 'AppointmentDataController/thank_you';
 

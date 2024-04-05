@@ -1,4 +1,4 @@
-<?= form_open(base_url('api/appointment/new'), ["id" => "appointmentForm", "class" => "form-wrap1 " .  $props['class'] ??= "", "data-bg-color" => $props['bg-color'] ??= ""]) ?>
+<?= form_open(base_url('api/appointment/new'), ["id" => "floatingForm", "class" => "form-wrap1 " .  $props['class'] ??= "", "data-bg-color" => $props['bg-color'] ??= ""]) ?>
 <div class="form-title-box bg-title" data-bg-src="<?= $props['bg-image'] ??= "" ?>">
 	<div class="row justify-content-between align-items-center">
 		<div class="col">
@@ -38,7 +38,7 @@
 </div>
 <?= form_close() ?>
 <script>
-	$('#appointmentForm').validate({
+	$('#floatingForm').validate({
 		rules: {
 			enq_email: 'required'
 		},

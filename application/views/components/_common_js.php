@@ -48,3 +48,18 @@
 
 	});
 </script>
+
+
+<script>
+	grecaptcha.ready(function() {
+		grecaptcha.execute('6LclYrApAAAAAFp8Aa6pSyDmKTqNuQszDM8v9pkP', {
+			action: 'appointment'
+		}).then(function(token) {
+			console.log(token);
+			const tokenInput1 = document.querySelector("#appointmentForm input[name=token]");
+			const tokenInput2 = document.querySelector("#floatingForm input[name=token]");
+			tokenInput1.value = token;
+			tokenInput2.value = token;
+		});
+	});
+</script>

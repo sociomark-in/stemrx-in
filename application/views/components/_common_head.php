@@ -79,3 +79,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		echo "StemRx Hospital and Research Centre";
 	}?>
 </title>
+
+<script src="https://www.google.com/recaptcha/api.js?render=explicit"></script>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LclYrApAAAAAFp8Aa6pSyDmKTqNuQszDM8v9pkP"></script>

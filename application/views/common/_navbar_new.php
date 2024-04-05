@@ -25,10 +25,11 @@
 						<li class="menu-item-has-children">
 							<a href="#">Our Centers </a>
 							<ul class="sub-menu">
-								<li><a href="#">Navi Mumbai</a></li>
-								<li><a href="#">Hyderabad </a></li>
-								<li><a href="#">Nepal </a></li>
-								<li><a href="#">Maldives </a></li>
+								<li><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
+								<li><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
+								<li><a href="javascript:void(0)">Hyderabad </a></li>
+								<li><a href="javascript:void(0)">Nepal </a></li>
+								<li><a href="javascript:void(0)">Maldives </a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
@@ -67,6 +68,7 @@
 						<li><a href="<?= base_url('therapeutics/') ?>laser-therapy">Laser Therapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>aquatic-therapy">Aquatic Therapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>ozone-therapy">Ozone Therapy</a></li>
+						<li><a href="<?= base_url('therapeutics/') ?>advanced-infertility-treatment">Advanced Infertility</a></li>
 
 						<li><a href="<?= base_url('therapeutics/') ?>detoxification-therapy">Detoxification Therapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>energy-therapy">Energy Therapy</a></li>
@@ -220,10 +222,11 @@
 											<li class="menu-item-has-children">
 												<a href="#">Our Centers&nbsp;</a>
 												<ul class="sub-menu">
-													<li><a href="#">Navi Mumbai</a></li>
-													<li><a href="#">Hyderabad </a></li>
-													<li><a href="#">Nepal </a></li>
-													<li><a href="#">Maldives </a></li>
+													<li><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
+													<li><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
+													<li><a href="javascript:void(0)">Hyderabad </a></li>
+													<li><a href="javascript:void(0)">Nepal </a></li>
+													<li><a href="javascript:void(0)">Maldives </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
@@ -260,19 +263,19 @@
 												<ul class="sub-menu">
 													<li><a href="<?= base_url() ?>condition/infertility/azoospermia">Azoospermia</a></li>
 													<li><a href="<?= base_url() ?>condition/infertility/pcod-pcos">PCOD / PCOS</a></li>
-													<li><a href="<?= base_url() ?>">Decrease Ovarian Reserve</a></li>
-													<li><a href="<?= base_url() ?>">Thin Endometrium </a></li>
-													<li><a href="<?= base_url() ?>condition/infertility/pcod-pcos">Ashermen's Syndrome </a></li>
-													<li><a href="<?= base_url() ?>">Premature Menopause</a></li>
+													<li><a href="javascript:void()">Decrease Ovarian Reserve</a></li>
+													<li><a href="javascript:void()">Thin Endometrium </a></li>
+													<li><a href="javascript:void()">Ashermen's Syndrome </a></li>
+													<li><a href="javascript:void()">Premature Menopause</a></li>
 												</ul>
 											</li>
 											<!-- <li><a href="<?= base_url() ?>condition/new-hope-clinic">New Hope Clinic</a></li> -->
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic</a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>">Cosmetic Gynecology</a></li>
-													<li><a href="<?= base_url() ?>">Vaginal rejuvenation</a></li>
-													<li><a href="<?= base_url() ?>">Erectile dysfuction</a></li>
-													<li><a href="<?= base_url() ?>">Vasectomy </a></li>
+													<li><a href="javascript:void()">Cosmetic Gynecology</a></li>
+													<li><a href="javascript:void()">Vaginal rejuvenation</a></li>
+													<li><a href="javascript:void()">Erectile dysfuction</a></li>
+													<li><a href="javascript:void()">Vasectomy </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/pain-care">Pain Care</a>
@@ -280,16 +283,16 @@
 													<li><a href="<?= base_url() ?>condition/pain-care/osteoarthritis">Osteo Arthritis </a></li>
 													<li><a href="<?= base_url() ?>condition/pain-care/avascular-necrosis">Avasular Necrosis </a></li>
 													<li><a href="<?= base_url() ?>condition/pain-care/cervical-spondylitis">Cervical Spondylitis</a></li>
-													<li><a href="<?= base_url() ?>condition/pain-care/migraine">Migrain </a></li>
+													<li><a href="<?= base_url() ?>condition/pain-care/migraine">Migraine </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/eye-care">Eye Care</a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>">Diabetic Retinopathy</a></li>
-													<li><a href="<?= base_url() ?>">Cataract</a></li>
-													<li><a href="<?= base_url() ?>">Glaucoma</a></li>
-													<li><a href="<?= base_url() ?>">Age-related macular degeneration (AMD) </a></li>
-													<li><a href="<?= base_url() ?>">Optic Nerve Injury</a></li>
+													<li><a href="javascript:void()">Diabetic Retinopathy</a></li>
+													<li><a href="javascript:void()">Cataract</a></li>
+													<li><a href="javascript:void()">Glaucoma</a></li>
+													<li><a href="javascript:void()">Age-related macular degeneration (AMD) </a></li>
+													<li><a href="javascript:void()">Optic Nerve Injury</a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a>
@@ -301,29 +304,29 @@
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>">Acne </a></li>
-													<li><a href="<?= base_url() ?>">Scar Revision </a></li>
+													<li><a href="javascript:void()">Acne </a></li>
+													<li><a href="javascript:void()">Scar Revision </a></li>
 												</ul>
 											</li>
 											<li><a href="javascript:void()">Dental Treatment</a></li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>">Cardiac Regeneration</a></li>
-													<li><a href="<?= base_url() ?>">Islet Regeneration</a></li>
-													<li><a href="<?= base_url() ?>">Liver Regeneration</a></li>
-													<li><a href="<?= base_url() ?>">Lung Regeneration</a></li>
-													<li><a href="<?= base_url() ?>">Musculoskeletal Regeneration</a></li>
-													<li><a href="<?= base_url() ?>">Neuroregeneration</a></li>
-													<li><a href="<?= base_url() ?>">Plastic and Regenerative Surgery</a></li>
-													<li><a href="<?= base_url() ?>">Valvular and Vascular Repair and Regeneration</a></li>
+													<li><a href="javascript:void()">Cardiac Regeneration</a></li>
+													<li><a href="javascript:void()">Islet Regeneration</a></li>
+													<li><a href="javascript:void()">Liver Regeneration</a></li>
+													<li><a href="javascript:void()">Lung Regeneration</a></li>
+													<li><a href="javascript:void()">Musculoskeletal Regeneration</a></li>
+													<li><a href="javascript:void()">Neuroregeneration</a></li>
+													<li><a href="javascript:void()">Plastic and Regenerative Surgery</a></li>
+													<li><a href="javascript:void()">Valvular and Vascular Repair and Regeneration</a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>">Psoriasis</a></li>
-													<li><a href="<?= base_url() ?>">Alopecia areata</a></li>
-													<li><a href="<?= base_url() ?>">Melasma</a></li>
-													<li><a href="<?= base_url() ?>">Vitiligo</a></li>
+													<li><a href="javascript:void()">Psoriasis</a></li>
+													<li><a href="javascript:void()">Alopecia areata</a></li>
+													<li><a href="javascript:void()">Melasma</a></li>
+													<li><a href="javascript:void()">Vitiligo</a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/chromosomal-disorder">Chromosomal Disorders</a>
@@ -345,7 +348,7 @@
 													<li><a href="<?= base_url('therapeutics/') ?>laser-therapy">Laser Therapy</a></li>
 													<li><a href="<?= base_url('therapeutics/') ?>aquatic-therapy">Aquatic Therapy</a></li>
 													<li><a href="<?= base_url('therapeutics/') ?>ozone-therapy">Ozone Therapy</a></li>
-													<li><a href="<?= base_url() ?>condition/infertility2">Advanced Infertility</a></li>
+													<li><a href="<?= base_url('therapeutics/') ?>advanced-infertility-treatment">Advanced Infertility</a></li>
 												</ul>
 											</li>
 											<li>

@@ -32,7 +32,7 @@
 					],
 					"fields" => NULL
 				];
-				$this->load->view('common/forms/appointment_form', $data); ?>
+				$this->load->view('common/forms/floating_form', $data); ?>
 			</div>
 		</div>
 	</div>

@@ -564,13 +564,23 @@
 				</div>
 			</div>
 			<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3">
-				<div class="col-xl-4">
+				<!-- <div class="col-xl-4">
 					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/drpvmahajan.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Dr. Pradeep Mahajan</a></h4>
 							<span class="project-cat fs-xs">Founder and Chairman</span>
 							<a href="<?= base_url() ?>doctor/dr-pradeep-mahajan" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+						</div>
+					</div>
+				</div> -->
+				<div class="col-xl-4">
+					<div class="vs-project-box mb-30">
+						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.gauri.jpg" alt="Project Image" class="w-100"></div>
+						<div class="project-content">
+							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-gauri-khanderao">Dr. Gauri Khanderao</a></h4>
+							<span class="project-cat fs-xs">BHMS, B.ACU, PGDHM</span>
+							<a href="<?= base_url() ?>doctor/dr-gauri-khanderao" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
@@ -580,7 +590,7 @@
 						<div class="project-content">
 							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pallavi-lele">Dr. Pallavi Lale</a></h4>
 							<span class="project-cat fs-xs">MBBS MD</span>
-							<a href="<?= base_url() ?>doctor/dr-pallavi-lele" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>doctor/dr-pallavi-lele" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
@@ -590,7 +600,7 @@
 						<div class="project-content">
 							<h4 class="project-name">Dr. Harry Mascarenhas </h4>
 							<span class="project-cat fs-xs">MBBS, DHM</span>
-							<a href="<?= base_url() ?>doctor/dr-harry" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>doctor/dr-harry" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
@@ -600,7 +610,7 @@
 						<div class="project-content">
 							<h4 class="project-name">Dr. Anil Daxini</h4>
 							<span class="project-cat fs-xs">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine</span>
-							<a href="<?= base_url() ?>doctor/dr-anil-daxini" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<a href="<?= base_url() ?>doctor/dr-anil-daxini" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
