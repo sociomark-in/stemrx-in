@@ -97,7 +97,9 @@
 							<h2 class="h1 mb-3">You Carry <span class="text-theme">Your Own Repairing Kits...</span> in Your Body!</h2>
 						</div>
 						<div class="col-xl-10">
-							<p class="mb-4">Dr. Pradeep V. Mahajan is an acclaimed professional emerging at the horizon of transformational healthcare for the masses by conceptualizing, inventing, creating and contributing by effective & innovative technologies in this noble profession. This has been pioneered through regenerative medicine and developing cellular therapy techniques for mass welfare where conventional methods have had their limitations.</p>
+							<p class="mb-4">
+								Dr. Pradeep V. Mahajan stands out as a distinguished leader in transformative healthcare, pioneering novel concepts, inventions, and innovative technologies to benefit the masses. His visionary contributions in regenerative medicine and the development of cellular therapy techniques have revolutionized the field, overcoming limitations of traditional approaches. His philosophy of regenerative medicine goes beyond just organs; it delves deep into the core of cellular regeneration.
+							</p>
 						</div>
 					</div>
 					<div class="media-style1">
@@ -124,32 +126,6 @@
 
 	<section class="vs-specialities-wrapper space-top">
 		<div class="container">
-			<!-- <div class="row justify-content-center g-4 mb-4">
-				<div class="col-xl-9 col-lg-10 col-md-11 col-12">
-					<div class="row justify-content-center mb-3">
-						<div class="col-lg-3 col-md-4 col-6">
-							<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-trigger="hover" data-bs-toggle="popover" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/color/calendar.png" alt="Speciality" class="w-100" height="70"></div>
-										<h6 class="m-0">Book Appointment</h6>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-4 col-6">
-							<a href="<?= base_url() ?>team-of-experts" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<div class="mx-5 text-center mb-3"><img src="<?= base_url() ?>assets/img/icons/color/stethoscope.png" alt="Speciality" class="w-100" height="70"></div>
-										<h6 class="m-0">Find Experts</h6>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div> -->
 			<div class="row justify-content-center">
 				<div class="col-12">
 					<ul class="nav product-tab mb-30 justify-content-center mb-4" id="productTab" role="tablist">
@@ -319,13 +295,23 @@
 						<div class="tab-pane fade " id="locations" role="tabpanel" aria-labelledby="locations-tab">
 							<div class="row g-4 justify-content-center">
 								<div class="col-lg-2 col-md-4 col-6">
-									<a href="javascript:void(0)" class="text-center">
+									<a href="<?= base_url('our-center/') ?>navi-mumbai" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
 												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
 											</div>
 										</div>
-										<h6>Navi Mumbai</h6>
+										<h5>Navi Mumbai</h6>
+									</a>
+								</div>
+								<div class="col-lg-2 col-md-4 col-6">
+									<a href="<?= base_url('our-center/') ?>mumbai" class="text-center">
+										<div class="card bg-white sp-item mb-2">
+											<div class="card-body p-5">
+												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
+											</div>
+										</div>
+										<h5>Mumbai</h5>
 									</a>
 								</div>
 								<div class="col-lg-2 col-md-4 col-6">
@@ -335,7 +321,7 @@
 												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
 											</div>
 										</div>
-										<h6>Hyderabad</h6>
+										<h5>Hyderabad</h5>
 									</a>
 								</div>
 								<div class="col-lg-2 col-md-4 col-6">
@@ -345,7 +331,7 @@
 												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
 											</div>
 										</div>
-										<h6>Nepal</h6>
+										<h5>Nepal</h5>
 									</a>
 								</div>
 								<div class="col-lg-2 col-md-4 col-6">
@@ -355,7 +341,7 @@
 												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
 											</div>
 										</div>
-										<h6>Maldives</h6>
+										<h5>Maldives</h5>
 									</a>
 								</div>
 							</div>
@@ -425,7 +411,7 @@
 							<div class="media-body">
 								<h2 class="mt-n2 mb-0 text-theme">30+</h2>
 								<p class="text-title fs-md fw-medium mt-1 mt-xl-0 mb-2 mb-xl-2">Years Of Experience</p>
-								<p class="fs-xs mb-0">Incubate extensive scenarios without top-line quality vectors. Authoritatively engage</p>
+								<p class="fs-xs mb-0">We have honed our expertise in handling a wide range of complex scenarios especially neurological, orthopaedic, metabolic, autoimmune, genetic, orphan conditions and many more with precision and excellence.</p>
 							</div>
 						</div>
 					</div>
@@ -434,16 +420,16 @@
 							<div class="media-body">
 								<h2 class="mt-n2 mb-0 text-theme">10+</h2>
 								<p class="text-title fs-md fw-medium mt-1 mt-xl-0 mb-2 mb-xl-2">Experienced Doctor's</p>
-								<p class="fs-xs mb-0">Incubate extensive scenarios without top-line quality vectors. Authoritatively engage</p>
+								<p class="fs-xs mb-0">Highly experienced doctors with…..Our doctors authentically engage with each case, providing authoritative guidance and support throughout the entire process.</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-auto mb-30">
 						<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon hover-style2 align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-healthcare"></i></span>
 							<div class="media-body">
-								<h2 class="mt-n2 mb-0 text-theme">200+</h2>
+								<h2 class="mt-n2 mb-0 text-theme">20,000+</h2>
 								<p class="text-title fs-md fw-medium mt-1 mt-xl-0 mb-2 mb-xl-2">Happy Patients</p>
-								<p class="fs-xs mb-0">Incubate extensive scenarios without top-line quality vectors. Authoritatively engage</p>
+								<p class="fs-xs mb-0">Delve into a wide range of scenarios while maintaining top-notch quality. We engage with authority and dedication to ensure the best outcomes for our patients.</p>
 							</div>
 						</div>
 					</div>
@@ -461,9 +447,13 @@
 						<h2 class="h1 mb-3">Why StemRx</h2>
 						<div class="row">
 							<div class="col-xl-10 mb-md-2 pb-md-1">
-								<p class="mb-md-4">StemRx is the only healthcare services organization that offers a complete end to end healthcare package under one single roof right from the point where the patient walks in for a consultation, the evaluation, the medical assessments, the therapies, the medication, long term post discharge strategies and much more.</p>
-								<p class="mb-md-4">One look at the patient feedback library will indicate that at StemRx we are committed to improvement of medical condition of the patient by meeting the defined timeline-based milestones, as well as ensuring that there is patient delight when the patient departs from our facility.</p>
-								<p class="mb-md-4">StemRx Hospital and Research Centre is a leader in advanced healthcare that embraces an end-to-end approach towards treating / managing various debilitating, degenerative medical conditions using regenerative medicine, future technology molecules, enhanced and advanced rehabilitation comprising of quantum energy medicine along with artificial intelligence to the needy people globally from all walks of life.</p>
+								<p class="mb-md-4">
+									StemRx Hospital and Research Centre stands out as a premier healthcare services organization for neurological, orthopedic, metabolic, genetic, autoimmune, and respiratory conditions by providing a comprehensive care. We are the one who don't treat body, rather we treat cells. Unlike traditional approaches that target only the symptoms, we focus on cellular and mitochondrial levels of treatment, emphasizing the regeneration potential inherent in cells. This unique approach sets us apart as pioneers in regenerative medicine.
+								</p>
+								<p class="mb-md-4">
+									Our commitment to enhancing patients' medical conditions is evident in our patient feedback library. Moreover, our focus extends to ensuring patients leave our facility with a sense of delight, reflecting their positive experience and successful outcomes.
+
+								</p>
 							</div>
 							<!-- <div class="col-md-6 col-lg-5 col-xl-4">
 								<ul class="vs-list list-unstyled text-title">

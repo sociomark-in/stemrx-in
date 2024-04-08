@@ -5,6 +5,14 @@ class PagesController extends CI_Controller
 {
 
 	public $data;
+
+	public function page_404(){
+		$this->data['page'] = [
+			'title' => "Stemrx Brain and Spine Institute - Cell Therapy in India",
+			'description' =>"Stemrx Brain and Spine Institute is the best cell therapy center in India, which treat patients with neurodegerative and neurodevelopmental disorders.",
+		];
+		$this->load->load_misc('errors/html/error_404', $this->data);
+	}
 	
 	public function index()
 	{

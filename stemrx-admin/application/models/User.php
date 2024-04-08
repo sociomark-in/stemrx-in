@@ -7,13 +7,13 @@ class User extends CI_Model
     }
     
     public function get($id){
-        $result = $this->db->query("SELECT * FROM `users` WHERE `id` = '" . $id . "'")->result()[0];
+        $result = $this->db->query("SELECT * FROM `panel_users` WHERE `id` = '" . $id . "'")->result()[0];
         return $result;
 
     }
 
     public function authorize(array $request){
-        $result = $this->db->query("SELECT * FROM `users` WHERE `username` = '" . $request['username'] . "'")->result()[0];
+        $result = $this->db->query("SELECT * FROM `panel_users` WHERE `username` = '" . $request['username'] . "'")->result()[0];
         if($result->username == 'admin1'){
             if($request['password'] == $result->password){
                 return (array)$result;

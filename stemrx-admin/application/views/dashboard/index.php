@@ -17,9 +17,11 @@
 					<thead>
 						<tr>
 							<th>Sr. No</th>
-							<?php foreach ($leads[0] as $key => $value) : ?>
-								<th><?= $key ?></th>
-							<?php endforeach ?>
+							<th>Name</th>
+							<th>Email Address</th>
+							<th>Contact Number</th>
+							<th>Source URL</th>
+							<th>Timestamp</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -39,9 +41,11 @@
 					<tfoot>
 						<tr>
 							<th>Sr. No</th>
-							<?php foreach ($leads[0] as $key => $value) : ?>
-								<th><?= $key ?></th>
-							<?php endforeach ?>
+							<th>Name</th>
+							<th>Email Address</th>
+							<th>Contact Number</th>
+							<th>Source URL</th>
+							<th>Timestamp</th>
 						</tr>
 					</tfoot>
 				</table>

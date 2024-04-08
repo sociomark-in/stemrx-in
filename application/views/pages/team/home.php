@@ -121,6 +121,119 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body py-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Meghnad Joshi </a></h3>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine (20 Years + Experience)</p>
+							<p class="fs-xs">Senior Consultant Associate to Dr Mahajan in clinical management and Academic Research.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body py-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine (20 Years + Experience)</p>
+							<p class="fs-xs">Senior Consultant Associate to Dr Mahajan in clinical management and Academic Research.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<h3>Other Consultants</h3>
+				</div>
+			</div>
+			<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="4">
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

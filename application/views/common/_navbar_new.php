@@ -254,9 +254,9 @@
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>condition/neural/cerebral-palsy">Muscular Dystrophy</a></li>
-													<li><a href="<?= base_url() ?>condition/neural/developmental-delay">Congenital Myopathies</a></li>
-													<li><a href="<?= base_url() ?>condition/neural/alzheimers-disease">ADHD</a></li>
+													<li><a href="javascript:void()">Muscular Dystrophy</a></li>
+													<li><a href="javascript:void()">Congenital Myopathies</a></li>
+													<li><a href="<?= base_url() ?>condition/developmental-problem/adhd">ADHD</a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/infertility">Infertility Center</a>

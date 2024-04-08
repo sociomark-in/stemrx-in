@@ -1,8 +1,34 @@
-<div class="">
-	<div class="">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d30153.37013397536!2d73.002349!3d19.143979!3m2!1i1024!2i768!4f13.1!2m1!1sStemRx%20Bioscience%20Solutions%20Private%20Limited%20Dr.%20Mahajan&#39;s%20Hospital%20%26%20ITC%20R-831%2C%20Thane%20-%20Belapur%20Rd%2C%20next%20to%20Shell%20Petrol%20Pump%2C%20T.T.C%2C%20Industrial%20Area%2C%20Rabale%2C%20Navi%20Mumbai%2C%20Maharashtra%20400708!5e0!3m2!1sen!2sus!4v1705993370658!5m2!1sen!2sus" style="border:0; width:100%; height: 300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<?php if (!in_array($this->uri->segment(1), ["our-center"])) : ?>
+	<div class="row bg-dark">
+		<div class=" col-xl-7 col-lg-6">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d30153.37013397536!2d73.002349!3d19.143979!3m2!1i1024!2i768!4f13.1!2m1!1sStemRx%20Bioscience%20Solutions%20Private%20Limited%20Dr.%20Mahajan&#39;s%20Hospital%20%26%20ITC%20R-831%2C%20Thane%20-%20Belapur%20Rd%2C%20next%20to%20Shell%20Petrol%20Pump%2C%20T.T.C%2C%20Industrial%20Area%2C%20Rabale%2C%20Navi%20Mumbai%2C%20Maharashtra%20400708!5e0!3m2!1sen!2sus!4v1705993370658!5m2!1sen!2sus" style="border:0; width:100%; height: 100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		<div class="col-xl-5 col-lg-6">
+			<div class="px-3 py-5">
+				<div class="row">
+					<div class="offset-xl-1 col-xl-11 col-12">
+						<div class="widget footer-widget widget_nav_menu mb-lg-4 mb-3">
+							<div class="title">
+								<h3 class="text-white widget_title">Locate Us</h3>
+							</div>
+						</div>
+						<div class="widget_nav_menu">
+							<ul class="menu row">
+								<li class="col-xl-3 col-6 mb-2"><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
+								<li class="col-xl-3 col-6 mb-2"><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
+								<li class="col-xl-3 col-6 mb-2"><a href="javascript:void(0)">Hyderabad</a></li>
+								<li class="col-xl-3 col-6 mb-2"></li>
+								<li class="col-xl-3 col-6 mb-2"><a href="javascript:void(0)">Nepal </a></li>
+								<li class="col-xl-3 col-6 mb-2"><a href="javascript:void(0)">Maldives</a></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
+<?php endif ?>
 <div class="vs-newsletter-wrapper space-md-top mb-4">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -88,16 +114,16 @@
 						<div class="row">
 							<div class="col-xl-6 col-12">
 								<ul class="menu">
-									<li><a href="<?= base_url('condition/neural/cerebral-palsy')?>">Cerebral Palsy</a></li>
-									<li><a href="<?= base_url('condition/neural/developmental-delay')?>">Developmental Delay</a></li>
-									<li><a href="<?= base_url('condition/pain-care/avascular-necrosis')?>">Avascular Necrosis </a></li>
+									<li><a href="<?= base_url('condition/neural/cerebral-palsy') ?>">Cerebral Palsy</a></li>
+									<li><a href="<?= base_url('condition/neural/developmental-delay') ?>">Developmental Delay</a></li>
+									<li><a href="<?= base_url('condition/pain-care/avascular-necrosis') ?>">Avascular Necrosis </a></li>
 								</ul>
 							</div>
 							<div class="col-xl-6 col-12">
 								<ul class="menu">
-									<li><a href="<?= base_url('condition/pain-care/osteoarthritis')?>">Osteoarthritis</a></li>
-									<li><a href="<?= base_url('condition/pain-care/migraine')?>">Migraine</a></li>
-									<!--<li><a href="<?= base_url('condition/neural/cerebral-palsy')?>">Special Link </a></li>-->
+									<li><a href="<?= base_url('condition/pain-care/osteoarthritis') ?>">Osteoarthritis</a></li>
+									<li><a href="<?= base_url('condition/pain-care/migraine') ?>">Migraine</a></li>
+									<!--<li><a href="<?= base_url('condition/neural/cerebral-palsy') ?>">Special Link </a></li>-->
 								</ul>
 							</div>
 						</div>
@@ -176,7 +202,12 @@
 								</tr>
 							</table>
 						</div>
-						<div class="d-flex gap-2 align-top"><i class="far fa-map-marker-alt text-theme"></i> <a href="#" class="text-white">Dr. Mahajan’s Hospital & ITC R-831,Thane – Belapur Rd, Next to Shell Petrol Pump, TTC Industrial Area, Rabale, Navi Mumbai, Maharashtra 400708.</a></div>
+						<div class="d-flex gap-2 align-top">
+							<i class="far fa-map-marker-alt text-theme"></i>
+							<a href="#" class="text-white">
+								Dr. Mahajan’s Hospital & ITC R-831,Thane – Belapur Rd, Next to Shell Petrol Pump, TTC Industrial Area, Rabale, Navi Mumbai, Maharashtra 400708.
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

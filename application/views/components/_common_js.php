@@ -56,10 +56,8 @@
 			action: 'appointment'
 		}).then(function(token) {
 			console.log(token);
-			const tokenInput1 = document.querySelector("#appointmentForm input[name=token]");
-			const tokenInput2 = document.querySelector("#floatingForm input[name=token]");
-			tokenInput1.value = token;
-			tokenInput2.value = token;
+			$("#appointmentForm input[name=token]").val(token);
+			$("#floatingForm input[name=token]").val(token);
 		});
 	});
 </script>

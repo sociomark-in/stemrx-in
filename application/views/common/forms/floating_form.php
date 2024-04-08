@@ -28,7 +28,7 @@
 			<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" pattern="^\d{10}" maxlength="10" minlength="10" required />
 			<i class="fal small fa-phone"></i>
 		</div>
-		<input type="hidden" id="token" name="token">
+		<input type="hidden" name="token">
 		<div class="col-xl-12 text-center">
 			<button type="submit" class="vs-btn style2" name="form_submit">
 				Make Appointment<i class="far fa-calendar-alt"></i>

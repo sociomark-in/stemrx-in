@@ -108,5 +108,5 @@ $route['therapeutics/(:any)/(:any)'] = 'ProcedureController/procedure_detail/$1/
 $route['thank-you'] = 'AppointmentDataController/thank_you';
 
 // $route['(:any)'] = 'PagesController/page/$1';
-$route['404_override'] = '';
+$route['404_override'] = 'PagesController/page_404';
 $route['translate_uri_dashes'] = FALSE;

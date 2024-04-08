@@ -70,6 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
+$active_group = 'production';
 $active_group = 'default';
 $query_builder = TRUE;
 
@@ -78,7 +79,7 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
-	'database' => 'nhss_website_landing_leads',
+	'database' => 'stemrx-hospitals',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -92,6 +93,27 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE,
-	'port'=> 3300
+	'save_queries' => TRUE
+);
+
+$db['production'] = array(
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => 'stemrx_admin',
+	'password' => 'OaWrSuRRJPgV',
+	'database' => 'stemrx_ci3_db',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
 );

@@ -26,19 +26,6 @@ class AppointmentDataController extends CI_Controller
 				// 'remoteip' => $_SERVER['REMOTE_ADDR']
 			];
 
-			// $options = array(
-			// 	'http' => array(
-			// 		'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
-			// 		'method'  => 'POST',
-			// 		'content' => http_build_query($data)
-			// 	)
-			// );
-
-			// $context  = stream_context_create($options);
-			// $response = file_get_contents($url, false, $context);
-
-			// $res = json_decode($response, true);
-
 			$api_url = 'https://www.google.com/recaptcha/api/siteverify'; 
             $resq_data = array( 
                 'secret' => "6LclYrApAAAAAJyeVKwmOPxHa8UwB3Tj8f3cJJFG", 
@@ -64,6 +51,7 @@ class AppointmentDataController extends CI_Controller
             curl_close($ch);
 
 			$res = json_decode($response, true);
+			print_r($this->input->post());
 			if ($res['success'] == true) {
 				print_r($this->input->post()); 
 				$form_data = $this->input->post();
@@ -75,7 +63,7 @@ class AppointmentDataController extends CI_Controller
 				];
 				$data_email['enquiry'] = $this->data;
 				if ($this->LeadsModel->new_appointment($this->data)) {
-					// $this->send_email($data_email);
+					$this->send_email($data_email);
 					redirect('thank-you');
 				}
 			}
@@ -87,20 +75,24 @@ class AppointmentDataController extends CI_Controller
 		$this->load->library('email');
 
 		$config = array(
-			'smtp_crypto' => 'ssl',
-			'protocol' => 'smtp',
-			'smtp_host' => 'stemrx.in',
-			'smtp_port' => 465,
-			'smtp_user' => 'noreply@stemrx.in',
-			'smtp_pass' => 'ff6kqHqzc76d',
-			'mailtype' => 'html',
-			'wordwrap' => TRUE,
+			'smtp_crypto' 	=> 'ssl',
+			'protocol' 		=> 'smtp',
+			'smtp_host' 	=> 'stemrx.in',
+			'smtp_port' 	=> 465,
+			'smtp_timeout' 	=> '10',
+			'smtp_user' 	=> 'noreply@stemrx.in',
+			'smtp_pass' 	=> 'ff6kqHqzc76d',
+			'charset'    	=> 'utf-8',
+			'newline'    	=> "\r\n",
+			'mailtype' 		=> 'html',
+			'wordwrap' 		=> TRUE,
+			'validation' 	=> FALSE,
 		);
 		$this->email->initialize($config);
 
 		$this->email->from('userinfo@stemrx.in', 'StemRx Hospitals');
-		// $this->email->to('hemant@sociomark.in');
-		$this->email->to('info@stemrx.in');
+		$this->email->to('hemant@sociomark.in');
+		// $this->email->to('info@stemrx.in');
 		// $this->email->cc('another@another-example.com');
 		// $this->email->bcc('them@their-example.com');
 
