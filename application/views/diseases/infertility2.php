@@ -3,11 +3,11 @@
 		<div class="parallax" data-parallax-image="<?= base_url() ?>assets/img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Advanced Infertility Treatments</h1>
+				<h1 class="breadcumb-title">Infertility</h1>
 				<div class="breadcumb-menu-wrap"><i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="index-2.html">Home</a></li>
-						<li class="active">Infertility Treatments</li>
+						<li class="active">Infertility</li>
 					</ul>
 				</div>
 			</div>
@@ -17,7 +17,7 @@
 		<div class="container">
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
-					<h2 class="h1">All Infertility Treatments</h2>
+					<h2 class="h1">All Infertility Conditions</h2>
 					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 									<img src="<?= base_url("assets/img/icons/diseases/endometrim.png") ?>" alt="Endometrim Rejuvenation" class="w-100">
 								</div>
 							</div>
-							<h6 class="text-theme">Endometrium Rejuvenation</h6>
+							<h6 class="text-theme">Endometrim Rejuvenation</h6>
 						</a>
 					</div>
 					<div class="col-2">
@@ -52,7 +52,7 @@
 									<img src="<?= base_url("assets/img/icons/diseases/menopausal.png") ?>" alt="Menopausal symtoms reversal" class="w-100">
 								</div>
 							</div>
-							<h6 class="text-theme">Menopausal Symptoms reversal</h6>
+							<h6 class="text-theme">Menopausal symtoms reversal</h6>
 						</a>
 					</div>
 					<div class="col-2">

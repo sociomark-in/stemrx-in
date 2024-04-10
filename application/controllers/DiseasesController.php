@@ -290,51 +290,42 @@ class DiseasesController extends CI_Controller
 				}
 				break;
 
-			case 'infertility2':
+			case 'dermatology-care':
 				switch ($condition) {
-					case 'ivf':
+					case 'psoriasis':
 						$this->data['page'] = [
-							'title' => "IVF" . " - " . APP_NAME
+							'title' => "Psoriasis" . " - " . APP_NAME
 						];
-						$this->load->load_view('diseases/condition/infertility2/ivf', $this->data);
+						$this->load->load_view('diseases/condition/dermatology/psoriasis', $this->data);
 						break;
-					case 'endometrim-rejuvenation':
+					case 'melasma':
 						$this->data['page'] = [
-							'title' => "Endometrim Rejuvenation" . " - " . APP_NAME
+							'title' => "Melasma" . " - " . APP_NAME
 						];
-						$this->load->load_view('diseases/condition/infertility2/endometrim-rejuvenation', $this->data);
+						$this->load->load_view('diseases/condition/dermatology/melasma', $this->data);
 						break;
-					case 'menopausal-symtoms-reversal':
+					case 'alopecia-areata':
 						$this->data['page'] = [
-							'title' => "Menopausal Symtoms Reversal" . " - " . APP_NAME
+							'title' => "Alopecia Areata" . " - " . APP_NAME
 						];
-						$this->load->load_view('diseases/condition/infertility2/menopausal-symtoms-reversal', $this->data);
+						$this->load->load_view('diseases/condition/dermatology/alopecia-areata', $this->data);
 						break;
-					case 'ovarian-rejuvenation':
+					case 'vitiligo':
 						$this->data['page'] = [
-							'title' => "Ovarian Rejuvenation" . " - " . APP_NAME
+							'title' => "Alopecia Areata" . " - " . APP_NAME
 						];
-						$this->load->load_view('diseases/condition/infertility2/ovarian-rejuvenation', $this->data);
+						$this->load->load_view('diseases/condition/dermatology/vitiligo', $this->data);
 						break;
 
 					default:
-						redirect('condition/chromosomal-disorder');
+						redirect('condition/dermatology-care');
 						break;
 				}
 				break;
 
 
 			default:
-				switch ($condition) {
-					case 'neural':
-						# code...
-						$this->load->load_view('diseases/condition/neural_new');
-						break;
-
-					default:
-						$this->load->load_view('diseases/conditions-details');
-						break;
-				}
+				redirect(base_url());
 				break;
 		}
 	}

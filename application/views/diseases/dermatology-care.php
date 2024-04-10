@@ -26,7 +26,7 @@
 			<div class="col-xl-9 col-12">
 				<div class="row justify-content-center">
 					<div class="col-lg-2 col-md-4 col-6">
-						<a href="#" class="text-center">
+						<a href="<?= base_url() ?>condition/dermatology-care/psoriasis" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/diseases/psoriasis.png") ?>" alt="Cosmetic Gynecology" class="w-100">
@@ -36,7 +36,7 @@
 						</a>
 					</div>
 					<div class="col-lg-2 col-md-4 col-6">
-						<a href="#" class="text-center">
+						<a href="<?= base_url() ?>condition/dermatology-care/alopecia-areata" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body">
 									<img src="<?= base_url("assets/img/icons/diseases/hair.png") ?>" alt="Vaginal rejuvenation" class="w-100">
@@ -46,7 +46,7 @@
 						</a>
 					</div>
 					<div class="col-lg-2 col-md-4 col-6">
-						<a href="#" class="text-center">
+						<a href="<?= base_url() ?>condition/dermatology-care/melasma" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/diseases/spot.png") ?>" alt="Cell Preservation for Fertility" class="w-100">
@@ -56,7 +56,7 @@
 						</a>
 					</div>
 					<div class="col-lg-2 col-md-4 col-6">
-						<a href="#" class="text-center">
+						<a href="<?= base_url() ?>condition/dermatology-care/vitiligo" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/diseases/vitiligo.png") ?>" alt="Inflatable Penile Implant" class="w-100">

@@ -323,10 +323,10 @@
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a>
 												<ul class="sub-menu">
-													<li><a href="javascript:void()">Psoriasis</a></li>
-													<li><a href="javascript:void()">Alopecia areata</a></li>
-													<li><a href="javascript:void()">Melasma</a></li>
-													<li><a href="javascript:void()">Vitiligo</a></li>
+													<li><a href="<?= base_url() ?>condition/dermatology-care/psoriasis">Psoriasis</a></li>
+													<li><a href="<?= base_url() ?>condition/dermatology-care/alopecia-areata">Alopecia areata</a></li>
+													<li><a href="<?= base_url() ?>condition/dermatology-care/melasma">Melasma</a></li>
+													<li><a href="<?= base_url() ?>condition/dermatology-care/vitiligo">Vitiligo</a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/chromosomal-disorder">Chromosomal Disorders</a>
