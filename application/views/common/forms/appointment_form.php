@@ -28,6 +28,18 @@
 			<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" pattern="^\d{10}" maxlength="10" minlength="10" required />
 			<i class="fal small fa-phone"></i>
 		</div>
+		<!-- <div class="col-12 form-group">
+			<textarea class="form-control style3" name="enq_name" placeholder="Describe Your Condition in Brief" maxlength="200"></textarea>
+			<i class="fal small fa-calendar"></i>
+		</div>
+
+		<div class="col-12">
+			<label for="">Upload Medical Documents</label>
+			<div class="form-group">
+				<input type="file" class="form-control style3" name="enq_files" multiple/>
+				<i class="fal small fa-file"></i>
+			</div>
+		</div> -->
 		<input type="hidden" name="token">
 		<div class="col-xl-12 text-center">
 			<button type="submit" class="vs-btn style2" name="form_submit">

@@ -104,7 +104,7 @@
 						<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
 						<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 						<li><a href="javascript:void()">Our Webinar </a></li>
-						<li><a href="<?= base_url("pr-articles") ?>">Blogs</a></li>
+						<li><a href="<?= base_url("pr-articles") ?>">Press Releases</a></li>
 						<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 					</ul>
 				</li>
@@ -398,7 +398,7 @@
 											<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
 											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 											<li><a href="javascript:void()">Our Webinar </a></li>
-											<li><a href="<?= base_url("pr-articles") ?>">Blogs</a></li>
+											<li><a href="<?= base_url("pr-articles") ?>">Press Releases</a></li>
 											<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 										</ul>
 									</li>
@@ -415,7 +415,7 @@
 						<div class="col-auto d-none-xxxl">
 							<div class="header-call phone-box d-flex align-items-center style2"><a href="tel:9979976862" class="box-icon"><i class="fas fa-phone-alt"></i></a>
 								<div class="media-body"><span class="fs-xs text-title">Call Anytime</span>
-									<p class="h4 fw-bold lh-1 mb-0"><a href="tel:9979976862">+91 997 997 6862</a></p>
+									<p class="h4 fw-bold lh-1 mb-0"><a href="tel:<?= MAIN_CONTACT?>"><?= phone_format(MAIN_CONTACT, 3,2) ?></a></p>
 								</div>
 							</div>
 						</div>

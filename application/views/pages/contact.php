@@ -52,7 +52,7 @@
 							Industrial Area, Rabale,<br>
 							Navi Mumbai, Maharashtra 400708</p>
 						<h4 class="pt-2 mb-2">Customer Support</h4>
-						<h4 class="h3 font-theme2 mb-0"><a href="tel:919979976862"><i class="far fa-phone-alt me-2"></i>+91 9979976862</a></h4>
+						<h4 class="h3 font-theme2 mb-0"><a href="tel:<?= MAIN_CONTACT?>"><i class="far fa-phone-alt me-2"></i><?= phone_format(MAIN_CONTACT, 3,2) ?></a></h4>
 					</div>
 				</div>
 			</div>

@@ -9,7 +9,7 @@
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="<?= base_url() ?>">Home</a></li>
-						<li><a href="<?= base_url("condition/developmental-problem") ?>">Developmental Problem</a></li>
+						<li class="d-none d-md-inline"><a href="<?= base_url("condition/developmental-problem") ?>">Developmental Problem</a></li>
 						<li class="active">Muscular Dystrophy</li>
 					</ul>
 				</div>
@@ -23,7 +23,13 @@
 				<div class="col-12">
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
-							<img src="https://placehold.co/1200x600" alt="Disease Image" class="w-100">
+							<picture>
+								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/webp">
+								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/jpg">
+								<source srcset="https://placehold.co/800x800" type="image/webp">
+								<img src="https://placehold.co/1200x600" alt="Disease Image" class="w-100">
+							</picture>
+
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-xl-11 col-xxl-10 ">
@@ -33,7 +39,7 @@
 											<span class="fs-xs">Condition Name</span>
 											<h2 class="h5 mb-0">Muscular Dystrophy</h2>
 										</div>
-										
+
 										<div class="col-sm-6 col-lg-auto">
 											<a href="#appointment" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
 										</div>
@@ -52,11 +58,20 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="">
-						<h2 class="h1">Revolutionizing Muscular Dystrophy Care: StemRx Hospital Pioneers Groundbreaking Treatments!</h2>
+						<h2 class="h1">Breaking Boundaries: StemRx Hospital Pioneers Innovative Treatment for Muscular Dystrophy!</h2>
 						<p class="fs-md mb-4 pb-2">
-							<strong class="text-title">Diabetes Mellitus</strong> is a chronic metabolic disorder characterized by hyperglycemia, resulting from defects in insulin secretion, insulin action, or both. Insulin, produced by pancreatic beta cells, facilitates glucose uptake by tissues, regulating blood glucose levels. In type 1 diabetes, pancreatic beta cells are destroyed by autoimmune processes, leading to absolute insulin deficiency. Type 2 diabetes involves insulin resistance in peripheral tissues and impaired insulin secretion. Both types result in inadequate glucose uptake, causing hyperglycemia. The pathophysiology of diabetes involves complex interplay among genetic, environmental, and lifestyle factors. Chronic hyperglycemia contributes to microvascular and macrovascular complications, including nephropathy, retinopathy, neuropathy, and cardiovascular diseases.
+							<strong class="text-title">Muscular Dystrophy</strong>
+							is a group of genetic disorders characterized by progressive weakness and degeneration of the muscles that control movement. It affects people of all ages and can vary in severity depending on the specific type and individual. Symptoms often manifest in childhood, leading to difficulties with walking, standing, and other basic movements. Over time, muscle weakness worsens, impacting mobility and quality of life. While there's currently no cure, treatments such as physical therapy, medications, and assistive devices can help manage symptoms and improve function. Research into gene therapy and other innovative approaches offers hope for future advancements in treatment.
 						</p>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="vs-detail-wrapper space-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
 					<div class="">
 						<h2>Symptoms</h2>
 						<p>
@@ -65,54 +80,75 @@
 						<ul class="row">
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Frequent Urination:</h6>
-									<p>Increased need to urinate, particularly at night.</p>
+									<h6 class="m-0">Progressive muscle weakness:</h6>
+									<p>Muscular dystrophy typically involves a gradual weakening of muscles over time, often starting in the legs and pelvis and spreading to other areas of the body.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Excessive thirst:</h6>
-									<p>Constant feeling of being thirsty, even after drinking fluids.</p>
+									<h6 class="m-0">Muscle wasting (atrophy):</h6>
+									<p>As the disease progresses, muscles may shrink in size due to lack of use and ongoing degeneration.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Unexplained weight loss:</h6>
-									<p>Losing weight without trying, despite increased appetite.</p>
+									<h6 class="m-0">Difficulty with motor skills:</h6>
+									<p>Tasks such as walking, running, climbing stairs, or lifting objects may become increasingly challenging as muscle strength declines.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Fatigue:</h6>
-									<p>Feeling tired and weak, even after getting enough rest.</p>
+									<h6 class="m-0">Frequent falls:</h6>
+									<p>Weakness in leg muscles can lead to instability and an increased risk of falling, especially in children with muscular dystrophy.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Blurry vision:</h6>
-									<p>Blurriness or difficulty focusing, often due to high blood sugar levels affecting the eyes.</p>
+									<h6 class="m-0">Delayed motor development:</h6>
+									<p>Children with muscular dystrophy may exhibit delays in reaching developmental milestones such as sitting up, crawling, and walking.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Slow wound healing:</h6>
-									<p>Cuts and bruises take longer to heal than usual.</p>
+									<h6 class="m-0">Contractures:</h6>
+									<p>Tightening of muscles and tendons can lead to contractures, where joints become fixed in a bent or flexed position, limiting mobility.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Tingling or numbness:</h6>
-									<p>Often felt in the hands or feet, due to nerve damage from prolonged high blood sugar levels.</p>
+									<h6 class="m-0">Respiratory difficulties:</h6>
+									<p>Some forms of muscular dystrophy can affect the muscles involved in breathing, leading to respiratory problems and an increased susceptibility to respiratory infections.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Recurrent infections: </h6>
-									<p>Such as yeast infections in women or urinary tract infections, often due to elevated glucose levels providing a breeding ground for bacteria and fungi.</p>
+									<h6 class="m-0">Cardiac issues: </h6>
+									<p>Certain types of muscular dystrophy can also affect the heart muscle, leading to cardiomyopathy and other cardiac complications.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Progressive disability:</h6>
+									<p>Muscular dystrophy is a progressive condition, meaning symptoms worsen over time and can eventually lead to significant disability, including loss of mobility and independence.</p>
+								</div>
+							</li>
+							<li class="col-lg-8 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Cognitive and behavioral challenges:</h6>
+									<p>In some cases, particularly with certain types of muscular dystrophy such as Duchenne muscular dystrophy, cognitive and behavioral issues may also be present, including learning difficulties and emotional challenges.</p>
 								</div>
 							</li>
 						</ul>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- PENDING -->
+	<section class="vs-detail-wrapper space-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
 					<div class="">
 						<h2>Common Fears and Concerns</h2>
 						<ul class="row">

@@ -97,6 +97,7 @@
 								</div>
 								<div class="col-lg-6 col-12">
 									<ul class="menu">
+										<li><a href="<?= base_url() ?>condition/infertility">Infertility Center</a></li>
 										<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a></li>
 										<li><a href="javascript:void()">Dental Treatment</a></li>
 										<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
@@ -150,7 +151,7 @@
 							<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
 							<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 							<li><a href="javascript:void()">Our Webinar </a></li>
-							<li><a href="<?= base_url("pr-articles") ?>">Blogs</a></li>
+							<li><a href="<?= base_url("pr-articles") ?>">Press Releases</a></li>
 							<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 						</ul>
 					</div>
@@ -164,7 +165,7 @@
 								<li><a href="<?= base_url() ?>patient-testimonial">All Testimonials</a></li>
 								<li><a href="https://stemrxbiosciences.in/" target="_blank">Our Store</a></li>
 								<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
-								<li><a href="<?= base_url("pr-articles") ?>">Blogs</a></li>
+								<li><a href="javascript:void(0)">Blogs</a></li>
 								<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
 							</ul>
 						</div>
@@ -181,7 +182,7 @@
 							</div>
 						</div>
 						<div class="mb-2">
-							<a class="text-white" href="tel:919979976862"><i class="text-theme fas fa-phone-alt me-2 pe-1"></i>+91 997 997 6862</a>
+							<a class="text-white" href="tel:<?= MAIN_CONTACT?>"><i class="text-theme fas fa-phone-alt me-2 pe-1"></i><?= phone_format(MAIN_CONTACT, 3,2) ?></a>
 						</div>
 						<div class="mb-2">
 							<a class="text-white" href="mailto:info@stemrx.in"><i class="text-theme fa fa-envelope me-2 pe-1"></i>info@stemrx.in</a>

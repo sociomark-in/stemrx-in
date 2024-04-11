@@ -28,7 +28,7 @@
 						</picture>
 					</div>
 					<div class="text-content mt-4 d-none d-md-block">
-						<div class="row">
+						<div class="row align-items-center h-100">
 							<div class="col-xl-6 col-lg-7 col-md-7 col-12">
 								<div class="mb-md-4 mb-3">
 									<h1 class="text-white">Healing People with Regenerative Medicines & Advanced Therapies </h1>
@@ -37,6 +37,32 @@
 								</div>
 								<div class="ls-btn" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
 									<a href="<?= base_url('doctor/dr-pradeep-mahajan')  ?>" class="vs-btn style3 hover-white">View Our Expert<i class="fas fa-bolt"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide" data-ls="duration: 13000; transition2d: 5;">
+					<div class="media-content">
+						<picture>
+							<!-- <source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-02.webp" type="image/webp"> -->
+							<source media="(min-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-02.jpg" type="image/jpg">
+							<source media="(max-width: 800px)" srcset="https://placehold.co/800x1000" type="image/jpg">
+							<!-- <source media="(max-width: 800px)" srcset="<?= base_url() ?>assets/img/banners/banner-02_800x1000.jpg" type="image/jpg"> -->
+							<source srcset="" type="image/webp">
+							<img src="<?= base_url() ?>assets/img/banners/banner-02.jpg" alt="Service Image" class="ls-bg w-100">
+						</picture>
+					</div>
+					<div class="text-content mt-4 d-none d-md-block">
+						<div class="row align-items-center h-100">
+							<div class="col-xxl-5 col-xl-6 col-lg-7 col-md-7 col-12">
+								<div class="mb-md-4 mb-3">
+									<h1 class="text-white">Nurturing a Healthier Future with <span class="text-dark">Regenerative Medicines</span></h1>
+									<h3 class="text-white">For You and Your Loved Ones</h3>
+									<!-- <p class="text-dark ls-responsive ls-hide-sm" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p> -->
+								</div>
+								<div class="ls-btn" data-ls-laptop="left: 100px; top: 580px;" style="left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
+									<a href="<?= base_url('regenerative-therapy')  ?>" class="vs-btn style3 hover-white">Know More<i class="fas fa-bolt"></i></a>
 								</div>
 							</div>
 						</div>
@@ -106,7 +132,7 @@
 						<div class="media-icon"><i class="fas fa-phone-alt"></i></div>
 						<div class="media-body">
 							<h3 class="media-title">CALL ANYTIME 24/7</h3>
-							<p class="media-text"><a href="tel:+919979976862">+91 997 997 6862</a></p>
+							<p class="media-text"><a href="tel:<?= MAIN_CONTACT?>"><?= phone_format(MAIN_CONTACT, 3,2) ?></a></p>
 						</div>
 					</div><a href="<?= base_url() ?>why-stemrx" class="vs-btn">Learn More</a>
 				</div>
@@ -568,9 +594,9 @@
 					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.gauri.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
-							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-gauri-khanderao">Dr. Gauri Khanderao</a></h4>
+							<h4 class="project-name"><a href="javascript:void(0)">Dr. Gauri Khanderao</a></h4>
 							<span class="project-cat fs-xs">BHMS, B.ACU, PGDHM</span>
-							<a href="<?= base_url() ?>doctor/dr-gauri-khanderao" class="icon-btn style4"><i class="fal fa-eye"></i></a>
+							<a href="javascript:void(0)" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
@@ -590,7 +616,7 @@
 						<div class="project-content">
 							<h4 class="project-name">Dr. Harry Mascarenhas </h4>
 							<span class="project-cat fs-xs">MBBS, DHM</span>
-							<a href="<?= base_url() ?>doctor/dr-harry" class="icon-btn style4"><i class="fal fa-eye"></i></a>
+							<a href="javascript:void(0)" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>
@@ -600,7 +626,7 @@
 						<div class="project-content">
 							<h4 class="project-name">Dr. Anil Daxini</h4>
 							<span class="project-cat fs-xs">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine</span>
-							<a href="<?= base_url() ?>doctor/dr-anil-daxini" class="icon-btn style4"><i class="fal fa-eye"></i></a>
+							<a href="javascript:void(0)" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
 				</div>

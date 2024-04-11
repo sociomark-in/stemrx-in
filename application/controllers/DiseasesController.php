@@ -310,12 +310,12 @@ class DiseasesController extends CI_Controller
 						];
 						$this->load->load_view('diseases/condition/dermatology/alopecia-areata', $this->data);
 						break;
-					case 'vitiligo':
-						$this->data['page'] = [
-							'title' => "Alopecia Areata" . " - " . APP_NAME
-						];
-						$this->load->load_view('diseases/condition/dermatology/vitiligo', $this->data);
-						break;
+					// case 'vitiligo':
+					// 	$this->data['page'] = [
+					// 		'title' => "Alopecia Areata" . " - " . APP_NAME
+					// 	];
+					// 	$this->load->load_view('diseases/condition/dermatology/vitiligo', $this->data);
+					// 	break;
 
 					default:
 						redirect('condition/dermatology-care');

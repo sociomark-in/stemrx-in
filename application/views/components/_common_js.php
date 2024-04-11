@@ -55,7 +55,6 @@
 		grecaptcha.execute('6LclYrApAAAAAFp8Aa6pSyDmKTqNuQszDM8v9pkP', {
 			action: 'appointment'
 		}).then(function(token) {
-			console.log(token);
 			$("#appointmentForm input[name=token]").val(token);
 			$("#floatingForm input[name=token]").val(token);
 		});

@@ -5,12 +5,12 @@
 	<div class="parallax" data-parallax-image="assets/img/breadcurmb/breadcurmb-1-1.jpg"></div>
 	<div class="container z-index-common">
 		<div class="breadcumb-content">
-			<h1 class="breadcumb-title">Blogs</h1>
+			<h1 class="breadcumb-title">Press Releases</h1>
 			<div class="breadcumb-menu-wrap">
 				<i class="far fa-home-lg"></i>
 				<ul class="breadcumb-menu">
 					<li><a href="<?= base_url(); ?>">Home</a></li>
-					<li class="active">PR Articles</li>
+					<li class="active">Press Releases</li>
 				</ul>
 			</div>
 		</div>

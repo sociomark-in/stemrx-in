@@ -249,7 +249,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<a href="tel:919979976862" class="vs-btn style2">+91 997 997 6862<i class="fas fa-phone-alt"></i></a>
+						<a href="tel:<?= MAIN_CONTACT?>" class="vs-btn style2"><?= phone_format(MAIN_CONTACT, 3,2) ?><i class="fas fa-phone-alt"></i></a>
 					</div>
 				</div>
 			</div>

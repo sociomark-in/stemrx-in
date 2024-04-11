@@ -80,12 +80,12 @@
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
 						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr.harry.jpg" alt="Team Area" class="w-100">
-							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-harry"><i class="fas fa-eye"></i></a>
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
 						</div>
 						<div class="team-body py-3">
-							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-harry" class="text-reset">Dr. Harry Mascarenhas</a></h3>
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Harry Mascarenhas</a></h3>
 							<p class="fs-xs degi text-theme mb-2">MBBS, DHM,</p>
 							<p class="fs-xs">
 								Highly experienced in clinical diagnosis and treatment especially emergencies and application of regenerative medicine in Neuro/ Orthopedic/G/Resp/Cardiovascular management.
@@ -96,12 +96,12 @@
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
 						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr.gauri.jpg" alt="Team Area" class="w-100">
-							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-gauri-khanderao"><i class="fas fa-eye"></i></a>
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
 						</div>
 						<div class="team-body py-3">
-							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-gauri-khanderao" class="text-reset">Dr. Gauri Khanderao</a></h3>
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Gauri Khanderao</a></h3>
 							<p class="fs-xs degi text-theme mb-2">BHMS, B.ACU, PGDHM (10+ years of experience)</p>
 							<p class="fs-xs">Have experience working in Regenerative Medicine for more than a decade. She is a Consultant Homeopathic physician, Alternative Therapist for Ozone, Acupuncturist, and Detoxification Specialist. </p>
 						</div>
@@ -110,12 +110,12 @@
 				<div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="team-card">
 						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr.anil.jpg" alt="Team Area" class="w-100">
-							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('') ?>doctor/dr-anil-daxini"><i class="fas fa-eye"></i></a>
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
 						</div>
 						<div class="team-body py-3">
-							<h3 class="h4 mb-0"><a href="<?= base_url('') ?>doctor/dr-anil-daxini" class="text-reset">Dr. Anil Daxini</a></h3>
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Anil Daxini</a></h3>
 							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine (20 Years + Experience)</p>
 							<p class="fs-xs">Senior Consultant Associate to Dr Mahajan in clinical management and Academic Research.</p>
 						</div>
@@ -130,8 +130,8 @@
 						</div>
 						<div class="team-body py-3">
 							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Meghnad Joshi </a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine (20 Years + Experience)</p>
-							<p class="fs-xs">Senior Consultant Associate to Dr Mahajan in clinical management and Academic Research.</p>
+							<p class="fs-xs degi text-theme mb-2">PhD in Cytology, M.Sc. Zoology (Cell Biology)</p>
+							<p class="fs-xs">Post Doc Diploma Transplantation Biology</p>
 						</div>
 					</div>
 				</div>
@@ -144,8 +144,6 @@
 						</div>
 						<div class="team-body py-3">
 							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine (20 Years + Experience)</p>
-							<p class="fs-xs">Senior Consultant Associate to Dr Mahajan in clinical management and Academic Research.</p>
 						</div>
 					</div>
 				</div>
@@ -164,8 +162,8 @@
 							</div>
 						</div>
 						<div class="team-body p-3">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Shankar Sawant</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MBBS, MD, Dermatologist, Hair Transplant Surgeon, Cosmetologist, (22 Years Experience)</p>
 						</div>
 					</div>
 				</div>
@@ -177,8 +175,8 @@
 							</div>
 						</div>
 						<div class="team-body p-3">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Priya Pillai</a></h3>
+							<p class="fs-xs degi text-theme mb-2">Radiologist</p>
 						</div>
 					</div>
 				</div>
@@ -190,8 +188,8 @@
 							</div>
 						</div>
 						<div class="team-body p-3">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Donald Babu</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MBBS, MS, FCPS, MCh - Surgical Oncology, MRCS (UK), FICS (Onco-surgeon - 18 Years Experience)</p>
 						</div>
 					</div>
 				</div>
@@ -203,8 +201,8 @@
 							</div>
 						</div>
 						<div class="team-body p-3">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Manaj Jhondhale</a></h3>
+							<p class="fs-xs degi text-theme mb-2"> MBBS, General Physician (ENT - 14 Years Experience)</p>
 						</div>
 					</div>
 				</div>
@@ -216,8 +214,8 @@
 							</div>
 						</div>
 						<div class="team-body p-3">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Aditya Dhawale</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MBBS, MD - General Medicine, DNB - Cardiology - (Cardiologist - 15 Years Experience)</p>
 						</div>
 					</div>
 				</div>
@@ -229,8 +227,112 @@
 							</div>
 						</div>
 						<div class="team-body p-3">
-							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Chandan Sen</a></h3>
-							<p class="fs-xs degi text-theme mb-2">MD (Mum), MD (USA). Diplomate</p>
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Pramod Gandhi</a></h3>
+							<p class="fs-xs degi text-theme mb-2">(Pediatrician)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. S. H. Thorat</a></h3>
+							<p class="fs-xs degi text-theme mb-2">MBBS, MS - Orthopaedics, Orthopedic surgeon (41 Years Experience)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Anil Kulkarni</a></h3>
+							<p class="fs-xs degi text-theme mb-2">(Anesthetic)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Nishant Kathale</a></h3>
+							<p class="fs-xs degi text-theme mb-2">(Urologist) MBBS, DNB - General Surgery, DNB - Urology/Genito (Urinary Surgery - 8 Years Experience)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Sanket Ekhande</a></h3>
+							<p class="fs-xs degi text-theme mb-2">(Plastic surgeon), MBBS, MS - General Surgery, MCh - Plastic & Reconstructive Surgery (13 Years Experience)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Angad Gandagule</a></h3>
+							<p class="fs-xs degi text-theme mb-2">(Anesthetic)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Prasanna Deshmukh</a></h3>
+							<p class="fs-xs degi text-theme mb-2">(Ophthalmologist) MBBS, MS - Ophthalmology, (38 Years Experience)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Masira Khan</a></h3>
+							<p class="fs-xs degi text-theme mb-2">(Physiotherapist) BPTH, Physiotherapy, (10 years of experience)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
+					<div class="team-card">
+						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="javascript:void(0)" class="text-reset">Dr. Shrikant Bhoite</a></h3>
+							<p class="fs-xs degi text-theme mb-2">(Physiotherapy)</p>
 						</div>
 					</div>
 				</div>
