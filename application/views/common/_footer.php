@@ -13,15 +13,14 @@
 							</div>
 						</div>
 						<div class="widget_nav_menu">
-							<ul class="menu row">
-								<li class="col-xl-3 col-6 mb-2"><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
-								<li class="col-xl-3 col-6 mb-2"><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
-								<li class="col-xl-3 col-6 mb-2"><a href="javascript:void(0)">Hyderabad</a></li>
-								<li class="col-xl-3 col-6 mb-2"></li>
-								<li class="col-xl-3 col-6 mb-2"><a href="javascript:void(0)">Nepal </a></li>
-								<li class="col-xl-3 col-6 mb-2"><a href="javascript:void(0)">Maldives</a></li>
+							<ul class="menu row mb-3">
+								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
+								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
+								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Hyderabad</a></li>
+								<li class="col-xl-3 col-lg-4 col-6 mb-2"></li>
+								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Nepal </a></li>
+								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Maldives</a></li>
 							</ul>
-
 						</div>
 					</div>
 				</div>

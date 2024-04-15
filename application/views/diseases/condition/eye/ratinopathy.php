@@ -4,12 +4,12 @@
 		<div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Congenital Myopathies</h1>
+				<h1 class="breadcumb-title">Diabetic Retinopathy</h1>
 				<div class="breadcumb-menu-wrap">
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="index.html">Home</a></li>
-						<li class="active">Congenital Myopathies</li>
+						<li class="active">Diabetic Retinopathy</li>
 					</ul>
 				</div>
 			</div>
@@ -25,10 +25,10 @@
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
 							<picture>
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/webp">
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/jpg">
-								<source srcset="https://placehold.co/800x800" type="image/webp">
-								<img src="https://placehold.co/800x800" alt="Service Image" class="w-100">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/retinopathy_1200x600.webp" type="image/webp">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/retinopathy_1200x600.jpg" type="image/jpg">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/retinopathy_800x800.jpg" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/retinopathy_800x800.jpg" alt="Service Image" class="w-100">
 							</picture>
 						</div>
 						<div class="row justify-content-center">
@@ -37,7 +37,7 @@
 									<div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
 										<div class="col-sm-6 col-lg-auto">
 											<span class="fs-xs">Condition Name</span>
-											<h2 class="h5 mb-0">Congenital Myopathies</h2>
+											<h2 class="h5 mb-0">Diabetic Retinopathy</h2>
 										</div>
 
 										<div class="col-sm-6 col-lg-auto">
@@ -58,53 +58,54 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="">
-						<h2 class="h1">Revolutionizing Care: StemRx Hospital Leads Breakthroughs in Congenital Myopathy Treatment!</h2>
+						<h1 class="h1">Vision in Focus: StemRx Hospital Shines Light on Diabetic Retinopathy Treatment</h1>
 						<p class="fs-md mb-4 pb-2">
-							Congenital myopathy is a rare genetic disorder affecting skeletal muscle function from birth. StemRx Hospital specializes in treating this condition, offering comprehensive care tailored to each patient's needs. Symptoms include muscle weakness, poor muscle tone, and difficulty swallowing or breathing. Our multidisciplinary team provides expert diagnosis through genetic testing and offers personalized treatment plans, including physical therapy and respiratory support. With our cutting-edge research and advanced therapies, StemRx Hospital aims to improve patients' quality of life and enhance their mobility. Trust us for compassionate care and innovative solutions in managing congenital myopathy.
+							Diabetic retinopathy is a serious eye condition caused by diabetes. Over time, high blood sugar levels damage blood vessels in the retina, the light-sensitive tissue at the back of the eye. This damage leads to vision problems and, if left untreated, can cause blindness. Symptoms include blurred vision, floaters, and difficulty seeing at night. Regular eye exams are crucial for early detection and treatment, which may involve laser surgery or injections to prevent vision loss. Managing diabetes through proper diet, exercise, and medication is key to reducing the risk of diabetic retinopathy and its complications.
 						</p>
 					</div>
-				</div>
-				<div class="col-12">
 					<div class="">
 						<h2>Symptoms</h2>
 						<p>
-							Here are the key symptoms of Congenital Myopathy:
+							Diabetic retinopathy can cause several symptoms, especially as the condition progresses. Some common symptoms include:
 						</p>
-						<ul class="row list-unstyled">
+						<ul class="row">
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Blurred or distorted central vision:</h6>
-									<p>Straight lines may appear wavy or distorted, and central vision may become progressively blurry.</p>
+									<h6 class="m-0">Blurred vision:</h6>
+									<p>
+										You may experience blurry or hazy vision, making it difficult to see objects clearly.
+										Fluctuating vision: Your vision may fluctuate throughout the day, affecting your ability to focus on objects.
+									</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Dark or empty areas in central vision:</h6>
-									<p>A blind spot may develop in the centre of your vision, making it difficult to see clearly.</p>
+									<h6 class="m-0">Floaters:</h6>
+									<p>Small specks or spots may appear in your vision, which can be distracting or annoying.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Difficulty reading or recognizing faces:</h6>
-									<p>Reading small print or recognizing faces can become challenging due to central vision loss.</p>
+									<h6 class="m-0">Dark or empty areas in vision:</h6>
+									<p>You may notice dark spots or areas where your vision seems to be missing, which can indicate bleeding or damage to the retina.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Decreased brightness or intensity of colours:</h6>
-									<p>Colors may appear less vibrant or faded.</p>
+									<h6 class="m-0">Difficulty seeing at night:</h6>
+									<p>Your night vision may worsen, making it challenging to see in low-light conditions.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Increased sensitivity to glare:</h6>
-									<p>Bright lights or glare may cause discomfort or difficulty seeing.</p>
+									<h6 class="m-0">Loss of central vision: </h6>
+									<p>In advanced stages of diabetic retinopathy, you may experience a loss of central vision, which can significantly impact your ability to read, drive, or recognize faces.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Difficulty adapting to low light conditions: </h6>
-									<p>Vision may worsen in dim lighting or at night.</p>
+									<h6 class="m-0">Color vision changes:</h6>
+									<p>You may have difficulty distinguishing between colors or notice changes in how colors appear to you.</p>
 								</div>
 							</li>
 						</ul>
@@ -120,65 +121,47 @@
 				<div class="col-12">
 					<div class="">
 						<h2>Common Fears and Concerns</h2>
-						<ul class="row list-unstyled">
+						<ul class="row">
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Loss of Independence:</h6>
-									<p>Fear of losing independence due to muscle weakness and reduced mobility, impacting daily activities like walking and household chores.</p>
+									<h6 class="m-0">Vision Loss:</h6>
+									<p>The primary fear is losing vision due to diabetic retinopathy, potentially leading to partial or complete blindness without treatment, impacting daily life significantly.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Increased Risk of Falls:</h6>
-									<p>Weak muscles and reduced balance increase the risk of falls and fractures, raising concerns about injury and safety.</p>
+									<h6 class="m-0">Disease Progression: </h6>
+									<p>Concerns about how quickly the disease progresses, leading to worsening symptoms and more severe vision problems over time.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">A Decline in Quality of Life:</h6>
-									<p>Sarcopenia leads to limitations in physical activities, social interactions, and hobbies, impacting the overall quality of life.</p>
+									<h6 class="m-0">Treatment Effectiveness:</h6>
+									<p>Worries about whether treatments like laser therapy or injections can stop disease progression or if invasive surgeries may be needed in the future.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Functional Limitations:</h6>
-									<p>Muscle weakness causes difficulty in lifting objects, reaching overhead, or maintaining posture, affecting work and leisure activities.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Impact on Mental Health:</h6>
-									<p> Chronic pain, decreased mobility, and loss of independence contribute to frustration, anxiety, and depression.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Nutritional Concerns:</h6>
-									<p>Maintaining muscle mass requires adequate nutrition, raising concerns about inadequate protein intake and malnutrition.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Medical Complications: </h6>
-									<p>Weak muscles can lead to issues like difficulty swallowing or breathing, especially in severe cases.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Impact on Chronic Diseases:</h6>
-									<p>Sarcopenia exacerbates effects of chronic conditions like diabetes, cardiovascular disease, and osteoporosis.</p>
+									<h6 class="m-0">Impact on Daily Life:</h6>
+									<p>Diabetic retinopathy affects daily activities like driving, reading, and recognizing faces, leading to fears of losing independence and normal functioning.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
 									<h6 class="m-0">Financial Burden:</h6>
-									<p>Managing sarcopenia may require ongoing medical care, therapy, or home modifications, causing financial concerns.</p>
+									<p> Managing the condition requires frequent eye exams, treatments, and medications, raising concerns about the cost of care and access to necessary services.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Social Isolation: </h6>
-									<p>Reduced mobility and limited social participation contribute to feelings of isolation and loneliness, impacting mental well-being.</p>
+									<h6 class="m-0">Emotional Well-being: </h6>
+									<p>Dealing with diabetic retinopathy can cause fear, anxiety, and depression due to uncertainty about disease progression and its impact on vision and overall life quality.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Preventive Measures:</h6>
+									<p>Patients worry about how to prevent or slow down diabetic retinopathy, focusing on effective diabetes management, lifestyle changes, and adherence to medical recommendations for vision protection.</p>
 								</div>
 							</li>
 						</ul>
@@ -404,62 +387,72 @@
 							<div class="col-12">
 								<div class="vs-accordion accordion accordion-style2" id="vs-faq-accordion">
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Regenerative Potential</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Expert Team</button></h2>
 										<div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion" style="">
 											<div class="accordion-body">
 												<p>
-													StemRx harnesses the regenerative power of stem cells to repair and regenerate damaged muscle tissue. This approach goes beyond symptom management to address the underlying causes of muscular degeneration.
+													Includes ophthalmologists, retinal specialists, and endocrinologists.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Personalized Treatment Plans</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Advanced Diagnostics</button></h2>
 										<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													Each patient receives personalized treatment based on their unique medical history and condition. This tailored approach enhances treatment efficacy and minimizes potential side effects.
+													Utilizes OCT, fluorescein angiography, and fundus photography.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Long-Term Results</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Comprehensive Treatments</button></h2>
 										<div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													By promoting tissue regeneration, StemRx aims to achieve long-lasting results, potentially offering sustained improvement in muscle function and overall quality of life.
+													Offers laser therapy, intravitreal injections, and surgical interventions.
 												</p>
 											</div>
 										</div>
 									</div>
 
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Minimally Invasive Procedures</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Research and Innovation</button></h2>
 										<div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx utilizes minimally invasive procedures for stem cell delivery, reducing patient discomfort and recovery time compared to invasive surgeries.
+													Engages in clinical trials and develops new treatments.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Comprehensive Care</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Multidisciplinary Approach</button></h2>
 										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx provides comprehensive care, combining stem cell therapy with holistic approaches such as physical therapy, nutrition counseling, and lifestyle modifications to optimize patient outcomes.
+													Collaborates with various healthcare professionals for holistic care.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Ongoing Research & Innovation</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Patient Education</button></h2>
 										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx is backed by ongoing research and innovation, ensuring that patients have access to the latest advancements in stem cell therapy for muscular degeneration.
+													Prioritizes education and support for managing diabetes and eye health.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Long-Term Management</button></h2>
+										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													Provides ongoing monitoring and treatment adjustments for optimal outcomes.
 												</p>
 											</div>
 										</div>

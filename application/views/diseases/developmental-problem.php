@@ -26,8 +26,7 @@
 			<div class="col-xl-9 col-12">
 				<div class="row justify-content-center">
 				<div class="col-lg-2 col-md-4 col-6">
-							<!-- <a href="<?= base_url('condition/developmental-problem/muscular-dystrophy') ?>" class="text-center"> -->
-							<a href="javascript:void(0)" class="text-center">
+							<a href="<?= base_url('condition/developmental-problem/muscular-dystrophy') ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body p-5">
 										<img src="<?= base_url("assets/img/icons/color/diseases/dystrophy.png") ?>" alt="Muscular Dystrophy" class="w-100">
@@ -38,8 +37,7 @@
 						</div>
 						
 						<div class="col-lg-2 col-md-4 col-6">
-							<!-- <a href="<?= base_url('condition/developmental-problem/congenital-myopathy') ?>" class="text-center"> -->
-							<a href="javascript:void(0)" class="text-center">
+							<a href="<?= base_url('condition/developmental-problem/congenital-myopathy') ?>" class="text-center">
 								<div class="card bg-white sp-item mb-2">
 									<div class="card-body p-5">
 										<img src="<?= base_url("assets/img/icons/color/diseases/weakness.png") ?>" alt="Congenital Myopathies" class="w-100">

@@ -4,12 +4,12 @@
 		<div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Congenital Myopathies</h1>
+				<h1 class="breadcumb-title">Age-related Macular Degeneration (AMD)</h1>
 				<div class="breadcumb-menu-wrap">
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="index.html">Home</a></li>
-						<li class="active">Congenital Myopathies</li>
+						<li class="active">Age-related Macular Degeneration (AMD)</li>
 					</ul>
 				</div>
 			</div>
@@ -25,10 +25,10 @@
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
 							<picture>
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/webp">
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/jpg">
-								<source srcset="https://placehold.co/800x800" type="image/webp">
-								<img src="https://placehold.co/800x800" alt="Service Image" class="w-100">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/amd_1200x600.webp" type="image/webp">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/amd_1200x600.jpg" type="image/jpg">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/amd_800x800.jpg" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/amd_800x800.jpg" alt="Service Image" class="w-100">
 							</picture>
 						</div>
 						<div class="row justify-content-center">
@@ -37,7 +37,7 @@
 									<div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
 										<div class="col-sm-6 col-lg-auto">
 											<span class="fs-xs">Condition Name</span>
-											<h2 class="h5 mb-0">Congenital Myopathies</h2>
+											<h2 class="h5 mb-0">Age-related Macular Degeneration (AMD)</h2>
 										</div>
 
 										<div class="col-sm-6 col-lg-auto">
@@ -58,9 +58,9 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="">
-						<h2 class="h1">Revolutionizing Care: StemRx Hospital Leads Breakthroughs in Congenital Myopathy Treatment!</h2>
+						<h2 class="h1">Revitalize Your Strength: StemRx Hospital's Breakthrough Solutions for Age-Related Muscle Degeneration</h2>
 						<p class="fs-md mb-4 pb-2">
-							Congenital myopathy is a rare genetic disorder affecting skeletal muscle function from birth. StemRx Hospital specializes in treating this condition, offering comprehensive care tailored to each patient's needs. Symptoms include muscle weakness, poor muscle tone, and difficulty swallowing or breathing. Our multidisciplinary team provides expert diagnosis through genetic testing and offers personalized treatment plans, including physical therapy and respiratory support. With our cutting-edge research and advanced therapies, StemRx Hospital aims to improve patients' quality of life and enhance their mobility. Trust us for compassionate care and innovative solutions in managing congenital myopathy.
+							Age-related macular degeneration (AMD) is a progressive eye disease that affects millions worldwide, particularly those over 50. It causes damage to the macula, a part of the retina crucial for sharp central vision. AMD can lead to blurriness, dark spots, or distortion in the center of vision, making tasks like reading or driving challenging. There are two types: dry AMD, which progresses slowly and wet AMD, which advances rapidly and can cause severe vision loss. While there is no cure, early detection and treatment can help manage symptoms and preserve vision, highlighting the importance of regular eye exams for seniors.
 						</p>
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 					<div class="">
 						<h2>Symptoms</h2>
 						<p>
-							Here are the key symptoms of Congenital Myopathy:
+							Here are the key symptoms of AMD:
 						</p>
 						<ul class="row list-unstyled">
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">

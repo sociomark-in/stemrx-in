@@ -4,12 +4,12 @@
 		<div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Congenital Myopathies</h1>
+				<h1 class="breadcumb-title">Cataract</h1>
 				<div class="breadcumb-menu-wrap">
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="index.html">Home</a></li>
-						<li class="active">Congenital Myopathies</li>
+						<li class="active">Cataract</li>
 					</ul>
 				</div>
 			</div>
@@ -25,10 +25,10 @@
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
 							<picture>
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/webp">
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/jpg">
-								<source srcset="https://placehold.co/800x800" type="image/webp">
-								<img src="https://placehold.co/800x800" alt="Service Image" class="w-100">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/cataract_1200x600.webp" type="image/webp">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/cataract_1200x600.jpg" type="image/jpg">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/cataract_800x800.jpg" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/cataract_800x800.jpg" alt="Service Image" class="w-100">
 							</picture>
 						</div>
 						<div class="row justify-content-center">
@@ -37,7 +37,7 @@
 									<div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
 										<div class="col-sm-6 col-lg-auto">
 											<span class="fs-xs">Condition Name</span>
-											<h2 class="h5 mb-0">Congenital Myopathies</h2>
+											<h2 class="h5 mb-0">Cataract</h2>
 										</div>
 
 										<div class="col-sm-6 col-lg-auto">
@@ -58,53 +58,65 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="">
-						<h2 class="h1">Revolutionizing Care: StemRx Hospital Leads Breakthroughs in Congenital Myopathy Treatment!</h2>
+						<h2 class="h1">See Clearly Again: StemRx Hospital's Revolutionary Cataract Treatment Shines Bright!</h2>
 						<p class="fs-md mb-4 pb-2">
-							Congenital myopathy is a rare genetic disorder affecting skeletal muscle function from birth. StemRx Hospital specializes in treating this condition, offering comprehensive care tailored to each patient's needs. Symptoms include muscle weakness, poor muscle tone, and difficulty swallowing or breathing. Our multidisciplinary team provides expert diagnosis through genetic testing and offers personalized treatment plans, including physical therapy and respiratory support. With our cutting-edge research and advanced therapies, StemRx Hospital aims to improve patients' quality of life and enhance their mobility. Trust us for compassionate care and innovative solutions in managing congenital myopathy.
+							Cataract is a common eye condition that clouds the eye's natural lens, leading to blurred vision and eventual vision loss if untreated. It often develops slowly and can affect one or both eyes. Age-related cataracts are most common, but factors like diabetes, smoking, and UV radiation can also contribute. Symptoms include cloudy or dim vision, sensitivity to light, and difficulty seeing at night. Treatment involves surgery to remove the cloudy lens and replace it with an artificial one, restoring clear vision. Regular eye exams are crucial for early detection and management of cataracts, preserving long-term eye health.
 						</p>
 					</div>
-				</div>
-				<div class="col-12">
 					<div class="">
 						<h2>Symptoms</h2>
 						<p>
-							Here are the key symptoms of Congenital Myopathy:
+							Here are the key symptoms of Cataract:
 						</p>
-						<ul class="row list-unstyled">
+						<ul class="row">
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Blurred or distorted central vision:</h6>
-									<p>Straight lines may appear wavy or distorted, and central vision may become progressively blurry.</p>
+									<h6 class="m-0">Blurry or cloudy vision.</h6>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Dark or empty areas in central vision:</h6>
-									<p>A blind spot may develop in the centre of your vision, making it difficult to see clearly.</p>
+									<h6 class="m-0">Sensitivity to glare, especially from lights.</h6>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Difficulty reading or recognizing faces:</h6>
-									<p>Reading small print or recognizing faces can become challenging due to central vision loss.</p>
+									<h6 class="m-0">Difficulty seeing at night.</h6>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Decreased brightness or intensity of colours:</h6>
-									<p>Colors may appear less vibrant or faded.</p>
+									<h6 class="m-0">Colours appear faded or yellowed.</h6>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Increased sensitivity to glare:</h6>
-									<p>Bright lights or glare may cause discomfort or difficulty seeing.</p>
+									<h6 class="m-0">Double vision in one eye.</h6>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Difficulty adapting to low light conditions: </h6>
-									<p>Vision may worsen in dim lighting or at night.</p>
+									<h6 class="m-0">Frequent changes in eyeglass or contact lens prescription.</h6>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
+								<div class="">
+									<h6 class="m-0">Halos around lights.</h6>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
+								<div class="">
+									<h6 class="m-0">Reduced contrast sensitivity, making it hard to distinguish objects.</h6>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
+								<div class="">
+									<h6 class="m-0">Need for brighter light for reading or other activities.</h6>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
+								<div class="">
+									<h6 class="m-0">Seeing "halos" around lights.</h6>
 								</div>
 							</li>
 						</ul>
@@ -120,65 +132,66 @@
 				<div class="col-12">
 					<div class="">
 						<h2>Common Fears and Concerns</h2>
-						<ul class="row list-unstyled">
+
+						<ul class="row">
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Loss of Independence:</h6>
-									<p>Fear of losing independence due to muscle weakness and reduced mobility, impacting daily activities like walking and household chores.</p>
+									<h6 class="m-0">Vision Impairment:</h6>
+									<p>One of the primary concerns with cataracts is the gradual loss of vision. People worry about not being able to see clearly, which can impact their daily activities such as reading, driving, or even recognizing faces.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Increased Risk of Falls:</h6>
-									<p>Weak muscles and reduced balance increase the risk of falls and fractures, raising concerns about injury and safety.</p>
+									<h6 class="m-0">Impact on Quality of Life:</h6>
+									<p>Cataracts can significantly affect a person's quality of life. There's a fear of losing independence and not being able to enjoy hobbies or engage in social activities due to vision limitations.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">A Decline in Quality of Life:</h6>
-									<p>Sarcopenia leads to limitations in physical activities, social interactions, and hobbies, impacting the overall quality of life.</p>
+									<h6 class="m-0">Safety Concerns:</h6>
+									<p>Reduced vision due to cataracts can pose safety risks, especially when performing tasks like walking on uneven surfaces, navigating stairs, or driving. Fear of accidents or injuries is a common concern.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Functional Limitations:</h6>
-									<p>Muscle weakness causes difficulty in lifting objects, reaching overhead, or maintaining posture, affecting work and leisure activities.</p>
+									<h6 class="m-0">Dependency on Others:</h6>
+									<p>As cataracts progress, individuals may become more reliant on others for assistance with daily tasks. This can lead to feelings of helplessness and fear of burdening loved ones.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Impact on Mental Health:</h6>
-									<p> Chronic pain, decreased mobility, and loss of independence contribute to frustration, anxiety, and depression.</p>
+									<h6 class="m-0">Surgical Concerns:</h6>
+									<p> For those considering cataract surgery, there are fears related to the procedure itself, such as complications, pain, or the outcome not meeting expectations. Some people are also anxious about the cost of surgery and recovery time.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Nutritional Concerns:</h6>
-									<p>Maintaining muscle mass requires adequate nutrition, raising concerns about inadequate protein intake and malnutrition.</p>
+									<h6 class="m-0">Emotional Impact: </h6>
+									<p>Dealing with vision loss can have emotional consequences, including anxiety, depression, or feelings of frustration and isolation. Fear of these emotional challenges is another aspect of cataract-related concerns.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Medical Complications: </h6>
-									<p>Weak muscles can lead to issues like difficulty swallowing or breathing, especially in severe cases.</p>
+									<h6 class="m-0">Financial Burden: </h6>
+									<p>Depending on the healthcare system and insurance coverage, the cost of cataract diagnosis, treatment, and follow-up care can be a significant worry for individuals and their families.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Impact on Chronic Diseases:</h6>
-									<p>Sarcopenia exacerbates effects of chronic conditions like diabetes, cardiovascular disease, and osteoporosis.</p>
+									<h6 class="m-0">Delay in Treatment:</h6>
+									<p>Some people may delay seeking treatment for cataracts due to fear of the unknown, concerns about surgery, or misinformation about the effectiveness of treatment options. Delaying treatment can worsen vision problems over time.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Financial Burden:</h6>
-									<p>Managing sarcopenia may require ongoing medical care, therapy, or home modifications, causing financial concerns.</p>
+									<h6 class="m-0">Impact on Work/Productivity:</h6>
+									<p>For those still in the workforce, cataracts can affect job performance and productivity. There may be concerns about job security, ability to perform tasks effectively, or discrimination based on vision impairment.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Social Isolation: </h6>
-									<p>Reduced mobility and limited social participation contribute to feelings of isolation and loneliness, impacting mental well-being.</p>
+									<h6 class="m-0">Long-term Vision Health:</h6>
+									<p>Beyond cataracts, individuals may worry about the overall health of their eyes and the risk of developing other eye conditions or complications in the future.</p>
 								</div>
 							</li>
 						</ul>
@@ -400,66 +413,80 @@
 					<div class="about-content">
 						<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
 						<h2 class="h1 mb-3">We're Here For You</h2>
+						<p>
+							StemRx Hospital offers several key advantages and unique points for cataract treatment that set it apart from other healthcare providers:
+						</p>
 						<div class="row">
 							<div class="col-12">
 								<div class="vs-accordion accordion accordion-style2" id="vs-faq-accordion">
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Regenerative Potential</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Advanced Technology</button></h2>
 										<div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion" style="">
 											<div class="accordion-body">
 												<p>
-													StemRx harnesses the regenerative power of stem cells to repair and regenerate damaged muscle tissue. This approach goes beyond symptom management to address the underlying causes of muscular degeneration.
+													StemRx Hospital is equipped with state-of-the-art technology for cataract diagnosis and treatment. This includes high-resolution imaging systems and advanced surgical tools that ensure precision and optimal outcomes.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Personalized Treatment Plans</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Expert Team</button></h2>
 										<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													Each patient receives personalized treatment based on their unique medical history and condition. This tailored approach enhances treatment efficacy and minimizes potential side effects.
+													The hospital has a team of highly skilled ophthalmologists and surgeons specializing in cataract treatment. They have extensive experience in performing cataract surgeries using the latest techniques, such as phacoemulsification, which leads to faster recovery times for patients.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Long-Term Results</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Personalized Care</button></h2>
 										<div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													By promoting tissue regeneration, StemRx aims to achieve long-lasting results, potentially offering sustained improvement in muscle function and overall quality of life.
+													StemRx Hospital prioritizes personalized care for each patient. They conduct thorough evaluations to customize treatment plans according to individual needs and ensure the best possible visual outcomes.
 												</p>
 											</div>
 										</div>
 									</div>
 
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Minimally Invasive Procedures</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Quality Assurance</button></h2>
 										<div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx utilizes minimally invasive procedures for stem cell delivery, reducing patient discomfort and recovery time compared to invasive surgeries.
+													The hospital maintains strict quality assurance protocols to ensure safety and effectiveness in cataract procedures. This includes pre-operative assessments, surgical protocols, and post-operative follow-ups to monitor patient progress and satisfaction.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Comprehensive Care</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Patient-Centric Approach</button></h2>
 										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx provides comprehensive care, combining stem cell therapy with holistic approaches such as physical therapy, nutrition counseling, and lifestyle modifications to optimize patient outcomes.
+													StemRx Hospital is known for its patient-centric approach. They prioritize patient comfort, education, and support throughout the treatment journey, providing clear information, answering questions, and addressing concerns at every step.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Ongoing Research & Innovation</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Comprehensive Services</button></h2>
 										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx is backed by ongoing research and innovation, ensuring that patients have access to the latest advancements in stem cell therapy for muscular degeneration.
+													In addition to cataract treatment, StemRx Hospital offers a range of comprehensive eye care services, including the management of other eye conditions and diseases. This integrated approach ensures continuity of care and comprehensive solutions for patients.
+
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Focus on Innovation</button></h2>
+										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													StemRx Hospital is committed to staying at the forefront of medical innovation. They regularly update their practices and adopt emerging technologies to enhance the quality of care and outcomes for cataract patients.
 												</p>
 											</div>
 										</div>

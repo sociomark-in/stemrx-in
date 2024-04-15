@@ -102,9 +102,9 @@
 					<a href="#">In Media</a>
 					<ul class="sub-menu">
 						<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
-						<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 						<li><a href="javascript:void()">Our Webinar </a></li>
 						<li><a href="<?= base_url("pr-articles") ?>">Press Releases</a></li>
+						<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 						<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 					</ul>
 				</li>
@@ -254,8 +254,8 @@
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/developmental-problem">Developmental Problems</a>
 												<ul class="sub-menu">
-													<li><a href="javascript:void()">Muscular Dystrophy</a></li>
-													<li><a href="javascript:void()">Congenital Myopathies</a></li>
+													<li><a href="<?= base_url() ?>condition/developmental-problem/muscular-dystrophy">Muscular Dystrophy</a></li>
+													<li><a href="<?= base_url() ?>condition/developmental-problem/congenital-myopathy">Congenital Myopathies</a></li>
 													<li><a href="<?= base_url() ?>condition/developmental-problem/adhd">ADHD</a></li>
 												</ul>
 											</li>
@@ -288,10 +288,10 @@
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/eye-care">Eye Care</a>
 												<ul class="sub-menu">
-													<li><a href="javascript:void()">Diabetic Retinopathy</a></li>
-													<li><a href="javascript:void()">Cataract</a></li>
-													<li><a href="javascript:void()">Glaucoma</a></li>
-													<li><a href="javascript:void()">Age-related macular degeneration (AMD) </a></li>
+													<li><a href="<?= base_url('condition/eye-care/') ?>diabetic-retinopathy">Diabetic Retinopathy</a></li>
+													<li><a href="<?= base_url('condition/eye-care/') ?>cataract">Cataract</a></li>
+													<li><a href="<?= base_url('condition/eye-care/') ?>glaucoma">Glaucoma</a></li>
+													<li><a href="<?= base_url('condition/eye-care/') ?>amd">Age-related macular degeneration (AMD) </a></li>
 													<li><a href="javascript:void()">Optic Nerve Injury</a></li>
 												</ul>
 											</li>
@@ -396,9 +396,9 @@
 										<a href="#">In Media&nbsp;</a>
 										<ul class="sub-menu">
 											<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
-											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 											<li><a href="javascript:void()">Our Webinar </a></li>
 											<li><a href="<?= base_url("pr-articles") ?>">Press Releases</a></li>
+											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 											<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 										</ul>
 									</li>

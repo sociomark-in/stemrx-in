@@ -24,12 +24,11 @@
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
 							<picture>
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/webp">
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/jpg">
-								<source srcset="https://placehold.co/800x800" type="image/webp">
-								<img src="https://placehold.co/1200x600" alt="Disease Image" class="w-100">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/muscular_dystrophy_1200x600.webp" type="image/webp">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/muscular_dystrophy_1200x600.jpg" type="image/jpg">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/muscular_dystrophy_800x800.jpg" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/muscular_dystrophy_800x800.jpg" alt="Service Image" class="w-100">
 							</picture>
-
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-xl-11 col-xxl-10 ">
@@ -144,6 +143,7 @@
 			</div>
 		</div>
 	</section>
+
 	<!-- PENDING -->
 	<section class="vs-detail-wrapper space-bottom">
 		<div class="container">
@@ -154,44 +154,50 @@
 						<ul class="row">
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Fear of complications:</h6>
-									<p>Individuals with diabetes often fear the long-term complications such as nerve damage, kidney disease, and vision problems.</p>
+									<h6 class="m-0">Progressive Loss of Mobility:</h6>
+									<p>Fear of losing independence and needing assistance with daily activities due to worsening mobility.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Hypoglycemia:</h6>
-									<p>The fear of low blood sugar episodes, which can lead to dizziness, confusion, and even unconsciousness, is a common concern among diabetics.</p>
+									<h6 class="m-0">Decreased Quality of Life:</h6>
+									<p>Impact on physical abilities and emotional well-being, limiting activities and social interactions.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Managing blood sugar levels:</h6>
-									<p> Many individuals with diabetes worry about becoming dependent on medication to manage their condition, with concerns about side effects and long-term impacts.</p>
+									<h6 class="m-0">Medical Complications:</h6>
+									<p>Risks of respiratory issues, heart problems, and skeletal deformities, affecting health and longevity.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Lifestyle limitations:</h6>
-									<p>Fear of having to restrict or alter lifestyle habits such as diet and exercise due to diabetes management requirements is prevalent.</p>
+									<h6 class="m-0">Financial Burden:</h6>
+									<p>Managing the condition requires costly medical care, equipment, and treatments, leading to financial strain.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Social stigma:</h6>
-									<p> Some people with diabetes fear judgment or discrimination from others due to misconceptions about the condition, leading to social anxiety and isolation.</p>
+									<h6 class="m-0">Impact on Relationships:</h6>
+									<p>Strain on relationships with loved ones, fear of becoming a burden, and social isolation.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Financial strain:</h6>
-									<p>Managing diabetes can be costly due to expenses associated with medications, supplies, and healthcare services, leading to concerns about financial stability.</p>
+									<h6 class="m-0">Uncertainty about the Future:</h6>
+									<p>Anxiety about how the disease will progress, affecting mobility, independence, and overall health.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Fear of the unknown:</h6>
-									<p>Uncertainty about the future progression of the disease and its potential impact on overall health and quality of life can cause anxiety and distress.</p>
+									<h6 class="m-0">Access to Resources and Support: </h6>
+									<p>Concerns about accessing necessary medical care, assistive devices, and support services.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Emotional Impact:</h6>
+									<p>Coping with physical limitations leads to fears of depression, anxiety, and emotional struggles, adding to the challenges of living with a chronic illness.</p>
 								</div>
 							</li>
 						</ul>
@@ -271,48 +277,34 @@
 							<div class="col-xl-10 pb-md-1">
 								<p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p>
 							</div>
-							<!-- <div class="col-md-6 col-lg-5 col-xl-4">
-								<ul class="vs-list list-unstyled text-title">
-									<li>99% success rate</li>
-									<li>100% Confidential</li>
-									<li>Affordable Fees</li>
-								</ul>
-							</div>
-							<div class="col-md-6 col-lg-5 col-xl-5">
-								<ul class="vs-list list-unstyled text-title">
-									<li>Free Consultation</li>
-									<li>Expert surveillance agents</li>
-									<li>Over 50 years experience</li>
-								</ul>
-							</div> -->
 							<div class="col-12">
 								<div class="vs-accordion accordion accordion-style2" id="vs-faq-accordion">
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Cutting-edge Stem Cell Therapy</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Specialized Expertise</button></h2>
 										<div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion" style="">
 											<div class="accordion-body">
 												<p>
-													StemRx Hospital specializes in innovative stem cell therapy for diabetes management. This therapy holds promise for regenerating damaged pancreatic cells, potentially reducing or eliminating the need for insulin injections and improving overall blood sugar control.
+													Boasting world-renowned experts in muscular dystrophy research and treatment, ensuring advanced and tailored patient care.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Personalized Treatment Plans</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Innovative Stem Cell Therapies</button></h2>
 										<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													The hospital prides itself on creating personalized treatment plans for each patient. By considering individual factors such as age, lifestyle, and severity of diabetes, they tailor interventions to maximize effectiveness and long-term outcomes.
+													Utilizing pioneering stem cell therapies to repair damaged muscle tissue and enhance patients' quality of life.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Multidisciplinary Team Approach</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Comprehensive Care</button></h2>
 										<div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx employs a multidisciplinary team of experts including endocrinologists, stem cell researchers, nutritionists, and psychologists. This collaborative approach ensures comprehensive care addressing not only the physical aspects of diabetes but also the psychological and lifestyle factors that impact it.
+													Offering holistic support addressing physical, emotional, and social aspects of living with muscular dystrophy, providing invaluable patient and family support.
 												</p>
 											</div>
 										</div>
@@ -322,27 +314,47 @@
 										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx Hospital is equipped with state-of-the-art facilities, including advanced diagnostic tools and treatment equipment. This enables the hospital to deliver cutting-edge therapies and ensure the highest standards of care for patients with diabetes.
+													Equipped with cutting-edge medical technology for enhanced diagnosis and treatment.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Holistic Approach to Wellness</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Research and Collaboration</button></h2>
 										<div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx recognizes the importance of holistic wellness in diabetes management. In addition to medical interventions, they offer complementary therapies such as acupuncture, and stress management techniques to support overall well-being.
+													Actively engaging in research to advance understanding and treatment of muscular dystrophy, collaborating with leading institutions to offer the most promising therapies.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Track Record of Success</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Patient-Centered Approach</button></h2>
 										<div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx Hospital has a track record of success in helping patients achieve significant improvements in their diabetes management. Testimonials and success stories from satisfied patients attest to the effectiveness of their approach.
+													Prioritizing individualized care plans tailored to each patient's unique needs, fostering a supportive healthcare environment.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">Continuing Education and Outreach</button></h2>
+										<div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													Dedicated to raising awareness and empowering patients and families through educational programs and community outreach initiatives.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">Commitment to Excellence</button></h2>
+										<div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													Upholding the highest standards in patient care, continuously striving for improvement and innovation to enhance patient outcomes and quality of life.
 												</p>
 											</div>
 										</div>

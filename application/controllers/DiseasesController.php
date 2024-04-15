@@ -43,7 +43,7 @@ class DiseasesController extends CI_Controller
 			case "pain-care":
 				$this->data['page'] = [
 					'title' => "Effective Pain Care Solutions: Visit Our Pain Management Clinic Today" . " - " . APP_NAME,
-					'description' =>"Seeking relief from pain? Our pain management clinic offers effective solutions for various types of pain. Visit us now for personalized care and relief."
+					'description' => "Seeking relief from pain? Our pain management clinic offers effective solutions for various types of pain. Visit us now for personalized care and relief."
 				];
 				$this->load->load_view('diseases/pain-care', $this->data);
 				break;
@@ -120,7 +120,7 @@ class DiseasesController extends CI_Controller
 					case 'developmental-delay':
 						$this->data['page'] = [
 							'title' => "Development Delay Treatment: Mumbai, India - StemRx Hospital" . " - " . APP_NAME,
-							'description' =>"Expert care for developmental delay at StemRx Hospital in Mumbai. Our specialists offer effective treatment for better progress. Trust us for your loved one's growth."
+							'description' => "Expert care for developmental delay at StemRx Hospital in Mumbai. Our specialists offer effective treatment for better progress. Trust us for your loved one's growth."
 						];
 						$this->load->load_view('diseases/condition/neural/developmental-delay', $this->data);
 						break;
@@ -148,9 +148,8 @@ class DiseasesController extends CI_Controller
 						];
 						$this->load->load_view('diseases/condition/neural/neurogenetic-disorder', $this->data);
 						break;
-
 					default:
-						redirect('condition/neural');
+						show_404();
 						break;
 				}
 				break;
@@ -172,9 +171,8 @@ class DiseasesController extends CI_Controller
 						# code...
 						$this->load->load_view('diseases/condition/infertility/pcod-detail', $this->data);
 						break;
-
 					default:
-						redirect('condition/infertility');
+						show_404();
 						break;
 				}
 				break;
@@ -199,9 +197,8 @@ class DiseasesController extends CI_Controller
 						];
 						$this->load->load_view('diseases/condition/metabolic/obesity', $this->data);
 						break;
-
 					default:
-						redirect("condition/metabolic-diseases");
+						show_404();
 						break;
 				}
 				break;
@@ -232,9 +229,8 @@ class DiseasesController extends CI_Controller
 						];
 						$this->load->load_view('diseases/condition/pain-care/avascular-necrosis', $this->data);
 						break;
-
 					default:
-						redirect("condition/metabolic-diseases");
+						show_404();
 						break;
 				}
 				break;
@@ -250,13 +246,13 @@ class DiseasesController extends CI_Controller
 						break;
 					case 'congenital-myopathy':
 						$this->data['page'] = [
-							'title' => "congenital-myopathy" . " - " . APP_NAME
+							'title' => "Congenital Myopathy" . " - " . APP_NAME
 						];
 						$this->load->load_view('diseases/condition/developmental/congenital-myopathy', $this->data);
 						break;
 					case 'autism-spectrum-disorder':
 						$this->data['page'] = [
-							'title' => "autism-spectrum Disorder" . " - " . APP_NAME
+							'title' => "Autism Spectrum Disorder" . " - " . APP_NAME
 						];
 						$this->load->load_view('diseases/condition/developmental/autism-spectrum', $this->data);
 
@@ -270,7 +266,7 @@ class DiseasesController extends CI_Controller
 						break;
 
 					default:
-						redirect('condition/developmental-problem');
+						show_404();
 						break;
 				}
 				break;
@@ -283,9 +279,8 @@ class DiseasesController extends CI_Controller
 						];
 						$this->load->load_view('diseases/condition/chromosomal-disorder/trisomy-21', $this->data);
 						break;
-
 					default:
-						redirect('condition/chromosomal-disorder');
+						show_404();
 						break;
 				}
 				break;
@@ -310,22 +305,58 @@ class DiseasesController extends CI_Controller
 						];
 						$this->load->load_view('diseases/condition/dermatology/alopecia-areata', $this->data);
 						break;
-					// case 'vitiligo':
-					// 	$this->data['page'] = [
-					// 		'title' => "Alopecia Areata" . " - " . APP_NAME
-					// 	];
-					// 	$this->load->load_view('diseases/condition/dermatology/vitiligo', $this->data);
-					// 	break;
-
+						// case 'vitiligo':
+						// 	$this->data['page'] = [
+						// 		'title' => "Alopecia Areata" . " - " . APP_NAME
+						// 	];
+						// 	$this->load->load_view('diseases/condition/dermatology/vitiligo', $this->data);
+						// 	break;
 					default:
-						redirect('condition/dermatology-care');
+						show_404();
 						break;
 				}
 				break;
 
+			case 'eye-care':
+				switch ($condition) {
+					case 'diabetic-retinopathy':
+						$this->data['page'] = [
+							'title' => "Diabetic Ratinopathy" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/eye/ratinopathy', $this->data);
+						break;
+					case 'cataract':
+						$this->data['page'] = [
+							'title' => "Cataract" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/eye/cataract', $this->data);
+						break;
+					case 'glaucoma':
+						$this->data['page'] = [
+							'title' => "Glaucoma" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/eye/glaucoma', $this->data);
+						break;
+					case 'amd':
+						$this->data['page'] = [
+							'title' => "Age-related Macular Degeneration - AMD" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/eye/amd', $this->data);
+						break;
+					case 'optic-nerve-injury':
+						$this->data['page'] = [
+							'title' => "Optic Nerve Injury" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/eye/optic', $this->data);
+						break;
+					default:
+						show_404();
+						break;
+				}
+				break;
 
 			default:
-				redirect(base_url());
+				show_404();
 				break;
 		}
 	}

@@ -1,10 +1,10 @@
-<section class="booking_button-wrapper p-3">
+<section class="booking_button-wrapper">
 	<!-- <div class="mb-3 d-block d-md-none">
 		<button type="button" class="btn booking_button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-trigger="hover" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">
 			<i class="fa fa-calendar"></i>
 		</button>
 	</div> -->
-	<div class="mb-3">
+	<div class="">
 		<button type="button" class="btn vs-btn booking_button style3 style3-sm hover-white" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-trigger="hover" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">
 			<i class="fa fa-calendar"></i>&nbsp;&nbsp;Book Appointment
 		</button>

@@ -265,15 +265,15 @@ iframe {
 .header-top-info li i {
 	color: var(--white-color);
 }
-.main-menu ul li{
+.main-menu ul li {
 	margin: 0 10px;
-	.sub-menu li{
-		&:first-child{
+	.sub-menu li {
+		&:first-child {
 			margin: 0;
 		}
 	}
-	.mega-menu li{
-		&:first-child{
+	.mega-menu li {
+		&:first-child {
 			margin: 0 10px;
 		}
 	}
@@ -330,19 +330,56 @@ a {
 }
 .booking_button-wrapper {
 	position: fixed;
-	right: 0;
-	top: 75%;
-    transform: translate(6rem, -50%) rotate(-90deg);
 	z-index: 999;
+	right: unset;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 	.booking_button {
 		background-color: var(--theme-color3);
 		color: var(--white-color);
 		font-size: 1rem;
+		border-radius: 0;
+		text-align: center;
+		margin: 0;
+		
+		width: 100%;
+		&::before{
+			display: none;
+		}
+		.fa{
+			display: none;
+		}
+	}
+}
+@media screen and (min-width: 768px) {
+	.booking_button-wrapper {
+		right: 1rem;
+		left: unset;
+		bottom: 25%;
+		transform-origin: bottom center;
+		transform: translate(6rem, -50%) rotate(-90deg);
+		width: fit-content;
+		.booking_button{
+			border-radius: 3rem;
+			&::before{
+				display: block;
+			}
+			.fa{
+				display: block;
+			}
+		}
 	}
 }
 .style3-sm {
 	padding: 1rem;
 }
+
+.project-menu{
+	position: sticky;
+    top: 8rem;
+}
+
 .service-box .sr-icon {
 	&:has(img) {
 		margin: 0 auto;

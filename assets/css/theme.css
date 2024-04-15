@@ -11277,19 +11277,55 @@ a.icon-btn.style4 i {
 
 .booking_button-wrapper {
   position: fixed;
-  right: 0;
-  top: 75%;
-  transform: translate(6rem, -50%) rotate(-90deg);
   z-index: 999;
+  right: unset;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .booking_button-wrapper .booking_button {
   background-color: var(--theme-color3);
   color: var(--white-color);
   font-size: 1rem;
+  border-radius: 0;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+.booking_button-wrapper .booking_button::before {
+  display: none;
+}
+.booking_button-wrapper .booking_button .fa {
+  display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .booking_button-wrapper {
+    right: 1rem;
+    left: unset;
+    bottom: 25%;
+    transform-origin: bottom center;
+    transform: translate(6rem, -50%) rotate(-90deg);
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .booking_button-wrapper .booking_button {
+    border-radius: 3rem;
+  }
+  .booking_button-wrapper .booking_button::before {
+    display: block;
+  }
+  .booking_button-wrapper .booking_button .fa {
+    display: block;
+  }
+}
 .style3-sm {
   padding: 1rem;
+}
+
+.project-menu {
+  position: sticky;
+  top: 8rem;
 }
 
 .service-box .sr-icon:has(img) {

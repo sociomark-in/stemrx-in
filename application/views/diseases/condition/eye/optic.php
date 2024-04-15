@@ -4,12 +4,12 @@
 		<div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Congenital Myopathies</h1>
+				<h1 class="breadcumb-title">Optic Nerve Injury</h1>
 				<div class="breadcumb-menu-wrap">
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="index.html">Home</a></li>
-						<li class="active">Congenital Myopathies</li>
+						<li class="active">Optic Nerve Injury</li>
 					</ul>
 				</div>
 			</div>
@@ -25,10 +25,10 @@
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
 							<picture>
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/webp">
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/jpg">
-								<source srcset="https://placehold.co/800x800" type="image/webp">
-								<img src="https://placehold.co/800x800" alt="Service Image" class="w-100">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/retinopathy_1200x600.webp" type="image/webp">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/retinopathy_1200x600.jpg" type="image/jpg">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/retinopathy_800x800.jpg" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/retinopathy_800x800.jpg" alt="Service Image" class="w-100">
 							</picture>
 						</div>
 						<div class="row justify-content-center">
@@ -37,7 +37,7 @@
 									<div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
 										<div class="col-sm-6 col-lg-auto">
 											<span class="fs-xs">Condition Name</span>
-											<h2 class="h5 mb-0">Congenital Myopathies</h2>
+											<h2 class="h5 mb-0">Optic Nerve Injury</h2>
 										</div>
 
 										<div class="col-sm-6 col-lg-auto">
@@ -58,53 +58,57 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="">
-						<h2 class="h1">Revolutionizing Care: StemRx Hospital Leads Breakthroughs in Congenital Myopathy Treatment!</h2>
+						<h2 class="h1">Unlocking Hope, Restoring Lives: Discover the Future of Cerebral Palsy Care at StemRx Hospital and Research Centre.</h2>
 						<p class="fs-md mb-4 pb-2">
-							Congenital myopathy is a rare genetic disorder affecting skeletal muscle function from birth. StemRx Hospital specializes in treating this condition, offering comprehensive care tailored to each patient's needs. Symptoms include muscle weakness, poor muscle tone, and difficulty swallowing or breathing. Our multidisciplinary team provides expert diagnosis through genetic testing and offers personalized treatment plans, including physical therapy and respiratory support. With our cutting-edge research and advanced therapies, StemRx Hospital aims to improve patients' quality of life and enhance their mobility. Trust us for compassionate care and innovative solutions in managing congenital myopathy.
+							Cerebral palsy is a neurological disorder that affects movement, muscle tone, and coordination. It is caused by damage to the developing brain, usually before or during birth, although it can also occur in infancy or early childhood.
 						</p>
 					</div>
-				</div>
-				<div class="col-12">
 					<div class="">
 						<h2>Symptoms</h2>
 						<p>
-							Here are the key symptoms of Congenital Myopathy:
+							Here are the key symptoms of Cerebral palsy:
 						</p>
-						<ul class="row list-unstyled">
+						<ul class="row">
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Blurred or distorted central vision:</h6>
-									<p>Straight lines may appear wavy or distorted, and central vision may become progressively blurry.</p>
+									<h6 class="m-0">Muscle stiffness or weakness:</h6>
+									<p>Individuals with cerebral palsy may experience muscle stiffness, making movements difficult and rigid.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Dark or empty areas in central vision:</h6>
-									<p>A blind spot may develop in the centre of your vision, making it difficult to see clearly.</p>
+									<h6 class="m-0">Poor coordination:</h6>
+									<p>Coordination difficulties are common, affecting tasks such as walking, reaching, or grasping objects.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Difficulty reading or recognizing faces:</h6>
-									<p>Reading small print or recognizing faces can become challenging due to central vision loss.</p>
+									<h6 class="m-0">Abnormal reflexes:</h6>
+									<p>Reflexes may be exaggerated or diminished, leading to involuntary movements or abnormal posture.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Decreased brightness or intensity of colours:</h6>
-									<p>Colors may appear less vibrant or faded.</p>
+									<h6 class="m-0">Delayed milestones:</h6>
+									<p>Children with cerebral palsy may reach developmental milestones, such as sitting up or walking, later than their peers.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Increased sensitivity to glare:</h6>
-									<p>Bright lights or glare may cause discomfort or difficulty seeing.</p>
+									<h6 class="m-0">Spasticity:</h6>
+									<p>Some individuals may have spastic cerebral palsy, characterized by stiff, tight muscles that can interfere with movement.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
 								<div class="">
-									<h6 class="m-0">Difficulty adapting to low light conditions: </h6>
-									<p>Vision may worsen in dim lighting or at night.</p>
+									<h6 class="m-0">Ataxia:</h6>
+									<p>Others may have ataxic cerebral palsy, which causes problems with balance and coordination.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
+								<div class="">
+									<h6 class="m-0">Speech and communication difficulties:</h6>
+									<p>Many individuals with cerebral palsy may experience challenges with speech and language development.</p>
 								</div>
 							</li>
 						</ul>
@@ -120,80 +124,116 @@
 				<div class="col-12">
 					<div class="">
 						<h2>Common Fears and Concerns</h2>
-						<ul class="row list-unstyled">
+						<p>Living with cerebral palsy can evoke a range of fears and concerns that are deeply rooted in human emotions. These can include:</p>
+						<ul class="row">
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Loss of Independence:</h6>
-									<p>Fear of losing independence due to muscle weakness and reduced mobility, impacting daily activities like walking and household chores.</p>
+									<h6 class="m-0">Fear of exclusion and isolation:</h6>
+									<p>Individuals with cerebral palsy may fear being left out or marginalized by society due to their physical limitations or differences. The desire for acceptance and inclusion is a fundamental human need, and the fear of rejection can be deeply distressing.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Increased Risk of Falls:</h6>
-									<p>Weak muscles and reduced balance increase the risk of falls and fractures, raising concerns about injury and safety.</p>
+									<h6 class="m-0">Concerns about independence:</h6>
+									<p>Many individuals with cerebral palsy worry about their ability to live independently and perform everyday tasks without assistance. The fear of dependence on others can evoke feelings of helplessness and inadequacy, challenging their sense of autonomy and self-worth.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">A Decline in Quality of Life:</h6>
-									<p>Sarcopenia leads to limitations in physical activities, social interactions, and hobbies, impacting the overall quality of life.</p>
+									<h6 class="m-0">Anxiety about future health complications:</h6>
+									<p>The unpredictable nature of cerebral palsy and its potential for secondary health issues, such as muscle contractures or joint deformities, can generate significant anxiety. Fear of deterioration in health or increased pain and discomfort can weigh heavily on individuals with cerebral palsy and their loved ones.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Functional Limitations:</h6>
-									<p>Muscle weakness causes difficulty in lifting objects, reaching overhead, or maintaining posture, affecting work and leisure activities.</p>
+									<h6 class="m-0">Worries about social stigma and discrimination:</h6>
+									<p>The pervasive stigma surrounding disabilities can lead to fears of discrimination, prejudice, or ridicule. Concerns about being judged or misunderstood by others can erode self-confidence and contribute to social anxiety.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Impact on Mental Health:</h6>
-									<p> Chronic pain, decreased mobility, and loss of independence contribute to frustration, anxiety, and depression.</p>
+									<h6 class="m-0">Financial insecurity:</h6>
+									<p> Managing the costs associated with medical care, assistive devices, and therapies can be a source of significant stress for individuals with cerebral palsy and their families. Fear of financial instability or inability to afford necessary treatments can exacerbate feelings of uncertainty and vulnerability.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Nutritional Concerns:</h6>
-									<p>Maintaining muscle mass requires adequate nutrition, raising concerns about inadequate protein intake and malnutrition.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Medical Complications: </h6>
-									<p>Weak muscles can lead to issues like difficulty swallowing or breathing, especially in severe cases.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Impact on Chronic Diseases:</h6>
-									<p>Sarcopenia exacerbates effects of chronic conditions like diabetes, cardiovascular disease, and osteoporosis.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Financial Burden:</h6>
-									<p>Managing sarcopenia may require ongoing medical care, therapy, or home modifications, causing financial concerns.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Social Isolation: </h6>
-									<p>Reduced mobility and limited social participation contribute to feelings of isolation and loneliness, impacting mental well-being.</p>
+									<h6 class="m-0">Emotional struggles:</h6>
+									<p>Coping with the physical and emotional challenges of cerebral palsy can take a toll on mental well-being. Feelings of frustration, anger, or sadness about limitations imposed by the condition may arise, along with concerns about not being understood or supported by others.</p>
 								</div>
 							</li>
 						</ul>
+						<p>Addressing these fears and concerns requires a supportive environment that acknowledges the emotional impact of cerebral palsy and provides access to resources, therapies, and community support networks, which you can get under one roof at StemRx Hospital and Research Centre. Empathy, understanding, and advocacy are essential in helping individuals with cerebral palsy navigate these challenges and live fulfilling lives.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="vs-video-wrapper py-5 d-none">
+	<section class="vs-detail-wrapper py-5">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-xl-10 col-12">
 					<div class="w-100">
 						<iframe class="ratio ratio-16x9" src="https://www.youtube.com/embed/1GeNmwf-qpY?si=7V36-dC9SW6GUmm1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="vs-detail-wrapper py-5 bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="">
+						<h2>Benefits</h2>
+						<p>Stem cell treatment at StemRx Hospital for cerebral palsy offers numerous benefits that can significantly improve the quality of life for individuals with this condition:</p>
+						<ul class="row">
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Regeneration of damaged tissue:</h6>
+									<p>Stem cell therapy has the potential to regenerate damaged brain tissue, promoting neural repair and restoring function in areas affected by cerebral palsy. This regeneration can lead to improvements in motor skills, coordination, and overall mobility.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Reduction of inflammation:</h6>
+									<p>Stem cells have anti-inflammatory properties that can help reduce inflammation in the brain, which is often associated with cerebral palsy. By decreasing inflammation, stem cell therapy may alleviate symptoms such as muscle stiffness and spasticity, allowing for smoother movement and improved range of motion.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Enhancement of neuroplasticity: </h6>
+									<p>Stem cells can stimulate neuroplasticity, the brain's ability to reorganize and form new connections. This can facilitate learning and adaptation, enabling individuals with cerebral palsy to develop new motor skills and improve existing ones.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Potential for long-term improvement:</h6>
+									<p>Stem cell therapy has the potential to provide long-term benefits for individuals with cerebral palsy. By promoting ongoing neural repair and regeneration, it may lead to sustained improvements in motor function and overall quality of life.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Minimally invasive procedure:</h6>
+									<p> Stem cell therapy at StemRx Hospital is typically performed using minimally invasive techniques, such as intravenous infusion or injection. This reduces the risk of complications and shortens recovery time, allowing patients to return to their daily activities more quickly.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Personalized treatment approach:</h6>
+									<p>At StemRx Hospital, stem cell therapy for cerebral palsy is tailored to each patient's specific needs and medical history. This personalized approach ensures that individuals receive the most effective and appropriate treatment for their condition, maximizing the chances of successful outcomes.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h6 class="m-0">Comprehensive care:</h6>
+									<p>In addition to stem cell therapy, StemRx Hospital provides comprehensive care and support services for individuals with cerebral palsy, including physical therapy, occupational therapy, and assistive device recommendations. This holistic approach addresses the multifaceted needs of patients and promotes their overall well-being.</p>
+								</div>
+							</li>
+						</ul>
+						<p>Overall, stem cell treatment at StemRx Hospital offers promising benefits for individuals with cerebral palsy, potentially leading to significant improvements in motor function, mobility, and quality of life.</p>
 					</div>
 				</div>
 			</div>
@@ -253,8 +293,8 @@
 			</div>
 		</div>
 	</section>
-
-
+	
+	
 	<section class="vs-specialities-wrapper space-md-bottom d-none">
 		<div class="container">
 			<div class="row text-center justify-content-center mb-30">
@@ -401,70 +441,22 @@
 						<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
 						<h2 class="h1 mb-3">We're Here For You</h2>
 						<div class="row">
-							<div class="col-12">
-								<div class="vs-accordion accordion accordion-style2" id="vs-faq-accordion">
-									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Regenerative Potential</button></h2>
-										<div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion" style="">
-											<div class="accordion-body">
-												<p>
-													StemRx harnesses the regenerative power of stem cells to repair and regenerate damaged muscle tissue. This approach goes beyond symptom management to address the underlying causes of muscular degeneration.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Personalized Treatment Plans</button></h2>
-										<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
-											<div class="accordion-body">
-												<p>
-													Each patient receives personalized treatment based on their unique medical history and condition. This tailored approach enhances treatment efficacy and minimizes potential side effects.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Long-Term Results</button></h2>
-										<div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
-											<div class="accordion-body">
-												<p>
-													By promoting tissue regeneration, StemRx aims to achieve long-lasting results, potentially offering sustained improvement in muscle function and overall quality of life.
-												</p>
-											</div>
-										</div>
-									</div>
-
-									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Minimally Invasive Procedures</button></h2>
-										<div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
-											<div class="accordion-body">
-												<p>
-													StemRx utilizes minimally invasive procedures for stem cell delivery, reducing patient discomfort and recovery time compared to invasive surgeries.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Comprehensive Care</button></h2>
-										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
-											<div class="accordion-body">
-												<p>
-													StemRx provides comprehensive care, combining stem cell therapy with holistic approaches such as physical therapy, nutrition counseling, and lifestyle modifications to optimize patient outcomes.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Ongoing Research & Innovation</button></h2>
-										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
-											<div class="accordion-body">
-												<p>
-													StemRx is backed by ongoing research and innovation, ensuring that patients have access to the latest advancements in stem cell therapy for muscular degeneration.
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
+							<div class="col-xl-10 mb-md-2 pb-md-1">
+								<p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits.</p>
+							</div>
+							<div class="col-md-6 col-lg-5 col-xl-4">
+								<ul class="vs-list list-unstyled text-title">
+									<li>99% success rate</li>
+									<li>100% Confidential</li>
+									<li>Affordable Fees</li>
+								</ul>
+							</div>
+							<div class="col-md-6 col-lg-5 col-xl-5">
+								<ul class="vs-list list-unstyled text-title">
+									<li>Free Consultation</li>
+									<li>Expert surveillance agents</li>
+									<li>Over 50 years experience</li>
+								</ul>
 							</div>
 						</div>
 						<div class="d-none">

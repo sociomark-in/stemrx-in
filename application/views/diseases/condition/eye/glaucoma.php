@@ -4,12 +4,12 @@
 		<div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Congenital Myopathies</h1>
+				<h1 class="breadcumb-title">Glaucoma</h1>
 				<div class="breadcumb-menu-wrap">
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="index.html">Home</a></li>
-						<li class="active">Congenital Myopathies</li>
+						<li class="active">Glaucoma</li>
 					</ul>
 				</div>
 			</div>
@@ -25,10 +25,10 @@
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
 							<picture>
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/webp">
-								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/jpg">
-								<source srcset="https://placehold.co/800x800" type="image/webp">
-								<img src="https://placehold.co/800x800" alt="Service Image" class="w-100">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/glaucoma_1200x600.webp" type="image/webp">
+								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/glaucoma_1200x600.jpg" type="image/jpg">
+								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/glaucoma_800x800.jpg" type="image/webp">
+								<img src="<?= base_url("assets/") ?>img/banners/conditions/glaucoma_800x800.jpg" alt="Service Image" class="w-100">
 							</picture>
 						</div>
 						<div class="row justify-content-center">
@@ -37,7 +37,7 @@
 									<div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
 										<div class="col-sm-6 col-lg-auto">
 											<span class="fs-xs">Condition Name</span>
-											<h2 class="h5 mb-0">Congenital Myopathies</h2>
+											<h2 class="h5 mb-0">Glaucoma</h2>
 										</div>
 
 										<div class="col-sm-6 col-lg-auto">
@@ -57,58 +57,68 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<div class="">
-						<h2 class="h1">Revolutionizing Care: StemRx Hospital Leads Breakthroughs in Congenital Myopathy Treatment!</h2>
-						<p class="fs-md mb-4 pb-2">
-							Congenital myopathy is a rare genetic disorder affecting skeletal muscle function from birth. StemRx Hospital specializes in treating this condition, offering comprehensive care tailored to each patient's needs. Symptoms include muscle weakness, poor muscle tone, and difficulty swallowing or breathing. Our multidisciplinary team provides expert diagnosis through genetic testing and offers personalized treatment plans, including physical therapy and respiratory support. With our cutting-edge research and advanced therapies, StemRx Hospital aims to improve patients' quality of life and enhance their mobility. Trust us for compassionate care and innovative solutions in managing congenital myopathy.
-						</p>
-					</div>
+					<h1 class="h1">Clear Vision Ahead: StemRx Hospital's Revolutionary Approach to Glaucoma Treatment!</h1>
+					<p class="fs-md mb-4 pb-2">
+						<strong>Glaucoma</strong> is a serious eye condition that damages the optic nerve, often due to increased pressure within the eye. It can lead to vision loss and blindness if not treated promptly. Symptoms may not be noticeable at first, so regular eye exams are crucial for early detection. Treatment options include eye drops, medication, laser therapy, or surgery, depending on the type and severity of the glaucoma. Managing the condition requires ongoing care and monitoring to preserve vision and prevent further damage. Awareness, early diagnosis, and adherence to treatment are key in combating the impact of glaucoma on eye health.
+					</p>
 				</div>
 				<div class="col-12">
-					<div class="">
-						<h2>Symptoms</h2>
-						<p>
-							Here are the key symptoms of Congenital Myopathy:
-						</p>
-						<ul class="row list-unstyled">
-							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
-								<div class="">
-									<h6 class="m-0">Blurred or distorted central vision:</h6>
-									<p>Straight lines may appear wavy or distorted, and central vision may become progressively blurry.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
-								<div class="">
-									<h6 class="m-0">Dark or empty areas in central vision:</h6>
-									<p>A blind spot may develop in the centre of your vision, making it difficult to see clearly.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
-								<div class="">
-									<h6 class="m-0">Difficulty reading or recognizing faces:</h6>
-									<p>Reading small print or recognizing faces can become challenging due to central vision loss.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
-								<div class="">
-									<h6 class="m-0">Decreased brightness or intensity of colours:</h6>
-									<p>Colors may appear less vibrant or faded.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
-								<div class="">
-									<h6 class="m-0">Increased sensitivity to glare:</h6>
-									<p>Bright lights or glare may cause discomfort or difficulty seeing.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12 p-md-3 p-0">
-								<div class="">
-									<h6 class="m-0">Difficulty adapting to low light conditions: </h6>
-									<p>Vision may worsen in dim lighting or at night.</p>
-								</div>
-							</li>
-						</ul>
-					</div>
+					<h2>Symptoms</h2>
+					<p>
+						Here are the key symptoms of Glaucoma:
+					</p>
+					<ul class="row">
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Gradual loss of peripheral vision.</h5>
+							</div>
+						</li>
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Tunnel vision, where central vision remains but side vision is reduced.</h5>
+							</div>
+						</li>
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Blurred vision or seeing halos around lights.</h5>
+							</div>
+						</li>
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Severe eye pain or headache accompanied by nausea or vomiting.</h5>
+							</div>
+						</li>
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Redness in the eye.</h5>
+							</div>
+						</li>
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Sudden vision disturbances, especially in low light conditions.</h5>
+							</div>
+						</li>
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Increased sensitivity to light.</h5>
+							</div>
+						</li>
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Difficulty focusing on objects.</h5>
+							</div>
+						</li>
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Seeing spots or floaters in the vision.</h5>
+							</div>
+						</li>
+						<li class="col-xl-3 col-lg-4 col-md-6 col-12 p-md-3 p-0">
+							<div class="">
+								<h5 class="m-0">Changes in the colour of the iris, particularly in advanced cases.</h5>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -123,62 +133,62 @@
 						<ul class="row list-unstyled">
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Loss of Independence:</h6>
-									<p>Fear of losing independence due to muscle weakness and reduced mobility, impacting daily activities like walking and household chores.</p>
+									<h6 class="m-0">Vision Loss:</h6>
+									<p>Glaucoma can cause gradual and irreversible vision loss, impacting peripheral and central vision.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Increased Risk of Falls:</h6>
-									<p>Weak muscles and reduced balance increase the risk of falls and fractures, raising concerns about injury and safety.</p>
+									<h6 class="m-0">Disease Progression: </h6>
+									<p>Patients fear worsening of glaucoma despite treatment, leading to further vision impairment.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">A Decline in Quality of Life:</h6>
-									<p>Sarcopenia leads to limitations in physical activities, social interactions, and hobbies, impacting the overall quality of life.</p>
+									<h6 class="m-0">Impact on Daily Life:</h6>
+									<p>Glaucoma affects activities like driving and reading, causing concerns about independence and quality of life.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Functional Limitations:</h6>
-									<p>Muscle weakness causes difficulty in lifting objects, reaching overhead, or maintaining posture, affecting work and leisure activities.</p>
+									<h6 class="m-0">Treatment Side Effects:</h6>
+									<p>Medications and procedures like eye drops or surgery may have side effects like eye irritation or discomfort.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Impact on Mental Health:</h6>
-									<p> Chronic pain, decreased mobility, and loss of independence contribute to frustration, anxiety, and depression.</p>
+									<h6 class="m-0">Cost of Treatment:</h6>
+									<p> Managing glaucoma involves regular exams, medications, and surgeries, which can be financially burdensome.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Nutritional Concerns:</h6>
-									<p>Maintaining muscle mass requires adequate nutrition, raising concerns about inadequate protein intake and malnutrition.</p>
+									<h6 class="m-0">Quality of Life:</h6>
+									<p>Glaucoma can limit social activities and employment, impacting overall well-being.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Medical Complications: </h6>
-									<p>Weak muscles can lead to issues like difficulty swallowing or breathing, especially in severe cases.</p>
+									<h6 class="m-0">Family History and Genetics:</h6>
+									<p>Concerns arise about passing glaucoma to offspring or siblings due to its genetic component.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Impact on Chronic Diseases:</h6>
-									<p>Sarcopenia exacerbates effects of chronic conditions like diabetes, cardiovascular disease, and osteoporosis.</p>
+									<h6 class="m-0">Compliance with Treatment:</h6>
+									<p>Adhering to treatment plans, including medications and check-ups, is crucial but can be challenging for some patients.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Financial Burden:</h6>
-									<p>Managing sarcopenia may require ongoing medical care, therapy, or home modifications, causing financial concerns.</p>
+									<h6 class="m-0">Emotional Impact: </h6>
+									<p>Dealing with glaucoma can lead to emotional stress, anxiety, or depression, affecting mental well-being.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Social Isolation: </h6>
-									<p>Reduced mobility and limited social participation contribute to feelings of isolation and loneliness, impacting mental well-being.</p>
+									<h6 class="m-0">Lifestyle Changes: </h6>
+									<p>Managing glaucoma may require lifestyle adjustments such as dietary changes and managing other health conditions.</p>
 								</div>
 							</li>
 						</ul>
@@ -188,7 +198,7 @@
 		</div>
 	</section>
 
-	<section class="vs-video-wrapper py-5 d-none">
+	<section class="vs-video-wrapper d-none py-5">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-xl-10 col-12">
@@ -200,12 +210,12 @@
 		</div>
 	</section>
 
-	<section class="vs-detail-wrapper space appointment-wrapper">
+	<section class="vs-detail-wrapper space">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<div class="">
-						<h3>Why StemRx:</h3>
+						<h2>Why StemRx:</h2>
 						<p>StemRx is the only healthcare services organization that offers a complete end to end healthcare package under one single roof right from the point where the patient walks in for a consultation, the evaluation, the medical assessments, the therapies, the medication, long term post discharge strategies and much more.</p>
 						<p>One look at the patient feedback library will indicate that at StemRx we are committed to improvement of medical condition of the patient by meeting the defined timeline-based milestones, as well as ensuring that there is patient delight when the patient departs from our facility. </p>
 					</div>
@@ -397,18 +407,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-6 mb-30">
-					<div class="about-content">
+					<div class="about-content mt-0 mt-md-4">
 						<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
 						<h2 class="h1 mb-3">We're Here For You</h2>
 						<div class="row">
 							<div class="col-12">
 								<div class="vs-accordion accordion accordion-style2" id="vs-faq-accordion">
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Regenerative Potential</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Regenerative Therapy</button></h2>
 										<div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion" style="">
 											<div class="accordion-body">
 												<p>
-													StemRx harnesses the regenerative power of stem cells to repair and regenerate damaged muscle tissue. This approach goes beyond symptom management to address the underlying causes of muscular degeneration.
+													Targets glaucoma's root cause by regenerating optic nerve cells, aiming to restore vision and prevent deterioration.
 												</p>
 											</div>
 										</div>
@@ -418,7 +428,7 @@
 										<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													Each patient receives personalized treatment based on their unique medical history and condition. This tailored approach enhances treatment efficacy and minimizes potential side effects.
+													Tailors plans through diagnostics and genetic profiling, maximizing effectiveness and minimizing side effects.
 												</p>
 											</div>
 										</div>
@@ -428,38 +438,48 @@
 										<div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													By promoting tissue regeneration, StemRx aims to achieve long-lasting results, potentially offering sustained improvement in muscle function and overall quality of life.
+													Addresses underlying pathology for sustained vision improvement and enhanced quality of life.
 												</p>
 											</div>
 										</div>
 									</div>
 
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Minimally Invasive Procedures</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Minimally Invasive:</button></h2>
 										<div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx utilizes minimally invasive procedures for stem cell delivery, reducing patient discomfort and recovery time compared to invasive surgeries.
+													Procedures are low-risk, offering effective treatment with faster recovery times.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Comprehensive Care</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Disease Modification</button></h2>
 										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx provides comprehensive care, combining stem cell therapy with holistic approaches such as physical therapy, nutrition counseling, and lifestyle modifications to optimize patient outcomes.
+													Potentially halts or slows glaucoma progression by promoting tissue regeneration.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Ongoing Research & Innovation</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Complementary Therapy</button></h2>
 										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx is backed by ongoing research and innovation, ensuring that patients have access to the latest advancements in stem cell therapy for muscular degeneration.
+													Integrates with existing treatments for comprehensive disease management.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Ongoing Research</button></h2>
+										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													Backed by continuous innovation, ensuring patients benefit from the latest advancements in regenerative medicine.
 												</p>
 											</div>
 										</div>
