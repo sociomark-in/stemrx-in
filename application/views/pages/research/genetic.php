@@ -59,6 +59,49 @@
 				<li>Identify the root cause of existing health problems and also provide targeted solutions.</li>
 				<li>Make necessary lifestyle changes, whether it is altering your food habits or knowing which foods you should eat more (food that your body lacks) or which foods you must control and if possible avoid (that your body is allergic, intolerant and sensitive to).</li>
 			</ul>
+
+			<div class="row justify-content-center">
+				<div class="col-xl-9 col-lg-10 col-12">
+					<div class="row g-4">
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>pcos-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>diabetes-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>pcos-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>diabetes-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>diabetes-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>pcos-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>diabetes-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>pcos-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>pcos-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>diabetes-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>pcos-genomics.png" alt="">
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6">
+							<img src="<?= base_url('assets/img/other/') ?>diabetes-genomics.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="vs-image">

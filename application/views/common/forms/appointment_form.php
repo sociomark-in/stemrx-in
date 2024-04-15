@@ -25,7 +25,7 @@
 			<i class="fal small fa-envelope"></i>
 		</div>
 		<div class="col-12 form-group">
-			<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" pattern="^\d{10}" maxlength="10" minlength="10" required />
+			<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" maxlength="13" minlength="13" required />
 			<i class="fal small fa-phone"></i>
 		</div>
 		<!-- <div class="col-12 form-group">
@@ -55,7 +55,9 @@
 			enq_email: 'required'
 		},
 		messages: {
-			subscription_email: 'Email is Required!'
+			enq_contact:{
+				minlength:"Please include 4-digit Country code. E.g. for India it is 091",
+			}
 		}
 	})
 </script>

@@ -19,7 +19,7 @@
 								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Hyderabad</a></li>
 								<li class="col-xl-3 col-lg-4 col-6 mb-2"></li>
 								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Nepal </a></li>
-								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Maldives</a></li>
+								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Mauritius</a></li>
 							</ul>
 						</div>
 					</div>

@@ -29,7 +29,7 @@
 								<li><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
 								<li><a href="javascript:void(0)">Hyderabad </a></li>
 								<li><a href="javascript:void(0)">Nepal </a></li>
-								<li><a href="javascript:void(0)">Maldives </a></li>
+								<li><a href="javascript:void(0)">Mauritius </a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
@@ -226,7 +226,7 @@
 													<li><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
 													<li><a href="javascript:void(0)">Hyderabad </a></li>
 													<li><a href="javascript:void(0)">Nepal </a></li>
-													<li><a href="javascript:void(0)">Maldives </a></li>
+													<li><a href="javascript:void(0)">Mauritius </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">

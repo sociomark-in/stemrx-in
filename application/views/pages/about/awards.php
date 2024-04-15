@@ -42,7 +42,7 @@
 							<a href="https://placehold.co/600x400" class="popup-image">
 								<figure>
 									<img src="https://placehold.co/600x400" alt="">
-									<figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+									<figcaption></figcaption>
 								</figure>
 							</a>
 						</div>
@@ -54,7 +54,7 @@
 							<a href="https://placehold.co/600x400" class="popup-image">
 								<figure>
 									<img src="https://placehold.co/600x400" alt="">
-									<figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+									<figcaption></figcaption>
 								</figure>
 							</a>
 						</div>
@@ -66,7 +66,7 @@
 							<a href="https://placehold.co/600x400" class="popup-image">
 								<figure>
 									<img src="https://placehold.co/600x400" alt="">
-									<figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+									<figcaption></figcaption>
 								</figure>
 							</a>
 						</div>

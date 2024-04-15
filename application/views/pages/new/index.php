@@ -367,7 +367,7 @@
 												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
 											</div>
 										</div>
-										<h5>Maldives</h5>
+										<h5>Mauritius</h5>
 									</a>
 								</div>
 							</div>

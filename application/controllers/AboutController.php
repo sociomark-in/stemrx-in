@@ -54,7 +54,7 @@ class AboutController extends CI_Controller
 	public function academics()
 	{
 		$this->data['page'] = [
-			'title' => "Awards & Accolates" . " - " . APP_NAME
+			'title' => "Academics" . " - " . APP_NAME
 		];
 		$this->load->load_view('pages/about/academics', $this->data);
 	}
