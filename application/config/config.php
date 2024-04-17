@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'https://test.apogeedigitech.in/repositories/stemrx-hospitals/';
-$config['base_url'] = (is_https())?'https://stemrx.in/':'http://stemrx.in/';
 $config['base_url'] = 'http://localhost/stemrx-hospitals/';
+$config['base_url'] = (is_https())?'https://stemrx.in/':'http://stemrx.in/';
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -463,7 +463,7 @@ $config['csrf_token_name'] = 'csrf_test_name';
 $config['csrf_cookie_name'] = 'csrf_cookie_name';
 $config['csrf_expire'] = 6000;
 $config['csrf_regenerate'] = TRUE;
-$config['csrf_exclude_uris'] = array();
+$config['csrf_exclude_uris'] = array('api/leads/check-duplicate');
 
 /*
 |--------------------------------------------------------------------------

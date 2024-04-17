@@ -28,50 +28,99 @@
      Project Area
   ==============================-->
 	<section class="vs-project-wrapper space-bottom">
-		<div class="container z-index-common">
-			<div class="project-menu text-center mb-40 filter-menu-active ">
-				<button data-filter="*" class="vs-btn style4 active">All Awards</button>
-				<button data-filter=".cat-1" class="vs-btn style4">Heart Topic</button>
-				<button data-filter=".cat-2" class="vs-btn style4">Surgery Topic</button>
-				<button data-filter=".cat-3" class="vs-btn style4">General Topic</button>
+		<div class="container">
+			<div class="row flex-row-reverse">
+			<div class="col-xl-3 col-lg-4 col-12">
+				<h4>Filter Achievements By Year:</h4>
+				<div class="project-menu nav mb-40 filter-menu-active">
+					<button data-filter="*" class="nav-item vs-btn btn-testimonial style4 active">All</button>
+					<button data-filter=".2022" class="nav-item vs-btn btn-testimonial style4">2022</button>
+					<button data-filter=".2021" class="nav-item vs-btn btn-testimonial style4">2021</button>
+					<button data-filter=".2020" class="nav-item vs-btn btn-testimonial style4">2020</button>
+					<button data-filter=".2019" class="nav-item vs-btn btn-testimonial style4">2019</button>
+					<button data-filter=".2018" class="nav-item vs-btn btn-testimonial style4">2018</button>
+					<button data-filter=".2017" class="nav-item vs-btn btn-testimonial style4">2017</button>
+					<button data-filter=".2016" class="nav-item vs-btn btn-testimonial style4">2016</button>
+					<button data-filter=".2015" class="nav-item vs-btn btn-testimonial style4">2015</button>
+					<button data-filter=".2014" class="nav-item vs-btn btn-testimonial style4">2014</button>
+				</div>
 			</div>
-			<div class="row justify-content-center filter-active">
-				<div class="col-md-6 col-xl-4 filter-item cat-2">
-					<div class="vs-project-box mb-30">
-						<div class="">
-							<a href="https://placehold.co/600x400" class="popup-image">
-								<figure>
-									<img src="https://placehold.co/600x400" alt="">
-									<figcaption></figcaption>
-								</figure>
-							</a>
+			<div class="col-xl-9 col-lg-8 col-12">
+				<div class="row justify-content-center filter-active">
+					<div class="col-12 filter-item cat-1">
+						<div class="vs-project-box mb-30">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<div class="blog-img">
+										<img src="<?= base_url('assets/img/awards/') ?>01_200x200.jpg" alt="Project Image" class="w-100">
+									</div>
+								</div>
+								<div class="col">
+									<h5>Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veniam dignissimos quis fuga ab esse.</p>
+									<div class="">
+										<a href="<?= base_url('assets/img/awards/') ?>01_800x800.jpg" class="link-btn popup-image">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 filter-item cat-2">
+						<div class="vs-project-box mb-30">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<div class="blog-img">
+										<img src="<?= base_url('assets/img/awards/') ?>02_200x200.jpg" alt="Project Image" class="w-100">
+									</div>
+								</div>
+								<div class="col">
+									<h5>Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veniam dignissimos quis fuga ab esse.</p>
+									<div class="">
+										<a href="<?= base_url('assets/img/awards/') ?>02_800x800.jpg" class="link-btn popup-image">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 filter-item cat-1">
+						<div class="vs-project-box mb-30">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<div class="blog-img">
+										<img src="<?= base_url('assets/img/awards/') ?>03_200x200.jpg" alt="Project Image" class="w-100">
+									</div>
+								</div>
+								<div class="col">
+									<h5>Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veniam dignissimos quis fuga ab esse.</p>
+									<div class="">
+										<a href="<?= base_url('assets/img/awards/') ?>03_800x800.jpg" class="link-btn popup-image">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 filter-item cat-2">
+						<div class="vs-project-box mb-30">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<div class="blog-img">
+										<img src="<?= base_url('assets/img/awards/') ?>04_200x200.jpg" alt="Project Image" class="w-100">
+									</div>
+								</div>
+								<div class="col">
+									<h5>Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veniam dignissimos quis fuga ab esse.</p>
+									<div class="">
+										<a href="<?= base_url('assets/img/awards/') ?>04_800x800.jpg" class="link-btn popup-image">View</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-xl-4 filter-item cat-2">
-					<div class="vs-project-box mb-30">
-						<div class="">
-							<a href="https://placehold.co/600x400" class="popup-image">
-								<figure>
-									<img src="https://placehold.co/600x400" alt="">
-									<figcaption></figcaption>
-								</figure>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xl-4 filter-item cat-2">
-					<div class="vs-project-box mb-30">
-						<div class="">
-							<a href="https://placehold.co/600x400" class="popup-image">
-								<figure>
-									<img src="https://placehold.co/600x400" alt="">
-									<figcaption></figcaption>
-								</figure>
-							</a>
-						</div>
-					</div>
-				</div>
+			</div>
 			</div>
 		</div>
 	</section>

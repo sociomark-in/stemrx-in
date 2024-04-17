@@ -6,13 +6,13 @@
 		<div class="parallax" data-parallax-image="<?= base_url() ?>assets/img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Hyderabad Center</h1>
+				<h1 class="breadcumb-title">Mauritius Center</h1>
 				<div class="breadcumb-menu-wrap">
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="<?= base_url() ?>">Home</a></li>
 						<li>Our Center</li>
-						<li class="active">Hyderabad</li>
+						<li class="active">Mauritius</li>
 					</ul>
 				</div>
 			</div>
@@ -38,12 +38,12 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="contact-information mb-30">
-							<h2 class="pt-2 mb-10">StemRx at Hyderabad</h2>
+							<h2 class="pt-2 mb-10">StemRx at Mauritius</h2>
 							<div class="row">
 								<div class="col-xl-6">
 									<h4 class="pt-2 mb-10">Address:</h4>
 									<p class="fs-md">
-										MEDIVISION multispecialty Hospital, Plot No. 1,2 & 3, IDA Phase-1, Shapur Nagar, Main Road, Jeedimetla, Hyderabad, Telangana-500055
+									PREVENTIVE MEDICARE LTD., Hollyrood No 1 Vacoas, Rep of Mauritius Tel : +230 5989 0370 /57601786
 									</p>
 								</div>
 								<div class="col-xl-6">
@@ -70,14 +70,6 @@
 					</div>
 				</div>
 			</div>
-	</section>
-
-	<section class="vs-award-wrapper space">
-		<div class="container">
-			<div class="row">
-				
-			</div>
-		</div>
 	</section>
 	<div class="col-12">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.8177846454246!2d78.44508101744384!3d17.516209600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9020d64d040b%3A0x7f5f5b2917bbac12!2sMEDIVISION%20SUPER%20SPECIALTY%20HOSPITAL!5e0!3m2!1sen!2sin!4v1713345629416!5m2!1sen!2sin" style="border:0; width:100%; height: 400px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

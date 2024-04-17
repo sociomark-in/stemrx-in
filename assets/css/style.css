@@ -73,3 +73,9 @@ button.btn-testimonial {
 .form-wrap1 .form-title-box {
   padding: 40px 60px;
 }
+
+form label.error {
+  margin-top: 0.5rem;
+  color: red;
+  font-size: smaller;
+}

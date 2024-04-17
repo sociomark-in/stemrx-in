@@ -8,14 +8,12 @@
 					<ul class="sub-menu">
 						<li><a href="<?= base_url() ?>regenerative-therapy">About Regenerative Therapy </a></li>
 						<li><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Our Founder</a></li>
-						<li><a href="#">Awards & Accolates</a></li>
+						<li><a href="#">Awards & Achievements</a></li>
 						<li><a href="<?= base_url() ?>why-stemrx">Why StemRx Hospital</a></li>
-						<li><a href="#">Our Commitment</a></li>
 						<li><a href="#">Our Foundation </a></li>
-						<li><a href="#">Our Achievement </a></li>
 						<li><a href="<?= base_url('academics') ?>">Academics </a></li>
 						<li class="menu-item-has-children">
-							<a href="#">Research Activity & Patents </a>
+							<a href="#">Research Activity & Patents&nbsp;</a>
 							<ul class="sub-menu">
 								<li><a href="<?= base_url() ?>genetic-testing">Genetic Testing</a></li>
 								<li><a href="<?= base_url() ?>patents">Patents </a></li>
@@ -23,17 +21,17 @@
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
-							<a href="#">Our Centers </a>
+							<a href="#">Our Centers&nbsp;</a>
 							<ul class="sub-menu">
 								<li><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
 								<li><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
-								<li><a href="javascript:void(0)">Hyderabad </a></li>
+								<li><a href="<?= base_url('our-center/') ?>hyderabad">Hyderabad </a></li>
 								<li><a href="javascript:void(0)">Nepal </a></li>
-								<li><a href="javascript:void(0)">Mauritius </a></li>
+								<li><a href="<?= base_url('our-center/') ?>mauritius">Mauritius </a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
-							<a href="#">Our Patient Journey </a>
+							<a href="#">Our Patient Journey&nbsp;</a>
 							<ul class="sub-menu">
 								<li><a href="<?= base_url('patient-testimonial') ?>">National</a></li>
 								<li><a href="<?= base_url('patient-testimonial') ?>">International</a></li>
@@ -205,11 +203,9 @@
 										<ul class="sub-menu">
 											<li><a href="<?= base_url() ?>regenerative-therapy">About Regenerative Therapy </a></li>
 											<li><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Our Founder</a></li>
-											<li><a href="#">Awards & Accolates</a></li>
+											<li><a href="#">Awards & Achievements</a></li>
 											<li><a href="<?= base_url() ?>why-stemrx">Why StemRx Hospital</a></li>
-											<li><a href="#">Our Commitment</a></li>
 											<li><a href="#">Our Foundation </a></li>
-											<li><a href="#">Our Achievement </a></li>
 											<li><a href="<?= base_url('academics') ?>">Academics </a></li>
 											<li class="menu-item-has-children">
 												<a href="#">Research Activity & Patents&nbsp;</a>
@@ -224,9 +220,9 @@
 												<ul class="sub-menu">
 													<li><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
 													<li><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
-													<li><a href="javascript:void(0)">Hyderabad </a></li>
+													<li><a href="<?= base_url('our-center/') ?>hyderabad">Hyderabad </a></li>
 													<li><a href="javascript:void(0)">Nepal </a></li>
-													<li><a href="javascript:void(0)">Mauritius </a></li>
+													<li><a href="<?= base_url('our-center/') ?>mauritius">Mauritius </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children">
@@ -415,7 +411,7 @@
 						<div class="col-auto d-none-xxxl">
 							<div class="header-call phone-box d-flex align-items-center style2"><a href="tel:9979976862" class="box-icon"><i class="fas fa-phone-alt"></i></a>
 								<div class="media-body"><span class="fs-xs text-title">Call Anytime</span>
-									<p class="h4 fw-bold lh-1 mb-0"><a href="tel:<?= MAIN_CONTACT?>"><?= phone_format(MAIN_CONTACT, 3,2) ?></a></p>
+									<p class="h4 fw-bold lh-1 mb-0"><a href="tel:<?= MAIN_CONTACT ?>"><?= phone_format(MAIN_CONTACT, 3, 2) ?></a></p>
 								</div>
 							</div>
 						</div>

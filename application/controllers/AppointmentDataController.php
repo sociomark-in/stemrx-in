@@ -63,7 +63,7 @@ class AppointmentDataController extends CI_Controller
 				];
 				$data_email['enquiry'] = $this->data;
 				if ($this->LeadsModel->new_appointment($this->data)) {
-					$this->send_email($data_email);
+					// $this->send_email($data_email);
 					redirect('thank-you');
 				}
 			}

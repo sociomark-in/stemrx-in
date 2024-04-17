@@ -19,12 +19,12 @@
     <!--==============================
     what are stem cells
     ==============================-->
-    <section class="vs-accordion-wrapper space-md-bottom">
+    <section class="vs-accordion-wrapper space">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 mb-30 mb-xl-0">
                     <div class="about-content">
-                        <h2> <b class="text-title">What are stem cells?</b></h2>
+                        <h2> <b class="text-title">What are Stem Cells?</b></h2>
                         <p>Stem cells serve as the fundamental units of our body, possessing a remarkable ability to proliferate extensively and differentiate into various cell types and tissues. This distinctive characteristic enables them to contribute to the regeneration and restoration of damaged areas within our body. For instance, they have been utilized to generate neural cells for individuals with brain injuries, heart cells for cardiac patients, insulin-producing cells for those with diabetes, and corneal cells for individuals suffering from blindness.</p>
                     </div>
                     <div class="container">
@@ -44,7 +44,7 @@
         </div>
     </section>
     <!-- What is Regenerative Medicine? -->
-    <section class="appointment-wrapper space-md-bottom" id="appointment">
+    <section class="appointment-wrapper space bg-light" id="appointment">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 mb-30">

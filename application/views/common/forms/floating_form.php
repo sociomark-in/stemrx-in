@@ -40,10 +40,35 @@
 <script>
 	$('#floatingForm').validate({
 		rules: {
-			enq_email: 'required'
+			// enq_email: {
+			// 	normalizer: (value)=> {
+			// 		return $.trim(value)
+			// 	},
+			// 	remote: {
+			// 		url: '<?= base_url('api/leads/check-duplicate') ?>',
+			// 		data: {
+			// 			column: 'email',
+			// 		}
+			// 	}
+			// },
+			// enq_contact: {
+			// 	remote: {
+			// 		url: '<?= base_url('api/leads/check-duplicate') ?>',
+			// 		data: {
+			// 			column: 'contact',
+			// 		}
+			// 	}
+			// }
 		},
 		messages: {
-			subscription_email: 'Email is Required!'
+			// enq_email: {
+			// 	required: 'Required',
+			// 	remote: "You have already put up an enquiry! Your email is already in our list.",
+			// },
+			enq_contact: {
+				minlength: "Please include 4-digit Country code. E.g. for India it is 091",
+				// remote: "You have already put up an enquiry! Your contact number is already in our list.",
+			}
 		}
 	})
 </script>

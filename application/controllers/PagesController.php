@@ -105,13 +105,7 @@ class PagesController extends CI_Controller
 		];
 		$this->load->load_view('pages/service', $this->data);
 	}
-	public function service_detail()
-	{
-		$this->data['page'] = [
-			'title' => "Service Single" . " - " . APP_NAME
-		];
-		$this->load->load_view('pages/service-details', $this->data);
-	}
+	
 	public function service_single($service)
 	{
 		switch ($service) {
@@ -194,11 +188,11 @@ class PagesController extends CI_Controller
 				];
 				$this->load->load_view('centers/nepal', $this->data);
 				break;
-			case 'maldives':
+			case 'mauritius':
 				$this->data['page'] = [
 					'title' => "StemRx at Maldives" . " - " . APP_NAME
 				];
-				$this->load->load_view('centers/maldives', $this->data);
+				$this->load->load_view('centers/mauritius', $this->data);
 				break;
 			default:
 				$this->data['page'] = [
@@ -269,5 +263,15 @@ class PagesController extends CI_Controller
 				$this->load->load_view('pages/' . $url, $this->data);
 				break;
 		}
+	}
+
+
+
+	public function test()
+	{
+		$this->data['page'] = [
+			'title' => "Service Single" . " - " . APP_NAME
+		];
+		$this->load->load_view('test/test', $this->data);
 	}
 }
