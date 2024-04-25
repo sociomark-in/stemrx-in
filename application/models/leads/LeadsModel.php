@@ -7,6 +7,7 @@ class LeadsModel extends CI_Model
 	{
 		parent::__construct();
 		$this->table['appointment'] = 'web_form_appointments';
+		$this->table['contact'] = 'web_form_contact';
 	}
 
 	public function new_appointment($data) {
@@ -32,8 +33,11 @@ class LeadsModel extends CI_Model
     }
 	
 	public function new_enquiry($form_data) {
-
-		return true;
+		if($this->db->insert($this->table['contact'], $form_data)){
+			return true;
+		} else {
+			return false;
+		}
 	}
 	
 

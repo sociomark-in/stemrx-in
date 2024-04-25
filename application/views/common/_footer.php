@@ -205,7 +205,7 @@
 						<div class="d-flex gap-2 align-top">
 							<i class="far fa-map-marker-alt text-theme"></i>
 							<a href="#" class="text-white">
-								Dr. Mahajan’s Hospital & ITC R-831,Thane – Belapur Rd, Next to Shell Petrol Pump, TTC Industrial Area, Rabale, Navi Mumbai, Maharashtra 400708.
+								Dr. Mahajan’s Hospital & ITC R-831, <br>Thane – Belapur Rd, Next to Shell Petrol Pump, TTC Industrial Area, Rabale, Navi Mumbai,<br> Maharashtra 400708.
 							</a>
 						</div>
 					</div>

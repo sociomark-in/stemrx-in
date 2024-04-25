@@ -16,6 +16,7 @@
 <div class="form-box">
 	<div class="row">
 		<input type="hidden" name="source_url" value="<?= current_url() ?>">
+		<input type="hidden" name="page_name" value="<?= $page['title'] ?>">
 		<div class="col-12 form-group">
 			<input type="text" class="form-control style3" name="enq_name" placeholder="Your Name" required />
 			<i class="fal small fa-user"></i>

@@ -23,18 +23,30 @@
 			<div class="container">
 				<div class="row gx-60 align-items-center">
 					<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-						<form action="<?= base_url('api/contact/new') ?>" method="POST" class="form-wrap3 mb-30" data-bg-color="#f3f6f7">
-							<input type="hidden" name="source_url" value="<?= current_url() ?>">
-							<div class="form-title">
-								<h3 class="mt-n2 fls-n2 mb-0">We are here for help you! Arrange a meeting.</h3>
-								<p class="text-theme mb-4">Your email address will not be published*</p>
-							</div>
-							<div class="form-group mb-15"><input type="text" class="form-control style3" name="name" id="name" placeholder="Name"> <i class="fal fa-user"></i></div>
-							<div class="form-group mb-15"><input type="text" class="form-control style3" name="email" id="email" placeholder="E-mail"> <i class="fal fa-envelope"></i></div>
-							<div class="form-group mb-15"><textarea name="message" id="message" cols="30" rows="3" class="form-control style3" placeholder="Message"></textarea> <i class="fal fa-pencil-alt"></i></div>
-							<div class="form-btn pt-15"><button class="vs-btn style2">Send Message<i class="fas fa-chevron-right"></i></button></div>
-							<p class="form-messages mb-0 mt-3"></p>
-						</form>
+					<div class=" bg-white wow fadeInUp">
+						<?php
+						$data = [
+							"action" => [
+								"method" => "POST",
+								"action" => base_url()
+							],
+							"title" => [
+								'bg-image' => "",
+								'heading' => "Book An Appointment",
+								'desc' => "Please Call Us To Ensure",
+							],
+							"props" => [
+								'class' => "shadow-none mb-0",
+								'bg-image' => "",
+								'bg-color' => "#f3f6f7",
+							],
+							"fields" => [
+								"condition" => "disabled",
+								"doctor" => "enabled",
+							]
+						];
+						$this->load->view('common/forms/contact_form', $data); ?>
+					</div>
 					</div>
 					<div class="col-lg-6">
 						<div class="contact-information mb-30">
@@ -70,14 +82,6 @@
 					</div>
 				</div>
 			</div>
-	</section>
-
-	<section class="vs-award-wrapper space">
-		<div class="container">
-			<div class="row">
-				
-			</div>
-		</div>
 	</section>
 	<div class="col-12">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.8177846454246!2d78.44508101744384!3d17.516209600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9020d64d040b%3A0x7f5f5b2917bbac12!2sMEDIVISION%20SUPER%20SPECIALTY%20HOSPITAL!5e0!3m2!1sen!2sin!4v1713345629416!5m2!1sen!2sin" style="border:0; width:100%; height: 400px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

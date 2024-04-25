@@ -171,6 +171,34 @@ class DiseasesController extends CI_Controller
 						# code...
 						$this->load->load_view('diseases/condition/infertility/pcod-detail', $this->data);
 						break;
+					case 'decrease-ovarian-reserve':
+						$this->data['page'] = [
+							'title' => "Decrease Ovarian Reserve" . " - " . APP_NAME
+						];
+						# code...
+						$this->load->load_view('diseases/condition/infertility/ovarian-reserve', $this->data);
+						break;
+					case 'thin-endometrium':
+						$this->data['page'] = [
+							'title' => "Thin Endometrium" . " - " . APP_NAME
+						];
+						# code...
+						$this->load->load_view('diseases/condition/infertility/thin-endometrium', $this->data);
+						break;
+					case 'ashermen-syndrome':
+						$this->data['page'] = [
+							'title' => "Ashermen's Syndrome" . " - " . APP_NAME
+						];
+						# code...
+						$this->load->load_view('diseases/condition/infertility/ashermen', $this->data);
+						break;
+					case 'premature-menopause':
+						$this->data['page'] = [
+							'title' => "PCOD / PCOS" . " - " . APP_NAME
+						];
+						# code...
+						$this->load->load_view('diseases/condition/infertility/menopause', $this->data);
+						break;
 					default:
 						show_404();
 						break;

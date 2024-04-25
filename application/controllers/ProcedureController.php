@@ -204,9 +204,17 @@ class ProcedureController extends CI_Controller
 				$this->load->load_view('therapeutics/cell-regulation', $this->data);
 				break;
 			case 'tens':
+				$this->data['page'] = [
+					'title' => "Transcutaneous Electrical Nerve Stimulation (TENS) at StemRx Hospital" . " - " . APP_NAME,
+					'description' => ""
+				];
 				$this->load->load_view('therapeutics/tens', $this->data);
 				break;
 			case 'non-surgical-spinal-decompression-therapy':
+				$this->data['page'] = [
+					'title' => "Non-Surgical Spinal Decompression Therapy at StemRx Hospital" . " - " . APP_NAME,
+					'description' => ""
+				];
 				$this->load->load_view('therapeutics/non-surgical-spinal-decompression-therapy', $this->data);
 				break;
 			case 'stem-therapy':
@@ -214,17 +222,25 @@ class ProcedureController extends CI_Controller
 				break;
 
 			case 'transcranial-optic-stimulation':
+				$this->data['page'] = [
+					'title' => "Transcranial Optic Stimulation (TOS) at StemRx Hospital" . " - " . APP_NAME,
+					'description' => ""
+				];
 				$this->load->load_view('therapeutics/transcranial-optic-stimulation', $this->data);
 				break;
 			case 'treadmill-with-motorized-exoskeleton':
 				$this->load->load_view('therapeutics/treadmill-with-motorized-exoskeleton', $this->data);
 				break;
 			case 'fmt':
-				$this->load->load_view('therapeutics/fmt', $this->data);
+				$this->data['page'] = [
+					'title' => "Intestinal Microbiota Transfer (IMT) at StemRx Hospital" . " - " . APP_NAME,
+					'description' => ""
+				];
+				$this->load->load_view('therapeutics/imt', $this->data);
 				break;
 
 			default:
-				$this->load->load_view('treatments/details/treatment-details', $this->data);
+				show_404();
 				break;
 		}
 	}

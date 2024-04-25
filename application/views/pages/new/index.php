@@ -580,21 +580,23 @@
 				</div>
 			</div>
 			<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3">
-				<!-- <div class="col-xl-4">
+				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/drpvmahajan.jpg" alt="Project Image" class="w-100"></div>
-						<div class="project-content">
+						<div class="project-content py-4">
 							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Dr. Pradeep Mahajan</a></h4>
-							<span class="project-cat fs-xs">Founder and Chairman</span>
-							<a href="<?= base_url() ?>doctor/dr-pradeep-mahajan" class="icon-btn style4 popup-image"><i class="fal fa-eye"></i></a>
+							<strong class="project-cat fs-xs">(30+ Years of Experience)</strong> <br>
+							<span class="project-cat fs-xs">MBBS, MS., FICA, DU (Austria), AFIH</span>
+							<a href="<?= base_url() ?>doctor/dr-pradeep-mahajan" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
-				</div> -->
+				</div>
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.gauri.jpg" alt="Project Image" class="w-100"></div>
-						<div class="project-content">
+						<div class="project-content py-4">
 							<h4 class="project-name"><a href="javascript:void(0)">Dr. Gauri Khanderao</a></h4>
+							<strong class="project-cat fs-xs">(10+ years of experience)</strong> <br>
 							<span class="project-cat fs-xs">BHMS, B.ACU, PGDHM</span>
 							<a href="javascript:void(0)" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
@@ -603,9 +605,10 @@
 				<div class="col-xl-4">
 					<div class="vs-project-box mb-30">
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.pallavi.jpg" alt="Project Image" class="w-100"></div>
-						<div class="project-content">
+						<div class="project-content py-4">
 							<h4 class="project-name"><a href="<?= base_url() ?>doctor/dr-pallavi-lele">Dr. Pallavi Lale</a></h4>
-							<span class="project-cat fs-xs">MBBS MD</span>
+							<strong class="project-cat fs-xs">(10+ years of experience)</strong> <br>
+							<span class="project-cat fs-xs" style="line-height: 0.8;">MBBS, MD (Gynecologist), Infertility Specialist, Laparoscopic Surgeon, Cosmetic Gynecologist, Diplomat in Ovarian and Endometrial Rejuvenation</span>
 							<a href="<?= base_url() ?>doctor/dr-pallavi-lele" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>
@@ -625,7 +628,7 @@
 						<div class="project-img"><img src="<?= base_url() ?>assets/img/team/dr.anil.jpg" alt="Project Image" class="w-100"></div>
 						<div class="project-content">
 							<h4 class="project-name">Dr. Anil Daxini</h4>
-							<span class="project-cat fs-xs">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine</span>
+							<span class="project-cat fs-xs">MD (Mum), MD (USA). Diplomate, American Board of Internal Medicine (20 Years + Experience)</span>
 							<a href="javascript:void(0)" class="icon-btn style4"><i class="fal fa-eye"></i></a>
 						</div>
 					</div>

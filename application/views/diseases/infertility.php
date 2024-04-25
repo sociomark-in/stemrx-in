@@ -3,11 +3,11 @@
 		<div class="parallax" data-parallax-image="<?= base_url() ?>assets/img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Infertility</h1>
+				<h1 class="breadcumb-title">Infertility Center</h1>
 				<div class="breadcumb-menu-wrap"><i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="index-2.html">Home</a></li>
-						<li class="active">Infertility</li>
+						<li class="active">Infertility Center</li>
 					</ul>
 				</div>
 			</div>
@@ -46,7 +46,7 @@
 						</a>
 					</div>
 					<div class="col-2">
-						<a href="javascript:void()" class="text-center">
+						<a href="<?= base_url("condition/infertility/decrease-ovarian-reserve") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/color/diseases/ovary.png") ?>" alt="Condition Single" class="w-100">
@@ -56,7 +56,7 @@
 						</a>
 					</div>
 					<div class="col-2">
-						<a href="javascript:void()" class="text-center">
+						<a href="<?= base_url("condition/infertility/thin-endometrium") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/color/diseases/endometrial.png") ?>" alt="Condition Single" class="w-100">
@@ -66,7 +66,7 @@
 						</a>
 					</div>
 					<div class="col-2">
-						<a href="javascript:void()" class="text-center">
+						<a href="<?= base_url("condition/infertility/ashermen-syndrome") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/color/diseases/vagina.png") ?>" alt="Condition Single" class="w-100">
@@ -76,7 +76,7 @@
 						</a>
 					</div>
 					<div class="col-2">
-						<a href="javascript:void()" class="text-center">
+						<a href="<?= base_url("condition/infertility/premature-menopause") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/color/diseases/menstrual-cycle.png") ?>" alt="Condition Single" class="w-100">
