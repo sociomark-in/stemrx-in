@@ -57,18 +57,17 @@
 			<div class="col-xl-10">
 				<div class="row justify-content-center filter-active">
 
-
-					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
-						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Mk5CyO8JS-LDARMhjbwq3Bz" class="ratio-16x9" target="_blank">
-							<div class="youtube-testimonial">
-								<img src="<?= base_url() ?>assets/img/testimonial/jI8DoSqIMrU-HD.jpg" alt="">
-							</div>
-						</a>
-					</div>
 					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
 						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Mk3zTJ60iU9nJ9G9VBBmGln" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Mk3zTJ60iU9nJ9G9VBBmGln.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Mk5CyO8JS-LDARMhjbwq3Bz" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Mk5CyO8JS-LDARMhjbwq3Bz.jpg" alt="">
 							</div>
 						</a>
 					</div>
@@ -80,9 +79,23 @@
 						</a>
 					</div>
 					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MkGpJyZy22r2MXuoJKyKpcz" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MkGpJyZy22r2MXuoJKyKpcz.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
 						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MloL2PnOaIRYcjB5EEllRy3" class="ratio-16x9" target="_blank">
 							<div class="youtube-testimonial">
 								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MloL2PnOaIRYcjB5EEllRy3.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Mm4zvFD1Cy_yICvvyiF_0hG" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Mm4zvFD1Cy_yICvvyiF_0hG.jpg" alt="">
 							</div>
 						</a>
 					</div>
@@ -114,8 +127,132 @@
 							</div>
 						</a>
 					</div>
-					
-
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Mk5CyO8JS-LDARMhjbwq3Bz" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Mk5CyO8JS-LDARMhjbwq3Bz.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Mk6CBQ-k5UJq6RkpTiEE0va" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Mk6CBQ-k5UJq6RkpTiEE0va.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MkkE4BwR_p0IkuYpHVncpgA" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MkkE4BwR_p0IkuYpHVncpgA.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Mkr2zXf0adskyo9za-sP4eW" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Mkr2zXf0adskyo9za-sP4eW.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MkRRO2PcaHIi-qdrOLhzNBn" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MkRRO2PcaHIi-qdrOLhzNBn.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MkzUOIX8so0SIS5cRK4wJHj" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MkzUOIX8so0SIS5cRK4wJHj.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Ml_mezmrevN2c2XX3ZOymT3" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Ml_mezmrevN2c2XX3ZOymT3.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Ml2Y7wf0HwJ7QLVsfuJJx0K" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Ml2Y7wf0HwJ7QLVsfuJJx0K.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Ml3vgkiuqy2gf_e6C-6W_wj" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Ml3vgkiuqy2gf_e6C-6W_wj.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MlFGVdQqDQxM-PQcjTJLyFk" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MlFGVdQqDQxM-PQcjTJLyFk.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MlTlTmW1UnRZTTIR3EzJEG5" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MlTlTmW1UnRZTTIR3EzJEG5.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MmjDa0CjB97yHA69H9HohbZ" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MmjDa0CjB97yHA69H9HohbZ.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MmZhLZxJZTR1GMwCDDoTsho" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MmZhLZxJZTR1GMwCDDoTsho.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Mn08EdQRmf5UHo_g9_QNb15" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Mn08EdQRmf5UHo_g9_QNb15.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-Mn8HCeCSqN6Ymz4rrDGh0Lv" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-Mn8HCeCSqN6Ymz4rrDGh0Lv.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MnMJTdDyRvy6dK0gHJZLhFD" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MnMJTdDyRvy6dK0gHJZLhFD.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MnOhL1hW6eGO7WvGtUS2_jt" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MnOhL1hW6eGO7WvGtUS2_jt.jpg" alt="">
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item playlist">
+						<a href="https://www.youtube.com/playlist?list=PL05ESIAYp-MnXW-jQFdTsJfvfeHNfySGt" class="ratio-16x9" target="_blank">
+							<div class="youtube-testimonial">
+								<img src="<?= base_url() ?>assets/img/testimonial/PL05ESIAYp-MnXW-jQFdTsJfvfeHNfySGt.jpg" alt="">
+							</div>
+						</a>
+					</div>
 
 
 					<div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3 filter-item neural">

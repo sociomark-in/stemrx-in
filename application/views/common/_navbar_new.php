@@ -8,7 +8,7 @@
 					<ul class="sub-menu">
 						<li><a href="<?= base_url() ?>regenerative-therapy">About Regenerative Therapy </a></li>
 						<li><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Our Founder</a></li>
-						<li><a href="#">Awards & Achievements</a></li>
+						<!-- <li><a href="<?= base_url() ?>awards">Awards & Achievements</a></li> -->
 						<li><a href="<?= base_url() ?>why-stemrx">Why StemRx Hospital</a></li>
 						<li><a href="#">Our Foundation </a></li>
 						<li><a href="<?= base_url('academics') ?>">Academics </a></li>
@@ -26,7 +26,8 @@
 								<li><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
 								<li><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
 								<li><a href="<?= base_url('our-center/') ?>hyderabad">Hyderabad </a></li>
-								<li><a href="javascript:void(0)">Nepal </a></li>
+								<!-- <li><a href="javascript:void(0)">Nepal </a></li> -->
+								<li><a href="<?= base_url('our-center/') ?>ghana">Ghana </a></li>
 								<li><a href="<?= base_url('our-center/') ?>mauritius">Mauritius </a></li>
 							</ul>
 						</li>
@@ -51,7 +52,7 @@
 						<li><a href="<?= base_url() ?>condition/pain-care">Pain Care</a></li>
 						<li><a href="<?= base_url() ?>condition/eye-care">Eye Care</a></li>
 						<li><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a></li>
-						<li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a></li>
+						<!-- <li><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a></li> -->
 						<li><a href="javascript:void()">Dental Treatment</a></li>
 						<li><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a></li>
 						<li><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a></li>
@@ -74,12 +75,12 @@
 						<li><a href="<?= base_url('therapeutics/') ?>electromagnetic-field-therapy">Electromagnetic Field</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>rhythm-therapy">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>brain-stimulation">Brain Stimulation</a></li>
-						<li><a href="javascript:void()">Stem Therapy</a></li>
+						<!-- <li><a href="javascript:void()">Stem Therapy</a></li> -->
 
 						<li><a href="<?= base_url('therapeutics/') ?>faradic-and-galvanic-stimulation">Faradic and Galvanic Stimulation</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>infrared-sauna">Infrared Sauna</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>brain-retrainer">Brain Retrainer</a></li>
-						<li><a href="javascript:void()">Cell Regulation</a></li>
+						<!-- <li><a href="javascript:void()">Cell Regulation</a></li> -->
 						<li><a href="<?= base_url('therapeutics/') ?>tens">TENS Transcutaneous Electrical Nerve Stimulation</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>non-surgical-spinal-decompression-therapy">Non-Surgical Spinal Decompression Therapy</a></li>
 						<li><a href="<?= base_url('therapeutics/') ?>magnetic-resonance-therapy">Magnetic Resonance Therapy (MRT)</a></li>
@@ -100,7 +101,7 @@
 					<a href="#">In Media</a>
 					<ul class="sub-menu">
 						<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
-						<li><a href="javascript:void()">Our Webinar </a></li>
+						<li><a href="<?= base_url("our-webinars") ?>">Our Webinar </a></li>
 						<li><a href="<?= base_url("pr-articles") ?>">Press Releases</a></li>
 						<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 						<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
@@ -203,7 +204,7 @@
 										<ul class="sub-menu">
 											<li><a href="<?= base_url() ?>regenerative-therapy">About Regenerative Therapy </a></li>
 											<li><a href="<?= base_url() ?>doctor/dr-pradeep-mahajan">Our Founder</a></li>
-											<li><a href="#">Awards & Achievements</a></li>
+											<!-- <li><a href="<?= base_url() ?>awards">Awards & Achievements</a></li> -->
 											<li><a href="<?= base_url() ?>why-stemrx">Why StemRx Hospital</a></li>
 											<li><a href="#">Our Foundation </a></li>
 											<li><a href="<?= base_url('academics') ?>">Academics </a></li>
@@ -221,7 +222,8 @@
 													<li><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
 													<li><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
 													<li><a href="<?= base_url('our-center/') ?>hyderabad">Hyderabad </a></li>
-													<li><a href="javascript:void(0)">Nepal </a></li>
+													<!-- <li><a href="javascript:void(0)">Nepal </a></li> -->
+													<li><a href="<?= base_url('our-center/') ?>ghana">Ghana </a></li>
 													<li><a href="<?= base_url('our-center/') ?>mauritius">Mauritius </a></li>
 												</ul>
 											</li>
@@ -257,18 +259,18 @@
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/infertility">Infertility Center</a>
 												<ul class="sub-menu">
-													<li><a href="<?= base_url() ?>condition/infertility/azoospermia">Azoospermia</a></li>
-													<li><a href="<?= base_url() ?>condition/infertility/pcod-pcos">PCOD / PCOS</a></li>
-													<li><a href="javascript:void()">Decrease Ovarian Reserve</a></li>
-													<li><a href="javascript:void()">Thin Endometrium </a></li>
-													<li><a href="javascript:void()">Ashermen's Syndrome </a></li>
-													<li><a href="javascript:void()">Premature Menopause</a></li>
+													<li><a href="<?= base_url("condition/infertility/") ?>azoospermia">Azoospermia</a></li>
+													<li><a href="<?= base_url("condition/infertility/") ?>pcod-pcos">PCOD / PCOS</a></li>
+													<li><a href="<?= base_url("condition/infertility/") ?>decrease-ovarian-reserve">Decrease Ovarian Reserve</a></li>
+													<li><a href="<?= base_url("condition/infertility/") ?>thin-endometrium">Thin Endometrium </a></li>
+													<li><a href="<?= base_url("condition/infertility/") ?>ashermen-syndrome">Ashermen's Syndrome </a></li>
+													<li><a href="<?= base_url("condition/infertility/") ?>premature-menopause">Premature Menopause</a></li>
 												</ul>
 											</li>
 											<!-- <li><a href="<?= base_url() ?>condition/new-hope-clinic">New Hope Clinic</a></li> -->
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic</a>
 												<ul class="sub-menu">
-													<li><a href="javascript:void()">Cosmetic Gynecology</a></li>
+													<!-- <li><a href="javascript:void()">Cosmetic Gynecology</a></li> -->
 													<li><a href="javascript:void()">Vaginal rejuvenation</a></li>
 													<li><a href="javascript:void()">Erectile dysfuction</a></li>
 													<li><a href="javascript:void()">Vasectomy </a></li>
@@ -298,12 +300,12 @@
 													<li><a href="<?= base_url() ?>condition/metabolic-diseases/hyperlipidemia">Hyperlipdemia</a></li>
 												</ul>
 											</li>
-											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a>
+											<!-- <li class="menu-item-has-children"><a href="<?= base_url() ?>condition/cosmatic-diseases">Cosmetic Treatments</a>
 												<ul class="sub-menu">
 													<li><a href="javascript:void()">Acne </a></li>
 													<li><a href="javascript:void()">Scar Revision </a></li>
 												</ul>
-											</li>
+											</li> -->
 											<li><a href="javascript:void()">Dental Treatment</a></li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/regenerative-clinic">Regenerative Clinic</a>
 												<ul class="sub-menu">
@@ -318,11 +320,12 @@
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/dermatology-care">Dermatology Care</a>
-												<ul class="sub-menu">
+											<ul class="sub-menu">
 													<li><a href="<?= base_url() ?>condition/dermatology-care/psoriasis">Psoriasis</a></li>
 													<li><a href="<?= base_url() ?>condition/dermatology-care/alopecia-areata">Alopecia areata</a></li>
 													<li><a href="<?= base_url() ?>condition/dermatology-care/melasma">Melasma</a></li>
 													<li><a href="<?= base_url() ?>condition/dermatology-care/vitiligo">Vitiligo</a></li>
+													<li><a href="javascript:void()">Acne </a></li>
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/chromosomal-disorder">Chromosomal Disorders</a>
@@ -357,7 +360,7 @@
 													<li><a href="<?= base_url('therapeutics/') ?>electromagnetic-field-therapy">Electromagnetic Field</a></li>
 													<li><a href="<?= base_url('therapeutics/') ?>rhythm-therapy">Vibration Therapy/ Resonance or Rhythm Therapy</a></li>
 													<li><a href="<?= base_url('therapeutics/') ?>brain-stimulation">Brain Stimulation</a></li>
-													<li><a href="javascript:void()">Stem Therapy</a></li>
+													<!-- <li><a href="javascript:void()">Stem Therapy</a></li> -->
 												</ul>
 											</li>
 											<li>
@@ -366,7 +369,7 @@
 													<li><a href="<?= base_url('therapeutics/') ?>faradic-and-galvanic-stimulation">Faradic and Galvanic Stimulation</a></li>
 													<li><a href="<?= base_url('therapeutics/') ?>infrared-sauna">Infrared Sauna</a></li>
 													<li><a href="<?= base_url('therapeutics/') ?>brain-retrainer">Brain Retrainer</a></li>
-													<li><a href="javascript:void()">Cell Regulation</a></li>
+													<!-- <li><a href="javascript:void()">Cell Regulation</a></li> -->
 													<li><a href="<?= base_url('therapeutics/') ?>non-surgical-spinal-decompression-therapy">Non-Surgical Spinal Decompression Therapy</a></li>
 													<li><a href="<?= base_url('therapeutics/') ?>magnetic-resonance-therapy">Magnetic Resonance Therapy (MRT)</a></li>
 												</ul>
@@ -392,7 +395,7 @@
 										<a href="#">In Media&nbsp;</a>
 										<ul class="sub-menu">
 											<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
-											<li><a href="javascript:void()">Our Webinar </a></li>
+											<li><a href="<?= base_url("our-webinars") ?>">Our Webinar </a></li>
 											<li><a href="<?= base_url("pr-articles") ?>">Press Releases</a></li>
 											<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
 											<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>

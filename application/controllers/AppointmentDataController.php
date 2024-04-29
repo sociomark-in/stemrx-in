@@ -92,6 +92,7 @@ class AppointmentDataController extends CI_Controller
 					'name' => $form_data['enq_name'],
 					'email' => $form_data['enq_email'],
 					'contact' => $form_data['enq_contact'],
+					'message' => $form_data['enq_message'],
 					'page_name' => $form_data['page_name'],
 					'source_url' => $form_data['source_url'],
 				];
@@ -99,6 +100,7 @@ class AppointmentDataController extends CI_Controller
 					"Last_Name" => $form_data['enq_name'],
 					"Email" => $form_data['enq_email'],
 					"Mobile" => $form_data['enq_contact'],
+					"Description" => $form_data['enq_message'],
 					"Lead_Source" => "Website"
 				];
 				$this->zohocrmclient->generate_lead($zoho_data);
@@ -134,10 +136,10 @@ class AppointmentDataController extends CI_Controller
 		$this->email->initialize($config);
 
 		$this->email->from('userinfo@stemrx.in', 'StemRx Hospitals');
-		// $this->email->to('hemant@sociomark.in');
-		$this->email->to('info@stemrx.in');
+		$this->email->to('hemant@sociomark.in');
+		// $this->email->to('info@stemrx.in');
 
-		$this->email->subject('New Appointment / Enquiry');
+		$this->email->subject('New Appointment / Enquiry - StemRx Hospitals - ' . date('Y-m-d'));
 		$this->email->message($this->load->view('templates/emails/appointment', $data, true));
 
 		$this->email->send();

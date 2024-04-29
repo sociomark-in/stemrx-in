@@ -81,6 +81,8 @@ $route['our-center/(:any)'] = 'PagesController/center/$1';
 
 
 $route['about/(:any)'] = 'AboutController/about/$1';
+$route['our-foundation'] = 'AboutController/foundation';
+$route['our-webinars'] = 'AboutController/webinars';
 $route['awards'] = 'AboutController/awards';
 $route['academics'] = 'AboutController/academics';
 $route['genetic-testing'] = 'AboutController/research_genetic';

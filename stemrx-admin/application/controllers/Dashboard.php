@@ -29,10 +29,12 @@ class Dashboard extends CI_Controller
     }
     public function index()
     {
-        $this->load->model('data/CampaignsModel', 'CampaignsModel');
-        // echo "<pre>";
-        // print_r(json_decode($this->CampaignsModel->get(['utm_source','utm_medium','utm_campaign']), true));
-        // echo "</pre>";
+        // $this->load->model('data/CampaignsModel', 'CampaignsModel');
+        $this->load->model('data/LeadsModel', 'LeadsModel');
+        echo "<pre>";
+        print_r(json_decode($this->LeadsModel->get('web_form_appointments', null, null), true));
+        echo "</pre>";
+		die;
         $data = [
             'page' => [
                 'title' => "Dashboard". " • " . APP_NAME

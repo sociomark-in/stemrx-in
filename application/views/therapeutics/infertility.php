@@ -26,7 +26,7 @@
 			<div class="col-xl-9 col-12">
 				<div class="row justify-content-center">
 					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url("condition/infertility2/ivf") ?>" class="text-center">
+						<a href="<?= base_url("therapeutics/advanced-infertility-treatment/") ?>ivf" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/diseases/ivf.png") ?>" alt="IVF" class="w-100">
@@ -36,7 +36,7 @@
 						</a>
 					</div>
 					<div class="col-lg-2 col-md-4 col-6">
-						<a href="<?= base_url("condition/infertility2/endometrim-rejuvenation") ?>" class="text-center">
+						<a href="<?= base_url("therapeutics/advanced-infertility-treatment/") ?>endometrium-rejuvenation" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/diseases/endometrim.png") ?>" alt="Endometrim Rejuvenation" class="w-100">
@@ -46,7 +46,7 @@
 						</a>
 					</div>
 					<div class="col-2">
-						<a href="<?= base_url("condition/infertility2/menopausal-symtoms-reversal") ?>" class="text-center">
+						<a href="<?= base_url("therapeutics/advanced-infertility-treatment/") ?>menopausal-symptoms-reversal" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/diseases/menopausal.png") ?>" alt="Menopausal symtoms reversal" class="w-100">
@@ -56,7 +56,7 @@
 						</a>
 					</div>
 					<div class="col-2">
-						<a href="<?= base_url("condition/infertility2/ovarian-rejuvenation") ?>" class="text-center">
+						<a href="<?= base_url("therapeutics/advanced-infertility-treatment/") ?>ovarian-rejuvenation" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
 									<img src="<?= base_url("assets/img/icons/diseases/infertility.png") ?>" alt="Ovarian Rejuvenation" class="w-100">

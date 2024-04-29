@@ -20,7 +20,7 @@
 					<div class="team-content">
 						<h2 class="mb-0 mt-n2">Dr. Pradeep V. Mahajan</h2>
 						<p class="text-theme fs-xs">MBBS, MS, Diploma-Urology, AFIH</p	>
-						<p class="fs-md text-title">Pioneer in Regenerative Medicine</p>
+						<p class="fs-md text-title">Pioneer in Regenerative Medicine, (Maharashtra Bhushan)</p>
 						<p>Is it possible to cure the life-threatening diseases without medicines or surgeries at lesser cost? </p>
 						<p>Many doctors, treat numerous diseases with various medicines and surgeries. And still, we are always in search of the best, an excellent Elixir (Rambaan remedy) with least medicines, nil surgery at economical rate. </p>
 						<p>Yes! At StemRx Hospital and Research Centre led by Dr. Mahajan ensures cost-effective and mass-appealing cell-based therapy, where a patient's own body cells can be used for the treatment of his diseases to minimize the financial burden. </p>

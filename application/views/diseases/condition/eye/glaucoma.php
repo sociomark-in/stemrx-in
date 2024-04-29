@@ -265,63 +265,91 @@
 	</section>
 
 
-	<section class="vs-specialities-wrapper space-md-bottom d-none">
+	<section class="vs-specialities-wrapper space-md-bottom">
 		<div class="container">
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-md-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
 					<h2 class="h1">Our Treatments at Stemrx</h2>
-					<p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 				</div>
 			</div>
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-lg-9 col-md-11 col-12">
 				<div class="row g-4 justify-content-center">
-					<?php for ($i = 0; $i < 10; $i++) : ?>
-						<div class="col-2">
-							<a href="<?= base_url("therapeutics/therapy-single") ?>" class="text-center">
-								<div class="card bg-white sp-item mb-2">
-									<div class="card-body">
-										<img src="<?= base_url() ?>assets/img/logo.png" alt="Speciality" class="w-100">
-									</div>
+					<div class="col-lg-auto col-md-6 col-12">
+						<a href="<?= base_url("therapeutics/fmt") ?>" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<p class="m-0">Intestinal Microbiota Transfer (IMT)</p>
 								</div>
-								<p>Treatment Single</p>
-							</a>
-						</div>
-					<?php endfor ?>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-auto col-md-6 col-12">
+						<a href="<?= base_url("therapeutics/detoxification-therapy") ?>" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<p class="m-0">Detoxification Therapy</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-auto col-md-6 col-12">
+						<a href="javascript:void(0)" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<p class="m-0">Stem Cell Therapy</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-auto col-md-6 col-12">
+						<a href="javascript:void(0)" class="text-center">
+							<div class="card bg-white sp-item mb-2">
+								<div class="card-body">
+									<p class="m-0">Quantum Energy Medicine</p>
+								</div>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 		</div>
 	</section>
 
-	<section class="vs-team-wrapper space-md-bottom d-none">
+	<section class="vs-team-wrapper space-md-bottom">
 		<div class="container">
 			<div class="team-content text-center mb-30">
 				<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
 				<h2 class="h1 mb-3">Our Consultant for Diseses</h2>
 			</div>
-			<div class="row">
-				<?php for ($i = 0; $i < 4; $i++) : ?>
-					<div class="col-md-6 col-lg-4 col-xl-3 mb-30 wow fadeInUp" data-wow-delay="0.3s">
-						<div class="team-card">
-							<div class="team-head"><img src="<?= base_url() ?>assets/img/team/t-1-1.png" alt="Team Area" class="w-100">
-								<!-- <div class="team-card-links"><a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
-									<div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div>
-								</div> -->
-							</div>
-							<div class="team-body">
-								<h3 class="h4 mb-0"><a href="<?= base_url() ?>doctor/doctor-<?= $i ?>-name" class="text-reset">David Smith</a></h3>
-								<p class="fs-xs degi text-theme mb-2">Specialist</p>
-								<p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation</p>
-								<div class="">
-									<p class="fs-xs team-info"><i class="fas fa-phone-alt text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
-									<p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
-								</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+					<div class="team-card">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/drpvmahajan.jpg" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('doctor/') ?>dr-pradeep-mahajan"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
 						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="<?= base_url('doctor/') ?>dr-pradeep-mahajan" class="text-reset">Dr. Pradeep Mahajan</a></h3>
+						</div>
 					</div>
-				<?php endfor ?>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+					<div class="team-card">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr.pallavi.jpg" alt="Team Area" class="w-100">
+							<div class="team-card-links"><a class="team-links-toggler" href="<?= base_url('doctor/') ?>dr-pallavi-lele"><i class="fas fa-eye"></i></a>
+								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
+							</div>
+						</div>
+						<div class="team-body p-3">
+							<h3 class="h4 mb-0"><a href="<?= base_url('doctor/') ?>dr-pallavi-lele" class="text-reset">Dr. Pallavi Lale</a></h3>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

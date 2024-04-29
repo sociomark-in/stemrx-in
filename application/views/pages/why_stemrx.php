@@ -114,7 +114,7 @@
     <!--==============================
     What are stem cells?
     ==============================-->
-    <section class="vs-accordion-wrapper space-md-bottom">
+    <section class="vs-accordion-wrapper space-md-bottom d-none">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 mb-30 mb-xl-0">

@@ -138,8 +138,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2021-September-Umbilical-Cord-MSCs-Derived-Exosomes-Characterization-Therapeutic-Application_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2021-September-Umbilical-Cord-MSCs-Derived-Exosomes-Characterization-Therapeutic-Application_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -166,8 +166,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2021-October-Role-of-LPRP-in-COVID19_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2021-October-Role-of-LPRP-in-COVID19_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -194,8 +194,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2021-June-Autologous-Minimally-Invasive-Cell-Based-Therapy-for-Meniscal_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2021-June-Autologous-Minimally-Invasive-Cell-Based-Therapy-for-Meniscal_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -222,8 +222,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2021-April-Role-of-Gut-Microbiota_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2021-April-Role-of-Gut-Microbiota_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -250,8 +250,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2020-1st-Half-IJADS-International-Journal-of-Advanced-Dental-Sciences-Volume-I-Issue-1-Jan-June-2020_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2020-1st-Half-IJADS-International-Journal-of-Advanced-Dental-Sciences-Volume-I-Issue-1-Jan-June-2020_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -278,8 +278,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2019-July-ASMI-Gut-Microbiome-Article_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2019-July-ASMI-Gut-Microbiome-Article_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -306,8 +306,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2019-February-CHRISMEDJHealthRes-T1DM_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2019-February-CHRISMEDJHealthRes-T1DM_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -334,8 +334,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2019-August-30144-Article-Text-56531-4-10-20190618_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2019-August-30144-Article-Text-56531-4-10-20190618_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -362,8 +362,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2018-June-jorm-18-ra-103_final-AVN_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2018-June-jorm-18-ra-103_final-AVN_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -390,8 +390,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2017-Issue-3-Regenerative-Medicine-Using-Platelet-Rich-Plasma-and-Stem-Cells-in-Atrophic-Scars-A-Case-Report_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2017-Issue-3-Regenerative-Medicine-Using-Platelet-Rich-Plasma-and-Stem-Cells-in-Atrophic-Scars-A-Case-Report_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -418,8 +418,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2017-February-Etiopathogenesis-and-Stem-Cell-Treatment-OUtcomes-in-AVN-of-Femoral-Head-A-Review-of-50-Cases_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2017-February-Etiopathogenesis-and-Stem-Cell-Treatment-OUtcomes-in-AVN-of-Femoral-Head-A-Review-of-50-Cases_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -446,8 +446,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2017-Autologous-Stem-Cell-Therapy-in-Acute-Motor-Sensory-Axonal-Neuropathy_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2017-Autologous-Stem-Cell-Therapy-in-Acute-Motor-Sensory-Axonal-Neuropathy_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -474,8 +474,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2017-February-Etiopathogenesis-and-Stem-Cell-Treatment-OUtcomes-in-AVN-of-Femoral-Head-A-Review-of-50-Cases_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2017-February-Etiopathogenesis-and-Stem-Cell-Treatment-OUtcomes-in-AVN-of-Femoral-Head-A-Review-of-50-Cases_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -502,8 +502,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2016-April-Role-of-autologous-stem-cells-in-RRMS-a-case-report_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2016-April-Role-of-autologous-stem-cells-in-RRMS-a-case-report_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -530,8 +530,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2016-Neurogenic-bladder-repair-using-MSCs_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2016-Neurogenic-bladder-repair-using-MSCs_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -558,8 +558,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2015-A-novel-cell-based-treatment-for-avascular-necrosis-of-femoral-head-a-case-report.-IJORA-2015-publication_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2015-A-novel-cell-based-treatment-for-avascular-necrosis-of-femoral-head-a-case-report.-IJORA-2015-publication_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -586,8 +586,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2015-Journal-SCSI-2015_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2015-Journal-SCSI-2015_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>
@@ -614,8 +614,8 @@
 									<div class="col-auto">
 										<div class="blog-img">
 											<picture>
-												<source srcset="https://placehold.co/170x220" type="image/webp">
-												<img src="https://placehold.co/170x220" alt="Blog Image" class="w-100">
+												<source srcset="<?= base_url('assets/uploads/') ?>2014-A-study-of-cell-therapy-assisted-regeneration-of-cartilage-in-Avascular-Necrosis_page-0001.jpg" type="image/webp">
+												<img src="<?= base_url('assets/uploads/') ?>2014-A-study-of-cell-therapy-assisted-regeneration-of-cartilage-in-Avascular-Necrosis_page-0001.jpg" alt="Blog Image" class="w-100">
 											</picture>
 										</div>
 									</div>

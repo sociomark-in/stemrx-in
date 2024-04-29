@@ -6,7 +6,7 @@
 		<div class="col-xl-5 col-lg-6">
 			<div class="px-3 py-5">
 				<div class="row">
-					<div class="offset-xl-1 col-xl-11 col-12">
+					<div class="offset-xl-1 col-xxl-10 col-xl-11 col-12">
 						<div class="widget footer-widget widget_nav_menu mb-lg-4 mb-3">
 							<div class="title">
 								<h3 class="text-white widget_title">Locate Us</h3>
@@ -14,12 +14,11 @@
 						</div>
 						<div class="widget_nav_menu">
 							<ul class="menu row mb-3">
-								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
-								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
-								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Hyderabad</a></li>
-								<li class="col-xl-3 col-lg-4 col-6 mb-2"></li>
-								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Nepal </a></li>
-								<li class="col-xl-3 col-lg-4 col-6 mb-2"><a href="javascript:void(0)">Mauritius</a></li>
+								<li class="col-xl-4 col-md-6 col-6 mb-2"><a href="<?= base_url('our-center/') ?>navi-mumbai">Navi Mumbai</a></li>
+								<li class="col-xl-4 col-md-6 col-6 mb-2"><a href="<?= base_url('our-center/') ?>mumbai">Mumbai</a></li>
+								<li class="col-xl-4 col-md-6 col-6 mb-2"><a href="<?= base_url('our-center/') ?>hyderabad">Hyderabad</a></li>
+								<li class="col-xl-4 col-md-6 col-6 mb-2"><a href="<?= base_url('our-center/') ?>mumbai">Ghana </a></li>
+								<li class="col-xl-4 col-md-6 col-6 mb-2"><a href="<?= base_url('our-center/') ?>mauritius">Mauritius</a></li>
 							</ul>
 						</div>
 					</div>
@@ -149,7 +148,7 @@
 						<ul class="menu">
 							<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
 							<li><a href="<?= base_url("media/youtube-media") ?>">YouTube</a></li>
-							<li><a href="javascript:void()">Our Webinar </a></li>
+							<li><a href="<?= base_url("our-webinars") ?>">Our Webinar </a></li>
 							<li><a href="<?= base_url("pr-articles") ?>">Press Releases</a></li>
 							<li><a href="<?= base_url("media/instagram-media") ?>">Instagram</a></li>
 						</ul>

@@ -18,7 +18,7 @@
 				</div>
 				<div class="col-lg-7">
 					<div class="team-content">
-						<h2 class="mb-0 mt-n2">Dr. Pallavi Lele</h2>
+						<h2 class="mb-0 mt-n2">Dr. Pallavi Lale</h2>
 						<p class="text-theme fs-xs">MBBS, MD, Obstetrician & Gynecologist, FMAS Infertility Specialist, Cosmetic Gynecologist, Laparoscopic Surgeon</p>
 						<p class="fs-md text-title">Dr. Pallavi Lale is a highly skilled Obstetrician & Gynecologist. She is dedicated to providing comprehensive care to her patients, particularly in the areas of infertility treatment and gynaecological surgeries.</p>
 						<p>

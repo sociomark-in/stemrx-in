@@ -11,8 +11,8 @@ class AboutController extends CI_Controller
 	public function about($content)
 	{
 		switch ($content) {
-			case 'founder':
-				$this->load->load_view('about/founder');
+			case 'our-foundation':
+				$this->load->load_view('pages/about/foundation');
 				break;
 
 			default:
@@ -21,12 +21,27 @@ class AboutController extends CI_Controller
 		}
 	}
 
+	public function foundation()
+	{
+		$this->data['page'] = [
+			'title' => "Our Foundation" . " - " . APP_NAME
+		];
+		$this->load->load_view('pages/about/foundation', $this->data);
+	}
+
 	public function awards()
 	{
 		$this->data['page'] = [
 			'title' => "Awards & Accolates" . " - " . APP_NAME
 		];
 		$this->load->load_view('pages/about/awards', $this->data);
+	}
+	public function webinars()
+	{
+		$this->data['page'] = [
+			'title' => "Our Webinars" . " - " . APP_NAME
+		];
+		$this->load->load_view('pages/about/webinars', $this->data);
 	}
 
 	public function research_genetic()

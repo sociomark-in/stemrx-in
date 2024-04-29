@@ -1,8 +1,8 @@
 <?= form_open(base_url('api/appointment/new'), ["id" => "appointmentForm", "class" => "form-wrap1 " .  $props['class'] ??= "", "data-bg-color" => $props['bg-color'] ??= ""]) ?>
-<div class="form-title-box bg-title" data-bg-src="<?= $props['bg-image'] ??= "" ?>">
+<div class="form-title-box bg-title p-4" data-bg-src="<?= $props['bg-image'] ??= "" ?>">
 	<div class="row justify-content-between align-items-center">
 		<div class="col">
-			<h2 class="h4 mb-2 text-white"><?= $title['heading'] ??= "" ?></h2>
+			<h2 class="h4 mb-0 text-white"><?= $title['heading'] ??= "" ?></h2>
 			<p class="mb-0 text-white-light">
 				<?php //$title['desc'] ??= "" 
 				?>
@@ -13,7 +13,7 @@
 			</div> -->
 	</div>
 </div>
-<div class="form-box">
+<div class="form-box py-5 p-4">
 	<div class="row">
 		<input type="hidden" name="source_url" value="<?= current_url() ?>">
 		<input type="hidden" name="page_name" value="<?= $page['title'] ?>">
@@ -26,21 +26,12 @@
 			<i class="fal small fa-envelope"></i>
 		</div>
 		<div class="col-12 form-group">
-			<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" maxlength="13" minlength="13" required />
+			<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" pattern="^\d{10}" maxlength="10" minlength="10" required />
 			<i class="fal small fa-phone"></i>
 		</div>
-		<!-- <div class="col-12 form-group">
-			<textarea class="form-control style3" name="enq_name" placeholder="Describe Your Condition in Brief" maxlength="200"></textarea>
-			<i class="fal small fa-calendar"></i>
+		<div class="col-12 form-group">
+			<textarea name="enq_message" id="message" cols="30" rows="3" class="form-control style3" placeholder="Message"></textarea> <i class="fal fa-pencil-alt"></i>
 		</div>
-
-		<div class="col-12">
-			<label for="">Upload Medical Documents</label>
-			<div class="form-group">
-				<input type="file" class="form-control style3" name="enq_files" multiple/>
-				<i class="fal small fa-file"></i>
-			</div>
-		</div> -->
 		<input type="hidden" name="token">
 		<div class="col-xl-12 text-center">
 			<button type="submit" class="vs-btn style2" name="form_submit">

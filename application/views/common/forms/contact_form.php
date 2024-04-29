@@ -1,13 +1,27 @@
-<?= form_open(base_url('api/contact/new'), ['id' => 'appointmentForm', 'class' => "form-wrap3 mb-30", 'data-bg-color' => "#f3f6f7"]) ?>
+<?= form_open(base_url('api/appointment/new'), ['id' => 'appointmentForm', 'class' => "form-wrap3 mb-30", 'data-bg-color' => "#f3f6f7"]) ?>
 <input type="hidden" name="source_url" value="<?= current_url() ?>">
 <input type="hidden" name="page_name" value="<?= $page['title'] ?>">
 <div class="form-title">
 	<h3 class="mt-n2 fls-n2 mb-0">Send Us a Message</h3>
 	<p class="text-theme mb-4">Your email address will not be published*</p>
 </div>
-<div class="form-group mb-15"><input type="text" class="form-control style3" name="enq_name" id="name" placeholder="Name" required> <i class="fal fa-user"></i></div>
-<div class="form-group mb-15"><input type="text" class="form-control style3" name="enq_email" id="email" placeholder="E-mail" required> <i class="fal fa-envelope"></i></div>
-<div class="form-group mb-15"><textarea name="enq_message" id="message" cols="30" rows="3" class="form-control style3" placeholder="Message"></textarea> <i class="fal fa-pencil-alt"></i></div>
+<div class="row">
+	<div class="col-12 form-group">
+		<input type="text" class="form-control style3" name="enq_name" placeholder="Your Name" required />
+		<i class="fal small fa-user"></i>
+	</div>
+	<div class="col-12 form-group">
+		<input type="email" class="form-control style3" name="enq_email" placeholder="Email Address" required />
+		<i class="fal small fa-envelope"></i>
+	</div>
+	<div class="col-12 form-group">
+		<input type="number" class="form-control style3" name="enq_contact" placeholder="Your Phone" pattern="^\d{10}" maxlength="10" minlength="10" required />
+		<i class="fal small fa-phone"></i>
+	</div>
+	<div class="col-12 form-group">
+		<textarea name="enq_message" id="message" cols="30" rows="3" class="form-control style3" placeholder="Message"></textarea> <i class="fal fa-pencil-alt"></i>
+	</div>
+</div>
 
 <input type="hidden" name="token">
 
@@ -39,7 +53,6 @@
 		},
 		messages: {
 			enq_email: {
-				required: 'Required',
 				// remote: "You have already put up an enquiry! Your email is already in our list.",
 			},
 			enq_contact: {

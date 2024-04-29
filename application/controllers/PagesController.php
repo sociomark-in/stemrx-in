@@ -188,6 +188,12 @@ class PagesController extends CI_Controller
 				];
 				$this->load->load_view('centers/nepal', $this->data);
 				break;
+			case 'ghana':
+				$this->data['page'] = [
+					'title' => "StemRx at Ghana" . " - " . APP_NAME
+				];
+				$this->load->load_view('centers/ghana', $this->data);
+				break;
 			case 'mauritius':
 				$this->data['page'] = [
 					'title' => "StemRx at Maldives" . " - " . APP_NAME
@@ -195,10 +201,7 @@ class PagesController extends CI_Controller
 				$this->load->load_view('centers/mauritius', $this->data);
 				break;
 			default:
-				$this->data['page'] = [
-					'title' => "Diabetes" . " - " . APP_NAME
-				];
-				$this->load->load_view('pages/service-details', $this->data);
+				show_404();
 				break;
 		}
 	}
