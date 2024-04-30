@@ -51,9 +51,12 @@ class ApplicationModel extends CI_Model
 				break;
 
 			default:
-				$results = $this->get(['name', 'table']);
+				$tables = json_decode($this->get(['name', 'table']), true);
+				foreach ($tables as $key => $item) {
+					array_push($results, trim($item["table"]));
+				}
 				break;
 		}
-		return $results;
+		return json_encode(["tables" => $results]);
 	}
 }

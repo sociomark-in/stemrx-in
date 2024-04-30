@@ -271,9 +271,9 @@
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/couple-clinic">Couple Clinic</a>
 												<ul class="sub-menu">
 													<!-- <li><a href="javascript:void()">Cosmetic Gynecology</a></li> -->
-													<li><a href="javascript:void()">Vaginal rejuvenation</a></li>
+													<li><a href="javascript:void()">Vaginal Rejuvenation</a></li>
 													<li><a href="javascript:void()">Erectile dysfuction</a></li>
-													<li><a href="javascript:void()">Vasectomy </a></li>
+													<!-- <li><a href="javascript:void()">Vasectomy </a></li> -->
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/pain-care">Pain Care</a>
@@ -290,7 +290,7 @@
 													<li><a href="<?= base_url('condition/eye-care/') ?>cataract">Cataract</a></li>
 													<li><a href="<?= base_url('condition/eye-care/') ?>glaucoma">Glaucoma</a></li>
 													<li><a href="<?= base_url('condition/eye-care/') ?>amd">Age-related macular degeneration (AMD) </a></li>
-													<li><a href="javascript:void()">Optic Nerve Injury</a></li>
+													<!-- <li><a href="javascript:void()">Optic Nerve Injury</a></li> -->
 												</ul>
 											</li>
 											<li class="menu-item-has-children"><a href="<?= base_url() ?>condition/metabolic-diseases">Metabolic Diseases</a>
@@ -324,7 +324,7 @@
 													<li><a href="<?= base_url() ?>condition/dermatology-care/psoriasis">Psoriasis</a></li>
 													<li><a href="<?= base_url() ?>condition/dermatology-care/alopecia-areata">Alopecia areata</a></li>
 													<li><a href="<?= base_url() ?>condition/dermatology-care/melasma">Melasma</a></li>
-													<li><a href="<?= base_url() ?>condition/dermatology-care/vitiligo">Vitiligo</a></li>
+													<!-- <li><a href="<?= base_url() ?>condition/dermatology-care/vitiligo">Vitiligo</a></li> -->
 													<li><a href="javascript:void()">Acne </a></li>
 												</ul>
 											</li>

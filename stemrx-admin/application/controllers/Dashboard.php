@@ -31,14 +31,15 @@ class Dashboard extends CI_Controller
     {
         // $this->load->model('data/CampaignsModel', 'CampaignsModel');
         $this->load->model('data/LeadsModel', 'LeadsModel');
-        echo "<pre>";
-        print_r(json_decode($this->LeadsModel->get('web_form_appointments', null, null), true));
-        echo "</pre>";
-		die;
+        // echo "<pre>";
+        // print_r(json_decode($this->LeadsModel->get('web_form_appointments', null, null), true));
+        // echo "</pre>";
+		// die;
         $data = [
             'page' => [
                 'title' => "Dashboard". " • " . APP_NAME
-            ]
+			],
+			'leads' => json_decode($this->LeadsModel->get('web_form_appointments', null, null), true)
         ];
         $this->load->admin_dashboard('dashboard/index', $data);
     }

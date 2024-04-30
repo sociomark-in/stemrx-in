@@ -69,12 +69,12 @@
 				</style>
 			</li>
 			<li class="nav-item">XXX.XXX.XXX.XXX</li>
-			<li class="nav-item">
+			<li class="nav-item d-none">
 				<button id="startTour" class="btn nav-link">
 					<i data-feather="help-circle"></i>
 				</button>
 			</li>
-			<li class="nav-item dropdown">
+			<li class="nav-item dropdown d-none">
 				<a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<i class="flag-icon flag-icon-us mt-1" title="us"></i> <span class="ms-1 me-1 d-none d-md-inline-block">English</span>
 				</a>
@@ -86,7 +86,7 @@
 					<a href="<?= base_url("") ?>" class="dropdown-item py-2"><i class="flag-icon flag-icon-es" title="es" id="es"></i> <span class="ms-1"> Spanish </span></a>
 				</div>
 			</li>
-			<li class="nav-item dropdown">
+			<li class="nav-item dropdown d-none">
 				<a class="nav-link dropdown-toggle" href="#" id="appsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<i data-feather="grid"></i>
 				</a>
@@ -122,7 +122,7 @@
 					</div>
 				</div>
 			</li>
-			<li class="nav-item dropdown">
+			<li class="nav-item dropdown d-none">
 				<a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<i data-feather="mail"></i>
 				</a>
@@ -198,7 +198,7 @@
 					</div>
 				</div>
 			</li>
-			<li class="nav-item dropdown">
+			<li class="nav-item dropdown d-none">
 				<a class="nav-link dropdown-toggle" href="#" id="notificationDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<i data-feather="bell"></i>
 					<div class="indicator">
@@ -277,7 +277,7 @@
 						</div>
 					</div>
 					<ul class="list-unstyled p-1">
-						<li class="dropdown-item py-2">
+						<!-- <li class="dropdown-item py-2">
 							<a href="<?= base_url("profile") ?>" class="text-body ms-0">
 								<i class="me-2 icon-md" data-feather="user"></i>
 								<span>Profile</span>
@@ -288,7 +288,7 @@
 								<i class="me-2 icon-md" data-feather="repeat"></i>
 								<span>Switch User</span>
 							</a>
-						</li>
+						</li> -->
 						<li class="dropdown-item py-2">
 							<a href="<?= base_url("logout") ?>" class="text-body ms-0">
 								<i class="me-2 icon-md" data-feather="log-out"></i>

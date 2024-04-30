@@ -156,7 +156,7 @@
 			<div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="4">
 				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
 					<div class="team-card">
-						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr-shankar.jpg" alt="Team Area" class="w-100">
 							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
@@ -182,7 +182,7 @@
 				</div>
 				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
 					<div class="team-card">
-						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr-donald.jpg" alt="Team Area" class="w-100">
 							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
@@ -195,7 +195,7 @@
 				</div>
 				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
 					<div class="team-card">
-						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr-manoj.jpg" alt="Team Area" class="w-100">
 							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
@@ -208,7 +208,7 @@
 				</div>
 				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
 					<div class="team-card">
-						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr-aditya.jpg" alt="Team Area" class="w-100">
 							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>
@@ -221,7 +221,7 @@
 				</div>
 				<div class="col-md-6 col-lg-4 col-xl-3 mb-30">
 					<div class="team-card">
-						<div class="team-head"><img src="https://placehold.co/400x370" alt="Team Area" class="w-100">
+						<div class="team-head"><img src="<?= base_url() ?>assets/img/team/dr-pramod.jpg" alt="Team Area" class="w-100">
 							<div class="team-card-links"><a class="team-links-toggler" href="javascript:void(0)"><i class="fas fa-eye"></i></a>
 								<!-- <div class="team-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-basketball-ball"></i></a></div> -->
 							</div>

@@ -12,7 +12,7 @@ class LeadsModel extends CI_Model
 		// $this->table = (in_array('registrations', $this->db->list_tables())? 'registrations': null);
 
 		$this->error = [
-			'status' => 'failed',
+			'status' => 'Failed',
 			'message' => "Unknown Error Occurred",
 			'source' => __FILE__
 		];
@@ -21,20 +21,18 @@ class LeadsModel extends CI_Model
 	public function get($table, $columns = null, $where = null)
 	{
 		$results = [];
-		if (null !== $columns && count($columns) > 0) {
+		if (!is_null($columns) && count($columns) > 0) {
 			$this->db->select($columns);
 		}
-		if (null !== $where && count($where) > 0) {
+		if (!is_null($where) && count($where) > 0) {
 			$this->db->where($where);
 		}
-		if (null !== $table) {
-			print_r($table);
-			print_r($this->active_tables);
-
-			if (in_array($table, $this->active_tables)) {
-			} else {
-				$this->error['message'] = "Database Table " . $table . " is not Mapped with the Application!";
+		if (!is_null($table)) {
+			if (!in_array($table, $this->active_tables['tables'])) {
+				$this->error['message'] = "Database Table " . $table . " is not mapped with the Application!";
 				return json_encode($this->error);
+			} else {
+				$results = $this->db->get($table)->result_array();
 			}
 			return json_encode($results);
 		} else {
