@@ -341,7 +341,7 @@
 									</a>
 								</div>
 								<div class="col-lg-2 col-md-4 col-6">
-									<a href="javascript:void(0)" class="text-center">
+									<a href="<?= base_url('our-center/') ?>hyderabad" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
 												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
@@ -351,17 +351,17 @@
 									</a>
 								</div>
 								<div class="col-lg-2 col-md-4 col-6">
-									<a href="javascript:void(0)" class="text-center">
+									<a href="<?= base_url('our-center/') ?>ghana" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
 												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
 											</div>
 										</div>
-										<h5>Nepal</h5>
+										<h5>Ghana</h5>
 									</a>
 								</div>
 								<div class="col-lg-2 col-md-4 col-6">
-									<a href="javascript:void(0)" class="text-center">
+									<a href="<?= base_url('our-center/') ?>mauritius" class="text-center">
 										<div class="card bg-white sp-item mb-2">
 											<div class="card-body p-5">
 												<img src="<?= base_url() ?>assets/img/icons/color/hospital.png" alt="Speciality" class="w-100" height="70">
@@ -647,7 +647,7 @@
 
 
 	<div data-bg-src="<?= base_url() ?>assets/img/bg/bg-shape-8.jpg">
-		<section class="vs-middle-box-wrapper space space-bottom">
+		<section class="d-none vs-middle-box-wrapper space space-bottom">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-xl-6 mb-30 mb-lg-0">
@@ -675,7 +675,7 @@
 					<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 						<div class="section-title">
 							<!-- <span class="h3 text-theme sec-subtitle">Testimonial</span> -->
-							<h2 class="h1">Our Patients Responses</h2>
+							<h2 class="h1">Our Patients Testimonials</h2>
 							<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 						</div>
 					</div>

@@ -6,23 +6,24 @@ class PagesController extends CI_Controller
 
 	public $data;
 
-	public function page_404(){
+	public function page_404()
+	{
 		$this->data['page'] = [
 			'title' => "Stemrx Brain and Spine Institute - Cell Therapy in India",
-			'description' =>"Stemrx Brain and Spine Institute is the best cell therapy center in India, which treat patients with neurodegerative and neurodevelopmental disorders.",
+			'description' => "Stemrx Brain and Spine Institute is the best cell therapy center in India, which treat patients with neurodegerative and neurodevelopmental disorders.",
 		];
 		$this->load->load_misc('errors/html/error_404', $this->data);
 	}
-	
+
 	public function index()
 	{
 		$this->data['page'] = [
 			'title' => "Stemrx Brain and Spine Institute - Cell Therapy in India",
-			'description' =>"Stemrx Brain and Spine Institute is the best cell therapy center in India, which treat patients with neurodegerative and neurodevelopmental disorders.",
+			'description' => "Stemrx Brain and Spine Institute is the best cell therapy center in India, which treat patients with neurodegerative and neurodevelopmental disorders.",
 		];
 		$this->load->load_view('pages/new/index', $this->data);
 	}
-	
+
 	public function blogs()
 	{
 		$this->data['page'] = [
@@ -67,6 +68,37 @@ class PagesController extends CI_Controller
 	}
 	public function parent_testmonial()
 	{
+		$playlist = [
+			"PL05ESIAYp-Mk5CyO8JS-LDARMhjbwq3Bz",
+			"PL05ESIAYp-Mn8HCeCSqN6Ymz4rrDGh0Lv",
+			"PL05ESIAYp-Mk6CBQ-k5UJq6RkpTiEE0va",
+			"PL05ESIAYp-MkamvLCRD4Mc73n8Lyj8P4R",
+			"PL05ESIAYp-MlFGVdQqDQxM-PQcjTJLyFk",
+			"PL05ESIAYp-MlTlTmW1UnRZTTIR3EzJEG5",
+			"PL05ESIAYp-MnYMSAA-uivpSVlG1TfI58E",
+			"PL05ESIAYp-MnOhL1hW6eGO7WvGtUS2_jt",
+			"PL05ESIAYp-MkkE4BwR_p0IkuYpHVncpgA",
+			"PL05ESIAYp-MnFUWlbUqsQvDe4mykrsM8b",
+			"PL05ESIAYp-MloL2PnOaIRYcjB5EEllRy3",
+			"PL05ESIAYp-MmjDa0CjB97yHA69H9HohbZ",
+			"PL05ESIAYp-Mn08EdQRmf5UHo_g9_QNb15",
+			"PL05ESIAYp-MmZhLZxJZTR1GMwCDDoTsho",
+			"PL05ESIAYp-Ml2Y7wf0HwJ7QLVsfuJJx0K",
+			"PL05ESIAYp-Mkr2zXf0adskyo9za-sP4eW",
+			"PL05ESIAYp-MkGpJyZy22r2MXuoJKyKpcz",
+			"PL05ESIAYp-Mk5CyO8JS-LDARMhjbwq3Bz",
+			"PL05ESIAYp-Ml3vgkiuqy2gf_e6C-6W_wj",
+			"PL05ESIAYp-MkzUOIX8so0SIS5cRK4wJHj",
+			"PL05ESIAYp-MkRRO2PcaHIi-qdrOLhzNBn",
+			"PL05ESIAYp-Mmt0OV7SBPd1obLn9aZH0ux",
+			"PL05ESIAYp-Ml_mezmrevN2c2XX3ZOymT3",
+			"PL05ESIAYp-MnXW-jQFdTsJfvfeHNfySGt",
+			"PL05ESIAYp-Mm4zvFD1Cy_yICvvyiF_0hG",
+			"PL05ESIAYp-Mm9AapLqL16kJtcx5LE-1AH",
+			"PL05ESIAYp-MnMJTdDyRvy6dK0gHJZLhFD",
+			"PL05ESIAYp-Mk3zTJ60iU9nJ9G9VBBmGln",
+		];
+		$this->data['playlist'] = $playlist;
 		$this->data['page'] = [
 			'title' => "Testimonials" . " - " . APP_NAME
 		];
@@ -105,7 +137,7 @@ class PagesController extends CI_Controller
 		];
 		$this->load->load_view('pages/service', $this->data);
 	}
-	
+
 	public function service_single($service)
 	{
 		switch ($service) {
@@ -205,7 +237,7 @@ class PagesController extends CI_Controller
 				break;
 		}
 	}
-	
+
 	public function teams()
 	{
 		$this->data['page'] = [

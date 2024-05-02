@@ -4,13 +4,13 @@
 		<div class="parallax" data-parallax-image="<?= base_url("assets/") ?>img/breadcurmb/breadcurmb-1-1.jpg"></div>
 		<div class="container z-index-common">
 			<div class="breadcumb-content">
-				<h1 class="breadcumb-title">Diabetes</h1>
+				<h1 class="breadcumb-title">Vaginal Rejuvenation</h1>
 				<div class="breadcumb-menu-wrap">
 					<i class="far fa-home-lg"></i>
 					<ul class="breadcumb-menu">
 						<li><a href="<?= base_url() ?>">Home</a></li>
-						<li><a href="<?= base_url("condition/metabolic-diseases") ?>">Metabolic Diseases</a></li>
-						<li class="active">Diabetes</li>
+						<li><a href="<?= base_url("condition/couple-clinic") ?>">Couple Clinic</a></li>
+						<li class="active">Vaginal Rejuvenation</li>
 					</ul>
 				</div>
 			</div>
@@ -24,10 +24,10 @@
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
 							<picture>
-								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/diabetes_1200x600.webp" type="image/webp">
-								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/diabetes_1200x600.jpg" type="image/jpg">
-								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/diabetes_800x800.jpg" type="image/webp">
-								<img src="<?= base_url("assets/") ?>img/banners/conditions/diabetes_800x800.jpg" alt="Service Image" class="w-100">
+								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/webp">
+								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/jpg">
+								<source srcset="https://placehold.co/800x800" type="image/webp">
+								<img src="https://placehold.co/800x800" alt="Service Image" class="w-100">
 							</picture>
 						</div>
 						<div class="row justify-content-center">
@@ -36,7 +36,7 @@
 									<div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
 										<div class="col-sm-6 col-lg-auto">
 											<span class="fs-xs">Condition Name</span>
-											<h2 class="h5 mb-0">Diabetes</h2>
+											<h2 class="h5 mb-0">Vaginal Rejuvenation</h2>
 										</div>
 
 										<div class="col-sm-6 col-lg-auto">
@@ -57,110 +57,50 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="">
-						<h2 class="h1">Revolutionizing Diabetes Care: StemRx Hospital Pioneers Groundbreaking Treatments!</h2>
+						<h2 class="h1">Revitalize Your Feminine Wellness: Discover the Secrets of Vaginal Rejuvenation at StemRx Hospital!</h2>
 						<p class="fs-md mb-4 pb-2">
-							<strong class="text-title">Diabetes Mellitus</strong> is a chronic metabolic disorder characterized by hyperglycemia, resulting from defects in insulin secretion, insulin action, or both. Insulin, produced by pancreatic beta cells, facilitates glucose uptake by tissues, regulating blood glucose levels. In type 1 diabetes, pancreatic beta cells are destroyed by autoimmune processes, leading to absolute insulin deficiency. Type 2 diabetes involves insulin resistance in peripheral tissues and impaired insulin secretion. Both types result in inadequate glucose uptake, causing hyperglycemia. The pathophysiology of diabetes involves complex interplay among genetic, environmental, and lifestyle factors. Chronic hyperglycemia contributes to microvascular and macrovascular complications, including nephropathy, retinopathy, neuropathy, and cardiovascular diseases.
+							<strong class="text-title">Vaginal Rejuvenation</strong> refers to various procedures aimed at restoring or enhancing the appearance, tone, and function of the vaginal area. These procedures can include surgical interventions like labiaplasty or non-invasive techniques such as cellular therapy. The goal is often to address concerns related to childbirth effects, aging, or aesthetic preferences, promoting improved self-confidence and sexual satisfaction. However, it's essential for individuals considering such procedures to consult with qualified medical professionals to understand the risks, benefits, and suitability for their specific needs.
 						</p>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="vs-detail-wrapper space-md-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
 					<div class="">
-						<h2>Symptoms</h2>
-						<p>
-							Here are the key symptoms of diabetes:
-						</p>
-						<ul class="row">
+						<h2>To whom it is required?</h2>
+						<ul class="row g-4">
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Frequent Urination:</h6>
-									<p>Increased need to urinate, particularly at night.</p>
+									<h4 class="text-dark">Post-childbirth women experiencing vaginal laxity.</h4>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Excessive thirst:</h6>
-									<p>Constant feeling of being thirsty, even after drinking fluids.</p>
+									<h4 class="text-dark">Individuals facing age-related changes in vaginal tissues.</h4>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Unexplained weight loss:</h6>
-									<p>Losing weight without trying, despite increased appetite.</p>
+									<h4 class="text-dark">Women with vaginal atrophy due to menopause.</h4>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Fatigue:</h6>
-									<p>Feeling tired and weak, even after getting enough rest.</p>
+									<h4 class="text-dark">Those dealing with urinary incontinence from weak pelvic floor muscles.</h4>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Blurry vision:</h6>
-									<p>Blurriness or difficulty focusing, often due to high blood sugar levels affecting the eyes.</p>
+									<h4 class="text-dark">Individuals seeking aesthetic enhancement for their genital area.</h4>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
-									<h6 class="m-0">Slow wound healing:</h6>
-									<p>Cuts and bruises take longer to heal than usual.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Tingling or numbness:</h6>
-									<p>Often felt in the hands or feet, due to nerve damage from prolonged high blood sugar levels.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Recurrent infections: </h6>
-									<p>Such as yeast infections in women or urinary tract infections, often due to elevated glucose levels providing a breeding ground for bacteria and fungi.</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="">
-						<h2>Common Fears and Concerns</h2>
-						<ul class="row">
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Fear of complications:</h6>
-									<p>Individuals with diabetes often fear the long-term complications such as nerve damage, kidney disease, and vision problems.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Hypoglycemia:</h6>
-									<p>The fear of low blood sugar episodes, which can lead to dizziness, confusion, and even unconsciousness, is a common concern among diabetics.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Managing blood sugar levels:</h6>
-									<p> Many individuals with diabetes worry about becoming dependent on medication to manage their condition, with concerns about side effects and long-term impacts.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Lifestyle limitations:</h6>
-									<p>Fear of having to restrict or alter lifestyle habits such as diet and exercise due to diabetes management requirements is prevalent.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Social stigma:</h6>
-									<p> Some people with diabetes fear judgment or discrimination from others due to misconceptions about the condition, leading to social anxiety and isolation.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Financial strain:</h6>
-									<p>Managing diabetes can be costly due to expenses associated with medications, supplies, and healthcare services, leading to concerns about financial stability.</p>
-								</div>
-							</li>
-							<li class="col-lg-4 col-md-6 col-12">
-								<div class="">
-									<h6 class="m-0">Fear of the unknown:</h6>
-									<p>Uncertainty about the future progression of the disease and its potential impact on overall health and quality of life can cause anxiety and distress.</p>
+									<h4 class="text-dark">Women with sexual dysfunction seeking improved vaginal tone and sensitivity.</h4>
 								</div>
 							</li>
 						</ul>
@@ -169,12 +109,66 @@
 			</div>
 		</div>
 	</section>
-
+	<section class="vs-detail-wrapper space-md-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="">
+						<h2>Benefits</h2>
+						<ul class="row">
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h5 class="">Improved Sexual Satisfaction: </h5>
+									<p>Vaginal rejuvenation procedures can enhance sexual pleasure for both partners by tightening the vaginal canal and increasing sensitivity.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h5 class="">Enhanced Vaginal Tone: </h5>
+									<p>Pregnancy, childbirth, and aging can lead to decreased vaginal tone and laxity. Vaginal rejuvenation therapy can help restore and improve the tone of the vaginal tissues.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h5 class="">Treatment for Vaginal Laxity: </h5>
+									<p> Vaginal laxity, which can cause feelings of looseness or decreased sensation, can be addressed through rejuvenation procedures, leading to increased comfort and confidence.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h5 class="">Improved Urinary Incontinence:</h5>
+									<p>Some forms of vaginal rejuvenation therapy, such as laser treatments, may help improve mild stress urinary incontinence by strengthening the muscles around the bladder and urethra.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h5 class="">Enhanced Aesthetic Appearance:</h5>
+									<p> Certain procedures can also address aesthetic concerns, such as labial asymmetry or excess tissue, helping women feel more confident about their genital appearance.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h5 class="">Reduced Vaginal Dryness:</h5>
+									<p>For women experiencing vaginal dryness due to hormonal changes, menopause, or certain medications, rejuvenation therapies can stimulate natural lubrication production.</p>
+								</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-12">
+								<div class="">
+									<h5 class="">Non-Surgical Options:</h5>
+									<p>While surgical procedures like vaginoplasty exist, many vaginal rejuvenation techniques are minimally invasive or non-invasive, requiring little to no downtime compared to surgery.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section class="vs-specialities-wrapper space-md-bottom">
 		<div class="container">
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-md-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
-					<h2 class="h1">Our Treatments at Stemrx</h2>
+					<h2 class="h1">Our Treatments at StemRx</h2>
 					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 				</div>
 			</div>

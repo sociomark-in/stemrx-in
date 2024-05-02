@@ -60,7 +60,6 @@ $route['api/contact/new'] = 'AppointmentDataController/new_contact';
 $route['api/leads/check-duplicate'] = 'ApiUseController/check_duplicate_leads';
 
 $route['contact-us'] = 'PagesController/contact';
-$route['blogs'] = 'PagesController/blogs';
 $route['service'] = 'PagesController/services';
 $route['gallery'] = 'PagesController/gallery';
 
@@ -108,6 +107,11 @@ $route['condition/(:any)/(:any)'] = 'DiseasesController/condition_detail/$1/$2';
 $route['therapeutics'] = 'ProcedureController/home';
 $route['therapeutics/(:any)'] = 'ProcedureController/procedure/$1';
 $route['therapeutics/(:any)/(:any)'] = 'ProcedureController/procedure_detail/$1/$2';
+
+$route['blogs'] = 'BlogsController/home';
+$route['search'] = 'BlogsController/search';
+$route['blog/(:any)'] = 'BlogsController/blog_single/$1';
+
 
 $route['thank-you'] = 'AppointmentDataController/thank_you';
 

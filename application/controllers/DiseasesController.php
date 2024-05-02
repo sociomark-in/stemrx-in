@@ -382,6 +382,25 @@ class DiseasesController extends CI_Controller
 						break;
 				}
 				break;
+			case 'couple-clinic':
+				switch ($condition) {
+					case 'vaginal-rejuvenation':
+						$this->data['page'] = [
+							'title' => "Vaginal Rejuvenation" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/couple/vaginal', $this->data);
+						break;
+					case 'erectile-dysfunction':
+						$this->data['page'] = [
+							'title' => "Erectile Dysfunction" . " - " . APP_NAME
+						];
+						$this->load->load_view('diseases/condition/couple/erectile', $this->data);
+						break;
+					default:
+						show_404();
+						break;
+				}
+				break;
 
 			default:
 				show_404();

@@ -178,7 +178,7 @@
 		<div class="container">
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-md-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
-					<h2 class="h1">Our Treatments at Stemrx</h2>
+					<h2 class="h1">Our Treatments at StemRx</h2>
 					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 				</div>
 			</div>

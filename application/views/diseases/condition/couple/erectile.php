@@ -24,10 +24,10 @@
 					<div class="service-content mb-30">
 						<div class="vs-surface wow" data-wow-delay="0.3s">
 							<picture>
-								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/diabetes_1200x600.webp" type="image/webp">
-								<source media="(min-width: 800px)" srcset="<?= base_url("assets/") ?>img/banners/conditions/diabetes_1200x600.jpg" type="image/jpg">
-								<source srcset="<?= base_url("assets/") ?>img/banners/conditions/diabetes_800x800.jpg" type="image/webp">
-								<img src="<?= base_url("assets/") ?>img/banners/conditions/diabetes_800x800.jpg" alt="Service Image" class="w-100">
+								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/webp">
+								<source media="(min-width: 800px)" srcset="https://placehold.co/1200x600" type="image/jpg">
+								<source srcset="https://placehold.co/800x800" type="image/webp">
+								<img src="https://placehold.co/800x800" alt="Service Image" class="w-100">
 							</picture>
 						</div>
 						<div class="row justify-content-center">
@@ -59,7 +59,7 @@
 					<div class="">
 						<h2 class="h1">Revitalize Your Intimacy: StemRx Hospital Pioneers Breakthrough Solution for Erectile Dysfunction!</h2>
 						<p class="fs-md mb-4 pb-2">
-						<strong>Erectile dysfunction (ED)</strong> is a condition where a man struggles to achieve or maintain an erection firm enough for sexual intercourse. It can stem from various factors, including physical issues like diabetes, heart disease, or obesity, as well as psychological factors like stress or anxiety. Smoking and excessive alcohol consumption can also contribute. While ED can be distressing, it's essential to recognize that it's a common issue, affecting men of all ages. Seeking medical advice is crucial as treatment options, such as medication, therapy, or lifestyle changes, can help manage the condition effectively, restoring confidence and intimacy.
+							<strong>Erectile dysfunction (ED)</strong> is a condition where a man struggles to achieve or maintain an erection firm enough for sexual intercourse. It can stem from various factors, including physical issues like diabetes, heart disease, or obesity, as well as psychological factors like stress or anxiety. Smoking and excessive alcohol consumption can also contribute. While ED can be distressing, it's essential to recognize that it's a common issue, affecting men of all ages. Seeking medical advice is crucial as treatment options, such as medication, therapy, or lifestyle changes, can help manage the condition effectively, restoring confidence and intimacy.
 						</p>
 					</div>
 					<div class="">
@@ -118,7 +118,7 @@
 									<h6 class="m-0">Persistent concerns or worries about ED affecting future sexual encounters.</h6>
 								</div>
 							</li>
-							
+
 						</ul>
 					</div>
 					<div class="">
@@ -151,7 +151,7 @@
 							<li class="col-lg-4 col-md-6 col-12">
 								<div class="">
 									<h6 class="m-0">Concerns about fertility:</h6>
-									<p>  For men who desire children, ED can raise concerns about their fertility and ability to conceive.</p>
+									<p> For men who desire children, ED can raise concerns about their fertility and ability to conceive.</p>
 								</div>
 							</li>
 							<li class="col-lg-4 col-md-6 col-12">
@@ -183,7 +183,7 @@
 		<div class="container">
 			<div class="row text-center justify-content-center mb-30">
 				<div class="col-md-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
-					<h2 class="h1">Our Treatments at Stemrx</h2>
+					<h2 class="h1">Our Treatments at StemRx</h2>
 					<!-- <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p> -->
 				</div>
 			</div>
@@ -300,7 +300,7 @@
 										<div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion" style="">
 											<div class="accordion-body">
 												<p>
-													StemRx Hospital specializes in innovative stem cell therapy for diabetes management. This therapy holds promise for regenerating damaged pancreatic cells, potentially reducing or eliminating the need for insulin injections and improving overall blood sugar control.
+													StemRx Hospital offers cutting-edge stem cell therapy for erectile dysfunction.
 												</p>
 											</div>
 										</div>
@@ -310,7 +310,7 @@
 										<div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													The hospital prides itself on creating personalized treatment plans for each patient. By considering individual factors such as age, lifestyle, and severity of diabetes, they tailor interventions to maximize effectiveness and long-term outcomes.
+													Personalized treatment plans tailored to each patient's unique health profile and goals.
 												</p>
 											</div>
 										</div>
@@ -320,7 +320,7 @@
 										<div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx employs a multidisciplinary team of experts including endocrinologists, stem cell researchers, nutritionists, and psychologists. This collaborative approach ensures comprehensive care addressing not only the physical aspects of diabetes but also the psychological and lifestyle factors that impact it.
+													Comprehensive approach addressing physical and psychological factors.
 												</p>
 											</div>
 										</div>
@@ -330,7 +330,7 @@
 										<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx Hospital is equipped with state-of-the-art facilities, including advanced diagnostic tools and treatment equipment. This enables the hospital to deliver cutting-edge therapies and ensure the highest standards of care for patients with diabetes.
+													Experienced specialists in sexual health and regenerative medicine.
 												</p>
 											</div>
 										</div>
@@ -340,17 +340,27 @@
 										<div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx recognizes the importance of holistic wellness in diabetes management. In addition to medical interventions, they offer complementary therapies such as acupuncture, and stress management techniques to support overall well-being.
+													Prioritizes patient confidentiality and provides a supportive environment.
 												</p>
 											</div>
 										</div>
 									</div>
 									<div class="accordion-item py-3">
-										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Track Record of Success</button></h2>
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Research and Innovation</button></h2>
 										<div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
 											<div class="accordion-body">
 												<p>
-													StemRx Hospital has a track record of success in helping patients achieve significant improvements in their diabetes management. Testimonials and success stories from satisfied patients attest to the effectiveness of their approach.
+													Committed to ongoing research and innovation in regenerative medicine.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item py-3">
+										<h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">Track Record of Success</button></h2>
+										<div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#vs-faq-accordion">
+											<div class="accordion-body">
+												<p>
+													Positive track record of helping patients regain confidence and quality of life
 												</p>
 											</div>
 										</div>
