@@ -73,6 +73,8 @@ $route['patient-testimonial'] = 'PagesController/parent_testmonial';
 $route['news'] = 'PagesController/news';
 $route['pr-articles'] = 'PagesController/articles';
 
+$route['dr-pradeep-mahajan'] = 'PagesController/dr_pradeep_mahajan';
+
 
 $route['media/(:any)'] = 'PagesController/media/$1';
 
@@ -107,6 +109,9 @@ $route['condition/(:any)/(:any)'] = 'DiseasesController/condition_detail/$1/$2';
 $route['therapeutics'] = 'ProcedureController/home';
 $route['therapeutics/(:any)'] = 'ProcedureController/procedure/$1';
 $route['therapeutics/(:any)/(:any)'] = 'ProcedureController/procedure_detail/$1/$2';
+
+
+$route['lp/condition/(:any)'] = 'LandingPageController/condition/$1';
 
 $route['blogs'] = 'BlogsController/home';
 $route['search'] = 'BlogsController/search';

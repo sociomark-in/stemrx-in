@@ -45,7 +45,7 @@
 							<h6 class="text-theme">Endometrim Rejuvenation</h6>
 						</a>
 					</div>
-					<div class="col-2">
+					<div class="col-lg-2 col-md-4 col-6">
 						<a href="<?= base_url("condition/advanced-infertility/menopausal-symtoms-reversal") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
@@ -55,7 +55,7 @@
 							<h6 class="text-theme">Menopausal symtoms reversal</h6>
 						</a>
 					</div>
-					<div class="col-2">
+					<div class="col-lg-2 col-md-4 col-6">
 						<a href="<?= base_url("condition/advanced-infertility/ovarian-rejuvenation") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">

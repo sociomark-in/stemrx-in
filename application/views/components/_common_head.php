@@ -5,7 +5,7 @@
 <meta name="description" content="<?= (array_key_exists('description', $page))?$page['description'] : "" ?>">
 <meta name="keywords" content="StemRx Hospitals - New Layout">
 <meta name="robots" content="INDEX,FOLLOW">
-
+<link rel="canonical" href="<?= current_url() ?>" />
 <!-- Mobile Specific Metas -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 

@@ -45,7 +45,7 @@
 							<h6 class="text-theme">PCOD / PCOS</h6>
 						</a>
 					</div>
-					<div class="col-2">
+					<div class="col-lg-2 col-md-4 col-6">
 						<a href="<?= base_url("condition/infertility/decrease-ovarian-reserve") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
@@ -55,7 +55,7 @@
 							<h6 class="text-theme">Decrease Ovarian Reserve</h6>
 						</a>
 					</div>
-					<div class="col-2">
+					<div class="col-lg-2 col-md-4 col-6">
 						<a href="<?= base_url("condition/infertility/thin-endometrium") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
@@ -65,7 +65,7 @@
 							<h6 class="text-theme">Thin Endometrium </h6>
 						</a>
 					</div>
-					<div class="col-2">
+					<div class="col-lg-2 col-md-4 col-6">
 						<a href="<?= base_url("condition/infertility/ashermen-syndrome") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">
@@ -75,7 +75,7 @@
 							<h6 class="text-theme">Ashermen's Syndrome </h6>
 						</a>
 					</div>
-					<div class="col-2">
+					<div class="col-lg-2 col-md-4 col-6">
 						<a href="<?= base_url("condition/infertility/premature-menopause") ?>" class="text-center">
 							<div class="card bg-white sp-item mb-2">
 								<div class="card-body p-5">

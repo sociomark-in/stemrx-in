@@ -25,7 +25,7 @@
 			<div class="col-lg-4">
 				<aside class="sidebar-area">
 					<div class="row">
-						<div class="col-12">
+						<div class="col-12 d-none">
 							<div class="widget widget_search">
 								<form class="search-form">
 									<input type="text" placeholder="Search Here">
@@ -38,25 +38,13 @@
 								<h3 class="widget_title">Categories</h3>
 								<ul>
 									<li>
-										<a href="#">Haematology</a>
-										<span>15</span>
-									</li>
-									<li>
-										<a href="#">Pediatrician</a>
-										<span>8</span>
-									</li>
-									<li>
-										<a href="#">Nephrologist</a>
-										<span>2</span>
-									</li>
-									<li>
-										<a href="#">Surgeon</a>
-										<span>5</span>
+										<a href="#">General</a>
+										<span>1</span>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div class="col-lg-12 col-md-6 col-12">
+						<div class="col-lg-12 col-md-6 col-12 d-none">
 							<div class="widget widget_tag_cloud   ">
 								<h3 class="widget_title">Popular Tags</h3>
 								<div class="tagcloud">
@@ -70,7 +58,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12">
+						<div class="col-12 d-none">
 							<div class="widget  ">
 								<h3 class="widget_title">Recent Posts</h3>
 								<div class="recent-post-wrap">
@@ -112,32 +100,18 @@
 			<div class="col-lg-8">
 				<div class="vs-blog blog-single">
 					<div class="blog-img">
-						<a href="#"><img src="https://placehold.co/880x634" alt="Blog Image"></a>
+						<a href="<?= base_url('blog/stem-cell-therapy-in-india-types-and-benefits') ?>"><picture>
+							<source media="(min-width: 800px)" srcset="<?= base_url("uploads/") ?>1714645340_4418183677.webp" type="image/webp">
+							<source media="(min-width: 800px)" srcset="<?= base_url("uploads/") ?>1714645340_4418183677.jpg" type="image/jpg">
+							<source srcset="<?= base_url("uploads/") ?>1714645340_4418183677.jpg" type="image/webp">
+							<img src="<?= base_url("uploads/") ?>1714645340_4418183677.jpg" alt="Service Image" class="w-100">
+						</picture></a>
 					</div>
 					<div class="blog-content">
-						<h2 class="blog-title h3"><a href="#">Efficiently monetize models transparent sources redefine distributed innovation</a></h2>
-						<p>Conveniently whiteboard team building architectures without sticky partnerships. Energistically redefine emerging paradigms after resource sucking bandwidth. Dramatically supply transparent expertise whereas market-driven testingtodo procedures. Professionally visualize client-centric services via inexpensive models.</p>
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
+						<h2 class="blog-title h3"><a href="<?= base_url('blog/stem-cell-therapy-in-india-types-and-benefits') ?>">Stem Cell Therapy In India: Types & Benefits</a></h2>
+						<p>In recent years, medical science has witnessed groundbreaking advancements, and one of the most promising frontiers is stem cell therapy. Stem cell therapy in India has emerged as a beacon of hope for countless individuals grappling with various health conditions.</p>
+						<a href="<?= base_url('blog/stem-cell-therapy-in-india-types-and-benefits') ?>" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
 					</div>
-				</div>
-				<div class="vs-blog blog-single">
-					<div class="blog-img vs-carousel" data-fade="true" data-arrows="true" data-slide-show="1" data-next-arrow="far fa-arrow-right" data-prev-arrow="far fa-arrow-left">
-						<a href="#"><img src="https://placehold.co/880x634" alt="Blog Image"></a>
-					</div>
-					<div class="blog-content">
-						<h2 class="blog-title h3"><a href="#">Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum</a></h2>
-						<p>Conveniently whiteboard team building architectures without sticky partnerships. Energistically redefine emerging paradigms after resource sucking bandwidth. Dramatically supply transparent expertise whereas market-driven testingtodo procedures. Professionally visualize client-centric services via inexpensive models.</p>
-						<a href="#" class="link-btn">Read More<i class="fal fa-long-arrow-right"></i></a>
-					</div>
-				</div>
-
-				<div class="vs-pagination pb-30">
-					<ul>
-						<li><a href="#" class="active">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#"><i class="fas fa-angle-right"></i></a></li>
-					</ul>
 				</div>
 			</div>
 

@@ -326,7 +326,7 @@
 		<div class="container">
 			<div class="team-content text-center mb-30">
 				<!-- <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">StemRx Medical Care!</span> -->
-				<h2 class="h1 mb-3">Our Consultant for Diseses</h2>
+				<h2 class="h1 mb-3">Our Consultant for Diseases</h2>
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-4 col-xl-3 mb-30 wow fadeInUp" data-wow-delay="0.3s">

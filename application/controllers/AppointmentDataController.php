@@ -96,20 +96,20 @@ class AppointmentDataController extends CI_Controller
 					'page_name' => $form_data['page_name'],
 					'source_url' => $form_data['source_url'],
 				];
-				$zoho_data = [
-					"Last_Name" => $form_data['enq_name'],
-					"Email" => $form_data['enq_email'],
-					"Mobile" => $form_data['enq_contact'],
-					"Description" => $form_data['enq_message'],
-					"Lead_Source" => "Website"
-				];
-				$this->zohocrmclient->generate_lead($zoho_data);
+				// $zoho_data = [
+				// 	"Last_Name" => $form_data['enq_name'],
+				// 	"Email" => $form_data['enq_email'],
+				// 	"Mobile" => $form_data['enq_contact'],
+				// 	"Description" => $form_data['enq_message'],
+				// 	"Lead_Source" => "Website"
+				// ];
+				// $this->zohocrmclient->generate_lead($zoho_data);
 				
 				
 				$data_email['enquiry'] = $this->data;
 				
 				if ($this->LeadsModel->new_appointment($this->data)) {
-					$this->send_email($data_email);
+				// 	$this->send_email($data_email);
 					redirect('thank-you');
 				}
 			}
@@ -146,33 +146,7 @@ class AppointmentDataController extends CI_Controller
 		$this->email->print_debugger();
 	}
 
-	public function send_org_email() {
-		$this->load->library('email');
-		$config = array(
-			'smtp_crypto' 	=> 'ssl',
-			'protocol' 		=> 'smtp',
-			'smtp_host' 	=> 'sociomark.in',
-			'smtp_port' 	=> 465,
-			'smtp_timeout' 	=> '10',
-			'smtp_user' 	=> 'noreply@sociomark.in',
-			'smtp_pass' 	=> 'ff6kqHqzc76d',
-			'charset'    	=> 'utf-8',
-			'newline'    	=> "\r\n",
-			'mailtype' 		=> 'html',
-			'wordwrap' 		=> TRUE,
-			'validation' 	=> FALSE,
-		);
-		$this->email->initialize($config);
 
-		$this->email->from('noreply@sociomark.in', 'Sociomark');
-		$this->email->to(['hemant@sociomark.in', 'hemant.v.karekar@gmail.com', 'hemant.karekar15@gmail.com']);
-
-		$this->email->subject('Jai Maharashtra! Happy Maharashtra Day to you all!');
-		$this->email->message($this->load->view('templates/emails/festival', null, true));
-
-		$this->email->send();
-		$this->email->print_debugger();
-	}
 
 	public function thank_you()
 	{

@@ -1,5 +1,5 @@
 <?php if (!in_array($this->uri->segment(1), ["our-center"])) : ?>
-	<div class="row bg-dark">
+	<div class="row m-0 bg-dark">
 		<div class=" col-xl-7 col-lg-6">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d30153.37013397536!2d73.002349!3d19.143979!3m2!1i1024!2i768!4f13.1!2m1!1sStemRx%20Bioscience%20Solutions%20Private%20Limited%20Dr.%20Mahajan&#39;s%20Hospital%20%26%20ITC%20R-831%2C%20Thane%20-%20Belapur%20Rd%2C%20next%20to%20Shell%20Petrol%20Pump%2C%20T.T.C%2C%20Industrial%20Area%2C%20Rabale%2C%20Navi%20Mumbai%2C%20Maharashtra%20400708!5e0!3m2!1sen!2sus!4v1705993370658!5m2!1sen!2sus" style="border:0; width:100%; height: 100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
@@ -163,7 +163,7 @@
 								<li><a href="<?= base_url() ?>patient-testimonial">All Testimonials</a></li>
 								<li><a href="https://stemrxbiosciences.in/" target="_blank">Our Store</a></li>
 								<li><a href="<?= base_url("news") ?>">StemRx in News </a></li>
-								<li><a href="javascript:void(0)">Blogs</a></li>
+								<li><a href="<?= base_url("blogs") ?>">Blogs</a></li>
 								<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
 							</ul>
 						</div>

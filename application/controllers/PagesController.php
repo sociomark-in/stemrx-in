@@ -116,6 +116,13 @@ class PagesController extends CI_Controller
 			'title' => "Projects" . " - " . APP_NAME
 		];
 	}
+	public function dr_pradeep_mahajan()
+	{
+		$this->data['page'] = [
+			'title' => "Dr Pradeep Mahajan" . " - " . APP_NAME
+		];
+		$this->load->load_view('pages/dr-pradeep-mahajan', $this->data);
+	}
 	public function news()
 	{
 		$this->data['page'] = [
